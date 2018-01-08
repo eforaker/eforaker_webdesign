@@ -18,14 +18,14 @@ p { font-size: 1em ;}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes switch {
-   from  { background-color: white}
-     to  { background-color: rgb(25,20,3);}
+   from  { background-color: rgb(254,255,220)}
+     to  { background-color: rgb(255,220,232);}
 }
 
 /* Standard syntax */
 @keyframes switch {
-   from  { background-color: white}
-     to  { background-color: rgb(255,253,226);}
+   from  { background-color: rgb(254,255,220)}
+     to  { background-color: rgb(255,220,232);}
 }
 
 h1 {
@@ -39,13 +39,18 @@ h1 {
 	margin-left: 30px;
 	margin-top: 50px;
 	margin-right: 30px;
-	color: magenta;
+	color: rgb(250,71,58);
+}
+
+em{
+	color: black;
 }
 
 h2 {
 	font-family: 'Lato', sans-serif;
 	margin-left: 80px;
 	margin-right: 80px;
+	color: magenta;
 
 }
 
@@ -57,7 +62,7 @@ p {
 	margin-left: 80px;
 	margin-right: 80px;
 	line-height: 1.5;
-	color:black;
+	color:rgb(255,10,92);
 
 
 }
@@ -99,7 +104,24 @@ p {
 	margin-right: 60px;
 }
 
+.clambowl {
+	width: 600;
+}
+
 .clambowl img{
-	margin-left: 80px;
+	margin-left: 30px;
+	margin-top: 5px;
+	width: 200px;
+}
+
+a {
+	color: magenta;
+	text-decoration: underline;
+}
+
+.clambowl2 img{
+	margin-left: 30px;
+	margin-top: 15px;
+	width: 210px;
 }
 
