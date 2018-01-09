@@ -89,6 +89,9 @@ p {
     width: 600px;
     display: block;
     margin: 0 auto;
+    padding-left: 60px;
+	padding-right: 60px;
+
 }
 
 @-webkit-keyframes Floatingx {
@@ -122,14 +125,12 @@ main div {
   padding-bottom: 45px;
   width: 200px;
   margin: 0 auto;
-  mix-blend-mode: multiply;
   text-align: center;
   display: inline;
 }
 
 div.picwrapper {
 	text-align: center;
-	opacity: .8;
 	margin: auto;
 	width: 100%;
 	padding-left: 60px;
