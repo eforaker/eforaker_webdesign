@@ -1,4 +1,4 @@
-\*{  
+*{  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 /*section {
 	display:flex;
 }*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Shrikhand');;
+@import url('https://fonts.googleapis.com/css?family=Lato|Shrikhand');
 .custom {
   cursor: url(clam.png), auto;
 }
