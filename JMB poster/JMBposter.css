@@ -5,54 +5,59 @@ body{
 }
 
 .triangle{
-/*	width: 250px;
-	height: 250px;*/
-/*	float: left;
-	margin: 0px;*/
 	mix-blend-mode: multiply;
+
 }
 
 
 #bluetriangle, #yellowtriangle{
 	background: #f7efe8;
 	overflow: auto;
+
 }
 
 #yellowtriangle .triangle{
 	width: 0;
 	height: 0;
-	border-left: 100px solid transparent;
-	border-bottom: 100px solid #ffea4c;
-	z-index: 0;
-	bottom: 0;
-	right: 0;
+	border-left: 580px solid transparent;
+	border-bottom: 580px solid #ffea4c;
+	z-index: 10;
+	position: absolute;
 }
 
 #bluetriangle .triangle{
 	width: 0;
 	height: 0;
-	border-right: 100px solid transparent;
-	border-bottom: 100px solid #2da5bc;
+	border-right: 580px solid transparent;
+	border-bottom: 580px solid #2da5bc;
 	z-index: 10;
+	position: relative;
 }
 
 #yellowtriangle{
-	bottom: 0;
-	right: 0;
+	margin-bottom: : 0px;
+	margin-top: -390px;
+/*	bottom: 0;
+	right: 0;*/
 }
 
 #bluetriangle{
-	top: 0;
-	left: 0;
+	margin-top: 0px;
+	margin-left: 0px;
+/*	top: 0;
+	left: 0;*/
 }
 
 
 #text{
-	top: 0;
-	right: 0;
+/*	top: 0;
+	right: 0;*/
+	margin-top: -117px;
+	margin-left: 125px;
 	z-index: 20;
 	display: flex;
 	transform: rotate(-45deg);
+	position: fixed;
 }
 
 .left, .right{
@@ -62,16 +67,24 @@ body{
 .left {
 	text-align: right;
 	margin-right: .8rem;
-	width: 100px;
+	width: 120px;
+	margin-top: 145px;
+}
+
+.right {
+	text-align: left;
 }
 
 p {
-	font-size: .8em;
-	margin-top: : 300px;
+	font-size: .7em;
+	font-weight: 700;
+	letter-spacing: -.06em;
 }
 
 h1{
 	margin-bottom: 1rem;
 	font-size: 4rem;
 	margin-top: 0;
+	line-height: 90%;
+	letter-spacing: -.06em;
 }
