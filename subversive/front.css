@@ -1,0 +1,67 @@
+body {
+	counter-reset: section;
+	font-family: 'Pirata One', cursive;
+	background-image: url("trump-blame.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+	text-align: center;
+}
+
+.container {
+	height: 100vh;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.box {
+	margin-top: -90px;
+	width: 400px;
+	height: 200px;
+	color: white;
+	background-color: transparent;
+	position: fixed;
+	display: flex;
+}
+
+a:hover {
+	color:black;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.2);
+  }
+
+  100% {
+    transform: scale(1.8);
+  }
+}
+
+p {
+	text-align: center;
+	font-size: 50px;
+	width: 100%;
+	letter-spacing: .1em;
+	line-height: 1.6em;
+	animation-name: stretch;
+	animation-duration: 4.5s; 
+  	animation-timing-function: ease-out; 
+  	animation-delay: 0s;
+  	animation-direction: alternate;
+  	animation-iteration-count: infinite;
+  	animation-fill-mode: none;
+  	animation-play-state: running;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a .big {
+	text-align: center;
+	font-size: 100px;
+}
+}*/
