@@ -1,0 +1,79 @@
+body {
+	font-family: 'VT323', monospace;
+	margin:0;
+	background-color: white;
+}
+
+.container {
+	width: 100vw;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.text {
+	color: white;
+	background-color: transparent;
+	margin: auto;
+	width: 100px;
+	padding-top: 60px;
+	z-index: 20;
+	position: relative;
+}
+
+p {
+	text-align: left;
+	font-size: 50px;
+	letter-spacing: .1em;
+	line-height: .25em;
+}
+
+.Q1 :hover {
+	color:blue;
+	font-size: 70px;
+}
+
+.Q2 :hover {
+	color:blue;
+}
+
+.potatoes {
+ 	transform: rotate(45deg);
+ 	opacity: .65;
+ 	z-index: 10;
+	position: absolute;
+	width: 100vw;
+	padding-left: 300px;
+	animation-name: hide;
+	animation-duration: 6s; 
+  	animation-delay: 7s;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+  	animation-play-state: running;
+}
+
+
+.chips {
+	margin: auto;
+	width: 100px;
+	padding-top: 100px;
+	z-index: 20;
+	position: relative;
+	mix-blend-mode: multiply;
+	display: inline-flex;
+	animation-name: hide;
+	animation-duration: 20s; 
+  	animation-delay: 2.5s;
+  	animation-iteration-count: 1;
+  	animation-fill-mode: forwards;
+  	animation-play-state: running;
+}	
+
+@keyframes hide{
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+
+
+
