@@ -4,19 +4,13 @@
     box-sizing: border-box;
 }
 
-/*section {
-	display:flex;
-}*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Shrikhand');
-.custom {
-  cursor: url(clam.png), auto;
-}
-
 body {
     animation: switch 6s alternate infinite;
     background-image: url('florida.png');
     background-size: 190px;
     background-position: center;
+    font-family: 'Lato', sans-serif;
+	font-family: 'Shrikhand', cursive;
 }
 
 p { font-size: 1em ;}
