@@ -4,13 +4,13 @@ body {
 	background-color: white;
 }
 
-.dogs {
+.center {
     margin: auto;
     width: 200px;
     padding-top: 200px;
 }
 
-.dogs img{
+.center img{
     margin: auto;
     width: 200px;
 }
