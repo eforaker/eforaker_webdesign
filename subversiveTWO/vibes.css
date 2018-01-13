@@ -15,11 +15,8 @@ body {
     width: 200px;
 }
 
-.reload button {
-	padding-top: 300px;
-	margin: auto;
-	display: inline-block;
-    font-size: 16px;
-    width: 70px;
-    height: 30px;
+.click {
+  width: 50px;
+  text-align: center;
+
 }
