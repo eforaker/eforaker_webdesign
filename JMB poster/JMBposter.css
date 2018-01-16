@@ -33,7 +33,8 @@ body{
 	border-bottom: 580px solid #2da5bc;
 	z-index: 10;
 	position: relative;
-	animation: changecolor 8s linear 0.5s alternate;
+	animation: changecolor 6s linear 0.5s alternate;
+	animation-delay: 4s;
 	animation-iteration-count: infinite;
 }
 
