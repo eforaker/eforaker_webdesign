@@ -23,6 +23,7 @@ body{
 	border-bottom: 580px solid #ffea4c;
 	z-index: 10;
 	position: absolute;
+
 }
 
 #bluetriangle .triangle{
@@ -32,26 +33,24 @@ body{
 	border-bottom: 580px solid #2da5bc;
 	z-index: 10;
 	position: relative;
+	animation: changecolor 8s linear 0.5s alternate;
+	animation-iteration-count: infinite;
 }
+
 
 #yellowtriangle{
 	margin-bottom: : 0px;
 	margin-top: -390px;
-/*	bottom: 0;
-	right: 0;*/
+
 }
 
 #bluetriangle{
 	margin-top: 0px;
 	margin-left: 0px;
-/*	top: 0;
-	left: 0;*/
 }
 
 
 #text{
-/*	top: 0;
-	right: 0;*/
 	margin-top: -117px;
 	margin-left: 125px;
 	z-index: 20;
@@ -71,8 +70,19 @@ body{
 	margin-top: 145px;
 }
 
+.left:hover {
+	color:#ffea4c;
+
+}
+
+.right:hover {
+	color:#2da5bc;
+
+}
+
 .right {
 	text-align: left;
+	color:black;
 }
 
 p {
@@ -87,4 +97,18 @@ h1{
 	margin-top: 0;
 	line-height: 90%;
 	letter-spacing: -.06em;
+
 }
+
+@keyframes changecolor {
+	0%  {
+	background-color: transparent;
+}
+	50% {
+ 	background-color: #fc99f4;
+}
+	100%{
+ 	background-color: pink;
+}
+
+
