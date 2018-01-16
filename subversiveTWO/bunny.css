@@ -1,0 +1,23 @@
+body {
+	box-sizing: border-box;
+	margin:0;
+	background-color: #ff9b38;
+}
+
+.center {
+    margin: auto;
+    width: 200px;
+    padding-top: 200px;
+}
+
+.center img{
+    margin: auto;
+    width: 200px;
+}
+
+.click {
+  width: 150px;
+  text-align: center;
+
+}
+

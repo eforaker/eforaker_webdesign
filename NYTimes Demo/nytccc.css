@@ -1,0 +1,106 @@
+\*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+/*    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;*/
+    display: flex;
+}
+
+.hero{
+    height: 500px;
+}
+
+.text, .feature-img{
+    flex: 1;
+}
+
+.text{
+    background: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text div{
+    width: 50%;
+}
+
+.info{
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-style: italic;
+    margin: 1rem;
+}
+
+.feature-img{
+    background: url('img/cover.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.more-articles{
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+article{
+    width: 50%;
+    padding: 1rem;
+}
+
+.article-image{
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+.details{
+    margin: 1rem 0;
+    font-family: sans-serif;
+}
+
+.category{
+    color: red;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.date{
+    font-size: .8rem;
+    color: grey;
+}
+
+h3{
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Irvin Heading,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
