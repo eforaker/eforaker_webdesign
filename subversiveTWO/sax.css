@@ -1,16 +1,16 @@
 body {
 	box-sizing: border-box;
 	margin:0;
-	background-color: #f2b69d;
+	background-color: #370096;
 }
 
-.dogs {
+.center {
     margin: auto;
     width: 200px;
     padding-top: 200px;
 }
 
-.dogs img{
+.center img{
     margin: auto;
     width: 200px;
 }
@@ -20,3 +20,4 @@ body {
   text-align: center;
 
 }
+
