@@ -1,24 +1,30 @@
 body, html {
     position: relative;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .breakfast {
 	width:100%;
 	height: 200px;
 	color:blue;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-align: center;
 	padding-bottom: 100px;
 }
 
-.breakfast hover{
-
+.dinner {
+	width:100%;
+	height: 200px;
+	color:blue;
+	font-size: 2em;
+	text-align: center;
+	padding-bottom: 100px;
 }
 
 h1 {
 	padding-top: 20px;
 	margin: 0;
-	letter-spacing: 1em;
+	letter-spacing: .2em;
 }
 
 .toys {
@@ -31,7 +37,7 @@ h1 {
 	margin: auto;
 	text-align: center;
     width: 300px;
-    z-index: 30;
+    z-index: 40;
     transition: transform 1s;
 }
 
@@ -39,14 +45,14 @@ h1 {
     margin: auto;
     width: 200px;
     padding-top: 10px;
-    z-index: 20;
+    z-index: 30;
     transition: transform 1s;
 }
 
 .cat img{
     margin: auto;
     width: 200px;
-    z-index: 20;
+    z-index: 30;
     transition: transform 1s;
 }
 
@@ -68,7 +74,7 @@ h1 {
 	height:100px;
 	border-radius: 50px;
   	transition: transform 1s;
-  	z-index: 30;
+  	z-index: 40;
 }
 
 .ball:hover {
@@ -81,7 +87,7 @@ h1 {
 	height:80px;
 	border-radius: 40px;
   	transition: transform 1s;
-  	z-index: 10;
+  	z-index: 20;
 }
 
 .ball2:hover {
@@ -94,5 +100,11 @@ h1 {
 
 .mouse img:hover {
   transform: rotate(-90deg);
+}
+
+.home img {
+	width:400px;
+	transform: rotate(45deg);
+	z-index: 10;
 }
 
