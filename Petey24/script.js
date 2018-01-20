@@ -21,7 +21,7 @@ $('.dinner').each(function() {
         } else {
             elem.css('visibility', 'hidden');
         }    
-    }, 750);
+    }, 650);
 });
 });
 

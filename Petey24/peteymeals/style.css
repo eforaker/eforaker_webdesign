@@ -1,0 +1,82 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sushi img{
+	margin: auto;
+	text-align: center;
+    width: 300px;
+    transition: transform 1s;
+}
+
+.sushi {
+	z-index: 40;
+}
+
+.canned {
+	z-index: 40;
+
+}
+
+.canned img{
+	margin: auto;
+	text-align: center;
+    width: 180px;
+    transition: transform 1s;
+}
+
+.bird {
+    z-index: 40;
+}
+
+.bird img{
+	margin: auto;
+	text-align: center;
+    width: 180px;
+    transition: transform 1s;
+}
+
+.cat {
+    margin: auto;
+    width: 200px;
+    padding-top: 10px;
+    z-index: 50;
+    transition: transform 1s;
+}
+
+.cat img{
+    margin: auto;
+    width: 200px;
+    z-index: 30;
+    transition: transform 1s;
+}
+
+
+.cat img:hover {
+  transform: scale(1.9);
+}
+
+.sushi img:hover {
+  transform: rotate(-180deg);
+}
+
+.bird img:hover {
+  transform: rotate(45deg);
+}
+
+.home {
+	z-index: 10;
+}
+
+.home img {
+	width:500px;
+	transform: rotate(60deg);
+}
+
+a {
+	width:100px;
+	color:blue;
+	text-align: center;
+	margin: auto;
+}
+
