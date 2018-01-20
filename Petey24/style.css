@@ -1,3 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+</style>
+
 body {
     font-family: 'Source Code Pro', monospace;
     cursor: url("paw.png"), auto;	
