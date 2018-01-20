@@ -3,7 +3,8 @@ $(document).ready(function() {
 	$('.cat').draggable();
 	$('.ball').draggable();
 	$('.ball2').draggable();
-    
+    $('.fish').draggable();
+
 $('.breakfast').each(function() {
     var elem = $(this);
     setInterval(function() {
@@ -12,7 +13,7 @@ $('.breakfast').each(function() {
         } else {
             elem.css('visibility', 'hidden');
         }    
-    }, 750);
+    }, 350);
 });
 $('.dinner').each(function() {
     var elem = $(this);
@@ -22,7 +23,7 @@ $('.dinner').each(function() {
         } else {
             elem.css('visibility', 'hidden');
         }    
-    }, 650);
+    }, 350);
 });
 
 var canvas,
