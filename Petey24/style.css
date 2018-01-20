@@ -195,10 +195,21 @@ a {
   transform: rotate(10deg);
 }
 
+.window {
+	z-index: 0;
+/*	position: relative;*/
+}
+
+.window img {
+	width:350px;
+	transform: translate(-200px);
+}
+
 canvas {
 	margin: auto;
 	width: 900px;
 	z-index: 0;
+	transform: translate(0px,-500px);
 }
 
 p {
