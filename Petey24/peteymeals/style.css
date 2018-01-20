@@ -1,5 +1,6 @@
 body {
     font-family: 'Source Code Pro', monospace;
+    background background-color: white;
 }
 
 .sushi img{
@@ -32,7 +33,7 @@ body {
 .bird img{
 	margin: auto;
 	text-align: center;
-    width: 180px;
+    width: 300px;
     transition: transform 1s;
 }
 
@@ -64,19 +65,19 @@ body {
   transform: rotate(45deg);
 }
 
-.home {
-	z-index: 10;
-}
-
-.home img {
-	width:500px;
-	transform: rotate(60deg);
-}
-
 a {
 	width:100px;
 	color:blue;
 	text-align: center;
 	margin: auto;
+}
+
+.home {
+        z-index: 10;
+}
+
+.home img {
+    width:500px;
+    transform: rotate(60deg);
 }
 

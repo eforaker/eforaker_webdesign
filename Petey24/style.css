@@ -9,6 +9,7 @@ body {
 	font-size: 2em;
 	text-align: center;
 	padding-bottom: 100px;
+	position: relative;
 }
 
 
@@ -31,6 +32,8 @@ h1 {
 	width:700px;
 	margin:auto;
 	text-align: center;
+	position: relative;
+}
 }
 
 .mouse {
@@ -113,9 +116,12 @@ a {
   transform: rotate(-90deg);
 }
 
+.home {
+		z-index: 10;
+}
+
 .home img {
 	width:500px;
 	transform: rotate(60deg);
-	z-index: 10;
 }
 
