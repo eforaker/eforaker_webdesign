@@ -3,5 +3,15 @@ $(document).ready(function() {
 	$('.canned').draggable();
     $('.bird').draggable();
     $('.cat').draggable();
+
+    $('.canned').click(function() {
+    $(this).fadeOut('slow');
+    });
+    $('.bird').click(function() {
+    $(this).fadeOut('slow');
+	});
+    $('.sushi').click(function() {
+    $(this).fadeOut('slow');
+	});
 });
 

@@ -26,6 +26,7 @@ h1 {
 	padding-top: 20px;
 	margin: 0;
 	letter-spacing: .2em;
+	padding-bottom: 70px;
 }
 
 .toys {
@@ -43,16 +44,16 @@ h1 {
 .mouse img{
 	margin: auto;
 	text-align: center;
-    width: 300px;
+    width: 350px;
     transition: transform 1s;
 }
 
 .cat {
-    margin: auto;
     width: 200px;
-    padding-top: 10px;
+    padding-top: 100px;
     z-index: 30;
     transition: transform 1s;
+    padding-left: 200px;
 }
 
 .cat img{
@@ -86,9 +87,15 @@ h1 {
 
 a {
 	width:100px;
-	color:blue;
+	color:red;
 	text-align: center;
 	margin: auto;
+	text-decoration-style: wavy;
+	text-decoration-color: #f442c2;
+	font-weight: 700;
+	margin-left: 300px;
+	margin-top: 100px;
+	font-size: 1.5em;
 }
 
 .ball:hover {
@@ -125,3 +132,18 @@ a {
 	transform: rotate(60deg);
 }
 
+.palm {
+		z-index: 15;
+}
+
+.palm img {
+	width:500px;
+}
+
+canvas {
+	margin: auto;
+	width: 900px;
+	text-align: center;
+	z-index: 0;
+}
+p {margin: 0;}

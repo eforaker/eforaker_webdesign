@@ -66,10 +66,13 @@ body {
 }
 
 a {
-	width:100px;
-	color:blue;
-	text-align: center;
-	margin: auto;
+    width:100px;
+    color:#f442c2;
+    text-align: center;
+    margin: auto;
+    text-decoration-style: wavy;
+    text-decoration-color: #f442c2;
+    font-weight: 700;
 }
 
 .home {
@@ -80,4 +83,3 @@ a {
     width:500px;
     transform: rotate(60deg);
 }
-
