@@ -23,6 +23,7 @@ body {
 }
 
 h1 {
+	font-family: 'Source Code Pro', monospace;
 	padding-top: 20px;
 	margin: 0;
 	letter-spacing: .2em;
@@ -129,6 +130,7 @@ h1 {
 }
 
 a {
+	font-family: 'Source Code Pro', monospace;
 	width:100px;
 	color:red;
 	text-align: center;
@@ -196,6 +198,7 @@ canvas {
 }
 
 p {
+	font-family: 'Source Code Pro', monospace;
 	margin: 5px;
 	margin:black;
 	color:blue;
