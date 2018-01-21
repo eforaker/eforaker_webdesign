@@ -1,10 +1,7 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
-</style>
-
 body {
     font-family: 'Source Code Pro', monospace;
-    cursor: url("paw.png"), auto;	
+    background background-color: white;
+    cursor: url("paw.png"), auto;  
 }
 
 .breakfast {
@@ -56,7 +53,9 @@ h1 {
 .fish {
     z-index: 40;
     width: 180px;
-    padding-left: 300px;
+    left:500px;
+    transition: transform 1s;
+
 }
 
 .fish img{
@@ -64,6 +63,10 @@ h1 {
 	text-align: center;
     width: 180px;
     transform:rotate(20deg);
+}
+
+.fish img:hover {
+  transform: rotate(-90deg);
 }
 
 .sun {
@@ -153,11 +156,12 @@ a {
 
 .ball2 {
 	background-color: red;
-	width: 80px;
-	height:80px;
-	border-radius: 40px;
+	width: 90px;
+	height:90px;
+	border-radius: 45px;
   	transition: transform 1s;
   	z-index: 20;
+  	left:-60px;
 }
 
 .ball2:hover {
@@ -197,7 +201,7 @@ a {
 
 .window {
 	z-index: 0;
-/*	position: relative;*/
+	position: relative;
 }
 
 .window img {
@@ -209,14 +213,19 @@ canvas {
 	margin: auto;
 	width: 900px;
 	z-index: 0;
-	transform: translate(0px,-500px);
+	position:absolute;
+	top: -60px;
+	left:-200px;
 }
 
 p {
 	font-family: 'Source Code Pro', monospace;
-	margin: 5px;
-	margin:black;
 	color:blue;
-	text-align: center;
 	font-weight: 700;
+/*	position: absolute;*/
+	top: -5px;
+}
+
+.windowandball {
+	position:relative;
 }

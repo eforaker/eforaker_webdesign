@@ -79,7 +79,7 @@ function circle() {
 
   ctx.beginPath();
   ctx.arc(cx, cy, radius, 0, 2 * Math.PI, false);
-  ctx.fillStyle = 'blue';
+  ctx.fillStyle = '#f442c2';
   ctx.fill();
 }
 
