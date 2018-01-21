@@ -13,5 +13,9 @@ $(document).ready(function() {
     $('.sushi').click(function() {
     $(this).fadeOut('slow');
 	});
+      var audio = document.getElementsByTagName("audio")[0];
+  $(".sushi").mouseenter(function() {
+  audio.play();
+  });
 });
 
