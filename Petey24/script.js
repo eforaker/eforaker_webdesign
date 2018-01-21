@@ -5,6 +5,11 @@ $(document).ready(function() {
 	$('.ball2').draggable();
     $('.fish').draggable();
 
+  var audio = document.getElementsByTagName("audio")[0];
+  $(".litterbox").mouseenter(function() {
+  audio.play();
+});
+
 $('.breakfast').each(function() {
     var elem = $(this);
     setInterval(function() {
