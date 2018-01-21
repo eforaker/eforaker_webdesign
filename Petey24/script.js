@@ -8,7 +8,19 @@ $(document).ready(function() {
   var audio = document.getElementsByTagName("audio")[0];
   $(".litterbox").mouseenter(function() {
   audio.play();
-});
+  });
+
+    var audio1 = document.getElementsByClassName("meow")[0];
+  $(".breakfast").mouseenter(function() {
+  console.log("reading mouse enter");
+  audio1.play();
+  });
+
+    var audio2 = document.getElementsByClassName("meow")[0];
+  $(".dinner").mouseenter(function() {
+  console.log("reading mouse enter");
+  audio2.play();
+  });
 
 $('.breakfast').each(function() {
     var elem = $(this);
