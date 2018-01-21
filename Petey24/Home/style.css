@@ -1,13 +1,7 @@
 body {
     font-family: 'Source Code Pro', monospace;
-    background background-color: white;
+    background-color: white;
     cursor: url("paw.png"), auto;
-    border: 3px solid #f442c2;
-    margin-top: 100px; 
-    margin-bottom: 100px; 
-    margin-right: 300px;
-    margin-left: 300px;
-}
 
 .Peteys {
     margin: 0 auto;
