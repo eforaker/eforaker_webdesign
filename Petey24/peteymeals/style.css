@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700,900');
+
+* { 
+    padding: 0;
+    margin:0;
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: white;
@@ -77,15 +84,16 @@ body {
 }
 
 a {
-    width:200px;
+    width:300px;
     color:red;
     text-decoration-style: wavy;
     text-decoration-color: #f442c2;
-    font-weight: 700;
+    font-weight: 400;
     padding-bottom: 100px;
     padding-left: 200px;
     position: absolute;
     padding-top: 350px;
+    font-size: 1.5em;
 }
 
 .home {
@@ -106,12 +114,15 @@ a {
     top:300px;
     left:800px;
     position: absolute;
+    text-align: left;
+    margin:0;
 }
 
 h1 {
     font-family: 'Source Code Pro', monospace;
     padding-top: 50px;
     letter-spacing: .2em;
+    font-weight: 500;
 }
 
 p {

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,700,900');
+
+* { 
+    padding: 0;
+    margin:0;
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
     background-color: white;
@@ -29,6 +36,7 @@ h1 {
 	margin: 0;
 	letter-spacing: .2em;
 	padding-bottom: 70px;
+	font-weight: 500;
 }
 
 .toys {
@@ -144,7 +152,7 @@ a {
 	margin: auto;
 	text-decoration-style: wavy;
 	text-decoration-color: #f442c2;
-	font-weight: 700;
+	font-weight: 400;
 	margin-left: 300px;
 	margin-top: 100px;
 	font-size: 1.5em;
