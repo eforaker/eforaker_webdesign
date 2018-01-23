@@ -43,9 +43,9 @@ body {
   }
 }
 
-@media screen and (max-width: 600px, min-width: 600px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {display: none;}
+  .topnav.responsive a.icon {display: block;}
   }
   .topnav.responsive a {
     float: none;
