@@ -39,11 +39,11 @@ body {
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
-    display: block;
+  display: block;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px, min-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {display: none;}
   }
