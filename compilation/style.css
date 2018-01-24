@@ -56,7 +56,7 @@ p {
     margin: 50px;
     margin-top: 110px;
     text-align: left;
-    line-height: 1em;
+    line-height: 1.1em;
 }
 
 @media screen and (max-width: 904px) {
