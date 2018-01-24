@@ -18,8 +18,10 @@ body {
 
 .topnav {
     background-color: #fffa00;
+    top:0;
     overflow: hidden;
     width: 100%;
+    position: fixed;
 }
 
 .topnav a {
@@ -52,6 +54,7 @@ p {
     font-family:'Titling Gothic FB ExtendedMedi';
     color:#fffa00;
     margin: 50px;
+    margin-top: 110px;
     text-align: left;
     line-height: 1em;
 }
