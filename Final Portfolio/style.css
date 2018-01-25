@@ -1,0 +1,152 @@
+@font-face {
+font-family: 'Solide_Mirage-Etroit_web';
+src: url('fonts/Solide_Mirage-Etroit_web.otf'); /* IE9 Compat Modes */
+src: url('fonts/Solide_Mirage-Etroit_web.otf') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/Solide_Mirage-Etroit_web.otf') format('woff'), /* Modern Browsers */
+url('fonts/Solide_Mirage-Etroit_web.otf') format('truetype'), /* Safari, Android, iOS */
+url('fonts/Solide_Mirage-Etroit_web.otf') format('svg'); /* Legacy iOS */}
+
+@font-face {
+font-family: 'Solide_Mirage-Mono_web';
+src: url('fonts/Solide_Mirage-Mono_web.otf'); /* IE9 Compat Modes */
+src: url('fonts/Solide_Mirage-Mono_web.otf') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/Solide_Mirage-Mono_web.otf') format('woff'), /* Modern Browsers */
+url('fonts/Solide_Mirage-Mono_web.otf') format('truetype'), /* Safari, Android, iOS */
+url('fonts/Solide_Mirage-Mono_web.otf') format('svg'); /* Legacy iOS */}
+
+@font-face {
+font-family: 'CircularStd-Book';
+src: url('fonts/CircularStd-Book.otf'); /* IE9 Compat Modes */
+src: url('fonts/CircularStd-Book.otf') format('embedded-opentype'), /* IE6-IE8 */
+url('fonts/CircularStd-Book.otf') format('woff'), /* Modern Browsers */
+url('fonts/CircularStd-Book.otf') format('truetype'), /* Safari, Android, iOS */
+url('fonts/CircularStd-Book.otf') format('svg'); /* Legacy iOS */}
+
+* {
+	margin:0;
+}
+
+body {
+  /*cursor: default;*/
+  cursor: url('assets/bomb.png'), default;
+  background: #cccccc;
+}
+
+.topnav {
+    z-index:100;
+    background-color: transparent;
+    top:180px;
+    left: -30px;
+    width: 600px;
+    position: fixed;
+    transform: rotate(-90deg);
+
+}
+
+.topnav p {
+    float: left;
+    display: block;
+    color: black;
+    text-align: left;
+    font-size: 5rem;
+    font-family: 'Solide_Mirage-Mono_web'
+}
+
+.aboutme {
+  z-index: 1;
+  width: 1000px;
+  padding-top: 100px;
+  margin: 0;
+  text-align: center;
+  display: block;
+}
+
+/*.poster {
+  width: 350px;
+  height: 100px;
+  background-color: #b330ff;;
+  border: 3px solid black;
+  padding: 10px;
+  z-index: 3;
+  position: absolute;
+  top: 180px;
+  left: -50px;
+}*/
+
+/*.poster2 {
+  background-color: #b330ff;
+  border: 3px solid black;
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  z-index: 5;
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}*/
+
+.poster2 img {
+  width: 420px;
+  margin:0;
+}
+
+.poster3 {
+  width: 350px;
+  height: 180px;
+  background-color: #e52e1d;
+  border: 3px solid black;
+  padding: 10px;
+  z-index: 5;
+  position: absolute;
+  top: 700px;
+  left: 140px;
+}
+
+.poster3 img {
+  width: 420px;
+  margin:0;
+}
+
+.poster4 {
+  width: 140px;
+  height: 180px;
+  background-color: #b330ff;
+  border: 3px solid black;
+  padding: 10px;
+  z-index: 5;
+  position: absolute;
+  top: 300px;
+  left: 520px;
+}
+
+.poster5 {
+  width: 140px;
+  height: 180px;
+  background-color: #b330ff;
+  border: 3px solid black;
+  padding: 10px;
+  z-index: 5;
+  position: absolute;
+  top: 400px;
+  left: 620px;
+}
+
+
+.aboutme {
+  margin-top:150px;
+  margin-left:400px;
+  text-align: left;
+  width:600px;
+}
+
+.aboutme p {
+    font-size: 1.6rem;
+    width:600px;
+    font-family:'CircularStd-Book';
+    color:#b330ff;
+    text-align: left;
+    line-height:1.25em;
+    overflow: show;
+}
+
+
