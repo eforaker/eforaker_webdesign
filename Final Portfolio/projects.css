@@ -1,21 +1,21 @@
 @font-face {
 font-family: 'SportingGrotesque-Bold';
-src: url('fonts/SportingGrotesque-Bold.otf'); /* IE9 Compat Modes */
-src: url('fonts/SportingGrotesque-Bold.otf') format('embedded-opentype'), /* IE6-IE8 */
-url('fonts/SportingGrotesque-Bold.otf') format('woff'), /* Modern Browsers */
-url('fonts/SportingGrotesque-Bold.otf') format('truetype'), /* Safari, Android, iOS */
-url('fonts/SportingGrotesque-Bold.otf') format('svg'); /* Legacy iOS */}
+src: url('../fonts/SportingGrotesque-Bold.otf'); /* IE9 Compat Modes */
+src: url('../fonts/SportingGrotesque-Bold.otf') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/SportingGrotesque-Bold.otf') format('woff'), /* Modern Browsers */
+url('../fonts/SportingGrotesque-Bold.otf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/SportingGrotesque-Bold.otf') format('svg'); /* Legacy iOS */}
 
 @font-face {
 font-family: 'SportingGrotesque-Regular';
-src: url('fonts/SportingGrotesque-Regular.otf'); /* IE9 Compat Modes */
-src: url('fonts/SportingGrotesque-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
-url('fonts/SportingGrotesque-Regular.otf') format('woff'), /* Modern Browsers */
-url('fonts/SportingGrotesque-Regular.otf') format('truetype'), /* Safari, Android, iOS */
-url('fonts/SportingGrotesque-Regular.otf') format('svg'); /* Legacy iOS */}
+src: url('../fonts/SportingGrotesque-Regular.otf'); /* IE9 Compat Modes */
+src: url('../fonts/SportingGrotesque-Regular.otf') format('embedded-opentype'), /* IE6-IE8 */
+url('../fonts/SportingGrotesque-Regular.otf') format('woff'), /* Modern Browsers */
+url('../fonts/SportingGrotesque-Regular.otf') format('truetype'), /* Safari, Android, iOS */
+url('../fonts/SportingGrotesque-Regular.otf') format('svg'); /* Legacy iOS */}
 
 * {
-	margin:0;
+  margin:0;
 }
 
 body {
@@ -49,17 +49,16 @@ background: #a8a8a8;
   margin:0 auto;
   float: left;
   display: block;
+  padding-top: 90px;
   }
 
 .designwork p {
-    float:left;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family:'SportingGrotesque-Regular';
     text-align: left;
-    line-height:1.2em;
-    letter-spacing: 1em;
+    line-height:1.45em;
     padding-bottom: 30px;
-    padding-top: 110px;
+    padding-top: 30px;
     padding-left: 90px;
     padding-right: 30px;
 }
