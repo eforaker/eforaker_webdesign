@@ -16,10 +16,11 @@ url('../fonts/SportingGrotesque-Regular.otf') format('svg'); /* Legacy iOS */}
 
 * {
 	margin:0;
+  cursor: url('../assets/arrow.png'), default;
 }
 
 body {
-background: #a8a8a8;
+background: white;
 }
 
 .topnav {
@@ -33,7 +34,7 @@ background: #a8a8a8;
 
 .topnav p {
     display: block;
-    color: black;
+    color: rgb(24, 167, 206);
     text-align: left;
     font-size: 1rem;
     font-family: 'SportingGrotesque-Bold'; 
@@ -44,46 +45,79 @@ background: #a8a8a8;
 
 }
 
-.info {
+.sketches {
   z-index: 1;
   margin:0 auto;
-  float: left;
   display: block;
+  font-size: 2rem;
+  font-family:'SportingGrotesque-Regular';
+  text-align: left;
+  line-height:1.45em;
+  padding-top: 30px;
+  padding-left: 90px;
+  padding-right: 30px;
+  color:rgb(24, 167, 206);
   }
-
-.info p {
-    float:left;
-    font-size: 2rem;
-    font-family:'SportingGrotesque-Regular';
-    text-align: left;
-    line-height:1.45em;
-    padding-bottom: 30px;
-    padding-top: 110px;
-    padding-left: 90px;
-    padding-right: 90px;
-}
-
-.info a{
-  color:black;
-}
-
-a:hover{
-  color:#ff4635;
-  cursor: url('assets/bombsmall.png'), default;
-}
 
 .topnav a{
   text-decoration: none;
-  color: black;
+  color: rgb(24, 167, 206);
 }
 
 a:hover{
   color:#ff4635;
-  cursor: url('assets/bombsmall.png'), default;
+  cursor: url('../assets/bombsmall.png'), default;
+}
+
+/* Outer */
+.popup {
+z-index: 100;
+width:100%;
+height:100%;
+display:none;
+position:fixed;
+top:0;
+left:0;
+}
+/* Inner */
+.popup-inner {
+max-width:700px;
+width:90%;
+height:70%;
+padding:0px;
+position:absolute;
+top:50%;
+left:50%;
+font-size: 2rem;
+font-family:'SportingGrotesque-Regular';
+-webkit-transform:translate(-50%, -50%);
+transform:translate(-50%, -50%);
+background:white;
+border:10px solid rgb(24, 167, 206);
+}
+/* Close Button */
+.popup-close {
+width:30px;
+height:30px;
+padding:15px;
+display:inline-block;
+position:absolute;
+top:0px;
+right:0px;
+font-size: 2rem;
+font-family:'SportingGrotesque-Regular';
+text-decoration: none;
+text-align:center;
+line-height:100%;
+color:rgb(24, 167, 206);
+}
+
+.links {
+padding-top: 110px;
 }
 
 @media screen and (max-width: 904px) {
-  * {cursor: url('assets/cellphone.png'), default;
+  a:hover {cursor: url('../assets/cellphone.png'), default;
 }
 }
 

@@ -66,8 +66,7 @@ left:0;
 }
 /* Inner */
 .popup-inner {
-max-width:700px;
-width:90%;
+width:200px;
 height:850px;
 padding:40px;
 position:absolute;
@@ -82,7 +81,7 @@ border:3px solid #ed3709;
 }
 
 .popup-inner img{
-  width:700px;
+  width:300px;
   display: block;
   margin-bottom: 15px;
   margin-top: 15px;

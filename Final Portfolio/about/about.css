@@ -15,11 +15,12 @@ url('../fonts/SportingGrotesque-Regular.otf') format('truetype'), /* Safari, And
 url('../fonts/SportingGrotesque-Regular.otf') format('svg'); /* Legacy iOS */}
 
 * {
-  margin:0;
+	margin:0;
+  cursor: url('../assets/arrow.png'), default;
 }
 
 body {
-background: #a8a8a8;
+background: white;
 }
 
 .topnav {
@@ -28,12 +29,11 @@ background: #a8a8a8;
     position: fixed;
     padding-left: 200px;
     padding-bottom: 50px;
-
 }
 
 .topnav p {
     display: block;
-    color: black;
+    color: rgb(7, 74, 198);
     text-align: left;
     font-size: 1rem;
     font-family: 'SportingGrotesque-Bold'; 
@@ -44,50 +44,53 @@ background: #a8a8a8;
 
 }
 
-.sketches {
+.info {
   z-index: 1;
   margin:0 auto;
+  float: left;
   display: block;
-  font-size: 2rem;
-  font-family:'SportingGrotesque-Regular';
-  text-align: left;
-  line-height:1.45em;
-  padding-top: 30px;
-  padding-left: 90px;
-  padding-right: 30px;
-  color:black;
   }
 
-.sketches a:hover{
-  color:#ff4635;
-  cursor: url('assets/bombsmall.png'), default;
+.info p {
+    float:left;
+    color:rgb(7, 74, 198);
+    font-size: 2rem;
+    font-family:'SportingGrotesque-Regular';
+    text-align: left;
+    line-height:1.45em;
+    padding-bottom: 30px;
+    padding-top: 110px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.info a{
+  color:rgb(7, 74, 198);
 }
 
 .topnav a{
   text-decoration: none;
-  color: black;
+  color: rgb(7, 74, 198);
 }
 
 a:hover{
   color:#ff4635;
-  cursor: url('assets/bombsmall.png'), default;
+  cursor: url('../assets/bombsmall.png'), default;
 }
-
 /* Outer */
 .popup {
 width:100%;
 height:100%;
 display:none;
-position:fixed;
+position: fixed;
 top:0;
 left:0;
 }
 /* Inner */
 .popup-inner {
-max-width:700px;
-width:90%;
+width:400px;
 height:70%;
-padding:40px;
+padding:0px;
 position:absolute;
 top:50%;
 left:50%;
@@ -95,8 +98,15 @@ font-size: 2rem;
 font-family:'SportingGrotesque-Regular';
 -webkit-transform:translate(-50%, -50%);
 transform:translate(-50%, -50%);
-background:transparent;
-border:3px solid;
+background:white;
+border:10px solid rgb(7, 74, 198);
+}
+
+.popup-inner img{
+  width:250px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
 }
 /* Close Button */
 .popup-close {
@@ -115,11 +125,11 @@ line-height:100%;
 color:black;
 }
 
-.links {
-padding-top: 110px;
+@media screen and (max-width: 904px) {
+  a:hover {cursor: url('../assets/cellphone.png'), default;
+}
 }
 
-@media screen and (max-width: 904px) {
-  * {cursor: url('assets/cellphone.png'), default;
-}
-}
+
+
+
