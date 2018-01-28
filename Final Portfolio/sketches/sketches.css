@@ -18,32 +18,37 @@ background: white;
 }
 
 .topnav {
-    z-index:100;
+    z-index:1;
     background-color: transparent;
     position: fixed;
-    padding-left: 200px;
-    padding-bottom: 50px;
-
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .topnav p {
     display: block;
-    color: rgb(24, 167, 206);
+    color: white;
     text-align: left;
-    font-size: 1rem;
+    font-size: 2.5rem;
     font-family: 'bluuitalic'; 
+    text-shadow: 
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px;
+    font-smoothing: antialiased;
     margin:0px;
-    text-decoration: overline;
-    padding-top: 40px;
-    color:black;
-
+    letter-spacing: .05em;
 }
 
 .sketches {
   z-index: 1;
   margin:0 auto;
   display: block;
-  font-size: 3.5rem;
+  font-size: 7rem;
   font-family:'bluuitalic';
   text-align: left;
   line-height:1.5em;
@@ -55,11 +60,22 @@ background: white;
 
 .topnav a{
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
-a:hover{
-  color:#ff4635;
+.links a:hover {
+  color:#0cf226;
+}
+
+.topnav a:hover{
+    text-shadow: 
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px;
+    font-smoothing: antialiased;
 }
 
 /* Outer */
@@ -98,6 +114,7 @@ left:100px;
 
 .links {
 padding-top: 110px;
+padding-bottom: 90px;
 }
 
 @media screen and (max-width: 904px) {

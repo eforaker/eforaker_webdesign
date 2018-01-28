@@ -18,24 +18,30 @@ background: white;
 }
 
 .topnav {
-    z-index:100;
+    z-index:1;
     background-color: transparent;
     position: fixed;
-    padding-left: 200px;
-    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .topnav p {
     display: block;
-    color: rgb(7, 74, 198);
+    color: white;
     text-align: left;
-    font-size: 1rem;
+    font-size: 2.5rem;
     font-family: 'bluuitalic'; 
+    text-shadow: 
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px;
+    font-smoothing: antialiased;
     margin:0px;
-    letter-spacing: .1em;
-    text-decoration: overline;
-    padding-top: 40px;
-
+    letter-spacing: .05em;
 }
 
 .info {
@@ -45,10 +51,11 @@ background: white;
   display: block;
   }
 
+
 .info p {
     float:left;
-    color:rgb(7, 74, 198);
-    font-size: 3.5rem;
+    color:black;
+    font-size: 7rem;
     font-family:'bluuitalic';
     text-align: left;
     line-height:1.5em;
@@ -59,16 +66,27 @@ background: white;
 }
 
 .info a{
-  color:rgb(7, 74, 198);
+  color: black;
 }
 
 .topnav a{
   text-decoration: none;
-  color: rgb(7, 74, 198);
+  color:white;
 }
 
-a:hover{
-  color:#ff4635;
+.info a:hover{
+  color:#0cf226;
+}
+
+.topnav a:hover{
+    text-shadow: 
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px,   
+    #0cf226 0px 0px 1px;
+    font-smoothing: antialiased;
 }
 /* Outer */
 .popup {
@@ -101,7 +119,7 @@ background: transparent;
 /* Close Button */
 
 .popup-close img{
-width: 80px;
+width: 50px;
 top:300px;
 left:100px;
 }
