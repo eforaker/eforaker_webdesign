@@ -64,17 +64,17 @@ background: white;
 }
 
 .links a:hover {
-  color:#0cf226;
+  color:#ff221e;
 }
 
 .topnav a:hover{
     text-shadow: 
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px;
+    #ff221e 0px 0px 1px,   
+    #ff221e 0px 0px 1px,   
+    #ff221e 0px 0px 1px,
+    #ff221e 0px 0px 1px,   
+    #ff221e 0px 0px 1px,   
+    #ff221e 0px 0px 1px;
     font-smoothing: antialiased;
 }
 
@@ -102,13 +102,6 @@ font-family:'bluuitalic';
 -webkit-transform:translate(-50%, -50%);
 transform:translate(-50%, -50%);
 background: transparent;
-}
-
-/* Close Button */
-.popup-close img{
-width: 80px;
-top:300px;
-left:100px;
 }
 
 .links {

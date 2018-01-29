@@ -75,17 +75,17 @@ background: white;
 }
 
 .info a:hover{
-  color:#0cf226;
+  color:#d70fff;
 }
 
 .topnav a:hover{
     text-shadow: 
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px,   
-    #0cf226 0px 0px 1px;
+    #d70fff 0px 0px 1px,   
+    #d70fff 0px 0px 1px,   
+    #d70fff 0px 0px 1px,
+    #d70fff 0px 0px 1px,   
+    #d70fff 0px 0px 1px,   
+    #d70fff 0px 0px 1px;
     font-smoothing: antialiased;
 }
 /* Outer */
@@ -98,10 +98,10 @@ left:0;
 }
 /* Inner */
 .popup-inner {
-width:300px;
+width:400px;
 height:80%;
-padding:0px;
-position:absolute;
+padding:25px;
+position:fixed;
 top:50%;
 left:50%;
 font-size: 2rem;
@@ -112,16 +112,9 @@ background: transparent;
 }
 
 .popup-inner img{
-  width:280px;
+  width:350px;
   display: block;
   margin: 0 auto;
-}
-/* Close Button */
-
-.popup-close img{
-width: 50px;
-top:300px;
-left:100px;
 }
 
 @media screen and (max-width: 904px) {
