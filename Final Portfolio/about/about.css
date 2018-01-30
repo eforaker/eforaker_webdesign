@@ -117,11 +117,15 @@ background: transparent;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 904px) {
+.popup-inner img:hover{
+cursor: url('../assets/bombsmall.png'), default;
+}
+
+/*@media screen and (max-width: 904px) {
   a:hover {cursor: url('../assets/cellphone.png'), default;
 }
 }
-
+*/
 
 
 

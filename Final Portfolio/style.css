@@ -74,8 +74,20 @@ background: white;
   color: black;
 }
 
-.designwork a:hover{
+/*a:hover{
   color:#006eff;
+}*/
+
+.designwork a.project:hover{
+  color: #ff2400;
+}
+
+.designwork a.studies:hover{
+  color: #0ad336;
+}
+
+.designwork a.about:hover{
+  color: #d70fff;
 }
 
 .container1 {
@@ -172,9 +184,9 @@ background: white;
 }
 
 
-@media screen and (max-width: 904px) {
+/*@media screen and (max-width: 904px) {
  a:hover {cursor: url('assets/cellphone.png'), default;
 }
-}
+}*/
 
 

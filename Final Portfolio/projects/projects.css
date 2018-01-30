@@ -64,17 +64,17 @@ background: white;
 }
 
 .links a:hover {
-  color:#ff221e;
+  color:#ff2400;
 }
 
 .topnav a:hover{
     text-shadow: 
-    #ff221e 0px 0px 1px,   
-    #ff221e 0px 0px 1px,   
-    #ff221e 0px 0px 1px,
-    #ff221e 0px 0px 1px,   
-    #ff221e 0px 0px 1px,   
-    #ff221e 0px 0px 1px;
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px;
     font-smoothing: antialiased;
 }
 
@@ -109,7 +109,7 @@ padding-top: 110px;
 padding-bottom: 90px;
 }
 
-@media screen and (max-width: 904px) {
+/*@media screen and (max-width: 904px) {
   a:hover {cursor: url('../assets/cellphone.png'), default;
 }
-}
+}*/

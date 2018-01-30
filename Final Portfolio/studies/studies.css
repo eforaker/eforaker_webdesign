@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'bluuitalic';
+    src: url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/bluunext-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/bluunext-bolditalic.ttf') format('truetype'),
+         url('../fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+* {
+	margin:0;
+  cursor: url('../assets/arrow.png'), default;
+}
+
+body {
+background: white;
+}
+
+.topnav {
+    z-index:1;
+    background-color: transparent;
+    position: fixed;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.topnav p {
+    display: block;
+    color: white;
+    text-align: left;
+    font-size: 2.5rem;
+    font-family: 'bluuitalic'; 
+    text-shadow: 
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px,   
+    black 0px 0px 1.5px;
+    font-smoothing: antialiased;
+    margin:0px;
+    letter-spacing: .05em;
+}
+
+.sketches {
+  z-index: 1;
+  margin:0 auto;
+  display: block;
+  font-size: 7rem;
+  font-family:'bluuitalic';
+  text-align: left;
+  line-height:1.5em;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 30px;
+  color:black;
+  }
+
+.topnav a{
+  text-decoration: none;
+  color:white;
+}
+
+.links a:hover {
+  color:#0ad336;
+}
+
+.topnav a:hover{
+    text-shadow: 
+   #0ad336 0px 0px 1px,   
+    #0ad336 0px 0px 1px,   
+    #0ad336 0px 0px 1px,
+    #0ad336 0px 0px 1px,   
+    #0ad336 0px 0px 1px,   
+    #0ad336 0px 0px 1px;
+    font-smoothing: antialiased;
+}
+
+/* Outer */
+.popup {
+width:100%;
+height:100%;
+display:none;
+top:0;
+left:0;
+}
+/* Inner */
+.popup-inner {
+width:400px;
+height:80%;
+padding-top:25px;
+position:fixed;
+top:50%;
+left:50%;
+font-size: 2rem;
+font-family:'bluuitalic';
+-webkit-transform:translate(-50%, -50%);
+transform:translate(-50%, -50%);
+background: transparent;
+}
+
+.popup-inner img{
+  width:350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.links {
+padding-top: 110px;
+padding-bottom: 90px;
+}
+
+@media screen and (max-width: 904px) {
+  a:hover {cursor: url('../assets/cellphone.png'), default;
+}
+}
+
+
+
+
