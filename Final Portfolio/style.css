@@ -14,7 +14,7 @@
 }
 
 body {
-background: yellow;
+background: white;
 }
 
 .topnav {
@@ -79,7 +79,7 @@ background: yellow;
 }
 
 .designwork a.studies:hover{
-  color: #0ad336;
+  color: rgb(8, 214, 22);
 }
 
 .designwork a.about:hover{

@@ -6,7 +6,7 @@ $('[data-popup="' + targeted_popup_class + '"]').fadeIn(10);
 e.preventDefault();
 });
 //----- CLOSE
-$('.popup').click(function() {
+$('.popup-inner img').click(function() {
 $(this).fadeOut(10);
 });
 });
