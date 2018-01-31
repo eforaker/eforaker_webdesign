@@ -14,7 +14,7 @@
 }
 
 body {
-background: white;
+background: yellow;
 }
 
 .topnav {
@@ -28,7 +28,6 @@ background: white;
 
 .topnav p {
     display: block;
-    color: white;
     text-align: left;
     font-size: 2.5rem;
     font-family: 'bluuitalic'; 

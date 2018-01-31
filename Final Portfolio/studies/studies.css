@@ -14,7 +14,7 @@
 }
 
 body {
-background: white;
+background: yellow;
 }
 
 .topnav {
@@ -112,10 +112,15 @@ padding-top: 110px;
 padding-bottom: 90px;
 }
 
-@media screen and (max-width: 904px) {
+.icons img {
+max-width:150px;  
+max-height: 160px;
+}
+
+/*@media screen and (max-width: 904px) {
   a:hover {cursor: url('../assets/cellphone.png'), default;
 }
-}
+}*/
 
 
 
