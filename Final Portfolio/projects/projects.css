@@ -17,6 +17,8 @@ body {
 background: white;
 }
 
+/*Topnav*/
+
 .topnav {
     z-index:6;
     background-color: transparent;
@@ -44,8 +46,41 @@ background: white;
     letter-spacing: .05em;
 }
 
+.topnav a{
+  text-decoration: none;
+  color: white;
+}
+
+.topnav a:hover{
+    text-shadow: 
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px,   
+    #ff2400 0px 0px 1px;
+    font-smoothing: antialiased;
+}
+
+/*Links*/
+
+.links {
+padding-top: 110px;
+padding-bottom: 90px;
+z-index: 5;
+}
+
+.links a{
+  z-index: 10;
+  position: relative;
+}
+
+.links a:hover {
+  color:#ff2400;
+}
+
 .sketches {
-  z-index: 2;
+  z-index: 4;
   margin:0 auto;
   display: block;
   font-size: 7rem;
@@ -55,13 +90,14 @@ background: white;
   padding-top: 20px;
   padding-left: 90px;
   padding-right: 30px;
-  color:black;
+  color:rgb(9, 60, 68);
 }
 
+/*Icons*/
 
 .believe img {
   width:450px;  
-  z-index: 1;
+  z-index: 11;
   position: absolute;
   margin-left: 160px;
   margin-top:-140px;
@@ -72,7 +108,7 @@ background: white;
   z-index: 1;
   position: absolute;
   margin-left: 760px;
-  margin-top:-70px;
+  margin-top:-100px;
 }
 
 .fruit img {
@@ -83,7 +119,7 @@ background: white;
   margin-top:-220px;
 }
 
-.petey img{
+.peteyface img{
   width:80px;  
   z-index: 1;
   position: absolute;
@@ -94,7 +130,7 @@ background: white;
 
 .plant img{
   width:160px;  
-  z-index: 1;
+  z-index: 11;
   position: absolute;
   margin-left: 900px;
   margin-top:-180px;
@@ -102,7 +138,7 @@ background: white;
 
 .fish img {
   width:110px;  
-  z-index: 1;
+  z-index: 11;
   position: absolute;
   margin-left: 290px;
   margin-top:-170px;
@@ -130,16 +166,16 @@ background: white;
   z-index: 1;
   position: absolute;
   margin-left: 270px;
-  margin-top:-210px;
+  margin-top:-70px;
   transform: rotate(90deg);
 }
 
 .russia2 img {
-  height:100px;  
+  height:130px;  
   z-index: 1;
   position: absolute;
   margin-left: 590px;
-  margin-top:-160px;
+  margin-top:-170px;
 }
 
 .hooked img {
@@ -148,26 +184,6 @@ background: white;
   position: absolute;
   margin-left: 35px;
   margin-top:-35px;
-}
-
-.topnav a{
-  text-decoration: none;
-  color: white;
-}
-
-.links a:hover {
-  color:#ff2400;
-}
-
-.topnav a:hover{
-    text-shadow: 
-    #ff2400 0px 0px 1px,   
-    #ff2400 0px 0px 1px,   
-    #ff2400 0px 0px 1px,
-    #ff2400 0px 0px 1px,   
-    #ff2400 0px 0px 1px,   
-    #ff2400 0px 0px 1px;
-    font-smoothing: antialiased;
 }
 
 /* Outer */
@@ -195,12 +211,6 @@ font-family:'bluuitalic';
 transform:translate(-50%, -50%);
 background: transparent;
 display: inline-block;
-}
-
-.links {
-padding-top: 110px;
-padding-bottom: 90px;
-z-index: 5;
 }
 
 .icons img {
