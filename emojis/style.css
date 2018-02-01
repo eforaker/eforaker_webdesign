@@ -8,9 +8,10 @@ body {
 }
 
 .topnav {
-position: fixed;
+position: relative;
 width:100%;
 background: white;
+z-index: 1;
 }
 
 .topnav h1 {
@@ -24,27 +25,35 @@ background: white;
 
 .topnav img{
   margin-top: 30px;
-  width: 150px;
+  width: 125px;
   margin-left: -10px;
 }
 
-.history {
+.info {
+  position: absolute;
   padding-left: 300px;
   padding-right: 100px;
-  padding-top: 300px;
+  padding-top: 80px;
 }
 
-.history p{
-  font-size:1.5em;
+.info p{
+  font-size:1em;
   line-height: 1.5em;
 }
 
+h2 {
+  padding-top:50px;
+  padding-bottom: 25px;
+}
+
 .floating {
-  margin:50px;
+  position: absolute;
+  top:120px;
+  z-index: 2;
 }
 
 .floating img {
-  display: inline-block;
-  width:60px;
-  z-index: 100;
+  display: flex;
+  width:20px;
+  padding: 140px;
 }
