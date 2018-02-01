@@ -8,6 +8,7 @@
     font-style: italic;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
 * {
   margin:0;
   cursor: url('../assets/arrow.png'), default;
@@ -20,7 +21,7 @@ background: white;
 /*Topnav*/
 
 .topnav {
-    z-index:6;
+    z-index:50;
     background-color: transparent;
     position: fixed;
     padding-left: 40px;
@@ -90,34 +91,10 @@ z-index: 5;
   padding-top: 20px;
   padding-left: 90px;
   padding-right: 30px;
-  color:rgb(9, 60, 68);
+  color:black;
 }
 
 /*Icons*/
-
-.believe img {
-  width:450px;  
-  z-index: 11;
-  position: absolute;
-  margin-left: 160px;
-  margin-top:-140px;
-}
-
-.nogoogle img {
-  width:120px;  
-  z-index: 1;
-  position: absolute;
-  margin-left: 760px;
-  margin-top:-100px;
-}
-
-.fruit img {
-  width:160px;  
-  z-index: 1;
-  position: absolute;
-  margin-left: 1010px;
-  margin-top:-220px;
-}
 
 .peteyface img{
   width:80px;  
@@ -143,6 +120,38 @@ z-index: 5;
   margin-left: 290px;
   margin-top:-170px;
   transform: rotate(-90deg);
+}
+
+.fruit img {
+  width:160px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 1010px;
+  margin-top:-220px;
+}
+
+.believe img {
+  width:450px;  
+  z-index: 11;
+  position: absolute;
+  margin-left: 160px;
+  margin-top:-140px;
+}
+
+.nogoogle img {
+  width:120px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 760px;
+  margin-top:-100px;
+}
+
+.hooked img {
+  width:100px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 35px;
+  margin-top:-35px;
 }
 
 .gursky img {
@@ -178,15 +187,8 @@ z-index: 5;
   margin-top:-170px;
 }
 
-.hooked img {
-  width:100px;  
-  z-index: 1;
-  position: absolute;
-  margin-left: 35px;
-  margin-top:-35px;
-}
+/* POPUPS*/
 
-/* Outer */
 .popup {
 z-index: 100;
 width:100%;
@@ -196,7 +198,7 @@ position: fixed;
 top:0;
 left:0;
 }
-/* Inner */
+
 .popup-inner {
 max-width:700px;
 width:90%;
@@ -205,32 +207,31 @@ padding:0px;
 position:absolute;
 top:50%;
 left:50%;
-font-size: 2rem;
-font-family:'bluuitalic';
 -webkit-transform:translate(-50%, -50%);
 transform:translate(-50%, -50%);
 background: transparent;
 display: inline-block;
 }
 
-.icons img {
-max-width:250px;  
-max-height: 160px;
-z-index: 1;
-padding: 50px;
+.popup-inner p{
+  width:300px;
+  padding:40px;
+  background-color: white;
+  color: #ff2400;
+  font-size: 1em;
+  line-height: 1.8em;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 .popup-inner img{
   width:650px;
   padding:50px;
-
 }
 
 .popup-inner img:hover{
 cursor: url('../assets/bombsmall.png'), default;
 }
 
-/*@media screen and (max-width: 904px) {
-  a:hover {cursor: url('../assets/cellphone.png'), default;
+@media screen and (max-width: 904px) {
 }
-}*/
+}
