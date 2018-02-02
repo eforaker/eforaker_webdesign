@@ -80,9 +80,18 @@ $(document).ready(function(){
 
 
 	$(".russia2 img").click(function() {
-		console.log('russia clicked');
 	  	$(this).toggleClass('russia2-active');
 	});
+
+	$(".typefish img").click(function() {
+	  	$(this).toggleClass('typefish-active');
+	});
+
+	$('.popup-inner img').click(function() {
+	$(this).fadeOut(10);
+
+	});
+
 
 //----- OPEN
 	$('[data-popup-open]').on('click', function(e)  {
