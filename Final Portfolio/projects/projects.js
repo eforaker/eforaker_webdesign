@@ -3,79 +3,79 @@ $(document).ready(function(){
 	$(".petey").ready(function(){
 	$( ".peteyface").hide();
 	});
-	$(".petey").hover(function(){
-	$( ".peteyface").toggle();
+	$(".petey").mouseenter(function(){
+	$( ".peteyface").show();
 	});
 
 	$(".petey").ready(function(){
 	$( ".plant").hide();
 	});
 
-	$(".petey").hover(function(){
-	$( ".plant").toggle();
+	$(".petey").mouseenter(function(){
+	$( ".plant").show();
 	});
 
 	$(".fish").ready(function(){
 	$( ".fishnet" ).hide();
 	});
-	$(".fish").hover(function(){
-	$( ".fishnet" ).toggle();
+	$(".fish").mouseenter(function(){
+	$( ".fishnet" ).show();
 	});
 
     $(".forbidden").ready(function(){
 	$( ".fruitpic").hide();
 	});
-	$(".forbidden").hover(function(){
-	$( ".fruitpic").toggle();
+	$(".forbidden").mouseenter(function(){
+	$( ".fruitpic").show();
 	});
 
 	$(".believe").ready(function(){
 	$( ".believeicons").hide();
 	});
 	$(".believe").mouseenter(function(){
-	$( ".believeicons").toggle();
+	$( ".believeicons").show();
 	});
 
 	$(".steinweiss").ready(function(){
 	$( ".nogoogle").hide();
 	});
-	$(".steinweiss").hover(function(){
-	$( ".nogoogle").toggle();
+	$(".steinweiss").mouseenter(function(){
+	$( ".nogoogle").show();
 	});
 
 	$(".hooked").ready(function(){
 	$( ".typefish").hide();
 	});
-	$(".hooked").hover(function(){
-	$( ".typefish").toggle();
+	$(".hooked").mouseenter(function(){
+	$( ".typefish").show();
 	});
 
 	$(".coupons").ready(function(){
 	$( ".gursky").hide();
 	});
-	$(".coupons").hover(function(){
-	$( ".gursky").toggle();
+	$(".coupons").mouseenter(function(){
+	$( ".gursky").show();
 	});
 
 	$(".coupons").ready(function(){
 	$( ".gursky2").hide();
 	});
-	$(".coupons").hover(function(){
-	$( ".gursky2").toggle();
+	$(".coupons").mouseenter(function(){
+	$( ".gursky2").show();
 	});
 
 	$(".russian").ready(function(){
 	$( ".russia").hide();
 	});
-	$(".russian").hover(function(){
-	$( ".russia").toggle();
+	$(".russian").mouseenter(function(){
+	$( ".russia").show();
 	});
 
 	$(".russian").ready(function(){
 	$( ".russia2").hide();
 	});
-	$(".russian").hover(function(){
-	$( ".russia2").toggle();
+	$(".russian").mouseenter(function(){
+	$( ".russia2").show();
 	});
 });
 
