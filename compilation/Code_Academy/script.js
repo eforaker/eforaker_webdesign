@@ -14,9 +14,13 @@ $('[data-popup="' + targeted_popup_class + '"]').fadeIn(10);
 e.preventDefault();
 });
 //----- CLOSE
-$('[data-popup-close]').on('click', function(e)  {
-var targeted_popup_class = jQuery(this).attr('data-popup-close');
-$('[data-popup="' + targeted_popup_class + '"]').fadeOut(10);
-e.preventDefault();
-});
+// $('[data-popup-close]').on('click', function(e)  {
+// var targeted_popup_class = jQuery(this).attr('data-popup-close');
+// $('[data-popup="' + targeted_popup_class + '"]').fadeOut(10);
+// e.preventDefault();
+// });
+
+	$('.popup-close').click(function(){
+		$(this).parent('.popup-inner').fadeOut(10);
+	});
 });

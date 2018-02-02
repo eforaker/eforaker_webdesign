@@ -77,14 +77,13 @@ $(document).ready(function(){
 	$(".russian").mouseenter(function(){
 	$( ".russia2").show();
 	});
-});
-
-// $(".russia2 img").onClick(function() {
-//   $('.russia2 img').toggleClass('.russia2-active');
-// });
 
 
-$(function() {
+	$(".russia2 img").click(function() {
+		console.log('russia clicked');
+	  	$(this).toggleClass('russia2-active');
+	});
+
 //----- OPEN
 	$('[data-popup-open]').on('click', function(e)  {
 	var targeted_popup_class = jQuery(this).attr('data-popup-open');
@@ -97,6 +96,7 @@ $(function() {
 	$('[data-popup="' + targeted_popup_class + '"]').fadeOut(10);
 	e.preventDefault();
 	});
+
 });
 
 
