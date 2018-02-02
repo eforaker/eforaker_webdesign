@@ -17,8 +17,10 @@ body {
 background: white;
 }
 
+/*Nav*/
+
 .topnav {
-    z-index:1;
+    z-index:100;
     background-color: transparent;
     position: fixed;
     padding-left: 40px;
@@ -44,27 +46,9 @@ background: white;
     letter-spacing: .05em;
 }
 
-.sketches {
-  z-index: 1;
-  margin:0 auto;
-  display: block;
-  font-size: 7rem;
-  font-family:'bluuitalic';
-  text-align: left;
-  line-height:1.5em;
-  padding-top: 20px;
-  padding-left: 90px;
-  padding-right: 30px;
-  color:black;
-  }
-
 .topnav a{
   text-decoration: none;
   color:white;
-}
-
-.links a:hover {
-  color:#0ad336;
 }
 
 .topnav a:hover{
@@ -77,6 +61,40 @@ background: white;
     #0ad336 0px 0px 1px;
     font-smoothing: antialiased;
 }
+
+/*Links*/
+
+.links {
+padding-top: 110px;
+padding-bottom: 90px;
+z-index: 5;
+}
+
+.links a{
+  z-index: 10;
+  position: relative;
+  color:black;
+}
+
+.links a:hover {
+  color:#0ad336;
+}
+
+.sketches {
+  z-index: 4;
+  margin:0 auto;
+  display: block;
+  font-size: 7rem;
+  font-family:'bluuitalic';
+  text-align: left;
+  line-height:1.5em;
+  padding-top: 20px;
+  padding-left: 90px;
+  padding-right: 30px;
+  color:black;
+}
+
+/*Popup*/
 
 /* Outer */
 .popup {
@@ -107,20 +125,47 @@ background: transparent;
   margin: 0 auto;
 }
 
-.links {
-padding-top: 110px;
-padding-bottom: 90px;
+/*Icons*/
+
+.blendicon img{
+  width:110px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 240px;
+  margin-top:-170px;
 }
 
-.icons img {
-max-width:150px;  
-max-height: 160px;
+.metoo img{
+  width:110px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 800px;
+  margin-top:-180px;
 }
 
-/*@media screen and (max-width: 904px) {
-  a:hover {cursor: url('../assets/cellphone.png'), default;
+.dogs img {
+  width:90px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 100px;
+  margin-top:-160px;
 }
-}*/
+
+.key img {
+  width:120px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 810px;
+  margin-top:-80px;
+}
+
+.nips img {
+  width:100px;  
+  z-index: 1;
+  position: absolute;
+  margin-left: 210px;
+  margin-top:-270px;
+}
 
 
 
