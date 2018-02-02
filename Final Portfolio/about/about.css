@@ -98,8 +98,6 @@ left:0;
 /* Inner */
 .popup-inner {
 width:400px;
-height:80%;
-padding:25px;
 position:fixed;
 top:50%;
 left:50%;
@@ -113,18 +111,8 @@ background: transparent;
 .popup-inner img{
   width:350px;
   display: block;
-  margin: 0 auto;
+  margin-left: 200px;
 }
-
-.popup-inner img:hover{
-cursor: url('../assets/bombsmall.png'), default;
-}
-
-/*@media screen and (max-width: 904px) {
-  a:hover {cursor: url('../assets/cellphone.png'), default;
-}
-}
-*/
 
 
 

@@ -133,11 +133,11 @@ z-index: 5;
 }
 
 .believeicons img {
-  width:450px;  
+  width:650px;  
   z-index: 11;
   position: absolute;
-  margin-left: 160px;
-  margin-top:-140px;
+  margin-left: 165px;
+  margin-top:-165px;
 }
 
 .nogoogle img {

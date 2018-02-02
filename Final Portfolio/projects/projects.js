@@ -32,7 +32,7 @@ $(document).ready(function(){
 	$(".believe").ready(function(){
 	$( ".believeicons").hide();
 	});
-	$(".believe").hover(function(){
+	$(".believe").mouseenter(function(){
 	$( ".believeicons").toggle();
 	});
 
