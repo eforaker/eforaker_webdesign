@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-@import url('https://fonts.googleapis.com/css?family=Cairo:600');
+@import url('https://fonts.googleapis.com/css?family=Cairo:400, 900');
 * {
 	margin:0;
 }
 body {
 	font-family: 'Press Start 2P', cursive;
-  background-color: rgb(255, 223, 178);
-  color:rgb(19, 3, 68);
+  background-color: rgb(255, 233, 214);
+  color:rgb(51, 1, 158);
 }
 
 .topnav {
@@ -31,6 +31,7 @@ z-index: 1;
 }
 
 .info {
+  font-weight: normal;
   position: absolute;
   padding-left: 300px;
   padding-right: 100px;
@@ -63,9 +64,22 @@ padding-top: 35px;
   width:200px;
 }
 
+.info #mixup img{
+  width:160px;
+}
+
+.info #study img{
+  width:160px;
+}
+
 h2 {
   padding-top:110px;
   padding-bottom: 25px;
+  line-height: 1.7em;
+}
+
+.emphasis {
+  font-weight: bolder;
 }
 
 .floating {
