@@ -79,6 +79,10 @@ $(document).ready(function(){
 	});
 });
 
+// $(".russia2 img").onClick(function() {
+//   $('.russia2 img').toggleClass('.russia2-active');
+// });
+
 
 $(function() {
 //----- OPEN
