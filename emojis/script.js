@@ -1,3 +1,3 @@
-// $(document).ready(function() {
-// 	$('.floating').draggable();
-// });
+$(document).ready(function() {
+	$('.floating').draggable();
+});

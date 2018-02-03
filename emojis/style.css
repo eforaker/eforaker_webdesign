@@ -19,7 +19,7 @@ z-index: 1;
 .topnav h1 {
     float: left;
     font-size: 5em;
-    margin-left: 75px;
+    margin-left: 140px;
     margin-top: 75px;
     margin-right: 50px;
 }
@@ -32,25 +32,26 @@ z-index: 1;
 
 .info {
   font-weight: normal;
-  position: absolute;
+  position: relative;
   padding-left: 300px;
   padding-right: 100px;
-  padding-top: 80px;
 }
 
 .info p{
+  width: 800px;
   font-family: 'Cairo', sans-serif;
   font-size:1.2em;
-  line-height: 1.8em;
+  line-height: 1.5em;
   position: relative;
 }
 
 .info li{
   font-family: 'Cairo', sans-serif;
   font-size:1.2em;
-  line-height: 2.1em;
+  line-height: 1.5em;
   position: relative;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .info img{
@@ -64,12 +65,9 @@ padding-top: 35px;
   width:200px;
 }
 
-.info #mixup img{
-  width:160px;
-}
-
-.info #study img{
-  width:160px;
+.mixup img{
+  width:120px;
+  margin-left: 55px;
 }
 
 h2 {
@@ -78,8 +76,44 @@ h2 {
   line-height: 1.7em;
 }
 
-.emphasis {
-  font-weight: bolder;
+.study img:hover {
+  transition: transform 1s;
+ transform: rotate(360deg); 
+}
+
+.mixup img:hover {
+  transition: transform 1s;
+ transform: rotate(360deg); 
+}
+
+#gucci {
+  width:500px;
+  margin-left:165px;
+}
+
+#first {
+  width:600px;
+  margin-left:100px;
+}
+
+#snake {
+  width:600px;
+  margin-left:100px;
+}
+
+#burgers {
+  width:600px;
+  margin-left:100px;
+}
+
+.study img{
+  width: 100px;
+  margin-left:120px;
+}
+
+.joiner img{
+  width: 170px;
+  margin-left: 15px;
 }
 
 .floating {
