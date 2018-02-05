@@ -14,11 +14,11 @@ $(document).ready(function(){
 	$( ".metoo" ).show();
 	});
 
-    $(".subversion").ready(function(){
-	$( ".dogs").hide();
+    $(".thompsonfish").ready(function(){
+	$( ".typefish").hide();
 	});
-	$(".subversion").mouseenter(function(){
-	$( ".dogs").show();
+	$(".thompsonfish").mouseenter(function(){
+	$( ".typefish").show();
 	});
 
 	$(".patterns").ready(function(){
@@ -36,14 +36,21 @@ $(document).ready(function(){
 	});
 
 	$('.popup-inner img').click(function() {
-	$(this).fadeOut();
+	$(this).css({ opacity: 0 })
 
 	});
 
 	$('.popup-inner p').click(function() {
-	$(this).fadeOut();
+	$(this).css({ opacity: 0 })
 
 	});
+
+
+		$(".typefish img").click(function() {
+	  	$(this).toggleClass('typefish-active');
+	});
+
+
 
 $('[data-popup-open]').on('click', function(e)  {
 var targeted_popup_class = jQuery(this).attr('data-popup-open');
@@ -52,7 +59,12 @@ e.preventDefault();
 });
 //----- CLOSE
 		$('.popup-close').click(function(){
-		$('.popup').fadeOut(1);
+		$('.popup').fadeOut(200);
+		
+		setTimeout(function(){ 
+			$('.popup-inner p').css({ opacity: 1 });
+			$('.popup-inner img').css({ opacity: 1 });
+		 }, 1000);
 
 });
 

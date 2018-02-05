@@ -85,10 +85,6 @@ $(document).ready(function(){
 	  	$(this).toggleClass('russia2-active');
 	});
 
-	$(".typefish img").click(function() {
-	  	$(this).toggleClass('typefish-active');
-	});
-
 	$(".peteyface img").click(function() {
 	  	$(this).animate({left: '850px'});
 	});

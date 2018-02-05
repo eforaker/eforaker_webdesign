@@ -9,4 +9,9 @@ e.preventDefault();
 $('.popup').click(function() {
 $(this).fadeOut(10);
 });
+
+// $('#email').hover(function() {
+// $(this).toggleClass('#address');
+// });
+
 });

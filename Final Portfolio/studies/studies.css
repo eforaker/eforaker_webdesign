@@ -141,6 +141,70 @@ left:0px;
   z-index:16;
 }
 
+/*2017 collages popups*/
+
+#aug {
+  transform:translate(-30px,420px);
+  width:550px;
+}
+
+#oct {
+  transform:translate(-170px,100px);
+  width:750px;
+}
+
+#trump {
+  transform:translate(-500px,280px);
+  width:550px;
+}
+
+#celebtext p{
+  top:380px;
+  right:870px;
+}
+
+#collageclose.popup-close{
+  top:00px;
+  left:540px;
+}
+
+/*amalgamation popups*/
+
+#code2 {
+  transform:translate(-30px,420px);
+  width:390px;
+}
+
+#blends1 {
+  transform:translate(-200px,480px);
+  width:450px;
+}
+
+#blends3 {
+  transform:translate(100px,180px);
+  width:450px;
+}
+
+#blends4 {
+  transform:translate(200px,410px);
+  width:450px;
+}
+
+#blends2 {
+  transform:translate(-300px,80px);
+  width:450px;
+}
+
+#blendtext p{
+  top:130px;
+  right:300px;
+}
+
+#closeblends.popup-close{
+  top:390px;
+  left:-340px;
+}
+
 /* Close Button */
 
 .popup-inner a{
@@ -186,19 +250,20 @@ left:580px;
 }
 
 .metoo img{
-  width:110px;  
+  width:190px;  
   z-index: 1;
   position: absolute;
   margin-left: 800px;
   margin-top:-180px;
 }
 
-.dogs img {
-  width:90px;  
-  z-index: 12;
+.typefish img {
+  width:100px;  
+  z-index: 100;
   position: absolute;
-  margin-left: 100px;
-  margin-top:-160px;
+  margin-left: 35px;
+  margin-top:-35px;
+  transition: all 3s ease;
 }
 
 .key img {
@@ -213,10 +278,13 @@ left:580px;
   width:100px;  
   z-index: 1;
   position: absolute;
-  margin-left: 210px;
-  margin-top:-270px;
+  margin-left: 610px;
+  margin-top:-170px;
 }
 
+.typefish-active {
+  transform: translate(850px, -100px);
+}
 
 
 

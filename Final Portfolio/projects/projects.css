@@ -168,19 +168,6 @@ z-index: 5;
   margin-top:-100px;
 }
 
-.typefish img {
-  width:100px;  
-  z-index: 100;
-  position: absolute;
-  margin-left: 35px;
-  margin-top:-35px;
-  -webkit-transition: all 3s ease;  
-  -moz-transition: all 3s ease;  
-  -o-transition: all 3s ease;  
-  -ms-transition: all 3s ease;  
-  transition: all 3s ease;
-}
-
 .gursky img {
   width:110px;  
   z-index: 1;
@@ -221,10 +208,6 @@ z-index: 5;
 
 .russia2-active {
   transform: translateX(450px);
-}
-
-.typefish-active {
-  transform: translate(550px, -100px);
 }
 
 .peteyface-active {
@@ -368,6 +351,25 @@ left:0px;
   width:450px;
 }
 
+/*petey popups*/
+
+
+#food {
+  transform:translate(-400px,100px);
+  width:650px;
+}
+#plant {
+  transform:translate(-80px,0px);
+  width:650px;
+}
+#litter {
+  transform:translate(-500px,410px);
+  width:650px;
+}
+#breakfast {
+  transform:translate(40px,260px);
+  width:650px;
+}
 
 
 /* Close Button */
@@ -422,6 +424,17 @@ left:100px;
 top:380px;
 left:-400px;
 }
+
+#peteyclose.popup-close {
+top:30px;
+left:-110px;
+}
+
+#peteypop.popup-inner p{
+top:380px;
+left:200px;
+}
+
 
 
 @media screen and (max-width: 904px) {
