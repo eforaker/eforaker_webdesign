@@ -114,5 +114,39 @@ background: transparent;
   margin-left: 200px;
 }
 
+/* Close Button */
+
+.popup-inner a{
+font-size:8rem;
+font-family: 'bluuitalic';
+text-decoration: none;
+color:white;
+text-shadow: 
+black 0px 0px 2.5px,   
+black 0px 0px 2.5px,   
+black 0px 0px 2.5px,
+black 0px 0px 2.5px,   
+black 0px 0px 2.5px,   
+black 0px 0px 2.5px;
+}
+
+.popup-inner a:hover{
+color:white;
+text-shadow: 
+#d70fff 0px 0px 2.5px,   
+#d70fff 0px 0px 2.5px,   
+#d70fff 0px 0px 2.5px,
+#d70fff 0px 0px 2.5px,   
+#d70fff 0px 0px 2.5px,   
+#d70fff 0px 0px 2.5px;
+}
+
+.popup-close {
+width:90px;
+position:absolute;
+top:320px;
+left:580px;
+}
+
 
 

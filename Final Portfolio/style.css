@@ -45,7 +45,8 @@ background: white;
 }
 
 .designwork {
-  z-index: 1;
+  z-index:5;
+  position: relative;
   margin:0 auto;
   float: left;
   display: block;
@@ -63,10 +64,28 @@ background: white;
     padding-bottom: 30px;
     padding-left: 90px;
     padding-right: 90px;
+    
 }
 
 .designwork a{
   color:black;
+}
+
+.proj img{
+  width:110px; 
+  position: absolute;
+  left:710px;
+  top:290px;
+  z-index: 1;
+}
+
+
+.blends img{
+  width:110px; 
+  position: absolute;
+  left:850px;
+  top:570px;
+  z-index: 1;
 }
 
 .topnav a{

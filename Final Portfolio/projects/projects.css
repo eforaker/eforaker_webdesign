@@ -8,7 +8,13 @@
     font-style: italic;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@font-face {
+    font-family: 'circular-book';
+    src: url('../fonts/circular-book.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   margin:0;
   cursor: url('../assets/arrow.png'), default;
@@ -109,6 +115,11 @@ z-index: 5;
   margin-left: 30px;
   margin-top:-160px;
   transform: rotate(-20deg);
+  -webkit-transition: all 3s ease;  
+  -moz-transition: all 3s ease;  
+  -o-transition: all 3s ease;  
+  -ms-transition: all 3s ease;  
+  transition: all 3s ease;
 }
 
 .plant img{
@@ -163,11 +174,11 @@ z-index: 5;
   position: absolute;
   margin-left: 35px;
   margin-top:-35px;
-  -webkit-transition: all 7s ease;  
-  -moz-transition: all 7s ease;  
-  -o-transition: all 7s ease;  
-  -ms-transition: all 7s ease;  
-  transition: all 7s ease;
+  -webkit-transition: all 3s ease;  
+  -moz-transition: all 3s ease;  
+  -o-transition: all 3s ease;  
+  -ms-transition: all 3s ease;  
+  transition: all 3s ease;
 }
 
 .gursky img {
@@ -216,6 +227,10 @@ z-index: 5;
   transform: translate(550px, -100px);
 }
 
+.peteyface-active {
+  transform: translateX(450px);
+}
+
 /* POPUPS*/
 
 .popup {
@@ -235,27 +250,125 @@ left:0px;
 }
 
 .popup-inner p{
-  width:666px;
+  width:400px;
   padding:15px;
   background-color: white;
   color: black;
   font-size: 1em;
   line-height: 1.5em;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'circular-book', sans-serif;
   outline-width: 2px;
   outline-color: black;
   outline-style: solid;
+  top:60px;
+  right:90px;
+  position: absolute;
+  z-index:16;
 }
 
 .popup-inner img{
   width:700px;
-  margin-top:10px;
   position: absolute;
 }
 
-#inner2 {
-  transform:translate(-100px,100px);
+/*fishconspiracy popups*/
+
+#fishinner1 {
+  transform:translate(-30px,400px);
 }
+
+#fishinner2 {
+  transform:translate(-170px,100px);
+}
+
+#fishcover {
+  transform:translate(-400px,250px);
+}
+
+/*PT sans popups*/
+
+#specfront {
+  transform:translate(-300px,260px);
+}
+
+#spec7 {
+  transform:translate(-30px,400px);
+}
+
+#spec3 {
+  transform:translate(-170px,100px);
+}
+
+#spec4 {
+  transform:translate(-300px,260px);
+}
+
+#spec5 {
+  transform:translate(-30px,400px);
+}
+
+#specback {
+  transform:translate(-170px,100px);
+}
+
+/*fruit popups*/
+
+#fruitbackcover {
+  transform:translate(-700px,200px);
+}
+
+#fruitinside2 {
+  transform:translate(20px,170px);
+}
+
+#pom {
+  transform:translate(-250px,450px);
+  width:500px;
+}
+
+#cherry {
+  transform:translate(-90px,250px);
+  width:500px;
+}
+
+#fruitcover {
+  transform:translate(-370px,0px);
+  width:500px;
+}
+
+#fruitposter {
+  transform:translate(-190px,120px);
+  width:480px;
+}
+
+/*believe popups*/
+
+#outtakes {
+  transform:translate(-300px,700px);
+  width:450px;
+}
+
+#round3 {
+  transform:translate(-390px,250px);
+  width:450px;
+}
+
+#round1 {
+  transform:translate(190px,500px);
+  width:450px;
+}
+
+#round2 {
+  transform:translate(70px,620px);
+  width:450px;
+}
+
+#believefinal {
+  transform:translate(-80px,410px);
+  width:450px;
+}
+
+
 
 /* Close Button */
 
@@ -286,10 +399,30 @@ text-shadow:
 
 .popup-close {
 width:90px;
-position:absolute;
-top:-100px;
-left:-14px;
+top:320px;
+left:580px;
 }
+
+#xbelieve.popup-close {
+top:800px;
+left:-330px;
+}
+
+#xbelieve.popup-inner p{
+top:580px;
+left:-460px;
+}
+
+#fruitclose.popup-close {
+top:30px;
+left:100px;
+}
+
+#fruit.popup-inner p{
+top:380px;
+left:-400px;
+}
+
 
 @media screen and (max-width: 904px) {
 }

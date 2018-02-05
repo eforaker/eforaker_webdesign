@@ -79,6 +79,8 @@ $(document).ready(function(){
 	});
 
 
+ // ICON ANIMATIONS
+
 	$(".russia2 img").click(function() {
 	  	$(this).toggleClass('russia2-active');
 	});
@@ -87,26 +89,46 @@ $(document).ready(function(){
 	  	$(this).toggleClass('typefish-active');
 	});
 
-	$('.popup-inner img').click(function() {
-	$(this).fadeOut(10);
-
+	$(".peteyface img").click(function() {
+	  	$(this).animate({left: '850px'});
 	});
 
 
-//----- OPEN
+
+
+	// POPUPS
+
+
+
+	$('.popup-inner img').click(function() {
+	$(this).css({ opacity: 0 })
+
+	});
+
+	$('.popup-inner p').click(function() {
+	$(this).css({ opacity: 0 })
+
+	});
+
 	$('[data-popup-open]').on('click', function(e)  {
 	var targeted_popup_class = jQuery(this).attr('data-popup-open');
-	$('[data-popup="' + targeted_popup_class + '"]').fadeIn(10);
+	$('[data-popup="' + targeted_popup_class + '"]').fadeIn(10).css({opacity:1});
 	e.preventDefault();
-	});
-//----- CLOSE
-	$('[data-popup-close]').on('click', function(e)  {
-	var targeted_popup_class = jQuery(this).attr('data-popup-close');
-	$('[data-popup="' + targeted_popup_class + '"]').fadeOut(10);
-	e.preventDefault();
+	       //  $('html, body').animate({scrollTop:0});
+        // return false;
 	});
 
+		$('.popup-close').click(function(){
+		$('.popup').fadeOut(200);
+		
+		setTimeout(function(){ 
+			$('.popup-inner p').css({ opacity: 1 });
+			$('.popup-inner img').css({ opacity: 1 });
+		 }, 1000);
+
+	});
 });
+
 
 
 
