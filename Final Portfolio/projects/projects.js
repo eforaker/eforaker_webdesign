@@ -86,10 +86,8 @@ $(document).ready(function(){
 	});
 
 	$(".peteyface img").click(function() {
-	  	$(this).animate({left: '850px'});
+	  	$(this).animate({top:'130px'});
 	});
-
-
 
 
 	// POPUPS
@@ -97,12 +95,12 @@ $(document).ready(function(){
 
 
 	$('.popup-inner img').click(function() {
-	$(this).css({ opacity: 0 })
+	$(this).toggleClass('popup-inner-active');
 
 	});
 
 	$('.popup-inner p').click(function() {
-	$(this).css({ opacity: 0 })
+	$(this).toggleClass('popup-inner-active');
 
 	});
 
@@ -118,9 +116,9 @@ $(document).ready(function(){
 		$('.popup').fadeOut(200);
 		
 		setTimeout(function(){ 
-			$('.popup-inner p').css({ opacity: 1 });
-			$('.popup-inner img').css({ opacity: 1 });
-		 }, 1000);
+			$('.popup-inner p').removeClass('popup-inner-active');
+			$('.popup-inner img').removeClass('popup-inner-active');
+		 }, 400);
 
 	});
 });

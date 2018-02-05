@@ -22,6 +22,7 @@
 
 body {
 background: white;
+cursor: url('../assets/arrow.png'), default;
 }
 
 /*Nav*/
@@ -42,12 +43,12 @@ background: white;
     font-size: 2.5rem;
     font-family: 'bluuitalic'; 
     text-shadow: 
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px;
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px;
     font-smoothing: antialiased;
     margin:0px;
     letter-spacing: .05em;
@@ -75,16 +76,19 @@ background: white;
 padding-top: 110px;
 padding-bottom: 90px;
 z-index: 5;
+cursor: url('../assets/arrow.png'), default;
 }
 
 .links a{
   z-index: 10;
   position: relative;
-  color:black;
+  color:#0c1e3d;
+  cursor: url('../assets/arrow.png'), default;
 }
 
 .links a:hover {
   color:#0ad336;
+  cursor: url('../assets/arrow.png'), default;
 }
 
 .sketches {
@@ -119,26 +123,33 @@ left:0px;
   position: relative;
 }
 
+.popup-inner-active{
+display: none;
+}
+
+
 .popup-inner img{
   width:700px;
   position: absolute;
+  cursor: url('../assets/smallx.png'), default;
 }
 
 .popup-inner p{
   width:400px;
   padding:15px;
   background-color: white;
-  color: black;
+  color: #0c1e3d;
   font-size: 1em;
   line-height: 1.5em;
   font-family: 'circular-book', sans-serif;
   outline-width: 2px;
-  outline-color: black;
+  outline-color: #0c1e3d;
   outline-style: solid;
   top:60px;
   right:90px;
   position: absolute;
   z-index:16;
+  cursor: url('../assets/smallx.png'), default;
 }
 
 /*2017 collages popups*/
@@ -173,31 +184,38 @@ left:0px;
 #code2 {
   transform:translate(-30px,420px);
   width:390px;
+  cursor: url('../assets/smallxwhite.png'), default;
 }
 
 #blends1 {
   transform:translate(-200px,480px);
   width:450px;
+  cursor: url('../assets/smallxwhite.png'), default;
 }
 
 #blends3 {
   transform:translate(100px,180px);
   width:450px;
+  cursor: url('../assets/smallxwhite.png'), default;
 }
 
 #blends4 {
   transform:translate(200px,410px);
   width:450px;
+  cursor: url('../assets/smallxwhite.png'), default;
 }
 
 #blends2 {
   transform:translate(-300px,80px);
   width:450px;
+  cursor: url('../assets/smallxwhite.png'), default;
 }
 
 #blendtext p{
   top:130px;
   right:300px;
+  cursor: url('../assets/smallxwhite.png'), default;
+
 }
 
 #closeblends.popup-close{
@@ -329,12 +347,12 @@ font-family: 'bluuitalic';
 text-decoration: none;
 color:white;
 text-shadow: 
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px;
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px;
 }
 
 .popup-inner a:hover{

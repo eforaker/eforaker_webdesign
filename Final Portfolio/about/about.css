@@ -32,12 +32,12 @@ background: white;
     font-size: 2.5rem;
     font-family: 'bluuitalic'; 
     text-shadow: 
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px;
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px;
     font-smoothing: antialiased;
     margin:0px;
     letter-spacing: .05em;
@@ -53,7 +53,7 @@ background: white;
 
 .info p {
     float:left;
-    color:black;
+    color:#0c1e3d;
     font-size: 7rem;
     font-family:'bluuitalic';
     text-align: left;
@@ -65,7 +65,7 @@ background: white;
 }
 
 .info a{
-  color: black;
+  color: #0c1e3d;
 }
 
 .topnav a{
@@ -122,12 +122,12 @@ font-family: 'bluuitalic';
 text-decoration: none;
 color:white;
 text-shadow: 
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px;
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px;
 }
 
 .popup-inner a:hover{

@@ -46,12 +46,12 @@ a:hover{
     font-size: 2.5rem;
     font-family: 'bluuitalic'; 
     text-shadow: 
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px,   
-    black 0px 0px 1.5px;
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px,   
+    #0c1e3d 0px 0px 1.5px;
     font-smoothing: antialiased;
     margin:0px;
     letter-spacing: .05em;
@@ -84,7 +84,7 @@ z-index: 5;
 .links a{
   z-index: 10;
   position: relative;
-  color:black;
+  color:#0c1e3d;
 }
 
 .links a:hover {
@@ -104,14 +104,14 @@ z-index: 5;
   padding-top: 20px;
   padding-left: 90px;
   padding-right: 30px;
-  color:black;
+  color:#0c1e3d;
 }
 
 /*Icons*/
 
 .peteyface img{
   width:80px;  
-  z-index: 1;
+  z-index: 13;
   position: absolute;
   margin-left: 30px;
   margin-top:-160px;
@@ -195,7 +195,7 @@ z-index: 5;
 }
 
 .russia2 img {
-  height:130px;  
+  height:100px;  
   z-index: 10;
   position: absolute;
   margin-left: 590px;
@@ -231,42 +231,57 @@ left:0px;
   width:700px;
   float:right;
   position: relative;
+
 }
 
 .popup-inner p{
   width:400px;
   padding:15px;
   background-color: white;
-  color: black;
+  color: #0c1e3d;
   font-size: 1em;
   line-height: 1.5em;
   font-family: 'circular-book', sans-serif;
   outline-width: 2px;
-  outline-color: black;
+  outline-color: #0c1e3d;
   outline-style: solid;
   top:60px;
   right:90px;
   position: absolute;
   z-index:16;
+  cursor: url('../assets/smallx.png'), default;
 }
 
 .popup-inner img{
   width:700px;
   position: absolute;
+  cursor: url('../assets/smallx.png'), default;
+}
+
+.popup-inner-active{
+display: none;
 }
 
 /*fishconspiracy popups*/
 
 #fishinner1 {
   transform:translate(-30px,400px);
+  width: 550px;
 }
 
 #fishinner2 {
-  transform:translate(-170px,100px);
+  transform:translate(-170px,130px);
+  width: 550px;
 }
 
 #fishcover {
   transform:translate(-400px,250px);
+  width: 550px;
+}
+
+#fishclose.popup-close {
+top:300px;
+left:340px;
 }
 
 /*PT sans popups*/
@@ -307,7 +322,7 @@ left:170px;
 }
 
 #pttext.popup-inner p{
-top:1080px;
+top:1100px;
 left:-600px;
 }
 
@@ -485,12 +500,12 @@ font-family: 'bluuitalic';
 text-decoration: none;
 color:white;
 text-shadow: 
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px,   
-black 0px 0px 2.5px;
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px,   
+#0c1e3d 0px 0px 2.5px;
 }
 
 .popup-inner a:hover{
