@@ -205,6 +205,122 @@ left:0px;
   left:-340px;
 }
 
+/*type fish popups*/
+
+#fishzoom2 {
+  transform:translate(-100px,70px);
+  width:390px;
+}
+
+#fishspread {
+  transform:translate(-300px,180px);
+  width:750px;
+}
+
+#fishzoom {
+  transform:translate(100px,180px);
+  width:450px;
+}
+
+#fisheye {
+  transform:translate(-450px,370px);
+  width:450px;
+}
+
+#fishtext p{
+  top:330px;
+  right:300px;
+}
+
+#fishclose.popup-close{
+  top:110px;
+  left:-300px;
+}
+
+/*pattern popups*/
+
+#pattern1 {
+  transform:translate(-560px,420px);
+  width:550px;
+}
+
+#pattern2 {
+  transform:translate(10px,240px);
+  width:550px;
+}
+
+#pattern3 {
+  transform:translate(-30px,620px);
+  width:550px;
+}
+
+#pattern5 {
+  transform:translate(-200px,780px);
+  width:550px;
+}
+
+#pattern4 {
+  transform:translate(100px,480px);
+  width:550px;
+}
+
+#finalpattern {
+  transform:translate(-500px,610px);
+  width:550px;
+}
+
+#patternkey {
+  transform:translate(-300px,350px);
+  width:400px;
+}
+
+#patterntext p{
+  top:530px;
+  right:300px;
+}
+
+#patternclose.popup-close{
+  top:650px;
+  left:490px;
+}
+
+/*free the nips*/
+
+#cancel {
+  transform:translate(-600px,480px);
+  width:850px;
+}
+
+#CAN {
+  transform:translate(10px,380px);
+  width:550px;
+}
+
+#NO {
+  transform:translate(200px,750px);
+  width:400px;
+}
+
+#nips {
+  transform:translate(120px,940px);
+  width:150px;
+}
+
+#nipmerge {
+  transform:translate(-300px,350px);
+  width:200px;
+}
+
+#niptext p{
+  top:980px;
+  right:600px;
+}
+
+#nipclose.popup-close{
+  top:650px;
+  left:490px;
+}
+
 /* Close Button */
 
 .popup-inner a{

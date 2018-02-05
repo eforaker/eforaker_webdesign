@@ -94,6 +94,7 @@ z-index: 5;
 .petey, .fish, .forbidden, .believe,
 .steinweiss, .hooked, .coupons, .russian {
   z-index: 4;
+  position: relative;
   margin:0 auto;
   display: block;
   font-size: 7rem;
@@ -271,27 +272,43 @@ left:0px;
 /*PT sans popups*/
 
 #specfront {
-  transform:translate(-300px,260px);
+  transform:translate(-250px,1060px);
+  width:450px;
 }
 
 #spec7 {
-  transform:translate(-30px,400px);
+  transform:translate(-200px,850px);
+  width:600px;
 }
 
 #spec3 {
-  transform:translate(-170px,100px);
+  transform:translate(-120px,1000px);
+  width:600px;
 }
 
 #spec4 {
-  transform:translate(-300px,260px);
+  transform:translate(-500px,960px);
+  width:600px;
 }
 
 #spec5 {
-  transform:translate(-30px,400px);
+  transform:translate(-50px,750px);
+  width:600px;
 }
 
 #specback {
-  transform:translate(-170px,100px);
+  transform:translate(-370px,900px);
+  width:450px;
+}
+
+#ptclose.popup-close {
+top:1280px;
+left:170px;
+}
+
+#pttext.popup-inner p{
+top:1080px;
+left:-600px;
 }
 
 /*fruit popups*/
@@ -324,6 +341,58 @@ left:0px;
   width:480px;
 }
 
+#fruitclose.popup-close {
+top:30px;
+left:100px;
+}
+
+#fruit.popup-inner p{
+top:380px;
+left:-400px;
+}
+
+/*nogoogle popups*/
+
+#ngback {
+  transform:translate(-350px,710px);
+  width:400px;
+}
+
+#nginside11 {
+  transform:translate(60px,870px);
+  width:600px;
+}
+
+#nginside4 {
+  transform:translate(-20px,750px);
+  width:600px;
+}
+
+#nginside9 {
+  transform:translate(-190px,650px);
+  width:600px;
+}
+
+#nginside2 {
+  transform:translate(-90px,920px);
+  width:580px;
+}
+
+#stack {
+  transform:translate(-300px,860px);
+  width:500px;
+}
+
+#nogoogleclose.popup-close {
+top:560px;
+left:100px;
+}
+
+#nogoogletext.popup-inner p{
+top:980px;
+left:-200px;
+}
+
 /*believe popups*/
 
 #outtakes {
@@ -333,11 +402,6 @@ left:0px;
 
 #round3 {
   transform:translate(-390px,250px);
-  width:450px;
-}
-
-#round1 {
-  transform:translate(190px,500px);
   width:450px;
 }
 
@@ -351,26 +415,67 @@ left:0px;
   width:450px;
 }
 
+#xbelieve.popup-close {
+top:800px;
+left:-330px;
+}
+
+#xbelieve.popup-inner p{
+top:580px;
+left:-460px;
+}
+
 /*petey popups*/
 
 
 #food {
   transform:translate(-400px,100px);
-  width:650px;
+  width:450px;
 }
 #plant {
   transform:translate(-80px,0px);
-  width:650px;
+  width:450px;
 }
 #litter {
   transform:translate(-500px,410px);
-  width:650px;
+  width:450px;
 }
 #breakfast {
-  transform:translate(40px,260px);
-  width:650px;
+  transform:translate(90px,260px);
+  width:450px;
 }
 
+#peteyclose.popup-close {
+top:30px;
+left:-110px;
+}
+
+#peteypop.popup-inner p{
+top:380px;
+left:200px;
+}
+
+/*coupon popups*/
+
+#blackandwhite {
+  transform:translate(-150px,700px);
+  width:300px;
+}
+
+#vehicle2 {
+  transform:translate(-500px,790px);
+  width:1050px;
+}
+
+#couponx.popup-close {
+top:740px;
+left:380px;
+}
+
+#coupontext.popup-inner p{
+top:900px;
+left:-400px;
+}
 
 /* Close Button */
 
@@ -404,37 +509,6 @@ width:90px;
 top:320px;
 left:580px;
 }
-
-#xbelieve.popup-close {
-top:800px;
-left:-330px;
-}
-
-#xbelieve.popup-inner p{
-top:580px;
-left:-460px;
-}
-
-#fruitclose.popup-close {
-top:30px;
-left:100px;
-}
-
-#fruit.popup-inner p{
-top:380px;
-left:-400px;
-}
-
-#peteyclose.popup-close {
-top:30px;
-left:-110px;
-}
-
-#peteypop.popup-inner p{
-top:380px;
-left:200px;
-}
-
 
 
 @media screen and (max-width: 904px) {
