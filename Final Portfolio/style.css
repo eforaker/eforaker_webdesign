@@ -55,6 +55,8 @@ background: white;
   }
 
 .designwork p {
+    max-width: 1460px;
+    min-width: 650px;
     float:left;
     font-size: 7rem;
     color:#0c1e3d;
@@ -106,9 +108,59 @@ background: white;
 }
 
 
-/*@media screen and (max-width: 904px) {
- a:hover {cursor: url('assets/cellphone.png'), default;
+@media screen and (max-width: 1347px) {
+.blends img{
+  left:600px;
+  top:720px;
 }
-}*/
 
+.proj img{
+  left:1080px;
+}
+}
+
+@media screen and (max-width: 1241px) {
+
+.proj img{
+left:30px;
+ top: 470px;
+}
+}
+
+@media screen and (max-width: 1213px) {
+.blends img{
+  left:350px;
+  top:900px;
+}
+}
+
+@media screen and (max-width: 978px) {
+.blends img{
+  left:550px;
+}
+}
+
+@media screen and (max-width: 977px) {
+.proj img{
+  left:730px;
+}
+}
+
+@media screen and (max-width: 951px) {
+.blends img{
+  left:350px;
+  top:1060px;
+}
+}
+
+@media screen and (max-width: 871px) {
+.blends img{
+  top:1220px;
+}
+
+.proj img{
+  left:30px;
+ top: 720px;
+}
+}
 

@@ -76,6 +76,7 @@ a:hover{
 /*Links*/
 
 .links {
+min-width: 850px;
 padding-top: 110px;
 padding-bottom: 90px;
 z-index: 5;
@@ -113,8 +114,8 @@ z-index: 5;
   width:80px;  
   z-index: 13;
   position: absolute;
-  margin-left: 30px;
-  margin-top:-160px;
+  left: 30px;
+  top: 160px;
   transform: rotate(-20deg);
   -webkit-transition: all 3s ease;  
   -moz-transition: all 3s ease;  
@@ -127,16 +128,16 @@ z-index: 5;
   width:160px;  
   z-index: 11;
   position: absolute;
-  margin-left: 900px;
-  margin-top:-180px;
+  left: 900px;
+  top: 150px;
 }
 
 .fishnet img {
   width:110px;  
   z-index: 11;
   position: absolute;
-  margin-left: 290px;
-  margin-top:-170px;
+  left: 290px;
+  top: 360px;
   transform: rotate(-90deg);
   -webkit-transition: all 7s ease;  
   -moz-transition: all 7s ease;  
@@ -149,48 +150,48 @@ z-index: 5;
   width:160px;  
   z-index: 1;
   position: absolute;
-  margin-left: 1010px;
-  margin-top:-220px;
+  left: 1010px;
+  top: 475px;
 }
 
 .believeicons img {
   width:650px;  
   z-index: 1;
   position: absolute;
-  margin-left: 165px;
-  margin-top:-165px;
+  left: 165px;
+  top: 715px;
 }
 
 .nogoogle img {
   width:120px;  
   z-index: 1;
   position: absolute;
-  margin-left: 760px;
-  margin-top:-100px;
+  left: 760px;
+  top: 960px;
 }
 
 .gursky img {
   width:110px;  
   z-index: 1;
   position: absolute;
-  margin-left: 890px;
-  margin-top:-170px;
+  left: 890px;
+  top: 1120px;
 }
 
 .gursky2 img {
   width:110px;  
   z-index: 1;
   position: absolute;
-  margin-left: 820px;
-  margin-top:-100px;
+  left: 820px;
+  top: 1190px;
 }
 
 .russia img {
   height:150px;  
   z-index: 1;
   position: absolute;
-  margin-left: 270px;
-  margin-top:-70px;
+  left: 270px;
+  top: 1370px;
   transform: rotate(90deg);
 }
 
@@ -198,8 +199,8 @@ z-index: 5;
   height:100px;  
   z-index: 10;
   position: absolute;
-  margin-left: 590px;
-  margin-top:-170px;
+  left: 590px;
+  top: 1380px;
   -webkit-transition: all 5s ease;  
   -moz-transition: all 5s ease;  
   -o-transition: all 5s ease;  
@@ -526,6 +527,115 @@ left:580px;
 }
 
 
-@media screen and (max-width: 904px) {
+@media screen and (max-width: 1350px) {
+
+.plant img{
+  left: 900px;
+  top: 180px;
+}
+
+.fishnet img {
+  top: 530px;
+}
+
+.fruitpic img {
+  left: 1010px;
+  top: 640px;
+}
+
+.believeicons img {
+  top: 885px;
+}
+
+.nogoogle img {
+  left: 760px;
+  top: 1130px;
+}
+
+.gursky img {
+  top: 1290px;
+}
+
+.gursky2 img {
+  top: 1360px;
+}
+
+.russia img {
+  top: 1540px;
+}
+
+.russia2 img {
+  top: 1550px;
+}
+}
+
+@media screen and (max-width: 1118px) {
+
+.plant img{
+  left: 370px;
+  top: 320px;
+}
+
+.fishnet img {
+  top: 530px;
+}
+
+.fruitpic img {
+  left: 400px;
+  top: 840px;
+}
+
+.believeicons img {
+  top: 1050px;
+}
+
+.nogoogle img {
+  top: 1290px;
+}
+
+.gursky img {
+  top: 1450px;
+}
+
+.gursky2 img {
+  top: 1520px;
+}
+
+.russia img {
+  top: 1710px;
+}
+
+.russia2 img {
+  top: 1720px;
+}
+}
+
+@media screen and (max-width: 1051px) {
+.fruitpic img {
+  left: 750px;
+}
+
+.believeicons img {
+  top: 1220px;
+}
+
+.nogoogle img {
+  top: 1440px;
+}
+
+.gursky img {
+  top: 1650px;
+}
+
+.gursky2 img {
+  top: 1720px;
+}
+
+.russia img {
+  top: 2050px;
+}
+
+.russia2 img {
+  top: 1890px;
 }
 }

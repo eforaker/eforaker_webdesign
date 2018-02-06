@@ -86,7 +86,7 @@ $(document).ready(function(){
 	});
 
 	$(".peteyface img").click(function() {
-	  	$(this).animate({top:'130px'});
+	  	$(this).animate({top:'-30px'});
 	});
 
 

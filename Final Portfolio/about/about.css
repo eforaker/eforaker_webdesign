@@ -52,6 +52,8 @@ background: white;
 
 
 .info p {
+    max-width: 1460px;
+    min-width: 650px;
     float:left;
     color:#0c1e3d;
     font-size: 7rem;

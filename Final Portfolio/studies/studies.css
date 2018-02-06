@@ -73,6 +73,7 @@ cursor: url('../assets/arrow.png'), default;
 /*Links*/
 
 .links {
+min-width: 850px;
 padding-top: 110px;
 padding-bottom: 90px;
 z-index: 5;
@@ -214,8 +215,6 @@ display: none;
 #blendtext p{
   top:130px;
   right:300px;
-  cursor: url('../assets/smallxwhite.png'), default;
-
 }
 
 #closeblends.popup-close{
@@ -377,48 +376,102 @@ left:580px;
 
 .blendicon img{
   width:110px;  
-  z-index: 12;
+  z-index: 1;
   position: absolute;
-  margin-left: 240px;
-  margin-top:-170px;
+  left: 240px;
+  top:150px;
 }
 
 .metoo img{
-  width:190px;  
-  z-index: 1;
+  width:180px;  
+  z-index: 12;
   position: absolute;
-  margin-left: 800px;
-  margin-top:-180px;
+  left: 800px;
+  top:280px;
 }
 
 .typefish img {
   width:100px;  
   z-index: 100;
   position: absolute;
-  margin-left: 35px;
-  margin-top:-35px;
+  left: 35px;
+  top:635px;
   transition: all 3s ease;
-}
-
-.key img {
-  width:120px;  
-  z-index: 1;
-  position: absolute;
-  margin-left: 810px;
-  margin-top:-80px;
 }
 
 .nips img {
   width:100px;  
   z-index: 1;
   position: absolute;
-  margin-left: 610px;
-  margin-top:-170px;
+  left: 610px;
+  top:710px;
+}
+
+.key img {
+  width:120px;  
+  z-index: 1;
+  position: absolute;
+  left: 810px;
+  top:995px;
 }
 
 .typefish-active {
   transform: translate(850px, -100px);
 }
 
+@media screen and (max-width: 1275px) {
+.key img{
+  top:1160px;
+}
+}
 
+@media screen and (max-width: 996px) {
+.key img{
+  top:1335px;
+}
 
+.nips img{
+  top:870px;
+}
+}
+
+@media screen and (max-width: 948px) {
+.key img{
+  top:1495px;
+}
+
+.nips img{
+  top:1030px;
+}
+
+.metoo img{
+  left: 270px;
+  top:370px;
+}
+
+.typefish img {
+  top:835px;
+}
+}
+
+@media screen and (max-width: 933px) {
+.nips img{
+  top:1220px;
+}
+}
+
+@media screen and (max-width: 903px) {
+.nips img{
+  left:250px;
+}
+.key img{
+  top:1675px;
+}
+}
+
+@media screen and (max-width: 871px) {
+.key img{
+  top:1840px;
+  left:440px;
+}
+}
