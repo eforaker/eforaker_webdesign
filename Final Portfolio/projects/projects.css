@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'bluuitalic';
-    src: url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+    src: url('../fonts/bluunext-bolditalic.eot') format('embedded-opentype'),
+         url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
          url('../fonts/bluunext-bolditalic-webfont.woff') format('woff'),
          url('../fonts/bluunext-bolditalic.ttf') format('truetype'),
          url('../fonts/bluunext-bolditalic-webfont.svg#bluu_nextbold_italic') format('svg');
