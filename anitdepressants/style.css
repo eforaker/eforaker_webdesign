@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+
+* { 
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(black, white);
+}
+
+.bottle {
+    position: relative;
+    margin:0 auto;
+    z-index: 1;
+    padding-top: 100px;
+}
+
+.title {
+    margin: 0 auto;
+    top:-100px;
+    left: 50px;
+    position: fixed;
+    z-index: 200;
+}
+
+.title p{
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 150px;
+    text-align: left;
+    letter-spacing: .05em;
+}
+
+.pill65 {
+    position: absolute;
+    top:500px;
+    left:300px;
+    margin: 0 auto;
+}
+
+.pill65 img{
+    position: relative;
+    width: 150px;
+    z-index: 250;
+}
+
+/*.pill65 img:hover {
+    transform: scale(1.3);
+}
+*/
+.pill65 p{
+    position: relative;
+    z-index: 20;
+    width:400px;
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: .02em;
+    line-height: 1.4;
+}
