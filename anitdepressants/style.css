@@ -11,13 +11,19 @@ body {
 #PY2 {
     position: absolute;;
     left:850px;
+    top:-50px;
     margin: 0 auto;
 }
 
 #PY2 img{
     position: relative;
-    width:200px;
+    width:520px;
     z-index: 260;
+}
+
+#PY2 img:hover {
+    transition: transform 1s;
+    transform: rotate(-360deg); 
 }
 
 .bottle {
@@ -129,7 +135,7 @@ body {
     position: relative;
     left:50px;
     top:-100px;
-    z-index: 20;
+    z-index: 220;
     width:300px;
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
@@ -218,3 +224,21 @@ body {
     width:200px;
     z-index: 260;
 }
+
+#threepills2 {
+    position: absolute;
+    top:2000px;
+    left:220px;
+    margin: 0 auto;
+}
+
+#threepills2 img{
+    position: relative;
+    width:750px;
+    z-index: 210;
+}
+
+
+
+
+

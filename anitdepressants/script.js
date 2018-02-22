@@ -5,6 +5,7 @@ $(document).ready(function() {
     $('.pill65 img').draggable();
     $('.pill2x img').draggable();
     $('.pillquarter img').draggable();
+    $('#threepills2 img').draggable();
 
     $('#RY1 img').click(function() {
     $(this).fadeOut('slow');
@@ -28,6 +29,12 @@ $(document).ready(function() {
     $(this).fadeOut('slow');
 	});
 	$('#GY1 img').click(function() {
+    $(this).fadeOut('slow');
+    });
+    $('#PY2 img').click(function() {
+    $(this).fadeOut('slow');
+    });
+    $('#threepills2 img').click(function() {
     $(this).fadeOut('slow');
     });
 });
