@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 308.98 304.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff0e8;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 1.8px;
+      }
+
+      .cls-2 {
+        font-size: 51.34px;
+        font-family: Sathu, Sathu;
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <title>pills</title>
+  <g>
+    <path class="cls-1" d="M195.45,227.18C158.13,252.32,109,244.62,85.66,210S73.7,126.93,111,101.8"/>
+    <circle class="cls-1" cx="159.37" cy="159.62" r="76.07"/>
+    <text class="cls-2" transform="translate(111.97 179.86)">1/4</text>
+  </g>
+</svg>
