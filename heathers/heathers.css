@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+body {
+    background-image: url("images/highschool.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.title {
+    margin: 0 auto;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: .09em;
+    color: red;
+        text-shadow:
+        -2px -2px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 2px 0 white;
+}
+
+a {
+display: block;
+text-align: center;
+}
+
+.button {
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: black;
+  outline-color: white;
+  outline-width: thick;
+  color: white;
+  padding: 16px 32px;
+  font-size: 18px;
+  letter-spacing: .05em;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.button:hover{
+    transform: scale(1.25);
+}
