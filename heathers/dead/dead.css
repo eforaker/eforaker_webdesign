@@ -25,7 +25,7 @@ body {
 a {
 display: block;
 text-align: center;
-  padding-top: 200px;
+padding-top: 100px;
 font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,4 +46,18 @@ font-family: 'Open Sans', sans-serif;
 
 .button:hover{
     transform: scale(1.25);
+}
+
+.choice p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color:white;
+    line-height: 2.4rem;
+text-align: center;
+margin:0 auto;
+width:750px;
+margin-top: -60px;
+margin-bottom: 100px;
+text-transform: uppercase;
+letter-spacing: .03em;
 }

@@ -3,9 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-    background-image: url("../images/croquet.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
+    background-image: url("../images/bomb.jpg");
+    background-repeat: repeat;
+    background-size: 65vh;
 }
 
 .title {
@@ -48,10 +48,10 @@ font-family: 'Open Sans', sans-serif;
 padding: 25px;
 }
 
-#redbutton {
+#leftbutton {
   margin: 0 auto;
   padding-top: 100px;
-  background-color: #e50219;
+  background-color: black;
   outline-color: white;
   outline-width: thick;
   color: white;
@@ -63,14 +63,14 @@ padding: 25px;
   transition: 1s;
 }
 
-#redbutton:hover{
+#leftbutton:hover{
     transform: scale(1.25);
 }
 
-#greenbutton {
+#middlebutton {
   margin: 0 auto;
   padding-top: 100px;
-  background-color: #148264;
+  background-color: black;
   outline-color: white;
   outline-width: thick;
   color: white;
@@ -82,14 +82,14 @@ padding: 25px;
   transition: 1s;
 }
 
-#greenbutton:hover{
+#middlebutton:hover{
     transform: scale(1.25);
 }
 
-#yellowbutton {
+#rightbutton {
   margin: 0 auto;
   padding-top: 100px;
-  background-color: #f2c629;
+  background-color: black;
   outline-color: white;
   outline-width: thick;
   color: white;
@@ -101,12 +101,9 @@ padding: 25px;
   transition: 1s;
 }
 
-#yellowbutton:hover{
+#rightbutton:hover{
     transform: scale(1.25);
 }
 
-#bluebutton:hover{
-    transform: scale(1.25);
-}
 
 
