@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
-    background-image: url("images/highschool.png");
+    background-image: url("../images/funeral.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
 }
@@ -12,7 +14,7 @@ body {
     font-size: 100px;
     text-align: center;
     letter-spacing: .09em;
-    color: red;
+    color: black;
         text-shadow:
         -2px -2px 0 white,
         2px -2px 0 white,
@@ -23,16 +25,18 @@ body {
 a {
 display: block;
 text-align: center;
+  padding-top: 200px;
+font-family: 'Open Sans', sans-serif;
 }
 
 .button {
   margin: 0 auto;
-  padding-top: 100px;
+
   background-color: black;
   outline-color: white;
   outline-width: thick;
   color: white;
-  padding: 16px 32px;
+  padding: 32px 32px;
   font-size: 18px;
   letter-spacing: .05em;
   cursor: pointer;

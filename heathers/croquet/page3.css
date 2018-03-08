@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    background-image: url("../images/croquet.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.title {
+    margin: 0 auto;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: .09em;
+    color: #e50219;
+        text-shadow:
+        -2px -2px 0 white,
+        2px -2px 0 white,
+        -2px 2px 0 white,
+        2px 2px 0 white;
+}
+
+.choice p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color:white;
+    line-height: 2.4rem;
+text-align: center;
+margin:0 auto;
+width:750px;
+margin-top: -60px;
+margin-bottom: 200px;
+text-transform: uppercase;
+letter-spacing: .03em;
+}
+
+.buttons {
+  margin:0 auto;
+text-align: center;
+}
+
+a {
+display: inline-block;
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+padding: 25px;
+}
+
+#redbutton {
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #e50219;
+  outline-color: white;
+  outline-width: thick;
+  color: white;
+  padding: 32px 32px;
+  font-size: 18px;
+  letter-spacing: .05em;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#redbutton:hover{
+    transform: scale(1.25);
+}
+
+#greenbutton {
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #148264;
+  outline-color: white;
+  outline-width: thick;
+  color: white;
+  padding: 32px 32px;
+  font-size: 18px;
+  letter-spacing: .05em;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#greenbutton:hover{
+    transform: scale(1.25);
+}
+
+#yellowbutton {
+  margin: 0 auto;
+  padding-top: 100px;
+  background-color: #f2c629;
+  outline-color: white;
+  outline-width: thick;
+  color: white;
+  padding: 32px 32px;
+  font-size: 18px;
+  letter-spacing: .05em;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+#yellowbutton:hover{
+    transform: scale(1.25);
+}
+
+#bluebutton:hover{
+    transform: scale(1.25);
+}
+
+
