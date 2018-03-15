@@ -14,14 +14,13 @@
 
 body {
     background: black;
+
 }
 
 .instructions {
     margin: 0 auto;
     text-align: center;
     position: relative;
-    padding-top: 20px;
-
 }
 
 .instructions p{
@@ -38,11 +37,30 @@ body {
 }
 
 #meandme img{
-	padding-top: 20px;
-	padding-left: 20px;
+	padding-top:200px;
+	padding-left: 90px;
     margin: 0 auto;
-    width: 250px;
+    width: 500px;
     position: fixed;
+    z-index: 200;
+}
+
+#swap img{
+    padding-top: 20px;
+    padding-left: 120px;
+    margin: 0 auto;
+    width: 170px;
+    position: fixed;
+    z-index: 250;
+}
+
+#ghost img{
+    padding-top: 40px;
+    padding-left: 40px;
+    margin: 0 auto;
+    width: 70px;
+    position: fixed;
+    z-index: 250;
 }
 
 .selfies {
@@ -50,6 +68,7 @@ body {
 	width:600px;
 	position: relative;
 	z-index: 100;
+
 }
 
 .selfies img{
