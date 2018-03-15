@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Sporting Grotesque_Bold';
+    src:    url('Sporting_Grotesque-Bold.eot');
+    src:    url('Sporting_Grotesque-Bold.eot?#iefix') format('embedded-opentype'),
+            url('Sporting_Grotesque-Bold.woff') format('woff'),
+            url('Sporting_Grotesque-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* { 
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+.instructions {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+
+}
+
+.instructions p{
+    font-family: 'Sporting Grotesque_Bold', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .05em;
+    color:#7b00ff;
+}
+
+#meandme {
+    margin: 0 auto;
+}
+
+#meandme img{
+	padding-top: 20px;
+	padding-left: 20px;
+    margin: 0 auto;
+    width: 250px;
+    position: fixed;
+}
+
+.selfies {
+	margin:0 auto;
+	width:600px;
+	position: relative;
+	z-index: 100;
+}
+
+.selfies img{
+	margin:0 auto;
+	text-align:center;
+	max-width:600px;
+	position: absolute;
+}
+
+.reload {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 15;
+    padding-top: 200px;
+
+}
+
+.reload a{
+    font-family: 'Sporting Grotesque_Bold', sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .05em;
+    color:#7b00ff;
+}
+
+.reload img{
+width:200px;
+}
+
+
+
+
+
