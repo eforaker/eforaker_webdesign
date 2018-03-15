@@ -18,18 +18,18 @@ body {
 }
 
 .instructions {
-    margin: 0 auto;
-    text-align: center;
     position: relative;
+
 }
 
 .instructions p{
     font-family: 'Sporting Grotesque_Bold', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: .05em;
     color:#7b00ff;
+        padding-left: 700px;
+
 }
 
 #meandme {
@@ -40,7 +40,7 @@ body {
 	padding-top:200px;
 	padding-left: 90px;
     margin: 0 auto;
-    width: 500px;
+    width: 700px;
     position: fixed;
     z-index: 200;
 }
@@ -64,10 +64,11 @@ body {
 }
 
 .selfies {
-	margin:0 auto;
+/*	margin:0 auto;*/
 	width:600px;
 	position: relative;
 	z-index: 100;
+    padding-left: 700px;
 
 }
 
@@ -84,20 +85,17 @@ body {
     position: relative;
     z-index: 15;
     padding-top: 200px;
+    padding-left: 50px;
 
 }
 
 .reload a{
     font-family: 'Sporting Grotesque_Bold', sans-serif;
-    font-size: 45px;
+    font-size: 25px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: .05em;
     color:#7b00ff;
-}
-
-.reload img{
-width:200px;
 }
 
 
