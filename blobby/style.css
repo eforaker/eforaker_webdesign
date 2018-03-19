@@ -4,12 +4,19 @@
 
 body {
     background: black;
+    padding: 50px;
 }
 
-.blobs img{
+.blobs {
     position: absolute;
-    width:150px;
-    top:100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto
+}
+
+.blobs img {
+    max-width: 200px;
+    max-height: 200px;
 }
 /*
 .B1 {
