@@ -1,14 +1,14 @@
 $(document).ready(function() {
-    $('#B1 img').draggable();
-    $('#B2 img').draggable();
-    $('#B3 img').draggable();
-    $('#B4 img').draggable();
-    $('#B5 img').draggable();
-    $('#B6 img').draggable();
-    $('#B7 img').draggable();
-    $('#B8 img').draggable();
-    $('#B9 img').draggable();
-    $('#B10 img').draggable();
+    $('.B1 img').draggable();
+    $('.B2 img').draggable();
+    $('.B3 img').draggable();
+    $('.B4 img').draggable();
+    $('.B5 img').draggable();
+    $('.B6 img').draggable();
+    $('.B7 img').draggable();
+    $('.B8 img').draggable();
+    $('.B9 img').draggable();
+    $('.B10 img').draggable();
     $('#B11 img').draggable();
     $('#B12 img').draggable();
     $('#B13 img').draggable();
