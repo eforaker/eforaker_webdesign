@@ -1,0 +1,103 @@
+@font-face {
+font-family: "VerdanaBold";
+src: url("fonts/VerdanaBold.ttf");
+}
+
+@font-face {
+font-family: "ArialMonospacedMTStd-Bold";
+src: url("fonts/ArialMonospacedMTStd-Bold.otf");
+}
+
+* {
+	margin:0;
+}
+body {
+/*  background: url("images/ocean.gif") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin:8px;
+}
+
+.topad {
+  margin-top:10px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 8px;
+}
+
+table {
+  margin-top: 20px;
+  display: table;
+}
+
+table tr {
+  display: table-cell;
+  width: 33%;
+  margin: 0;
+}
+table tr td {
+  display: block;
+}
+
+table tr td img{
+  margin-top: 15px;
+  max-width: 250px;
+  max-height:130px;
+}
+
+
+.mainimage {
+  margin-top:100px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainimage img{
+  top:50px;
+  width: 400px;
+}
+
+a {
+    color: black;
+    font-family: 'ArialMonospacedMTStd-Bold';
+    font-size:.8em;
+    line-height: 1em;
+}
+
+.logo {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.logo img{
+  top:5px;
+  height: 100px;
+}
+
+h1 {
+    color: red;
+    font-family: 'VerdanaBold';
+    font-size:3em;
+    text-decoration: underline;
+}
+
+.headline {
+  width:700px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
