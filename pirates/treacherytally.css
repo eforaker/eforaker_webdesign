@@ -39,6 +39,8 @@ ul {
 table {
   margin-top: 20px;
   display: table;
+  z-index: 10;
+  position: absolute;
 }
 
 table tr {
@@ -118,14 +120,17 @@ h1 {
 
 
 .anchor {
-  position: relative;
   bottom:0px;
-  margin-top: -100px;
+  margin-top: 820px;
+  z-index: 1;
+  position: relative;
 
 }
 
 .anchor img{
   width:150px;
-  margin-left:250px;
+  margin-left:420px;
+  z-index: 1;
+  position: relative;
 }
 
