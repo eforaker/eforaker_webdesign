@@ -20,6 +20,16 @@ body {
   margin:8px;
 }
 
+.compass {
+  margin-top:0px;
+  position: fixed;
+}
+
+.compass img{
+  width:100px;
+  margin-left:900px;
+}
+
 .topad {
   margin-top:10px;
   position: relative;
@@ -45,12 +55,13 @@ table tr {
 }
 table tr td {
   display: block;
+  margin-right: 30px;
 }
 
 table tr td img{
   margin-top: 15px;
-  max-width: 250px;
-  max-height:130px;
+  max-width: 280px;
+  max-height:150px;
 }
 
 
@@ -73,6 +84,12 @@ a {
     font-size:.8em;
     line-height: 1em;
 }
+ hr {
+  margin-top:7px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+ }
 
 .logo {
   position: relative;
@@ -101,3 +118,16 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.anchor {
+  position: relative;
+  bottom:0px;
+
+}
+
+.anchor img{
+  width:250px;
+  margin-left:300px;
+}
+
