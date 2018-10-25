@@ -11,14 +11,6 @@ src: url("fonts/ArialMonospacedMTStd-Bold.otf");
 * {
 	margin:0;
 }
-body {
-/*  background: url("images/ocean.gif") no-repeat center center fixed; */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin:8px;
-}
 
 .compass {
   margin-top:0px;
@@ -36,6 +28,7 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -52,10 +45,13 @@ table tr {
   display: table-cell;
   width: 33%;
   margin: 0;
+  border-right: 1px solid grey;
+
 }
 table tr td {
   display: block;
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-left: 8px;
 }
 
 table tr td img{
@@ -97,6 +93,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .logo img{
@@ -123,11 +120,12 @@ h1 {
 .anchor {
   position: relative;
   bottom:0px;
+  margin-top: -100px;
 
 }
 
 .anchor img{
-  width:250px;
-  margin-left:300px;
+  width:150px;
+  margin-left:250px;
 }
 
