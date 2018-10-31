@@ -1,0 +1,108 @@
+@font-face {
+font-family: "VerdanaBold";
+src: url("fonts/VerdanaBold.ttf");
+}
+
+@font-face {
+font-family: "ArialMonospacedMTStd-Bold";
+src: url("fonts/ArialMonospacedMTStd-Bold.otf");
+}
+
+* {
+	margin:0;
+  display: inline-grid;
+}
+
+body {
+background-image: url('images/sky.gif');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+
+#lightnet img{
+  width:700px;
+  position: fixed;
+  left:50%;
+}
+
+#cake {
+  display: inline-block;
+  margin-top:0px;
+  position: relative;
+}
+
+#cake img{
+  width:300px;
+  margin-left:900px;
+}
+
+#petey {
+  margin-top:0px;
+  position: relative;
+}
+
+#petey img{
+  width:400px;
+  margin-left:100px;
+}
+
+#earth {
+  margin-top:0px;
+  position: relative;
+}
+
+#earth img{
+  width:100px;
+  margin-left:100px;
+}
+
+#roses {
+  margin-top:0px;
+  position: relative;
+}
+
+#roses img{
+  width:400px;
+  margin-left:100px;
+}
+
+#eggs {
+  margin-top:200px;
+  position: relative;
+}
+
+#eggs img{
+  width:250px;
+  margin-left:700px;
+}
+
+#obamas {
+  margin-top:0px;
+  position: relative;
+}
+
+#obamas img{
+  width:300px;
+  margin-left:100px;
+}
+
+.links{
+  width: 250px;
+  height: 400px;
+  margin: 100px;
+}
+
+.MIA iframe{
+  margin-left:300px;
+}
+
+.playlist iframe{
+  margin:0 auto;
+  position: relative;
+  margin-bottom: 
+}
+
+
+
