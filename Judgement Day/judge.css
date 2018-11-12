@@ -1,0 +1,99 @@
+* {
+	margin:0;
+  display: inline-grid;
+}
+
+body {
+background-image: url('images/sky.gif');
+background-size: cover;
+background-position: center center;
+background-attachment: fixed;
+}
+
+.images {
+  position: relative;
+}
+
+#flag img{
+  width:120px;
+  left:400px;
+}
+
+#bunny img{
+  width:300px;
+  left:800px;
+}
+
+#ariel img{
+  width:150px;
+  left:600px;
+}
+
+#cheese img{
+  width:250px;
+}
+
+#heathers img{
+  width:300px;
+}
+
+#fire13 img{
+  width:100px;
+}
+
+#shadows img{
+  width:250px;
+}
+
+#cd img{
+  width:130px;
+}
+
+#stv img{
+  width:230px;
+}
+
+#darko img{
+  width:100px;
+}
+
+#dorito img{
+  width:250px;
+}
+
+#sicksad img{
+  width:150px;
+}
+
+#skeleton img{
+  width:90px;
+}
+
+#republican img{
+  width:350px;
+}
+
+
+.links{
+  width: 250px;
+  height: 400px;
+  margin: 100px;
+  margin-top: 160px;
+  position: relative;
+}
+
+.links a{
+  color: white; 
+}
+
+a:hover{
+  color: yellow; 
+}
+
+#lightlinks {
+  position: absolute;
+}
+
+#lightlinks img{
+  width: 500px;
+}

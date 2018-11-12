@@ -21,6 +21,17 @@ background-position: center center;
 background-attachment: fixed;
 }
 
+#pancake {
+  display: inline-block;
+  margin-top:0px;
+  position: relative;
+}
+
+#pancake img{
+  width:300px;
+  left:400px;
+}
+
 #lightnet img{
   width:700px;
   position: fixed;
@@ -45,17 +56,27 @@ background-attachment: fixed;
 
 #petey img{
   width:400px;
-  margin-left:100px;
+  margin-left:10px;
 }
 
 #earth {
-  margin-top:0px;
   position: relative;
 }
 
 #earth img{
   width:100px;
-  margin-left:100px;
+  margin-left:110px;
+  top:-215px;
+}
+
+#angela {
+  position: relative;
+}
+
+#angela img{
+  width:220px;
+  margin-left:820px;
+  top:300px;
 }
 
 #roses {
@@ -65,7 +86,7 @@ background-attachment: fixed;
 
 #roses img{
   width:400px;
-  margin-left:100px;
+  margin-left:200px;
 }
 
 #eggs {
@@ -75,7 +96,7 @@ background-attachment: fixed;
 
 #eggs img{
   width:250px;
-  margin-left:700px;
+  margin-left:1100px;
 }
 
 #obamas {
@@ -85,13 +106,26 @@ background-attachment: fixed;
 
 #obamas img{
   width:300px;
-  margin-left:100px;
+  margin-left:400px;
+  top:-500px;
+}
+
+#ghost {
+  position: absolute;
+}
+
+#ghost img{
+  width:400px;
+  left:620px;
+  top:-500px;
 }
 
 .links{
   width: 250px;
   height: 400px;
   margin: 100px;
+  margin-top: 160px;
+  position: relative;
 }
 
 .MIA iframe{
@@ -101,8 +135,21 @@ background-attachment: fixed;
 .playlist iframe{
   margin:0 auto;
   position: relative;
-  margin-bottom: 
+  margin-bottom: 300px;
 }
 
+.links a{
+  color: white; 
+}
 
+a:hover{
+  color: yellow; 
+}
 
+#lightlinks {
+  position: absolute;
+}
+
+#lightlinks img{
+  width: 500px;
+}
