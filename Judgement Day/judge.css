@@ -4,14 +4,16 @@
 }
 
 body {
+border-width: 10px;
 background-image: url('images/sky.gif');
 background-size: cover;
 background-position: center center;
 background-attachment: fixed;
 }
 
-.images {
-  position: relative;
+.images img{
+  width:200px;
+  position: absolute;
 }
 
 #flag img{
@@ -31,6 +33,7 @@ background-attachment: fixed;
 
 #cheese img{
   width:250px;
+  left:400px;
 }
 
 #heathers img{
@@ -70,7 +73,67 @@ background-attachment: fixed;
 }
 
 #republican img{
+  width:250px;
+}
+
+#olive img{
+  width:120px;
+}
+
+#braces img{
+  width:110px;
+}
+
+#hell img{
+  width:400px;
+}
+
+#gumby img{
+  width:90px;
+}
+
+#lisa img{
+  width:80px;
+}
+
+#online img{
+  width:150px;
+}
+
+#grinch img{
+  width:130px;
+}
+
+#ncaa img{
+  width:80px;
+}
+
+#pizza img{
+  width:200px;
+}
+
+#kingp img{
+  width:150px;
+}
+
+#sexcity img{
   width:350px;
+}
+
+#starbucks img{
+  width:150px;
+}
+
+#subjective img{
+  width:200px;
+}
+
+#trophy img{
+  width:100px;
+}
+
+#veronica img{
+  width:280px;
 }
 
 
@@ -84,6 +147,7 @@ background-attachment: fixed;
 
 .links a{
   color: white; 
+  margin-top: 30px;
 }
 
 a:hover{
