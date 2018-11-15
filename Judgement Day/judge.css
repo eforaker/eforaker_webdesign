@@ -12,7 +12,7 @@ background-attachment: fixed;
 }
 
 .images img{
-  width:200px;
+  width:100px;
   position: absolute;
 }
 
@@ -151,7 +151,7 @@ background-attachment: fixed;
 }
 
 a:hover{
-  color: yellow; 
+  color: #ff11a4; 
 }
 
 #lightlinks {
