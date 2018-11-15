@@ -12,8 +12,9 @@ background-attachment: fixed;
 }
 
 .images img{
-  width:100px;
-  position: absolute;
+  position: relative;
+  top:-500px;
+
 }
 
 #flag img{
@@ -49,11 +50,13 @@ background-attachment: fixed;
 }
 
 #cd img{
-  width:130px;
+  width:100px;
 }
+
 
 #stv img{
   width:230px;
+  left:1200px;
 }
 
 #darko img{
@@ -136,6 +139,107 @@ background-attachment: fixed;
   width:280px;
 }
 
+#lena img{
+  width:180px;
+  left:700px;
+  top:-50px;
+}
+
+#peter img{
+  width:130px;
+}
+
+#roses img{
+  width:180px;
+}
+
+#bballsilvanas img{
+  width:300px;
+}
+
+#cherry img{
+  width:100px;
+}
+
+#online img{
+  width:100px;
+}
+
+#t70s img{
+  width:300px;
+}
+
+#average img{
+  width:180px;
+}
+
+#sistine img{
+  width:500px;
+}
+
+#jumanji img{
+  width:200px;
+}
+
+#sriracha img{
+  width:100px;
+}
+
+#bill img{
+  width:100px;
+}
+
+#cake img{
+  width:100px;
+}
+
+#eggsgood img{
+  width:100px;
+}
+
+#judgejudy img{
+  width:100px;
+}
+
+#kruger img{
+  width:100px;
+}
+
+#bushpainting img{
+  width:400px;
+}
+
+#marie img{
+  width:100px;
+}
+
+#hell img{
+  width:350px;
+}
+
+#OJ img{
+  width:300px;
+}
+
+#whales img{
+  width:400px;
+}
+
+#coke img{
+  width:170px;
+}
+
+#jellosalad img{
+  width:200px;
+}
+
+#jess img{
+  width:300px;
+}
+
+#bball img{
+  width:125px;
+}
 
 .links{
   width: 250px;
