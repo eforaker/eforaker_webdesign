@@ -5,30 +5,37 @@
 
 body {
 border-width: 10px;
-background-image: url('images/sky.gif');
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
+/*background-image: url('images/sky.gif');*/
+
+}
+
+#background {
+  position: fixed;
+
+}
+
+#background img{
+width: 100vw;
+height: 100vh;
 }
 
 .images img{
-  position: relative;
-  top:-500px;
+  position: absolute;
 
 }
 
 #AFV img{
-  width:120px;
+  width:320px;
   left:400px;
 }
 
 #andy img{
-  width:300px;
+  width:200px;
   left:800px;
 }
 
 #AOL img{
-  width:150px;
+  width:250px;
   left:600px;
 }
 
@@ -38,40 +45,40 @@ background-attachment: fixed;
 }
 
 #ariana img{
-  width:300px;
+  width:200px;
 }
 
 #avo img{
-  width:100px;
+  width:260px;
 }
 
 #avril img{
-  width:250px;
+  width:180px;
 }
 
 #bachelor img{
-  width:100px;
+  width:370px;
 }
 
 #balenciaga img{
-  width:230px;
+  width:260px;
   left:1200px;
 }
 
 #barbie img{
-  width:100px;
+  width:230px;
 }
 
 #bball img{
-  width:250px;
+  width:200px;
 }
 
 #beachboys img{
-  width:150px;
+  width:230px;
 }
 
 #beanie img{
-  width:90px;
+  width:390px;
 }
 
 #beetlejuice img{
@@ -79,7 +86,7 @@ background-attachment: fixed;
 }
 
 #beyonce img{
-  width:120px;
+  width:370px;
 }
 
 #bill img{
@@ -87,31 +94,31 @@ background-attachment: fixed;
 }
 
 #blair img{
-  width:400px;
+  width:140px;
 }
 
 #blankspace img{
-  width:90px;
+  width:290px;
 }
 
 #bleach img{
-  width:80px;
+  width:120px;
 }
 
 #blockbuster img{
-  width:150px;
+  width:180px;
 }
 
 #bluebottle img{
-  width:130px;
+  width:230px;
 }
 
 #bluecrush img{
-  width:80px;
+  width:280px;
 }
 
 #bobross img{
-  width:200px;
+  width:250px;
 }
 
 #bow img{
@@ -119,33 +126,33 @@ background-attachment: fixed;
 }
 
 #braceface img{
-  width:350px;
+  width:180px;
 }
 
 #britney img{
-  width:150px;
+  width:270px;
 }
 
 #broadcity img{
-  width:200px;
+  width:240px;
 }
 
 #bunny img{
-  width:100px;
+  width:300px;
 }
 
 #bushpainting img{
-  width:280px;
+  width:220px;
 }
 
 #buzzfeed img{
-  width:180px;
+  width:150px;
   left:700px;
   top:-50px;
 }
 
 #cake img{
-  width:130px;
+  width:160px;
 }
 
 #cakeboss img{
@@ -153,71 +160,71 @@ background-attachment: fixed;
 }
 
 #callmeby img{
-  width:300px;
-}
-
-#carly img{
-  width:100px;
-}
-
-#cat img{
-  width:100px;
-}
-
-#cd img{
-  width:300px;
-}
-
-#cheese img{
-  width:180px;
-}
-
-#chelsea img{
-  width:500px;
-}
-
-#cherry img{
   width:200px;
 }
 
+#carly img{
+  width:130px;
+}
+
+#cat img{
+  width:160px;
+}
+
+#cd img{
+  width:150px;
+}
+
+#cheese img{
+  width:230px;
+}
+
+#chelsea img{
+  width:200px;
+}
+
+#cherry img{
+  width:250px;
+}
+
 #christina img{
-  width:100px;
+  width:300px;
 }
 
 #christinaag img{
-  width:100px;
+  width:200px;
 }
 
 #cig img{
-  width:100px;
+  width:180px;
 }
 
 #coffin img{
-  width:100px;
+  width:230px;
 }
 
 #cosmic img{
-  width:100px;
+  width:300px;
 }
 
 #creditcard img{
-  width:100px;
+  width:260px;
 }
 
 #cruel img{
-  width:400px;
+  width:180px;
 }
 
 #ctc img{
-  width:100px;
+  width:200px;
 }
 
 #darko img{
-  width:350px;
+  width:200px;
 }
 
 #deceasedhandbook img{
-  width:300px;
+  width:200px;
 }
 
 #destiny img{
@@ -344,27 +351,390 @@ background-attachment: fixed;
   width:125px;
 }
 
-.links{
-  width: 250px;
-  height: 400px;
-  margin: 100px;
-  margin-top: 160px;
-  position: relative;
+#instagram img {
+  width:125px;
 }
 
-.links a{
-  color: white; 
-  margin-top: 30px;
+#iphone img {
+  width:125px;
 }
 
-a:hover{
-  color: #ff11a4; 
+#jaeger img {
+  width:125px;
 }
 
-#lightlinks {
-  position: absolute;
+#jess img {
+  width:125px;
 }
 
-#lightlinks img{
-  width: 500px;
+#jessica img {
+  width:125px;
+}
+
+#judgejudy img {
+  width:125px;
+}
+
+#jumanji img {
+  width:125px;
+}
+
+#kanye img {
+  width:125px;
+}
+
+#killingeve img {
+  width:125px;
+}
+
+#kimoji img {
+  width:125px;
+}
+
+#kingp img {
+  width:125px;
+}
+
+#kourtney img {
+  width:125px;
+}
+
+#kruger img {
+  width:125px;
+}
+
+#lacroix img {
+  width:125px;
+}
+
+#lena img {
+  width:125px;
+}
+
+#lightning img {
+  width:125px;
+}
+
+#lipstick img {
+  width:125px;
+}
+
+#lisafrank img {
+  width:125px;
+}
+
+#lizzie img {
+  width:125px;
+}
+
+#m13on30 img {
+  width:125px;
+}
+
+#magicschoolbus img {
+  width:125px;
+}
+
+#marie img {
+  width:125px;
+}
+
+#maryberry img {
+  width:125px;
+}
+
+#mbranch img {
+  width:125px;
+}
+
+#meangirls img {
+  width:125px;
+}
+
+#mikes img {
+  width:125px;
+}
+
+#modernfamily img {
+  width:125px;
+}
+
+#moodring img {
+  width:125px;
+}
+
+#mtv img {
+  width:125px;
+}
+
+#myspace img {
+  width:125px;
+}
+
+#nancy img {
+  width:125px;
+}
+
+#ncaa img {
+  width:125px;
+}
+
+#neko img {
+  width:125px;
+}
+
+#netflix img {
+  width:125px;
+}
+
+#icecream img {
+  width:125px;
+}
+
+#nike img {
+  width:125px;
+}
+
+#notebook img {
+  width:125px;
+}
+
+#OJ img {
+  width:125px;
+}
+
+#oldenburg img {
+  width:125px;
+}
+
+#online img {
+  width:125px;
+}
+
+#orange70s img {
+  width:125px;
+}
+
+#oregontrail img {
+  width:125px;
+}
+
+#peoplemag img {
+  width:125px;
+}
+
+#peteariana img {
+  width:125px;
+}
+
+#pizza img {
+  width:125px;
+}
+
+#portlandia img {
+  width:125px;
+}
+
+#pretzel img {
+  width:125px;
+}
+
+#princessnokia img {
+  width:125px;
+}
+
+#reeses img {
+  width:125px;
+}
+
+#ringpops img {
+  width:125px;
+}
+
+#riri img {
+  width:125px;
+}
+
+#riverdale img {
+  width:125px;
+}
+
+#royalwedding img {
+  width:125px;
+}
+
+#sabrina img {
+  width:125px;
+}
+
+#sansa img {
+  width:125px;
+}
+
+#sexcity img {
+  width:125px;
+}
+
+#shark img {
+  width:125px;
+}
+
+#shining img {
+  width:125px;
+}
+
+#sicksad img {
+  width:125px;
+}
+
+#slutever img {
+  width:125px;
+}
+
+#slytherin img {
+  width:125px;
+}
+
+#snape img {
+  width:125px;
+}
+
+#snoop img {
+  width:125px;
+}
+
+#spacejam img {
+  width:125px;
+}
+
+#spongebob img {
+  width:125px;
+}
+
+#sriracha img {
+  width:125px;
+}
+
+#starbucks img {
+  width:125px;
+}
+
+#starbursts img {
+  width:125px;
+}
+
+#stickit img {
+  width:125px;
+}
+
+#stv img {
+  width:125px;
+}
+
+#sushi img {
+  width:125px;
+}
+
+#SVU img {
+  width:125px;
+}
+
+#taurus img {
+  width:125px;
+}
+
+#terracehouse img {
+  width:125px;
+}
+
+#thrasher img {
+  width:125px;
+}
+
+#tikka img {
+  width:125px;
+}
+
+#timgunn img {
+  width:125px;
+}
+
+#timr img {
+  width:125px;
+}
+
+#tinder img {
+  width:125px;
+}
+
+#TRL img {
+  width:125px;
+}
+
+#TV img {
+  width:125px;
+}
+
+#tvdinner img {
+  width:125px;
+}
+
+#twinpeaks img {
+  width:125px;
+}
+
+#tyra img {
+  width:125px;
+}
+
+#us img {
+  width:125px;
+}
+
+#uup img {
+  width:125px;
+}
+
+#veronica img {
+  width:125px;
+}
+
+#vice img {
+  width:125px;
+}
+
+#viceland img {
+  width:125px;
+}
+
+#victory img {
+  width:125px;
+}
+
+#wand img {
+  width:125px;
+}
+
+#warhol img {
+  width:125px;
+}
+
+#weed img {
+  width:125px;
+}
+
+#welcome img {
+  width:125px;
+}
+
+#yesdress img {
+  width:125px;
+}
+
+#youtube img {
+  width:125px;
+}
+
+#zellner img {
+  width:125px;
 }
