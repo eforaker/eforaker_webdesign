@@ -587,24 +587,31 @@ background-attachment: fixed;
 }
 
 #kanye img {
-  width:125px;
+  width:189px;
+}
+
+#katvd img {
+  width:225px;
 }
 
 #killingeve img {
+  width:125px; left:151px; top:2070px;
+}
+
+#kimhides img {
   width:125px;
-  left:151px;
-  top:2070px;
 }
 
 #kimoji img {
-  width:125px;
-  left:144px;
-  top:446px;
+  width:125px; left:144px; top:446px;
 }
 
 #kingp img {
+  width:125px;left: 35px; top: 6936px;
+}
+
+#kioko img {
   width:125px;
-left: 35px; top: 6936px;
 }
 
 #kourtney img {
@@ -636,23 +643,23 @@ left: 35px; top: 6936px;
 }
 
 #lipstick img {
-  width:125px;
-  left: 402px; top: 2894px;
+  width:125px; left: 402px; top: 2894px;
 }
 
 #lisafrank img {
-  width:125px;
-  left: 645px; top: 1626px;
+  width:125px; left: 645px; top: 1626px;
 }
 
 #lizzie img {
-  width:125px;
-  left: 745px; top: 4197px;
+  width:125px; left: 745px; top: 4197px;
+}
+
+#lizzie2 img {
+  width:125px; left: 745px; top: 4197px;
 }
 
 #loveactually img {
-  width:125px;
-  left: 973px; top: 1573px;
+  width:125px; left: 973px; top: 1573px;
 }
 
 #m13on30 img {
@@ -695,6 +702,10 @@ left: 35px; top: 6936px;
   width:125px; left: 1232px; top: 4969px;
 }
 
+#mtndew img {
+  width:175px; left: 1232px; top: 4969px;
+}
+
 #mtv img {
   width:200px; left: 869px; top: 308px;
 }
@@ -715,8 +726,16 @@ left: 35px; top: 6936px;
   width:107px; left: 508px; top: 4419px;
 }
 
+#newgirl img {
+  width:307px; left: 508px; top: 4419px;
+}
+
 #notebook img {
   width:125px; left: 1222px; top: 881px;
+}
+
+#now img {
+  width:225px; left: 1222px; top: 881px;
 }
 
 #office img {
@@ -735,7 +754,15 @@ left: 35px; top: 6936px;
   width:225px; left: 840px; top: 4770px;
 }
 
+#panda img {
+  width:225px; left: 840px; top: 4770px;
+}
+
 #parenthood img {
+  width:305px; left: 199px; top: 4188px;
+}
+
+#parenttrap img {
   width:305px; left: 199px; top: 4188px;
 }
 
@@ -755,6 +782,10 @@ left: 35px; top: 6936px;
   width:225px; left: 1107px; top: -35px;
 }
 
+#poptart img {
+  width:225px; left: 1107px; top: -35px;
+}
+
 #portlandia img {
   width:275px; left: 976px; top: 3916px;
 }
@@ -769,6 +800,18 @@ left: 35px; top: 6936px;
 
 #princessnokia img {
   width:125px; left: 998px; top: 3107px;
+}
+
+#queereye img {
+  width:275px; left: 377px; top: 235px;
+}
+
+#raven img {
+  width:275px; left: 377px; top: 235px;
+}
+
+#razr img {
+  width:275px; left: 377px; top: 235px;
 }
 
 #reeses img {
@@ -795,8 +838,16 @@ left: 35px; top: 6936px;
   width:95px; left: 866px; top: 2061px;
 }
 
+#roseask img {
+  width:95px; left: 866px; top: 2061px;
+}
+
 #royalwedding img {
   width:325px; left: 1047px; top: 2706px;
+}
+
+#rumisir img {
+  width:255px; left: 77px; top: 4274px;
 }
 
 #rupaul img {
@@ -808,6 +859,10 @@ left: 35px; top: 6936px;
 }
 
 #sansa img {
+  width:125px; left: 1178px; top: 1814px;
+}
+
+#selena img {
   width:125px; left: 1178px; top: 1814px;
 }
 
@@ -823,7 +878,15 @@ left: 35px; top: 6936px;
   width:305px; left: 720px; top: 3739px;
 }
 
+#simpsons img {
+  width:305px; left: 720px; top: 3739px;
+}
+
 #slutever img {
+  width:225px; left: 655px; top: 2997px;
+}
+
+#smoon img {
   width:225px; left: 655px; top: 2997px;
 }
 
@@ -848,6 +911,10 @@ left: 35px; top: 6936px;
 }
 
 #stickit img {
+  width:125px; left: 873px; top: 806px;
+}
+
+#stranger img {
   width:125px; left: 873px; top: 806px;
 }
 
@@ -885,6 +952,10 @@ left: 35px; top: 6936px;
 
 #tinder img {
   width:140px; left: 461px; top: 5960px;
+}
+
+#titanic img {
+  width:340px; left: 461px; top: 5960px;
 }
 
 #tonya img {
@@ -943,11 +1014,23 @@ left: 35px; top: 6936px;
   width:125px; left: 984px; top: 956px;
 }
 
+#warnerbro img {
+  width:225px; left: 984px; top: 956px;
+}
+
 #weed img {
   width:300px; left: 796px; top: 7043px;
 }
 
+#whatnottowear img {
+  width:300px; left: 796px; top: 7043px;
+}
+
 #yesdress img {
+  width:375px; left: 1014px; top: 416px;
+}
+
+#younger img {
   width:375px; left: 1014px; top: 416px;
 }
 
