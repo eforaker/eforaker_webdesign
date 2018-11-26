@@ -208,6 +208,10 @@ background-attachment: fixed;
   top:900px;
 }
 
+#britney2 img{
+  width:270px;
+}
+
 #broadcity img{
   width:240px;
   left:306px;
@@ -424,6 +428,10 @@ background-attachment: fixed;
   width:125px;
 }
 
+#froyo img {
+  width:125px;
+}
+
 #frozen img {
   width:125px;
 }
@@ -456,6 +464,10 @@ background-attachment: fixed;
   width:125px;
 }
 
+#gillianjacobs img {
+  width:225px;
+}
+
 #gilmoregirls img {
   width:125px;
 }
@@ -465,7 +477,15 @@ background-attachment: fixed;
 }
 
 #grimes img {
-  width:125px;
+  width:225px;
+}
+
+#gum img {
+  width:325px;
+}
+
+#gummy img {
+  width:145px;
 }
 
 #gusher img {
@@ -535,6 +555,10 @@ background-attachment: fixed;
 }
 
 #jaeger img {
+  width:125px;
+}
+
+#janevirgin img {
   width:125px;
 }
 
