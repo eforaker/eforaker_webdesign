@@ -4,6 +4,8 @@
   cursor: url(images/mouse.png), auto;
 }
 
+
+
 body {
 background-image: url("images/sky.gif");
 background-size: cover;
@@ -22,6 +24,12 @@ background-attachment: fixed;
   padding-bottom:300px;
   text-align:center;
   margin:0 auto;
+  opacity: .8;
+  transition: .3s;
+}
+
+.text img:hover{
+  opacity: 1;
 }
 
 .images {
@@ -168,6 +176,12 @@ background-attachment: fixed;
 
 #britney2 img{
   width:500px; left: 260px; top: -41px;
+    opacity: .8;
+  transition: .3s;
+}
+
+#britney2 img:hover{
+  opacity: 1;
 }
 
 #broadcity img{
