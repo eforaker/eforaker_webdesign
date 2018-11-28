@@ -1,7 +1,7 @@
 * {
 	margin:0;
   display: inline-grid;
-/*  cursor: url(images/mouse.png), auto;*/
+  cursor: url(images/mouse.png), auto;
 }
 
 body {
@@ -13,54 +13,61 @@ background-attachment: fixed;
 }
 
 .text {
-  position: absolute;
-  z-index: 1
+  z-index: 4;
+  margin:0 auto;
+  padding-top: 200px;
 }
 
 .text img{
-  margin:250px;
-  max-width:700px;
+  padding-bottom:300px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.images {
+  text-align:center;
+  margin:0 auto;
 }
 
 .images img{
     position: absolute;
-    z-index: 3;
+    z-index: 5;
 }
 
 #AFV img{
-  width:320px; left:1079px; top:2451px;
+  width:320px; left: -38px; top: 5402px;
 }
 
 #amalclooney img{
-  width:260px;
+  width:260px; left: 703px; top: 8361px;
 }
 
 #amandashow img{
-  width:200px;
+  width:200px; left: 685px; top: 2136px;
 }
 
 #andy img{
-  width:160px; left:934px; top:2313;
+  width:160px; left: 204px; top: 1120px;
 }
 
 #annaw img{
-  width:190px;
+  width:190px; left: 1001px; top: 4293px;
 }
 
 #april img{
-  width:150px; left:216px; top:5704px;
+  width:150px; left: 1000px; top: 6134px;
 }
 
 #ariana img{
-  width:240px;
+  width:240px; left: 828px; top: 8835px;
 }
 
 #ariel img{
-  width:200px;
+  width:200px; left: 913px; top: 8667px;
 }
 
 #aristocats img{
-  width:120px;
+  width:120px; left: 1233px; top: 3002px;
 }
 
 #avril img{
@@ -76,11 +83,11 @@ background-attachment: fixed;
 }
 
 #balenciaga img{
-  width:220px; left:115px; top:1860px;
+  width:220px; left: 1459px; top: 2056px;
 }
 
 #barbie img{
-  width:200px;
+  width:200px; left: 370px; top: 1488px;
 }
 
 #bathbomb img{
@@ -88,43 +95,43 @@ background-attachment: fixed;
 }
 
 #beachboys img{
-  width:130px; top:49px; left:269px;
+  width:130px; left: 592px; top: 5316px;
 }
 
 #beanie img{
-  width:280px; left:6px; top:368px;
+  width:280px; left: 660px; top: 4629px;
 }
 
 #beatles img{
-  width:270px;
+  width:270px; left: 385px; top: 6827px;
 }
 
 #beetlejuice img{
-  width:170px; left:306px; top:39px;
+  width:170px; left: 1022px; top: 4525px;
 }
 
 #beyonce img{
-  width:270px; left:1061px; top:4364px;
+  width:270px; left: 277px; top: 4782px;
 }
 
 #bill img{
-  width:110px;
+  width:110px; left: 319px; top: 2027px;
 }
 
 #blair img{
-  width:250px;
+  width:250px; left: 1336px; top: 79px;
 }
 
 #blankspace img{
-  width:290px; left:972px; top:2493px;
+  width:290px; left: 1295px; top: 2446px;
 }
 
 #blockbuster img{
-  width:100px;
+  width:100px; left: 570px; top: 2997px;
 }
 
 #blonde img{
-  width:330px;
+  width:330px; left: 1223px; top: 1005px;
 }
 
 #bluecrush img{
@@ -132,15 +139,15 @@ background-attachment: fixed;
 }
 
 #blueivy img{
-  width:160px;
+  width:160px; left: 896px; top: 8391px;
 }
 
 #bobross img{
-  width:170px; left:842px; top:4340px;
+  width:170px; left: 1306px; top: 4628px;
 }
 
 #bow img{
-  width:160px; left:1050px; top:4439px;
+  width:160px; left: 437px; top: 4282px;
 }
 
 #braceface img{
@@ -160,55 +167,55 @@ background-attachment: fixed;
 }
 
 #britney2 img{
-  width:500px;
+  width:500px; left: 260px; top: -41px;
 }
 
 #broadcity img{
-  width:200px; left:306px; top:75px;
+  width:200px; left: 937px; top: 8016px;
 }
 
 #bunny img{
-  width:280px; left:1068px; top:5037px;
+  width:280px; left: 1295px; top: 5124px;
 }
 
 #bushpainting img{
-  width:200px; left:342px; top:79px;
+  width:200px; left: 712px; top: 5034px;
 }
 
 #buzzfeed img{
-  width:100px; left:875px; top:1041px;
+  width:100px; left: 1472px; top: 7092px;
 }
 
 #cake img{
-  width:190px; left:679px; top:7108px;
+  width:190px; left: 1190px; top: 7980px;
 }
 
 #cakeboss img{
-  width:210px; left:719px; top:88px;
+  width:210px; left: 1089px; top: 294px;
 }
 
 #cakephone img{
-  width:180px;
+  width:180px; left: 1430px; top: 6040px;
 }
 
 #callmeby img{
-  width:140px; left:378px; top:-13px;
+  width:140px; left: 1564px; top: 240px;
 }
 
 #carly img{
-  width:130px;
+  width:130px; left: 654px; top: 4513px;
 }
 
 #cat img{
-  width:160px; left:539px; top:6740px;
+  width:160px; left: 452px; top: 6377px;
 }
 
 #cd img{
-  width:400px; left:932px; top:2603px;
+  width:350px; left: 970px; top: 2451px;
 }
 
 #cheese img{
-  width:210px; left:804px; top:6737px;
+  width:210px; left: 1212px; top: 7296px;
 }
 
 #chelsea img{
@@ -220,7 +227,7 @@ background-attachment: fixed;
 }
 
 #christina img{
-  width:320px; left:739px; top:4953px;
+  width:320px; left: 124px; top: 8055px;
 }
 
 #christinaag img{
@@ -228,19 +235,19 @@ background-attachment: fixed;
 }
 
 #cig img{
-  width:180px; left:340px; top:1323px;
+  width:180px; left: 959px; top: 1266px;
 }
 
 #cloudwoman img{
-  width:170px;
+  width:170px; left: 673px; top: 7821px;
 }
 
 #coke img{
-  width:180px;
+  width:180px; left: 177px; top: 421px;
 }
 
 #cookie img{
-  width:200px;
+  width:200px; left: 596px; top: 8220px;
 }
 
 #cosmic img{
@@ -248,7 +255,7 @@ background-attachment: fixed;
 }
 
 #crazyex img{
-  width:160px;
+  width:160px; left: 1151px; top: 8101px;
 }
 
 #creditcard img{
@@ -256,171 +263,171 @@ background-attachment: fixed;
 }
 
 #cruel img{
-  width:300px; left:970px; top:4900px;
+  width:300px; left: 570px; top: 7056px;
 }
 
 #ctc img{
-  width:200px; left:1183px; top:5766px;
+  width:200px; left: 361px; top: 5152px;
 }
 
 #cupcake img{
-  width:300px; left:817px; top:7px;
+  width:300px; left: 1151px; top: 71px;
 }
 
 #dawson img{
-  width:240px;
+  width:240px; left: 752px; top: 3342px;
 }
 
 #deceasedhandbook img{
-  width:140px; left:1133px; top:6620px;
+  width:140px; left: 118px; top: 6492px;
 }
 
 #demi img{
-  width:230px;
+  width:230px; left: 151px; top: 8461px;
 }
 
 #destiny img{
-  width:300px; left:471px; top:6098px;
+  width:300px; left: 1368px; top: 6525px;
 }
 
 #devilprada img{
-  width:200px;
+  width:200px; left: 522px; top: 1200px;
 }
 
 #dixie img{
-  width:195px; left:738px; top:3375px;
+  width:195px; left: 1064px; top: 6866px;
 }
 
 #donut img{
-  width:260px;
+  width:260px; left: 999px; top: 638px;
 }
 
 #dorito img{
-  width:330px; left:759px; top:6040px;
+  width:330px; left: 505px; top: 6135px;
 }
 
 #dunkaroos img{
-  width:200px;
+  width:200px; left: 286px; top: 102px;
 }
 
 #elongrimes img{
-  width:205px;
+  width:205px; left: 1478px; top: 7472px;
 }
 
 #empirerecords img{
-  width:140px;
+  width:140px; left: 236px; top: 7797px;
 }
 
 #fastfood img{
-  width:255px;
+  width:255px; left: 534px; top: 641px;
 }
 
 #frances img{
-  width:155px;
+  width:155px; left: 1055px; top: 5531px;
 }
 
 #frenchfry img {
-  width:285px;
+  width:320px; left: 1172px; top: 8172px;
 }
 
 #froyo img {
-  width:225px;
+  width:245px; left: 165px; top: 516px;
 }
 
 #froyo2 img {
-  width:105px;
+  width:205px; left: 1470px; top: 6852px;
 }
 
 #frozen img {
-  width:125px;
+  width:125px; left: 409px; top: 681px;
 }
 
 #fruitbyfoot img {
-  width:305px;
+  width:305px; left: 5px; top: 117px;
 }
 
 #fullhouse img {
-  width:125px;
+  width:125px; left: 297px; top: 8788px;
 }
 
 #gatorade img {
-  width:190px;
+  width:190px; left: -69px; top: 6010px;
 }
 
 #geeks img {
-  width:205px;
+  width:205px; left: 267px; top: 4512px;
 }
 
 #gem img {
-  width:125px;
+  width:125px; left: 1508px; top: 4512px;
 }
 
 #ghost img {
-  width:145px;
+  width:145px; left: 704px; top: 2755px;
 }
 
 #gillianjacobs img {
-  width:180px;
+  width:180px; left: 959px; top: 7687px;
 }
 
 #gilmoregirls img {
-  width:385px;
+  width:385px; left: 244px; top: 1553px;
 }
 
 #GOT img {
-  width:125px;
+  width:125px; left: 518px; top: 7566px;
 }
 
 #grimes img {
-  width:205px;
+  width:205px; left: 69px; top: 2417px;
 }
 
 #gum img {
-  width:555px;
+  width:555px; left: 1032px; top: 8494px;
 }
 
 #gummy img {
-  width:185px;
+  width:220px; left: 1053px; top: 7782px;
 }
 
 #gusher img {
-  width:305px; left:802px; top:673px;
+  width:305px; left: 711px; top: 541px;
 }
 
 #haim img {
-  width:165px;
+  width:165px; left: -8px; top: 8366px;
 }
 
 #halsey img {
-  width:165px;
+  width:165px; left: 1188px; top: 2477px;
 }
 
 #heathers img {
-  width:305px;
+  width:305px; left: -20px; top: 6221px;
 }
 
 #hellokitty img {
-  width:125px;
+  width:125px; left: 691px; top: 3627px;
 }
 
 #hocuspocus img {
-  width:225px;
+  width:225px; left: 595px; top: 1830px;
 }
 
 #horoscope img {
-  width:165px;
+  width:165px; left: 315px; top: 2118px;
 }
 
 #hot img {
-  width:125px;
+  width:125px; left: 158px; top: 4049px;
 }
 
 #houseofcards img {
-  width:165px;
+  width:165px; left: 733px; top: 7421px;
 }
 
 #housewife img {
-  width:205px; left:151px; top:2070px;
+  width:205px; left: 954px; top: 2404px;
 }
 
 #hungryhearts img {
@@ -428,15 +435,15 @@ background-attachment: fixed;
 }
 
 #icecream img {
-  width:125px; left:566px; top:5323px;
+  width:125px; left: 102px; top: 5726px;
 }
 
 #instagram img {
-  width:100px; left:195px; top:619px;
+  width:100px; left: 1579px; top: 2264px;
 }
 
 #jaeger img {
-  width:155px; left:195px; top:619px;
+  width:155px; left: 1427px; top: 1486px;
 }
 
 #janevirgin img {
@@ -444,87 +451,87 @@ background-attachment: fixed;
 }
 
 #jess img {
-  width:210px;
+  width:210px; left: 97px; top: 7349px;
 }
 
 #jessica img {
-  width:135px; left:118px; top:4674px;
+  width:135px; left: 474px; top: 5022px;
 }
 
 #judgejudy img {
-  width:145px; left:1275px; top:4096px;
+  width:145px; left: 1385px; top: 4880px;
 }
 
 #jumanji img {
-  width:125px; left:118px; top:4674px;
+  width:125px; left: 257px; top: 4616px;
 }
 
 #justin img {
-  width:195px; left:884px; top:3350px;
+  width:195px; left: -5px; top: 4453px;
 }
 
 #kanye img {
-  width:189px; left:884px; top:3350px;
+  width:189px; left: 1278px; top: 5594px;
 }
 
 #katvd img {
-  width:225px; left:144px; top:446px;
+  width:225px; left: 1429px; top: 4595px;
 }
 
 #killingeve img {
-  width:205px; left:151px; top:2070px;
+  width:205px; left: 229px; top: 2112px;
 }
 
 #kimhides img {
-  width:200px;
+  width:200px; left: 1496px; top: 4009px;
 }
 
 #kimoji img {
-  width:160px; left:144px; top:446px;
+  width:160px; left: 955px; top: 146px;
 }
 
 #kingp img {
-  width:205px;left: 35px; top: 6936px;
+  width:205px; left: 118px; top: 6918px;
 }
 
 #kioko img {
-  width:300px; left:144px; top:446px;
+  width:300px; left: 1456px; top: 8221px;
 }
 
 #kourtney img {
-  width:425px; left: 375px; top: 3542px;
+  width:425px; left: 1143px; top: 4222px;
 }
 
 #kruger img {
-  width:110px;
+  width:110px; left: 1439px; top: 7878px;
 }
 
 #lacroix img {
-  width:125px; left: 645px; top: 1626px;
+  width:125px; left: 234px; top: 6379px;
 }
 
 #ladybird img {
-  width:100px; left: 375px; top: 3542px;
+  width:100px; left: 259px; top: 3712px;
 }
 
 #ladylike img {
-  width:225px;
+  width:225px; left: -53px; top: 2531px;
 }
 
 #lena img {
-  width:100px;
+  width:100px; left: 1240px; top: 6026px;
 }
 
 #lightning img {
-  width:225px; left: 122px; top: 239px;
+  width:225px; left: 430px; top: 1332px;
 }
 
 #lipstick img {
-  width:155px; left: 402px; top: 2894px;
+  width:155px; left: 1501px; top: 3024px;
 }
 
 #lisafrank img {
-  width:125px; left: 645px; top: 1626px;
+  width:125px; left: 1499px; top: 2588px;
 }
 
 #lizzie img {
@@ -532,7 +539,7 @@ background-attachment: fixed;
 }
 
 #lizzie2 img {
-  width:325px; left: 745px; top: 4197px;
+  width:325px; left: 7px; top: 7629px;
 }
 
 #loveactually img {
@@ -540,15 +547,15 @@ background-attachment: fixed;
 }
 
 #m13on30 img {
-  width:145px; left: 745px; top: 4197px;
+  width:145px; left: 1405px; top: 3969px;
 }
 
 #magicschoolbus img {
-  width:125px; left: 703px; top: 2716px;
+  width:125px; left: 866px; top: 5068px;
 }
 
 #marie img {
-  width:235px; left: 122px; top: 239px;
+  width:235px; left: 723px; top: 6741px;
 }
 
 #maryberry img {
@@ -556,19 +563,19 @@ background-attachment: fixed;
 }
 
 #mbranch img {
-  width:155px; left: 1105px; top: 333px;
+  width:155px; left: 724px; top: -29px;
 }
 
 #meangirls img {
-  width:325px; left: 556px; top: 3186px;
+  width:325px; left: 513px; top: 3241px;
 }
 
 #mikes img {
-  width:125px; left: 556px; top: 3186px;
+  width:125px; left: 1561px; top: 6031px;
 }
 
 #modernfamily img {
-  width:155px; left: 122px; top: 239px;
+  width:155px; left: 1249px; top: 4930px;
 }
 
 #moodring img {
@@ -576,11 +583,11 @@ background-attachment: fixed;
 }
 
 #mtndew img {
-  width:225px; left: 1232px; top: 4969px;
+  width:225px; left: 1175px; top: 4640px;
 }
 
 #mtv img {
-  width:175px; left: 869px; top: 308px;
+  width:175px; left: 131px; top: 816px;
 }
 
 #myspace img {
@@ -588,11 +595,11 @@ background-attachment: fixed;
 }
 
 #nancy img {
-  width:125px; left: 237px; top: 5170px;
+  width:135px; left: 1324px; top: 6273px;
 }
 
 #neko img {
-  width:125px; left: 1092px; top: 6726px;
+  width:125px; left: 884px; top: 6027px;
 }
 
 #netflix img {
@@ -600,35 +607,35 @@ background-attachment: fixed;
 }
 
 #newgirl img {
-  width:200px; left: 508px; top: 4419px;
+  width:200px; left: 895px; top: 6462px;
 }
 
 #notebook img {
-  width:175px; left: 1222px; top: 881px;
+  width:175px; left: 1375px; top: 781px;
 }
 
 #now img {
-  width:255px; left: 1222px; top: 881px;
+  width:255px; left: 1476px; top: 980px;
 }
 
 #office img {
-  width:175px; left: 672px; top: 675px;
+  width:175px; left: 1363px; top: 1382px;
 }
 
 #online img {
-  width:145px; left: 21px; top: 4915px;
+  width:145px; left: 1405px; top: 6291px;
 }
 
 #orange70s img {
-  width:200px; left: 992px; top: 4847px;
+  width:200px; left: 952px; top: 5427px;
 }
 
 #oregontrail img {
-  width:205px; left: 840px; top: 4770px;
+  width:205px; left: 1107px; top: 5831px;
 }
 
 #panda img {
-  width:225px; left: 840px; top: 4770px;
+  width:225px; left: 1003px; top: 6483px;
 }
 
 #parenthood img {
@@ -636,27 +643,27 @@ background-attachment: fixed;
 }
 
 #parenttrap img {
-  width:295px; left: 199px; top: 4188px;
+  width:295px; left: 592px; top: 4866px;
 }
 
 #peggy img {
-  width:185px; left: 1075px; top: 3044px;
+  width:185px; left: 401px; top: 8022px;
 }
 
 #peoplemag img {
-  width:115px; left: 98px; top: 788px;
+  width:115px; left: 786px; top: 1321px;
 }
 
 #peteariana img {
-  width:300px; left: 267px; top: 522px;
+  width:300px; left: 280px; top: 735px;
 }
 
 #pizza img {
-  width:235px; left: 1107px; top: -35px;
+  width:235px; left: 1345px; top: 540px;
 }
 
 #poptart img {
-  width:165px; left: 1107px; top: -35px;
+  width:165px; left: 1171px; top: 6993px;
 }
 
 #portlandia img {
@@ -664,11 +671,11 @@ background-attachment: fixed;
 }
 
 #pretzel img {
-  width:165px; left: 742px; top: 1820px;
+  width:165px; left: 563px; top: 3981px;
 }
 
 #princess img {
-  width:280px; left: -11px; top: 3195px;
+  width:280px; left: -81px; top: 3221px;
 }
 
 #princessnokia img {
@@ -676,31 +683,31 @@ background-attachment: fixed;
 }
 
 #queereye img {
-  width:200px; left: 377px; top: 235px;
+  width:200px; left: 528px; top: 2511px;
 }
 
 #raven img {
-  width:125px; left: 377px; top: 235px;
+  width:125px; left: 860px; top: 78px;
 }
 
 #razr img {
-  width:175px; left: 377px; top: 235px;
+  width:175px; left: 436px; top: 5798px;
 }
 
 #reeses img {
-  width:285px; left: 377px; top: 235px;
+  width:285px; left: 110px; top: -59px;
 }
 
 #ringpops img {
-  width:210px; left: 1047px; top: 614px;
+  width:210px; left: -47px; top: 342px;
 }
 
 #riri img {
-  width:400px; left: 642px; top: 5197px;
+  width:400px; left: 102px; top: 5446px;
 }
 
 #riverdale img {
-  width:205px; left: 613px; top: 2354px;
+  width:205px; left: 573px; top: 2332px;
 }
 
 #robyn img {
@@ -712,23 +719,23 @@ background-attachment: fixed;
 }
 
 #roseask img {
-  width:295px; left: 866px; top: 2061px;
+  width:295px; left: 93px; top: 1882px;
 }
 
 #royalwedding img {
-  width:325px; left: 1047px; top: 2706px;
+  width:325px; left: 1246px; top: 2706px;
 }
 
 #rumisir img {
-  width:200px; left: 77px; top: 4274px;
+  width:200px; left: 1308px; top: 3375px;
 }
 
 #rupaul img {
-  width:255px; left: 77px; top: 4274px;
+  width:255px; left: 1325px; top: 7116px;
 }
 
 #sabrina img {
-  width:325px; left: 708px; top: 991px;
+  width:325px; left: 1239px; top: 5641px;
 }
 
 #sansa img {
@@ -736,11 +743,11 @@ background-attachment: fixed;
 }
 
 #selena img {
-  width:100px; left: 1178px; top: 1814px;
+  width:100px; left: 1470px; top: 3317px;
 }
 
 #sexcity img {
-  width:225px; left: 1143px; top: 6997px;
+  width:225px; left: 417px; top: 8672px;
 }
 
 #shining img {
@@ -748,11 +755,11 @@ background-attachment: fixed;
 }
 
 #sicksad img {
-  width:285px; left: 720px; top: 3739px;
+  width:285px; left: 670px; top: 5814px;
 }
 
 #simpsons img {
-  width:205px; left: 720px; top: 3739px;
+  width:205px; left: 1431px; top: 5288px;
 }
 
 #slutever img {
@@ -760,7 +767,7 @@ background-attachment: fixed;
 }
 
 #smoon img {
-  width:200px; left: 655px; top: 2997px;
+  width:200px; left: 801px; top: 7284px;
 }
 
 #snooki img {
@@ -780,23 +787,23 @@ background-attachment: fixed;
 }
 
 #starbursts img {
-  width:100px; left: 1210px; top: 231px;
+  width:100px; left: 66px; top: 611px;
 }
 
 #stickit img {
-  width:135px; left: 873px; top: 806px;
+  width:135px; left: 446px; top: 2680px;
 }
 
 #stranger img {
-  width:225px; left: 873px; top: 806px;
+  width:225px; left: 126px; top: 5089px;
 }
 
 #stv img {
-  width:200px; left: 208px; top: 2725px;
+  width:200px; left: 1349px; top: 3110px;
 }
 
 #SVU img {
-  width:325px; left: 1038px; top: 1242px;
+  width:300px; left: 1170px; top: 1236px;
 }
 
 #taurus img {
@@ -812,7 +819,7 @@ background-attachment: fixed;
 }
 
 #timgunn img {
-  width:295px; left: 178px; top: 1506px;
+  width:295px; left: 114px; top: 1443px;
 }
 
 #timr img {
@@ -820,11 +827,11 @@ background-attachment: fixed;
 }
 
 #titanic img {
-  width:300px; left: 461px; top: 5960px;
+  width:300px; left: 196px; top: 6618px;
 }
 
 #tonya img {
-  width:370px; left: 334px; top: 2570px;
+  width:370px; left: 1132px; top: 3826px;
 }
 
 #TRL img {
@@ -836,27 +843,27 @@ background-attachment: fixed;
 }
 
 #TV img {
-  width:225px; left: 1029px; top: 3420px;
+  width:225px; left: 1380px; top: 4126px;
 }
 
 #tvdinner img {
-  width:200px; left: 659px; top: 426px;
+  width:200px; left: 1464px; top: 8450px;
 }
 
 #twilight img {
-  width:325px; left: 396px; top: 1175px;
+  width:325px; left: 1292px; top: 7581px;
 }
 
 #twinpeaks img {
-  width:205px; left: 1022px; top: 5390px;
+  width:205px; left: 1257px; top: 6438px;
 }
 
 #tyra img {
-  width:200px; left: 527px; top: 1903px;
+  width:200px; left: 1407px; top: 1814px;
 }
 
 #us img {
-  width:120px; left: 169px; top: 5425px;
+  width:120px; left: 319px; top: 5668px;
 }
 
 #veronica img {
@@ -872,33 +879,33 @@ background-attachment: fixed;
 }
 
 #wand img {
-  width:180px; left: 242px; top: 2304px;
+  width:180px; left: 380px; top: 6594px;
 }
 
 #warhol img {
-  width:125px; left: 984px; top: 956px;
+  width:125px; left: 807px; top: 5603px;
 }
 
 #warnerbro img {
-  width:200px; left: 984px; top: 956px;
+  width:200px; left: 569px; top: 5738px;
 }
 
 #whatnottowear img {
-  width:210px; left: 796px; top: 7043px;
+  width:210px; left: 178px; top: 7093px;
 }
 
 #yesdress img {
-  width:375px; left: 1014px; top: 416px;
+  width:375px; left: 1274px; top: 328px;
 }
 
 #younger img {
-  width:135px; left: 1014px; top: 416px;
+  width:135px; left: 1278px; top: 3721px;
 }
 
 #youtube img {
-  width:125px; left: 359px; top: 2344px;
+  width:125px; left: 1489px; top: 3687px;
 }
 
 #zellner img {
-  width:225px; left: 88px; top: 2461px;
+  width:200px; left: 299px; top: 2752px;
 }
