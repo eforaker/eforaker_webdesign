@@ -1206,6 +1206,11 @@ background-attachment: fixed;
   margin-bottom: 50px;
 }
 
+h2 {
+    text-align: left;
+  color:white;
+}
+
 p {
   text-align: left;
   color:white;
