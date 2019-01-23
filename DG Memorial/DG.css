@@ -13,56 +13,20 @@
     src: url("fonts/FrizQuadrataStd.otf") format("opentype");
 }
 
-/*@font-face {
-    font-family: BluuNext-Bolditalic;
-    src: url("fonts/BluuNext-Bolditalic.otf") format("opentype");
-}*/
-
 body {
 	color:#e8e8e8;
     background-image:url("images/granite.jpg");
     background-position: center center;
     background-size: 100vw;
     background-repeat: no-repeat;
+
 }
 
-.names {
-	font-family: ArialMTRegular;
-	font-size: 2em;
-    line-height: 1.5em;
-    color: #333;
-    text-shadow: 0px 3px 0px rgba(255,255,255,.5);
-    text-align: center;
-}
-
-.names a {
-	text-decoration: none;
-    color: #333;
-    text-shadow: 0px 3px 0px rgba(255,255,255,.5);
-}
-
-.flowers{
-/*    display: inline-block;*/
-    position: absolute;
-    left:100px;
-}
-
-.flowers img{
-	height: 500px;
-    transform: rotate(-60deg);
-}
-
-.bullet {
-	font-family: BluuNext-Bolditalic;
-	font-size: 1em;
-}
-
-#engraved {
+#deadgirls{
     font-family: FrizQuadrataStd;
-    font-size: 12em;
+    font-size: 14em;
     text-transform:uppercase;
-    letter-spacing: .05em;
-    line-height: 1.3em;
+    line-height: 1em;
     color: #333;
     text-shadow: 1px 6px 1px rgba(255,255,255,.5);
     text-align: center;
@@ -70,6 +34,17 @@ body {
     width: 1000px;
     display: block;
     margin-top: 100px;
+
+}
+
+.flowers{
+    position: absolute;
+    left:100px;
+}
+
+.flowers img{
+	height: 500px;
+    transform: rotate(-60deg);
 }
 
 

@@ -1,25 +1,16 @@
 $(document).ready(function() {
     $('.flowers img').draggable();
 
-    let numberMade = [
-   'gretchen quinn',
-   'tracy henderson',
-   'jeanne gallagher',
-   'karen fitzgerald',
-   'layla briggs',
-   'sylvia hadley',
-   'maggie sandomir',
-   'kristy meyerson',
-   ]
+var text = ["Julie Donovan", "Jodi Simmons", "Leah Keegan"];
+var counter = 0;
+var elem = document.getElementById("deadgirls");
+var inst = setInterval(change, 1100);
 
-   console.log(numberMade);
-
-   var randNumberSelector = Math.floor(Math.random() * numberMade.length)
-   console.log(randNumberSelector);
-
-   let numberSelect = numberMade[randNumberSelector];
-   console.log(numberSelect)
-
-   document.getElementById('engraved').innerHTML = numberSelect;
-
+function change() {
+  elem.innerHTML = text[counter];
+  counter++;
+  if (counter >= text.length) {
+    counter = 0;
+    // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+  }}
 });
