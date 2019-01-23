@@ -1,0 +1,24 @@
+* { 
+    padding: 0;
+}
+
+body {
+    background: black;
+    padding: 50px;
+}
+
+.blobs {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto
+}
+
+.blobs img {
+    max-width: 200px;
+    max-height: 200px;
+
+
+
+
+
