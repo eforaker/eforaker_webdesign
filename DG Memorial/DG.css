@@ -35,16 +35,52 @@ body {
     width: 1250px;
 }
 
-.flowers{
+#flower1{
     left:100px;
     position: fixed;
     top:500px;
 }
 
-.flowers img{
-	height: 500px;
+#flower1 img{
+    height: 500px;
     position: fixed;
     transform: rotate(-50deg);
+}
+
+#flower2{
+    left:100px;
+    position: fixed;
+    top:500px;
+}
+
+#flower2 img{
+    height: 500px;
+    position: fixed;
+    transform: rotate(-50deg);
+}
+
+#flower3{
+    left:100px;
+    position: fixed;
+    top:500px;
+}
+
+#flower3 img{
+    height: 400px;
+    position: fixed;
+    transform: rotate(-50deg);
+}
+
+#flower4{
+    left:500px;
+    position: fixed;
+    top:450px;
+}
+
+#flower4 img{
+    width: 300px;
+    position: fixed;
+    transform: rotate(70deg);
 }
 
 .index {
