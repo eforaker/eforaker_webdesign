@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: FrizQuadrataStd;
-    src: url("fonts/FrizQuadrataStd.otf") format("opentype");
+    font-family: ArialMTStd-Medium;
+    src: url("fonts/ArialMTStd-Medium.otf") format("opentype");
 }
 
 body {
@@ -116,7 +116,7 @@ body {
 }
 
 .index a{
-    font-family: sans-serif;
+    font-family: ArialMTStd-Medium;
     color:#333;
     font-size: 1.5em;
     text-decoration: none;

@@ -1,74 +1,32 @@
 @font-face {
-    font-family: AkkuratPro-Regular;
-    src: url("fonts/AkkuratPro-Regular.otf") format("opentype");
+    font-family: ArialMTStd-Medium;
+    src: url("../fonts/ArialMTStd-Medium.otf") format("opentype");
 }
 
 body {
-	height: 100vh;
+    background-color: #2b2c2d;
 }
 
 .heading {
-	font-family: AkkuratPro-Regular;
-	font-size: 4em;
-	padding-bottom: 40px;
-	margin-left: 100px;
+	font-family: sans-serif;
+	font-size: 1em;
+    margin-left: 20px;
+    margin-bottom: 30px;
 	text-transform: uppercase;
+    color: white;
 }
 
-#content {
-    height: 600px;
+
+.names {
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 20px;
+    color: white;
+    column-count: 4;
+    line-height: 1.4;
+    column-gap: 50px;
     margin: 0 auto;
-    text-align: center;
-    width:100%;
+    width:90%;
 }
-
-#left {
-    float: left;
-    width: 300px;
-    max-height:600px;
-    overflow: scroll;
-    font-family: AkkuratPro-Regular;
-    font-size: 1.5em;
-    margin-right: 60px;
-    margin-left: 100px;
-    padding: 18px;
-}
-
-#left img{
-	width:300px;
-}
-
-#middle {
-	float: left;
-    width: 300px;
-    max-height:600px;
-    overflow: scroll;
-    font-family: AkkuratPro-Regular;
-    font-size: 1.5em;
-    margin-right: 60px;
-    padding: 18px;
-
-}
-
-#middle img{
-	width:300px;
-}
-
-#right {
-    float: left;
-    width: 300px;
-    max-height:600px;
-    overflow: scroll;
-    font-family: AkkuratPro-Regular;
-    font-size: 1.5em;
-    margin-right: 60px;
-    padding: 18px;
-}
-
-#right img{
-	width:300px;
-}
-
-
 
 
