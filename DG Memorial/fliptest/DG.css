@@ -5,108 +5,81 @@
 
 @font-face {
     font-family: FrizQuadrataStd;
-    src: url("fonts/FrizQuadrataStd.otf") format("opentype");
+    src: url("../fonts/FrizQuadrataStd.otf") format("opentype");
 }
 
 @font-face {
     font-family: FrizQuadrataStd;
-    src: url("fonts/FrizQuadrataStd.otf") format("opentype");
+    src: url("../fonts/FrizQuadrataStd.otf") format("opentype");
 }
 
 body {
 	color:#e8e8e8;
-    background-image:url("images/granite.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
 
 }
 
-#deadgirls{
+.deadgirls{
     font-family: FrizQuadrataStd;
     font-size: 12em;
     text-transform:uppercase;
-    line-height: .9em;
+    line-height: 1em;
     color: #333;
     text-shadow: 1px 6px 1px rgba(255,255,255,.5);
     text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+/*    display: block;*/
+    margin-top: 120px;
+    width: 1250px;
+    z-index: 20;
+    position: fixed;
 }
 
-#flower1{
+.flower1{
     left:100px;
     position: fixed;
     top:500px;
 }
 
-#flower1 img{
-    height: 600px;
+.flower1 img{
+    height: 500px;
     position: fixed;
     transform: rotate(-50deg);
 }
 
-#flower2{
-    left:300px;
-    position: fixed;
-    top:500px;
-}
-
-#flower2 img{
-    height: 440px;
-    position: fixed;
-    transform: rotate(-30deg);
-}
-
-#flower3{
+.flower2{
     left:100px;
     position: fixed;
     top:500px;
 }
 
-#flower3 img{
-    height: 600px;
+.flower2 img{
+    height: 500px;
     position: fixed;
     transform: rotate(-50deg);
 }
 
-#flower4{
+.flower3{
+    left:100px;
+    position: fixed;
+    top:500px;
+}
+
+.flower3 img{
+    height: 400px;
+    position: fixed;
+    transform: rotate(-50deg);
+}
+
+.flower4{
     left:500px;
     position: fixed;
-    top:550px;
+    top:450px;
 }
 
-#flower4 img{
-    width: 350px;
-    position: fixed;
-    transform: rotate(30deg);
-}
-
-#flower5{
-    left:1100px;
-    position: fixed;
-    top:500px;
-}
-
-#flower5 img{
+.flower4 img{
     width: 300px;
     position: fixed;
     transform: rotate(70deg);
-}
-
-#flower6{
-    left:900px;
-    position: fixed;
-    top:550px;
-}
-
-#flower6 img{
-    width: 500px;
-    position: fixed;
-    transform: rotate(-40deg);
 }
 
 .index {
@@ -122,6 +95,12 @@ body {
     text-decoration: none;
     text-align: right;
     text-transform: uppercase;
+}
+
+.background img{
+    z-index: 0;
+    position: fixed;
+    width:100vw;
 }
 
 
