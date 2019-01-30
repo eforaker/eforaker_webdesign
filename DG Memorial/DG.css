@@ -35,12 +35,14 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    cursor: default;
+    width: 90%
 }
 
 #flower1{
-    left:100px;
+    left:233px;
     position: fixed;
-    top:500px;
+    top:670px;
 }
 
 #flower1 img{
@@ -50,9 +52,9 @@ body {
 }
 
 #flower2{
-    left:300px;
+    left:575px;
     position: fixed;
-    top:500px;
+    top:668px;
 }
 
 #flower2 img{
@@ -62,9 +64,9 @@ body {
 }
 
 #flower3{
-    left:100px;
+    left:1100px;
     position: fixed;
-    top:500px;
+    top:550px;
 }
 
 #flower3 img{
@@ -74,9 +76,9 @@ body {
 }
 
 #flower4{
-    left:500px;
+    left:1350px;
     position: fixed;
-    top:550px;
+    top:680px;
 }
 
 #flower4 img{
@@ -86,9 +88,9 @@ body {
 }
 
 #flower5{
-    left:1100px;
+    left:1200px;
     position: fixed;
-    top:500px;
+    top:647px;
 }
 
 #flower5 img{
@@ -98,15 +100,39 @@ body {
 }
 
 #flower6{
-    left:900px;
+    left:805px;
     position: fixed;
-    top:550px;
+    top:610px;
 }
 
 #flower6 img{
     width: 500px;
     position: fixed;
+    transform: rotate(40deg);
+}
+
+#flower7{
+    left:112px;
+    position: fixed;
+    top:580px;
+}
+
+#flower7 img{
+    width: 350px;
+    position: fixed;
     transform: rotate(-40deg);
+}
+
+#flower8{
+    left:-130px;
+    position: fixed;
+    top:680px;
+}
+
+#flower8 img{
+    width: 400px;
+    position: fixed;
+    transform: rotate(-50deg);
 }
 
 .index {

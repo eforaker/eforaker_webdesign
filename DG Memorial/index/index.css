@@ -4,7 +4,10 @@
 }
 
 body {
-    background-color: #2b2c2d;
+    background-image:url("../images/other/granite.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin: 0;
 }
 
 .heading{
@@ -30,43 +33,36 @@ body {
 }
 
 #rig {
-    max-width:900px;
-    margin:0 auto; /*center aligned*/
+    margin:0 auto;
     padding:0;
-    font-size:0; /* Remember to change it back to normal font size if have captions */
+    font-size:0;
     list-style:none;
-    background-color:#000;
+    position: absolute;
+
 }
 #rig li {
     display: inline-block;
-    *display:inline;/*for IE6 - IE7*/
     width:25%;
-    vertical-align:middle;
+    max-height: 200px;
     box-sizing:border-box;
     margin:0;
     padding:0;
+    overflow:hidden;
 }
         
-/* The wrapper for each item */
+
 .rig-cell {
-    /*margin:12px;
-    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
     display:block;
     position: relative;
     overflow:hidden;
 }
         
-/* If have the image layer */
 .rig-img {
     display:block;
     width: 100%;
-    height: auto;
     border:none;
-    transform:scale(1);
-    transition:all 1s;
 }
 
-/* If have captions */
 .rig-text {
     display:block;
     padding:0 30px;
@@ -74,24 +70,19 @@ body {
     position:absolute;
     left:0;
     width:100%;
-    text-align:center;
-    text-transform:capitalize;
-    font-size:18px;
-    font-weight:bold;
-    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    font-size:10pt;
+    font-family: sans-serif;
     font-weight:normal!important;
-    top:40%;
+    top:20%;
     color:white;
     opacity:0;
-    filter:alpha(opacity=0);/*For older IE*/
-    transform:translateY(-20px);
-    transition:all .3s;
 }
 #rig li:hover .rig-text {
-    opacity:0.9;
+    opacity:1;
 }
 
-@media (max-width: 9000px) {
+/*@media (max-width: 9000px) {
     #rig li {
         width:25%;
     }
@@ -107,4 +98,4 @@ body {
     #rig li {
         width:50%;
     }
-}
+}*/
