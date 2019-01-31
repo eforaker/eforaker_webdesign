@@ -50,9 +50,9 @@ body {
 
 .dirt {
     width:100vw;
-    background-image:linear-gradient( grey, black);
+    background-image:linear-gradient( #333, black);
     position: absolute;
-    height:1000px;
+    height:2000px;
     top:110%;
     z-index: 12;
     margin:0 auto;
