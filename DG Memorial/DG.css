@@ -1,6 +1,5 @@
 * {
-/*  margin:10px;
-  margin-top: 5px;*/
+    margin: 0;
 }
 
 @font-face {
@@ -15,19 +14,21 @@
 
 body {
 	color:#e8e8e8;
+    height: 100%; 
     background-image:url("images/other/granite.jpg");
-    background-size: 100vw;
-    background-repeat: no-repeat;
-
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #deadgirls{
     font-family: FrizQuadrataStd;
-    font-size: 12em;
+    font-size: 14em;
     text-transform:uppercase;
-    line-height: .9em;
+    line-height: .95em;
     color: #333;
-    text-shadow: 1px 6px 1px rgba(255,255,255,.5);
+    text-shadow: 2px 8px 2px rgba(255,255,255,.5);
     text-align: center;
     margin: 0;
     position: absolute;
@@ -36,118 +37,109 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     cursor: default;
-    width: 90%
+    width: 90%;
+    letter-spacing:1px;
+    position: fixed;
+    z-index: 10;
 }
 
-#flower1{
-    left:233px;
-    position: fixed;
-    top:670px;
+#flowers{
+    position: relative;
+    z-index: 15;    
+}
+
+.dirt {
+    width:100vw;
+    background-image:linear-gradient( grey, black);
+    position: absolute;
+    height:1000px;
+    top:110%;
+    z-index: 12;
+    margin:0 auto;
+    overflow:hidden;
 }
 
 #flower1 img{
+        left:233px;
+        top:670px;
     height: 600px;
-    position: fixed;
+    position: absolute;
     transform: rotate(-50deg);
-}
-
-#flower2{
-    left:575px;
-    position: fixed;
-    top:668px;
 }
 
 #flower2 img{
     height: 440px;
-    position: fixed;
+    top:668px;
+    left:575px;
+position: absolute;
     transform: rotate(-30deg);
 }
 
 #flower3{
-    left:1100px;
-    position: fixed;
+/*    left:100px;*/
+position: absolute;
     top:550px;
 }
 
 #flower3 img{
     height: 600px;
-    position: fixed;
+position: absolute;
     transform: rotate(-50deg);
 }
 
 #flower4{
-    left:1350px;
-    position: fixed;
+/*    left:1050px;*/
+position: absolute;
     top:680px;
 }
 
 #flower4 img{
     width: 350px;
-    position: fixed;
+position: absolute;
     transform: rotate(30deg);
 }
 
 #flower5{
-    left:1200px;
-    position: fixed;
+/*    left:100px;*/
+position: absolute;
     top:647px;
 }
 
 #flower5 img{
     width: 300px;
-    position: fixed;
+position: absolute;
     transform: rotate(70deg);
 }
 
 #flower6{
-    left:805px;
-    position: fixed;
+/*    left:805px;*/
+position: absolute;
     top:610px;
 }
 
 #flower6 img{
     width: 500px;
-    position: fixed;
+position: absolute;
     transform: rotate(40deg);
 }
 
 #flower7{
-    left:112px;
-    position: fixed;
+/*    left:112px;*/
+position: absolute;
     top:580px;
 }
 
 #flower7 img{
     width: 350px;
-    position: fixed;
+position: absolute;
     transform: rotate(-40deg);
 }
 
-#flower8{
-    left:-130px;
-    position: fixed;
-    top:680px;
-}
-
 #flower8 img{
-    width: 400px;
-    position: fixed;
+    top:680px;
+        left:130px;
+    height: 400px;
+position: absolute;
     transform: rotate(-50deg);
 }
-
-.index {
-    position: fixed;
-    left:50px;
-    top:30px;
-}
-
-.index a{
-    font-family: ArialMTStd-Medium;
-    color:#333;
-    font-size: 1.5em;
-    text-decoration: none;
-    text-align: right;
-    text-transform: uppercase;
-}
-
 

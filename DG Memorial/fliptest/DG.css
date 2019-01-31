@@ -86,15 +86,13 @@ body {
     position: fixed;
     left:50px;
     top:30px;
-}
-
-.index a{
     font-family: sans-serif;
     color:#333;
     font-size: 1.5em;
     text-decoration: none;
     text-align: right;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .background img{

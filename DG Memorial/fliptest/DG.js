@@ -1,10 +1,8 @@
 $(document).ready(function() {
 
-
-
-$("#card").flip({
+document.getElementById("#index").onclick =
+$("#index").flip({
   axis: 'y',
-  trigger: 'click'
 });
 
 });
