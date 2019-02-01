@@ -47,132 +47,58 @@ body {
     width:100vw;
     background-color:black;
     position: absolute;
-    height:2000px;
+    height:100%;
     top:110%;
     z-index: 12;
     margin:0 auto;
     overflow:hidden;
-    display: inline-block;
     color:#a6a7a8;
-}
-
-#show_image {
-    text-align: left;
-    font-family: FrizQuadrataStd;
-    font-size: 2.5em;
-    text-transform:uppercase;
-    cursor:default;
-    display: flex;
-    margin-top: 300px;
-    margin-left: 100px;
-    position: relative;
-}
-
-
-#show_image2 {
-    text-align: left;
-    font-family: FrizQuadrataStd;
-    font-size: 2.5em;
-    text-transform:uppercase;
-    cursor:default;
-    display: flex;
-    margin-left: 100px;
-    margin-top: 10px;
-}
-
-#my_images {
-    text-align: left;
-    font-family: sans-serif;
-    cursor:default;
-    display: block;
-    margin-left: 100px;
-    width:500px;
-    position: relative;
-}
-
-#my_images2 {
     text-align: center;
+}
+
+.dirt a{
+    font-size: 2em;
     font-family: sans-serif;
-    cursor:default;
-    display: block;
-    margin-left: 50px;
-}
-
-#my_images img{
-    width:800px;
-    height:auto;
+    color:#cccccc;
+    text-decoration: none;
+    top: 400px;
     position: relative;
-    margin-bottom: 50px;
-    margin-top: 10px;
-
-}
-
-#flower1 img{
-    left:233px;
-    top:770px;
-    height: 600px;
-    position: absolute;
-    transform: rotate(-50deg);
-}
-
-#flower2 img{
-    height: 440px;
-    top:768px;
-    left:575px;
-    position: absolute;
-    transform: rotate(-30deg);
-}
-
-#flower3{
-    position: absolute;
-    top:650px;
+    display: inline-block;
+    margin: 25px;
 }
 
 #flower3 img{
     height: 600px;
+    top:650px;
     position: absolute;
     transform: rotate(-50deg);
 }
 
-#flower4{
-    position: absolute;
-    top:680px;
-}
-
 #flower4 img{
+    top:680px;
     width: 350px;
     position: absolute;
     transform: rotate(30deg);
 }
 
-#flower5{
-    position: absolute;
-    top:647px;
-}
-
 #flower5 img{
+    top:647px;
     width: 300px;
     position: absolute;
     transform: rotate(70deg);
 }
 
-#flower6{
-    position: absolute;
-    top:610px;
-}
-
 #flower6 img{
     width: 500px;
-    position: absolute;
-    transform: rotate(40deg);
-}
-
-#flower7{
-    position: absolute;
     top:680px;
+    left:560px;
+    position: absolute;
+    transform: rotate(65deg);
 }
 
 #flower7 img{
+    top:680px;
+    left:300px;
     width: 350px;
     position: absolute;
     transform: rotate(-40deg);
@@ -186,24 +112,16 @@ body {
     transform: rotate(-50deg);
 }
 
-#flower9{
-    position: absolute;
-    top:680px;
-}
-
 #flower9 img{
     width: 350px;
+    top:680px;
     position: absolute;
     transform: rotate(-40deg);
 }
 
-#flower10{
-    position: absolute;
-    top:680px;
-}
-
 #flower10 img{
     width: 350px;
+    top:680px;
     position: absolute;
     transform: rotate(-40deg);
 }
