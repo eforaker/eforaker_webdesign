@@ -40,97 +40,99 @@ body {
 #flowers{
     position: absolute;
     z-index: 15;
-    width:100vw;    
 }
 
-.dirt {
+#dirt {
     width:100vw;
-    background-color:black;
-    position: absolute;
-    height:100%;
-    top:110%;
-    z-index: 12;
     margin:0 auto;
-    overflow:hidden;
-    color:#a6a7a8;
+    z-index: 200;
     text-align: center;
+    position: relative;
+    top:1000px;
 }
 
-.dirt a{
-    font-size: 2em;
+#dirt a{
+    font-size: 2.5em;
     font-family: sans-serif;
-    color:#cccccc;
+    color:#333;
     text-decoration: none;
-    top: 400px;
+    font-weight: 400;
+    top: 650px;
     position: relative;
     display: inline-block;
-    margin: 25px;
+    margin: 20px;
+
 }
 
-#flower3 img{
-    height: 600px;
-    top:650px;
+#dirt a:hover{
+    color:pink;
+}
+
+#white img{
+    height: 700px;
+    top:610px;
+    left:300px;
     position: absolute;
     transform: rotate(-50deg);
 }
 
-#flower4 img{
-    top:680px;
-    width: 350px;
+#orange img{
+    top:640px;
+    width:430px;
+    left:100px;
     position: absolute;
-    transform: rotate(30deg);
+    transform: rotate(-50deg);
 }
 
-#flower5 img{
-    top:647px;
-    width: 300px;
+#orangemulti img{
+    top:1080px;
+    width:560px;
+    left:100px;
     position: absolute;
-    transform: rotate(70deg);
+    transform: rotate(50deg);
 }
 
-#flower6 img{
-    width: 500px;
-    top:680px;
-    left:560px;
+#blue img{
+    top:547px;
+    width:370px;
+    left:940px;
+    position: absolute;
+    transform: rotate(80deg);
+}
+
+#pinks img{
+    width:660px;
+    top:790px;
+    left:590px;
     position: absolute;
     transform: rotate(65deg);
 }
 
-#flower7 img{
-    top:680px;
-    left:300px;
-    width: 350px;
+#red img{
+    width:550px;
+    top:820px;
+    left:80px;
     position: absolute;
-    transform: rotate(-40deg);
+    transform: rotate(35deg);
 }
 
-#flower8 img{
-    top:780px;
-    left:130px;
-    height: 400px;
+#rose img{
+    top:600px;
+    left:650px;
+    width:450px;
     position: absolute;
-    transform: rotate(-50deg);
+    transform: rotate(-30deg);
 }
 
-#flower9 img{
-    width: 350px;
-    top:680px;
+#bigblue img{
+    top:910px;
+    left:-90px;
+    width:500px;
     position: absolute;
-    transform: rotate(-40deg);
-}
-
-#flower10 img{
-    width: 350px;
-    top:680px;
-    position: absolute;
-    transform: rotate(-40deg);
+    transform: rotate(10deg);
 }
 
 @media only screen and (max-width: 1070px) {
-.dirt {
-    width: 1080px;
-  }
-
 #deadgirls{
     font-size: 8em;
 }
