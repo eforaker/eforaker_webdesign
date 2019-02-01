@@ -14,7 +14,6 @@
 
 body {
 	color:#e8e8e8;
-    height: 100%; 
     background-image:url("images/other/granite.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -24,33 +23,33 @@ body {
 
 #deadgirls{
     font-family: FrizQuadrataStd;
-    font-size: 14em;
+    font-size: 11em;
     text-transform:uppercase;
     line-height: .95em;
     color: #333;
     text-shadow: 2px 8px 2px rgba(255,255,255,.5);
     text-align: center;
     margin: 0;
-    position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     cursor: default;
-    width: 90%;
+    width: 80%;
     letter-spacing:1px;
     position: fixed;
     z-index: 10;
 }
 
 #flowers{
-    position: relative;
-    z-index: 15;    
+    position: absolute;
+    z-index: 15;
+    width:100vw;    
 }
 
 .dirt {
     width:100vw;
-    background-image:linear-gradient( #333, black);
+    background-color:black;
     position: absolute;
     height:2000px;
     top:110%;
@@ -141,5 +140,39 @@ position: absolute;
     height: 400px;
 position: absolute;
     transform: rotate(-50deg);
+}
+
+#flower9{
+/*    left:112px;*/
+position: absolute;
+    top:580px;
+}
+
+#flower9 img{
+    width: 350px;
+position: absolute;
+    transform: rotate(-40deg);
+}
+
+#flower10{
+/*    left:112px;*/
+position: absolute;
+    top:580px;
+}
+
+#flower10 img{
+    width: 350px;
+position: absolute;
+    transform: rotate(-40deg);
+}
+
+@media only screen and (max-width: 1070px) {
+.dirt {
+    width: 1080px;
+  }
+
+#deadgirls{
+    font-size: 9em;
+}
 }
 
