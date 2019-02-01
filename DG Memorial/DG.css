@@ -78,13 +78,9 @@ body {
     margin-left: 50px;
 }
 
-#my_images2 {
-/* left:300px;
- top:300px;   */
-}
 
 .dirt img{
-width:800px;
+width:1000px;
 height:auto;
 position: relative;
 margin-left: 50px;
