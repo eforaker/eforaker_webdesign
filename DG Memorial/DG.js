@@ -19,5 +19,17 @@ document.getElementById("deadgirls").onclick = function change() {
   	  console.log("play");
       if (audio.paused) audio.play();
   }); 
-    });
+
+
+      $('#show_image').on("click", function(){
+         $('#my_images').toggle();
+      });
+
+            $('#show_image2').on("click", function(){
+         $('#my_images2').toggle();
+      });
+
+
+   });
+
 

@@ -23,7 +23,7 @@ body {
 
 #deadgirls{
     font-family: FrizQuadrataStd;
-    font-size: 11em;
+    font-size: 12em;
     text-transform:uppercase;
     line-height: .95em;
     color: #333;
@@ -39,6 +39,7 @@ body {
     letter-spacing:1px;
     position: fixed;
     z-index: 10;
+    cursor:url(images/other/daggermouse.png), auto;
 }
 
 #flowers{
@@ -56,11 +57,44 @@ body {
     z-index: 12;
     margin:0 auto;
     overflow:hidden;
+    display: block;
+}
+
+#show_image {
+    text-align: left;
+    font-family: ArialMTStd-Medium;
+    cursor:default;
+    display: block;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+
+
+#show_image2 {
+    text-align: left;
+    font-family: ArialMTStd-Medium;
+    cursor:default;
+    display: block;
+    margin-left: 50px;
+}
+
+#my_images2 {
+/* left:300px;
+ top:300px;   */
+}
+
+.dirt img{
+width:800px;
+height:auto;
+position: relative;
+margin-left: 50px;
+margin-bottom: 50px;
+margin-top: 10px;
 }
 
 #flower1 img{
-        left:233px;
-        top:670px;
+    left:233px;
+    top:670px;
     height: 600px;
     position: absolute;
     transform: rotate(-50deg);
@@ -70,7 +104,7 @@ body {
     height: 440px;
     top:668px;
     left:575px;
-position: absolute;
+    position: absolute;
     transform: rotate(-30deg);
 }
 
@@ -170,6 +204,14 @@ position: absolute;
 .dirt {
     width: 1080px;
   }
+
+#deadgirls{
+    font-size: 8em;
+}
+}
+
+@media only screen and (max-width: 1170px) {
+
 
 #deadgirls{
     font-size: 9em;
