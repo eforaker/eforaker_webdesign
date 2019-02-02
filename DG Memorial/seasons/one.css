@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: ArialMTStd-Medium;
-    src: url("fonts/ArialMTStd-Medium.otf") format("opentype");
+    src: url("../fonts/ArialMTStd-Medium.otf") format("opentype");
 }
 
 .gridimages {
@@ -12,36 +12,44 @@
   flex-wrap: wrap;
   position:absolute;
   width: 100%;
+  background-color: black;
+  z-index: 0;
 }
 
 .column {
     flex: 50%;
-    max-width: 50%;
+    width: 50%;
     z-index:1;
+    border: none;
 }
 
 .column img {
-  margin-top: 0px;
+  margin: 0px;
   vertical-align: middle;
   width: 100%;
+  height: auto;
 }
 
 .text{
 position: fixed;
 z-index:3;
 width:100vw;
+height: 100vh;
 color:#c0c1c4;
 font-size: 2em;
 font-family: ArialMTStd-Medium;
 }
 
 .header{
-    margin:20px;
+    margin-left:20px;
+    margin-top:20px;
 }
 
 .back {
     text-align: right;
-    margin:20px;
+    margin-right:20px;
+    position: relative;
+    top:-39px;
 }
 
 
@@ -55,14 +63,26 @@ font-family: ArialMTStd-Medium;
     text-shadow: 0 0 10px red;
 }
 
+.bottom {
+  position: absolute;
+  width:100vw;
+  bottom: 0;
+}
+
 .deadgirls {
     text-align: right;
     margin:20px;
+    line-height: 1.25em;
+    display: inline-block;
+    right: 0;
+    position: absolute;
 }
 
 .episodes {
     text-align: left;
     margin:20px;
+    display: inline-block;
+    line-height: 1.25em;
 }
 
 @media screen and (max-width: 870px) {
