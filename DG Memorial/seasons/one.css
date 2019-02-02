@@ -1,9 +1,5 @@
 * {
     margin: 0;
-    background-color: black;
-}
-
-body {
 }
 
 @font-face {
@@ -11,11 +7,68 @@ body {
     src: url("fonts/ArialMTStd-Medium.otf") format("opentype");
 }
 
+.gridimages {
+  display: flex;
+  flex-wrap: wrap;
+  position:absolute;
+  width: 100%;
+}
+
+.column {
+    flex: 50%;
+    max-width: 50%;
+    z-index:1;
+}
+
+.column img {
+  margin-top: 0px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .text{
-position:absolute;
+position: fixed;
 z-index:3;
 width:100vw;
-color:white;
+color:#c0c1c4;
 font-size: 2em;
 font-family: ArialMTStd-Medium;
+display: inline-block;
+}
+
+.header{
+    margin:20px;
+}
+
+.back {
+    text-align: right;
+    margin:20px;
+}
+
+
+.back a{
+    text-decoration: none;
+    color:#c0c1c4;
+    text-align: right;
+}
+
+.back a:hover{
+    text-shadow: 0 0 10px red;
+}
+
+.deadgirls {
+    text-align: right;
+    margin:20px;
+}
+
+.episodes {
+    text-align: left;
+    margin:20px;
+}
+
+@media screen and (max-width: 870px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
