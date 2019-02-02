@@ -7,6 +7,11 @@
     src: url("fonts/FrizQuadrataStd.otf") format("opentype");
 }
 
+@font-face {
+    font-family: ArialMTStd-Medium;
+    src: url("fonts/ArialMTStd-Medium.otf") format("opentype");
+}
+
 body {
 	color:#e8e8e8;
     background-image:url("images/other/granite.jpg");
@@ -48,24 +53,35 @@ body {
     z-index: 200;
     text-align: center;
     position: relative;
-    top:1000px;
+    top:1060px;
 }
 
 #dirt a{
     font-size: 2.5em;
-    font-family: sans-serif;
-    color:#333;
+    font-family: ArialMTStd-Medium;
+    color:black;
     text-decoration: none;
-    font-weight: 400;
     top: 650px;
     position: relative;
     display: inline-block;
-    margin: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
 
 }
 
+#dirt p{
+    font-size: 2.5em;
+    font-family: ArialMTStd-Medium;
+    color:black;
+    top: 650px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 #dirt a:hover{
-    color:pink;
+    text-shadow: 0 0 10px red;
 }
 
 #white img{
@@ -85,9 +101,9 @@ body {
 }
 
 #orangemulti img{
-    top:1080px;
+    top:1090px;
     width:560px;
-    left:100px;
+    left:40px;
     position: absolute;
     transform: rotate(50deg);
 }

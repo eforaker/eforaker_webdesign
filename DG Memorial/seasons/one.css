@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    background-color: black;
+}
+
+/*body {
+	background-image: url(../images/season1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+@font-face {
+    font-family: ArialMTStd-Medium;
+    src: url("fonts/ArialMTStd-Medium.otf") format("opentype");
+}
+
+.girls {
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+}
+.girls img{
+    width: 100vw;
+    margin: 0;
+    position: absolute;
+}
+
+/*.text{
+position:absolute;
+z-index:3;
+width:100vw;
+color:white;
+font-size: 5em;
+    font-family: ArialMTStd-Medium;
+}*/
+
+@media only screen and (max-width: 865px) {
+.girls img{
+	min-width:900px;
+	margin: 0;
+    position: absolute;
+}
+}
