@@ -57,23 +57,23 @@ body {
 }
 
 #dirt a{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: ArialMTStd-Medium;
-    color:black;
+    color:#333;
     text-decoration: none;
     top: 650px;
     position: relative;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 5px;
-    margin-right: 10px;
+    margin-right: 15px;
 
 }
 
 #dirt p{
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: ArialMTStd-Medium;
-    color:black;
+    color:#333;
     top: 650px;
     position: relative;
     display: inline-block;
