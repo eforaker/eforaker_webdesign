@@ -67,15 +67,16 @@ font-family: ArialMTStd-Medium;
   position: absolute;
   width:100vw;
   bottom: 0;
+  display: inline-block;
 }
 
 .deadgirls {
     text-align: right;
     margin:20px;
     line-height: 1.3em;
-    display: inline-block;
     right: 0;
     position: absolute;
+    bottom: 0;
 }
 
 .episodes {
