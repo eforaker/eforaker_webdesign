@@ -7,32 +7,12 @@
     src: url("../fonts/ArialMTStd-Medium.otf") format("opentype");
 }
 
-.gridimages {
-  display: flex;
-  flex-wrap: wrap;
-  position:absolute;
-  width: 100%;
-  background-color: black;
-  z-index: 0;
-
-}
-
-.gridimages::-webkit-scrollbar { 
-    display: none; 
-}
-
-.column {
-    flex: 50%;
-    width: 50%;
-    z-index:1;
-    border: none;
-}
-
-.column img {
-  margin: 0px;
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
+body {
+  background-image: url("../images/VickyParson.png");
+background-size: cover;
+background-repeat: no-repeat;
+/*background-position: center center;*/
+background-attachment: fixed;
 }
 
 .text{
@@ -48,20 +28,20 @@ font-family: ArialMTStd-Medium;
 .header{
     margin-left:20px;
     margin-top:20px;
-  position: absolute;
-  width:100vw;
 }
 
 .back {
     text-align: right;
-    margin-right: 20px;
+    margin-right:20px;
     position: relative;
-    top: 20px;
+    top:-30px;
 }
+
 
 .back a{
     text-decoration: none;
     color:#c0c1c4;
+    text-align: right;
 }
 
 .back a:hover{

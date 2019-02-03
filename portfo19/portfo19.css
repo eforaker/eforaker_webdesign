@@ -3,6 +3,11 @@
     src: url("fonts/AkkuratPro-Regular.otf") format("opentype");
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
 body {
 	height: 100vh;
 }

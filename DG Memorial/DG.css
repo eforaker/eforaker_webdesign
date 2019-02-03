@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: FrizQuadrataStd;
-    src: url("fonts/FrizQuadrataStd.otf") format("opentype");
+    font-family: FrizQuadrataKerned;
+    src: url("fonts/FrizQuadrataKerned.otf") format("opentype");
 }
 
 @font-face {
@@ -22,7 +22,7 @@ body {
 }
 
 #deadgirls{
-    font-family: FrizQuadrataStd;
+    font-family: FrizQuadrataKerned;
     font-size: 12em;
     text-transform:uppercase;
     line-height: .95em;
@@ -36,7 +36,6 @@ body {
     transform: translate(-50%, -50%);
     cursor: default;
     width: 80%;
-    letter-spacing:1px;
     position: fixed;
     z-index: 10;
     cursor:url(images/other/daggermouse.png), auto;
