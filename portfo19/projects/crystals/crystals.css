@@ -1,49 +1,33 @@
 @font-face {
-    font-family: AkkuratPro-Regular;
-    src: url("fonts/AkkuratPro-Regular.otf") format("opentype");
+    font-family: ArialMTStd;
+    src: url("../fonts/ArialMTStd.otf") format("opentype");
 }
 
 * {
   margin:0;
 }
 
-.heading {
+.description {
 	font-size: 1em;
-	font-family: sans-serif;
+	font-family: ArialMTStd;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	color:black;
+	color:#c68d4d;
 	line-height: 1.75em;
+	position: fixed;
 }
 
-.heading a{
-	text-decoration: none;
-	color: black;
+.description a{
+	color: #c68d4d;
 }
 
-.worklinks {
+.pics {
 	margin:0 auto;
 	width:90vw;
 	text-align: center;
 }
 
-.worklinks img{
-	max-width: 300px;
-	max-height: 300px;
+.pics img{
+	max-height: 600px;
 
-}
-
-.worklinks img:hover{
-	transform: scale(1.05);
-}
-
-.index {
-	font-size: 1em;
-	font-family: sans-serif;
-	margin-left: 30px;
-	color:black;
-	line-height: 1.75em;
-	position: absolute;
-  	width:100vw;
-  	bottom: 20px;
 }
