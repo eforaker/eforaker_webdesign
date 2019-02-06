@@ -14,7 +14,6 @@
 	margin-bottom: 30px;
 	color:black;
 	line-height: 1.75em;
-	position: fixed;
 }
 
 .description a{
@@ -27,6 +26,6 @@
 }
 
 .pics img{
-	max-height: 600px;
+	max-height: 700px;
 
 }
