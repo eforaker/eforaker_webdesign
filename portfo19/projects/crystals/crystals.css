@@ -14,7 +14,10 @@
 	margin-bottom: 30px;
 	color:#c68d4d;
 	line-height: 1.75em;
+	width: 400px;
+	text-align: left;
 	position: fixed;
+}
 }
 
 .description a{

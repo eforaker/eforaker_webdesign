@@ -1,6 +1,6 @@
 @font-face {
     font-family: ArialMTStd;
-    src: url("../fonts/ArialMTStd.otf") format("opentype");
+    src: url("../../fonts/ArialMTStd.otf") format("opentype");
 }
 
 * {
@@ -14,6 +14,9 @@
 	margin-bottom: 30px;
 	color:black;
 	line-height: 1.75em;
+	width: 400px;
+	text-align: left;
+	position: fixed;
 }
 
 .description a{
@@ -26,6 +29,5 @@
 }
 
 .pics img{
-	max-height: 700px;
-
+	max-width: 600px;
 }
