@@ -25,7 +25,6 @@
 	margin:0 auto;
 	width:90vw;
 	text-align: center;
-	z-index: 10;
 }
 
 .worklinks img{
@@ -35,7 +34,7 @@
 }
 
 .worklinks img:hover{
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .index {
@@ -47,5 +46,4 @@
 	position: absolute;
   	width:100vw;
   	bottom: 30px;
-  	z-index:2;
 }
