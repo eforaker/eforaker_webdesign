@@ -18,13 +18,12 @@
 }
 
 .description a{
-	color: #c68d4d;
+	color: black;
 }
 
 .pics {
-	margin:0 auto;
-	width:90vw;
-	text-align: center;
+	text-align: right;
+	margin-right: 30px;
 }
 
 .pics img{
