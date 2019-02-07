@@ -12,16 +12,15 @@
 	font-family: ArialMTStd;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	color:#c68d4d;
+	color:#ffa4cf;
 	line-height: 1.75em;
 	width: 400px;
 	text-align: left;
 	position: fixed;
 }
-}
 
 .description a{
-	color: black;
+	color: #ffa4cf;
 }
 
 .pics {
