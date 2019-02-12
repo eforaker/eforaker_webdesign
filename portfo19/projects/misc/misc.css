@@ -14,7 +14,7 @@
 	margin-bottom: 30px;
 	color:black;
 	line-height: 1.75em;
-	width: 400px;
+	width: 250px;
 	text-align: left;
 	position: fixed;
 }
@@ -29,5 +29,7 @@
 }
 
 .pics img{
-	max-width: 600px;
+	max-height: 600px;
+	padding-bottom: 30px;
+	padding-left: 30px;
 }

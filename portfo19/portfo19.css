@@ -27,14 +27,67 @@
 }
 
 .worklinks img{
-	max-width: 300px;
-	max-height: 300px;
+	max-width: 270px;
+	max-height: 270px;
+	margin:10px;
+	position: absolute;
 
 }
 
 .worklinks img:hover{
 	transform: scale(1.05);
 }
+
+#bball img{
+top:170px;
+left:290px;
+}
+
+#crystals img{
+top:465px;
+left:200px;
+}
+
+#pop img{
+top:120px;
+left:500px;
+}
+
+#block img{
+top:420px;
+left:500px;
+}
+
+#ds img{
+top:20px;
+left:730px;
+}
+
+#eye img{
+top:240px;
+left:730px;
+}
+
+#svu img{
+top:460px;
+left:730px;
+}
+
+#smash img{
+top:500px;
+left:1000px;
+}
+
+#blimey img{
+top:270px;
+left:1030px;
+}
+
+#misc img{
+top:20px;
+left:1030px;
+}
+
 
 .index {
 	font-size: 1em;

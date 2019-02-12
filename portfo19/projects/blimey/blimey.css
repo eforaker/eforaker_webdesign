@@ -12,7 +12,7 @@
 	font-family: ArialMTStd;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	color:black;
+	color:#cc271f;
 	line-height: 1.75em;
 	width: 400px;
 	text-align: left;
@@ -20,7 +20,7 @@
 }
 
 .description a{
-	color: black;
+	color: #cc271f;
 }
 
 .pics {

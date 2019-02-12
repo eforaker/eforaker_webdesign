@@ -14,9 +14,10 @@
 	margin-bottom: 30px;
 	color:black;
 	line-height: 1.75em;
-	width: 250px;
+	width: 270px;
 	text-align: left;
 	position: fixed;
+	hyphens:auto;
 }
 
 .description a{
