@@ -1,6 +1,6 @@
 @font-face {
-    font-family: ArialMTStd;
-    src: url("../fonts/ArialMTStd.otf") format("opentype");
+    font-family: AbadiMTStd-Bold;
+    src: url("../fonts/AbadiMTStd-Bold.otf") format("opentype");
 }
 
 * {
@@ -9,7 +9,7 @@
 
 .description {
 	font-size: 1em;
-	font-family: ArialMTStd;
+	font-family: AbadiMTStd-Bold;
 	margin-left: 30px;
 	margin-bottom: 30px;
 	color:#939193;
