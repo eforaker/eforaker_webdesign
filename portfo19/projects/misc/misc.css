@@ -29,7 +29,8 @@
 }
 
 .pics img{
-	max-height: 600px;
+	max-height: 650px;
+	max-width: 520px;
 	padding-bottom: 30px;
 	padding-left: 30px;
 }
