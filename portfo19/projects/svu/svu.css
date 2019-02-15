@@ -11,15 +11,16 @@
 	font-size: 1em;
 	font-family: AbadiMTStd-Bold;
 	margin-left: 30px;
-	line-height: 1.75em;
+	margin-bottom: 30px;
+	line-height: 1.25em;
 	width: 400px;
 	text-align: left;
 	position: fixed;
-	color:#2873e0;
 }
 
 .description a{
-	color: #2873e0;
+	color: blue;
+	line-height: 1.75em;
 }
 
 .pics {
