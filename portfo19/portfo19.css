@@ -91,14 +91,63 @@ top:20px;
 left:1130px;
 }
 
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 450px) {
 
-.index {
+.heading {
 	font-size: 1em;
-	font-family: ArialMTStd;
-	margin-left: 30px;
-	color:black;
-	line-height: 1.75em;
-	position: absolute;
-  	width:100vw;
-  	bottom: 20px;
+	width:400px;
+	margin-left: 20px;
+	top:0px;
+}
+
+#bball img{
+top:1920px;
+left:65px;
+}
+
+#crystals img{
+top:461px;
+left:56px;
+}
+
+#pop img{
+top:144px;
+left:90px;
+}
+
+#block img{
+top:960px;
+left:110px;
+}
+
+#ds img{
+top:2160px;
+left:63px;
+}
+
+#eye img{
+top:1720px;
+left:65px;
+}
+
+#svu img{
+top:1295px;
+left:75px;
+}
+
+#smash img{
+top:1525px;
+left:60px;
+}
+
+#blimey img{
+top:680px;
+left:72px;
+}
+
+#misc img{
+top:2370px;
+left:60px;
+}
 }
