@@ -19,7 +19,7 @@
 }
 
 .description a{
-	color: blue;
+	color: black;
 	line-height: 1.75em;
 }
 
@@ -29,6 +29,6 @@
 }
 
 .pics img{
-	max-height: 600px;
+	max-width: 600px;
 
 }

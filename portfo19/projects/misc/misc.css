@@ -19,7 +19,7 @@
 }
 
 .description a{
-	color: blue;
+	color: black;
 	line-height: 1.75em;
 }
 
@@ -34,3 +34,16 @@
 	padding-bottom: 30px;
 	padding-left: 30px;
 }
+
+.votepics {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.votepics img{
+	max-height: 650px;
+	max-width: 520px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
