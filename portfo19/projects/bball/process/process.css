@@ -1,6 +1,6 @@
 @font-face {
     font-family: AbadiMTStd-Bold;
-    src: url("fonts/AbadiMTStd-Bold.otf") format("opentype");
+    src: url("../../fonts/AbadiMTStd-Bold.otf") format("opentype");
 }
 
 * {
@@ -8,146 +8,28 @@
 }
 
 .heading {
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: AbadiMTStd-Bold;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	margin-top: 10px;
-	color:black;
 	line-height: 1.25em;
-	width:540px;
+	width: 400px;
+	text-align: left;
+	position: fixed;
 }
 
 .heading a{
 	color: black;
-	line-height: 1.4em;
+	line-height: 1.75em;
+}
+
+.pics {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.pics img{
+	max-width: 600px;
 
 }
 
-.worklinks {
-	margin:0 auto;
-	width:90vw;
-	text-align: center;
-}
-
-.worklinks img{
-	max-width: 270px;
-	max-height: 270px;
-	margin:10px;
-	position: absolute;
-}
-
-.worklinks img:hover{
-	transform: scale(1.05);
-}
-
-#bball img{
-top:170px;
-left:310px;
-}
-
-#crystals img{
-top:465px;
-left:300px;
-}
-
-#pop img{
-top:120px;
-left:600px;
-}
-
-#block img{
-top:420px;
-left:600px;
-}
-
-#ds img{
-top:20px;
-left:830px;
-}
-
-#eye img{
-top:240px;
-left:830px;
-}
-
-#svu img{
-top:470px;
-left:830px;
-}
-
-#smash img{
-top:500px;
-left:1100px;
-}
-
-#blimey img{
-top:270px;
-left:1130px;
-}
-
-#misc img{
-top:20px;
-left:1130px;
-}
-
-/* Smartphones (portrait) ----------- */
-@media screen and (max-width: 450px) {
-
-.heading {
-	font-size: 1em;
-	width:400px;
-	margin-left: 20px;
-	top:0px;
-}
-
-#bball img{
-top:1920px;
-left:65px;
-}
-
-#crystals img{
-top:461px;
-left:56px;
-}
-
-#pop img{
-top:144px;
-left:90px;
-}
-
-#block img{
-top:960px;
-left:110px;
-}
-
-#ds img{
-top:2160px;
-left:63px;
-}
-
-#eye img{
-top:1720px;
-left:65px;
-}
-
-#svu img{
-top:1295px;
-left:75px;
-}
-
-#smash img{
-top:1525px;
-left:60px;
-}
-
-#blimey img{
-top:680px;
-left:72px;
-}
-
-#misc img{
-top:2370px;
-left:60px;
-}
-}

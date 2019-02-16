@@ -1,0 +1,35 @@
+@font-face {
+    font-family: AbadiMTStd-Bold;
+    src: url("../../fonts/AbadiMTStd-Bold.otf") format("opentype");
+}
+
+* {
+  margin:0;
+}
+
+.heading {
+	font-size: 1em;
+	font-family: AbadiMTStd-Bold;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	line-height: 1.25em;
+	width: 400px;
+	text-align: left;
+	position: fixed;
+}
+
+.heading a{
+	color: black;
+	line-height: 1.75em;
+}
+
+.pics {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.pics img{
+	max-width: 600px;
+
+}
+
