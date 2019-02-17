@@ -29,8 +29,9 @@
 }
 
 .pics img{
-	max-height: 400px;
+	max-height: 450px;
 	padding-bottom: 30px;
+	margin-left: 30px;
 }
 
 .totes {
@@ -41,6 +42,7 @@
 .totes img{
 	max-height: 600px;
 	padding-bottom: 30px;
+	margin-left: 30px;
 }
 
 .web {
@@ -49,8 +51,9 @@
 }
 
 .web img{
-	max-width: 1000px;
-	padding-bottom: 30px;
+	max-width: 700px;
+	margin-bottom: 30px;
 	border-style: solid;
   	border-width: 1px;
+  	margin-left: 30px;
 }
