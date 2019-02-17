@@ -25,10 +25,21 @@
 
 .pics {
 	text-align: right;
-	margin-right: 30px;
+/*	margin-right: 30px;*/
 }
 
 .pics img{
-	height: 700px;
+	max-height: 400px;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
 
+.booklet {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.booklet img{
+	max-height: 300px;
+	margin-bottom: 30px;
 }

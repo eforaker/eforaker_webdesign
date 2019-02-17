@@ -29,7 +29,7 @@
 }
 
 .pics img{
-	height: 700px;
+	max-width: 950px;
 	margin-bottom: 30px;
 
 }
