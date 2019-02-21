@@ -9,31 +9,25 @@
 	width:80vw;
 }
 
-.jiggle {
-    -webkit-animation: jiggle 0.35s infinite;
-    -moz-animation-duration: 0.35s;
-    -moz-animation-name: jiggle;
-    -moz-animation-iteration-count: infinite;
-    -webkit-transform: rotate(-2deg);
-    -moz-transform: rotate(-2deg);
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.9s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
 }
 
-@-moz-keyframes jiggle {
-    0% {
-        -moz-transform: rotate(-1deg);
-    }
-    50% {
-        -moz-transform: rotate(1deg);
-    }
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
 }
-
-@-webkit-keyframes jiggle {
-    0% {
-        -webkit-transform: rotate(-1deg);
-        }
-    50% {
-        -webkit-transform: rotate(1deg);
-    }
-}
-
 
