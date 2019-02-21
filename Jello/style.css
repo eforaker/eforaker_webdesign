@@ -1,0 +1,27 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+#jello{
+	margin: 0 auto;
+	text-align: center;
+	width:80vw;
+}
+
+.jiggle {
+    -webkit-animation: jiggle 0.35s infinite;
+    -webkit-transform: rotate(-1deg);
+}
+
+@-webkit-keyframes jiggle {
+    0% {
+        -webkit-transform: rotate(-1deg);
+        }
+    50% {
+        -webkit-transform: rotate(1deg);
+    }
+}
+
+
+
