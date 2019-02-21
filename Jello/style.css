@@ -11,7 +11,20 @@
 
 .jiggle {
     -webkit-animation: jiggle 0.35s infinite;
-    -webkit-transform: rotate(-1deg);
+    -moz-animation-duration: 0.35s;
+    -moz-animation-name: jiggle;
+    -moz-animation-iteration-count: infinite;
+    -webkit-transform: rotate(-2deg);
+    -moz-transform: rotate(-2deg);
+}
+
+@-moz-keyframes jiggle {
+    0% {
+        -moz-transform: rotate(-1deg);
+    }
+    50% {
+        -moz-transform: rotate(1deg);
+    }
 }
 
 @-webkit-keyframes jiggle {
@@ -22,6 +35,5 @@
         -webkit-transform: rotate(1deg);
     }
 }
-
 
 
