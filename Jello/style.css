@@ -3,22 +3,31 @@
     margin: 0;
 }
 
+body{
+  background-image: linear-gradient(red, #e3ef6f);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 #jello{
+  padding-top: 100px;
 	margin: 0 auto;
 	text-align: center;
 	width:80vw;
 }
 
 #jello img{
-    width:80vw;
+    width:50vw;
 }
 
 img:hover {
-  animation: shake 1s; 
-  animation-iteration-count: infinite; 
+  animation: jiggle 2.5s; 
+  animation-iteration-count: 1; 
 }
 
-@keyframes shake {
+/*@keyframes shake {
   0% { transform: rotate(0deg); }
   10% { transform: rotate(-2deg); }
   20% { transform: rotate(2deg); }
@@ -30,5 +39,33 @@ img:hover {
   80% { transform: rotate(2deg); }
   90% { transform: rotate(0deg); }
   100% { transform: rotate(-2deg); }
-}
+}*/
 
+@keyframes jiggle {
+
+  8%, 22% {
+    transform: scale(1.0, 1.0)
+  }
+  10% {
+    transform: scale(1.1, 0.9)
+  }
+  16% {
+    transform: scale(0.9, 1.1) translate(0, -5px)
+  }
+  19% {
+    transform: scale(1.0, 1.0) translate(0, -3px)
+  }
+
+/*  48%, 62% {
+    transform: scale(1.0, 1.0)
+  }
+  50% {
+    transform: scale(1.1, 0.9)
+  }
+  56% {
+    transform: scale(0.9, 1.1) translate(0, -5px)
+  }
+  59% {
+    transform: scale(1.0, 1.0) translate(0, -3px)
+  }*/
+}
