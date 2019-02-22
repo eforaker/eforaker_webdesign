@@ -1,4 +1,8 @@
 $(document).ready(function() {
-    $('#jello').draggable();
 
- });
+
+var audio = document.getElementsByTagName("audio")[0];
+  $(".jello").mouseenter(function() {
+  audio.play();
+  });
+   });
