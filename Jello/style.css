@@ -3,19 +3,23 @@
     margin: 0;
 }
 
+
+
+
 body{
   background-image: linear-gradient(red, #e3ef6f);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  cursor: url('images/olive.png'), auto;
 }
 
 .jello{
   padding-top: 100px;
 	margin: 0 auto;
 	text-align: center;
-	width:80vw;
+	width:90vw;
 }
 
 .jello img{
@@ -29,7 +33,7 @@ img:hover {
 
 @keyframes jiggle {
 
-  8%, 22% {
+  7%, 22% {
     transform: scale(1.0, 1.0)
   }
   10% {
