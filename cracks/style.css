@@ -1,27 +1,33 @@
 * { 
     padding: 0;
     margin: 0;
-    background-color: red;
+/*    background-color: red;*/
 }
 
 .mask {
   width: 100vw;
-  -webkit-mask-image: url(images/bottom.png);
+ /* -webkit-mask-image: url(images/bottom.png);
   -webkit-mask-size: 100vw;
   mask-image: url(images/bottom.png);
-  mask-size: 100vw;
+  mask-size: 100vw;*/
 /*  position: fixed;*/
+z-index: 10;
+position: fixed;
 }
 
 .background {
 	width: 100vw;
+	z-index: 3;
 }
 
 .background img{
 	width: 100vw;
 }
 
-@media screen and (device-aspect-ratio: 40/71) {
+/*@media screen and (device-aspect-ratio: 40/71) {*/
+	@media (device-height : 568px) {}
+   and (device-width : 320px) 
+   and (-webkit-min-device-pixel-ratio: 2)
   .mask {
     width:100vw;
   }
