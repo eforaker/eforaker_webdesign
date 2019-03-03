@@ -8,7 +8,6 @@ z-index: 10;
 position: fixed;
 width: 100vw;
 top:-10px;
-left:10px;
 }
 
 .mask img{
@@ -21,7 +20,6 @@ left:10px;
 	margin-bottom: 0px;
 	top:-10px;
 	position: relative;
-	left:10px;
 
 }
 
