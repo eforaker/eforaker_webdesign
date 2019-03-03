@@ -3,8 +3,19 @@
     margin: 0;
 }
 
-.Mask {
+.screen {
+	width: 100vw;
+  -webkit-mask-image: url(images/bottom.png);
+  -webkit-mask-size: 100vw;
   mask-image: url(images/bottom.png);
+  mask-size: 100vw;
+}
+
+.level2 {
+  -webkit-mask-image: url(images/top.png);
+  -webkit-mask-size: 100vw;
+  mask-image: url(images/top.png);
+  mask-size: 100vw;
 }
 
 
