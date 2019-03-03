@@ -3,13 +3,21 @@
     margin: 0;
 }
 
+body {
+	background-image:url("images/tomb.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+}
+
 .mask {
 z-index: 10;
 position: fixed;
 width: 100vw;
 top:0;
 }
-
 
 .mask img{
 	width: 320px;
