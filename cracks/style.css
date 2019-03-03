@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.Mask {
+  mask-image: url(images/bottom.png);
+}
+
 
 @media screen and (device-aspect-ratio: 40/71) {
   .screen {
