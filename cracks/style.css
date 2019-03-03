@@ -5,23 +5,25 @@
 }
 
 .mask {
-  width: 100vw;
- /* -webkit-mask-image: url(images/bottom.png);
-  -webkit-mask-size: 100vw;
-  mask-image: url(images/bottom.png);
-  mask-size: 100vw;*/
-/*  position: fixed;*/
 z-index: 10;
 position: fixed;
+width: 100vw;
+top:0;
 }
 
+
+.mask img{
+	width: 320px;
+}
 .background {
-	width: 100vw;
+	width: 320px;
 	z-index: 3;
+	top:0;
 }
 
 .background img{
-	width: 100vw;
+	width: 320px;
+	top:0;
 }
 
 /*@media screen and (device-aspect-ratio: 40/71) {*/
