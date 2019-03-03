@@ -25,10 +25,10 @@ position: fixed;
 }
 
 /*@media screen and (device-aspect-ratio: 40/71) {*/
-	@media (device-height : 568px) {}
+/*	@media (device-height : 568px) {}
    and (device-width : 320px) 
    and (-webkit-min-device-pixel-ratio: 2)
   .mask {
     width:100vw;
-  }
+  }*/
 }
