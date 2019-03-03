@@ -1,26 +1,28 @@
 * { 
     padding: 0;
     margin: 0;
+    background-color: red;
 }
 
-.screen {
-	width: 100vw;
+.mask {
+  width: 100vw;
   -webkit-mask-image: url(images/bottom.png);
   -webkit-mask-size: 100vw;
   mask-image: url(images/bottom.png);
   mask-size: 100vw;
+/*  position: fixed;*/
 }
 
-.level2 {
-  -webkit-mask-image: url(images/top.png);
-  -webkit-mask-size: 100vw;
-  mask-image: url(images/top.png);
-  mask-size: 100vw;
+.background {
+	width: 100vw;
 }
 
+.background img{
+	width: 100vw;
+}
 
 @media screen and (device-aspect-ratio: 40/71) {
-  .screen {
+  .mask {
     width:100vw;
   }
 }
