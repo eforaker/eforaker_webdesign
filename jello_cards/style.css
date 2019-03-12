@@ -1,3 +1,8 @@
+@font-face {
+    font-family: ArialNarrowMTStd;
+    src: url("fonts/ArialNarrowMTStd.otf") format("opentype");
+}
+
 * { 
     padding: 0;
     margin: 0;
@@ -5,28 +10,28 @@
 
 body {
   padding: 20px 40px 40px 40px;
+  background-color: #fffaf2;
 }
 
 .text {
-  font-family: sans-serif;
-  font-size: 2.5em;
-
+  font-family: ArialNarrowMTStd;
+  font-size: 3em;
+  letter-spacing: .05em;
 }
 
 .frame {
   margin: 0 auto;
   width:100%;
   border-style: solid;
-  border-width: 3px;
+  border-width: 3.5px;
   border-color: red;
-  height: 70vh;
+  height: 80vh;
   padding: 20px;
-   box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
 .frame .img {
-   background: url("images/shrimp.png");
+  background: url("images/shrimp2.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -35,7 +40,24 @@ body {
 }
 
 .frame .img img {
-    width: 100%;
-
+  width: 100%;
   text-align: center;
 }
+
+hr {
+  border-width: 2px;
+  border-color: red;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: ArialNarrowMTStd;
+  font-size: 1.5em;
+  text-align: right;
+  letter-spacing: .05em;
+}
+
+
+
+
+
