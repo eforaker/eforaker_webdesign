@@ -1,6 +1,7 @@
 $(document).ready(function() {
-
-$("#card").flip();
+document.getElementById("img").onclick =
+$("#card ").flip();
 });
+
 
 

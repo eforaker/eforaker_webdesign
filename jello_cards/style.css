@@ -15,7 +15,7 @@ body {
 
 .text {
   font-family: ArialNarrowMTStd;
-  font-size: 3em;
+  font-size: 3.75em;
   letter-spacing: .05em;
 }
 
@@ -25,13 +25,13 @@ body {
   border-style: solid;
   border-width: 3.5px;
   border-color: red;
-  height: 80vh;
+  height: 70vh;
   padding: 20px;
   box-sizing: border-box;
 }
 
 .frame .img {
-  background: url("images/shrimp2.png");
+  background: url("images/shrimp3.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -40,24 +40,34 @@ body {
 }
 
 .frame .img img {
-  width: 100%;
+  width: 100vw;
   text-align: center;
 }
 
 hr {
-  border-width: 2px;
-  border-color: red;
+  border-top: 3.5px solid red;
   margin-bottom: 10px;
 }
 
 p {
   font-family: ArialNarrowMTStd;
-  font-size: 1.5em;
-  text-align: right;
+  font-size: 2em;
+  text-align: center;
   letter-spacing: .05em;
 }
 
+.recipetext {
+  font-family: ArialNarrowMTStd;
+  font-size: 1.5em;
+  letter-spacing: .05em;
+}
 
+.LLC p{
+margin-top: 10px;
+font-size: 1em;
+text-align: right;
+
+}
 
 
 
