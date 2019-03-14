@@ -44,12 +44,18 @@ body {
   text-align: center;
 }
 
+.number {
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+
 hr {
   border-top: 3.5px solid red;
   margin-bottom: 10px;
 }
 
-p {
+.front p {
   font-family: ArialNarrowMTStd;
   font-size: 2em;
   text-align: center;
