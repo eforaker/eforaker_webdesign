@@ -1,0 +1,37 @@
+* {
+	margin:0;
+  display: inline-grid;
+}
+
+body {
+background-image: url("images/galaxy.gif");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+}
+
+.images img{
+  width:20vw;
+}
+
+.logo img{
+  width:250px;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-size: 1em;
+  color:#63fff7;
+  text-align: left;
+  position: absolute;
+  top:30px;
+  left:30px;
+}
+
+.identity {
+  font-family: sans-serif;
+  font-size: 2em;
+  color:#63fff7;
+  text-align: center;
+}
