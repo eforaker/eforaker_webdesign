@@ -1,6 +1,6 @@
 @font-face {
     font-family: ArialNarrowMTStd;
-    src: url("fonts/ArialNarrowMTStd.otf") format("opentype");
+    src: url("../fonts/ArialNarrowMTStd.otf") format("opentype");
 }
 
 * { 
@@ -17,6 +17,11 @@ body {
   font-family: ArialNarrowMTStd;
   font-size: 3.75em;
   letter-spacing: .05em;
+}
+
+.text span a{
+  color:#d59dc1;
+  text-decoration: none;
 }
 
 .frame {
