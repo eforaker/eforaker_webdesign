@@ -43,7 +43,6 @@ body {
   width: 70vw;
   text-align: center;
 }
-
 .number {
   position: absolute;
   right:0px;
@@ -55,6 +54,11 @@ hr {
   margin-bottom: 10px;
 }
 
+.back hr {
+  border-top: 2.5px solid red;
+  margin-bottom: 30px;
+}
+
 .front p {
   font-family: ArialNarrowMTStd;
   font-size: 2em;
@@ -62,10 +66,15 @@ hr {
   letter-spacing: .05em;
 }
 
-.recipetext {
+.recipetext1, .recipetext2, .recipetext3, .recipetext4 {
   font-family: ArialNarrowMTStd;
   font-size: 1.5em;
   letter-spacing: .05em;
+  width:20%;
+  display: inline-flex;
+  line-height: 1.6em;
+  margin-right: 40px;
+  margin-bottom: 100px;
 }
 
 .LLC p{
@@ -74,15 +83,20 @@ font-size: 1em;
 text-align: right;
 }
 
-.back .recipetext {
-  font-size: 2em;
-  column-count: 1;
-  line-height: 1.45em;
-  margin-top:30px;
-  margin-left:30px;
+.back {
+  font-family: ArialNarrowMTStd;
+  font-size: 1em;
+  letter-spacing: .05em;
+  margin-bottom: 100px;
 }
 
-.back .recipetext a{
+.back p{
+  margin-top: 20px;
+  position: relative;
+  font-size: 1.5em;
+}
+
+.back a{
   color: black;
 }
 
