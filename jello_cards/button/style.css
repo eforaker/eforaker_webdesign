@@ -31,7 +31,7 @@ body {
 }
 
 .frame .img {
-  background: url("images/shrimp3.png");
+  background: url("../images/cutebackground.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -40,6 +40,7 @@ body {
 }
 
 .frame .img img {
+  margin-top: 120px;
   width: 70vw;
   text-align: center;
 }

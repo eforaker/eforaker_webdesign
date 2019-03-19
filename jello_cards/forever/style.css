@@ -31,7 +31,7 @@ body {
 }
 
 .frame .img {
-  background: url("images/shrimp3.png");
+  background: url("../images/yummybackground.png");
   background-size: cover;
   background-position: center center;
   width: 100%;
