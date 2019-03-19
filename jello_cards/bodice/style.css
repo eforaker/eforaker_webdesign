@@ -19,9 +19,8 @@ body {
   letter-spacing: .05em;
 }
 
-.text span a{
+.text span{
   color:#d59dc1;
-  text-decoration: none;
 }
 
 .frame {
