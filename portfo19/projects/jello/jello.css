@@ -29,31 +29,16 @@
 }
 
 .pics img{
-	max-height: 450px;
-	padding-bottom: 30px;
-	margin-left: 30px;
-}
-
-.totes {
-	text-align: right;
-	margin-right: 30px;
-}
-
-.totes img{
-	max-height: 600px;
-	padding-bottom: 30px;
-	margin-left: 30px;
-}
-
-.web {
-	text-align: right;
-	margin-right: 30px;
-}
-
-.web img{
-	max-width: 700px;
+	width: 350px;
 	margin-bottom: 30px;
-	border-style: solid;
-  	border-width: 1px;
-  	margin-left: 30px;
+}
+
+.pages {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.pages img{
+	width: 650px;
+	margin-bottom: 30px;
 }
