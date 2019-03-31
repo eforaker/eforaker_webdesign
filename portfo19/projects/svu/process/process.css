@@ -1,6 +1,6 @@
 @font-face {
-    font-family: AbadiMTStd-Bold;
-    src: url("../../../fonts/AbadiMTStd-Bold.otf") format("opentype");
+    font-family: Favorit-Regular;
+    src: url("../../../fonts/Favorit-Regular.otf") format("opentype");
 }
 
 * {
@@ -9,11 +9,11 @@
 
 .heading {
 	font-size: 1em;
-	font-family: AbadiMTStd-Bold;
+	font-family: Favorit-Regular;
 	margin-left: 30px;
 	margin-bottom: 30px;
-	line-height: 1.25em;
-	width: 400px;
+	line-height: 1.5em;
+	width: 460px;
 	text-align: left;
 	position: fixed;
 }
