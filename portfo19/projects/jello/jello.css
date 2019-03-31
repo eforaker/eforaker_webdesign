@@ -1,0 +1,59 @@
+@font-face {
+    font-family: AbadiMTStd-Bold;
+    src: url("../../fonts/AbadiMTStd-Bold.otf") format("opentype");
+}
+
+* {
+  margin:0;
+}
+
+.description {
+	font-size: 1em;
+	font-family: AbadiMTStd-Bold;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	line-height: 1.25em;
+	width: 400px;
+	text-align: left;
+	position: fixed;
+}
+
+.description a{
+	color: black;
+	line-height: 1.75em;
+}
+
+.pics {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.pics img{
+	max-height: 450px;
+	padding-bottom: 30px;
+	margin-left: 30px;
+}
+
+.totes {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.totes img{
+	max-height: 600px;
+	padding-bottom: 30px;
+	margin-left: 30px;
+}
+
+.web {
+	text-align: right;
+	margin-right: 30px;
+}
+
+.web img{
+	max-width: 700px;
+	margin-bottom: 30px;
+	border-style: solid;
+  	border-width: 1px;
+  	margin-left: 30px;
+}
