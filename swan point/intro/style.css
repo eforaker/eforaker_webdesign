@@ -1,6 +1,6 @@
 @font-face {
     font-family: GRAVE-GraveMedium;
-    src: url("fonts/GRAVE-GraveMedium.otf") format("opentype");
+    src: url("../fonts/GRAVE-GraveMedium.otf") format("opentype");
 }
 
 * {
@@ -9,54 +9,29 @@
 
 body {
 	background-color: #ffd8ea;
+}
+
+
+.text p{
+	margin-top: 180px;
+	margin-left: 50px;
+	margin-right: 10px;
 	font-family: GRAVE-GraveMedium;
 	color:#0a5e3a;
-}
-
-.header p{
-	margin-top: 130px;
-	margin-left: 48px;
 	font-size: 5em;
-	line-height: 1.07em;
-}
-
-.info p{
-	font-family: sans-serif;
-	font-size: 1em;
-	line-height: 1.35em;
-}
-
-.info {
-	margin-left:48px;
-	margin-top: 10px;
-}
-
-.main {	
-	margin-top: 50px;
-	margin-bottom: 60px;
-}
-
-.main img{
-	margin: 0 auto;
-	height:73vw;
-	display: block;
-}
-
-.main img:hover{
-	cursor: pointer;
-}
-
-.main a:hover{
-	cursor: default;
+	text-align: left;
+	margin-bottom: 50px;
 }
 
 .tabs {
+	font-family: GRAVE-GraveMedium;
+	color:#0a5e3a;
 	text-transform: uppercase;
 	font-size: 2em;
 	top: 25px;
 	margin-left: 40px;
 	position: fixed;
-	letter-spacing:.025em;
+	letter-spacing: .025em;
 }
 
 .tabs a {
@@ -84,3 +59,4 @@ body {
 	background-color: #0a5e3a;
 	border-color: #0a5e3a;
 }
+
