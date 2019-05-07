@@ -1,0 +1,75 @@
+@font-face {
+    font-family: GRAVE-GraveMedium;
+    src: url("fonts/GRAVE-GraveMedium.otf") format("opentype");
+}
+
+* {
+  margin:0;
+}
+
+body {
+	background-color: #ffd8ea;
+/*    background-image: url("images/picnicblanket.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;*/
+}
+
+
+.header p{
+	margin-top: 130px;
+	margin-left: 50px;
+	font-family: GRAVE-GraveMedium;
+	color:#0a5e3a;
+	font-size: 5em;
+	text-align: left;
+}
+
+/*hr {
+	border-color:#0a5e3a;
+	border-style: solid;
+	border-width: 3px;
+	margin-right: 50px;
+}*/
+
+.main {	
+	margin-top: 50px;
+}
+
+.main img{
+	margin: 0 auto;
+	height:73vh;
+	display: block;
+}
+
+.tabs {
+	font-family: GRAVE-GraveMedium;
+	color:#0a5e3a;
+	text-transform: uppercase;
+	font-size: 2em;
+	top: 25px;
+	margin-left: 40px;
+	position: fixed;
+	letter-spacing: .025em;
+}
+
+.tabs a {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 10px;
+	border-style: solid;
+	border-width: 3px;
+	text-decoration: none;
+	color:#0a5e3a;
+	background-color: #ffd8ea;
+}
+
+.tabs a:hover{
+	color:#ffd8ea;
+	background-color: #0a5e3a;
+	border-color: #0a5e3a;
+}
