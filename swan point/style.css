@@ -3,6 +3,11 @@
     src: url("fonts/GRAVE-GraveMedium.otf") format("opentype");
 }
 
+@font-face {
+    font-family: FaktSmConPro-Medium;
+    src: url("fonts/FaktSmConPro-Medium.otf") format("opentype");
+}
+
 * {
   margin:0;
 }
@@ -20,17 +25,6 @@ body {
 	line-height: 1.07em;
 }
 
-.info p{
-	font-family: sans-serif;
-	font-size: 1em;
-	line-height: 1.35em;
-}
-
-.info {
-	margin-left:48px;
-	margin-top: 10px;
-}
-
 .main {	
 	margin-top: 50px;
 	margin-bottom: 60px;
@@ -38,7 +32,7 @@ body {
 
 .main img{
 	margin: 0 auto;
-	height:73vw;
+	height:120vw;
 	display: block;
 }
 
@@ -84,3 +78,4 @@ body {
 	background-color: #0a5e3a;
 	border-color: #0a5e3a;
 }
+

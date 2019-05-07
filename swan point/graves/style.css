@@ -11,15 +11,8 @@ body {
 	background-color: #ffd8ea;
 	font-family: GRAVE-GraveMedium;
 	color:#0a5e3a;
+	display: inline-block;
 }
-
-.back {
-		margin-top: 130px;
-	margin-left: 48px;
-	font-size: 5em;
-	line-height: 1.07em;
-}
-
 
 
 .tabs {
@@ -29,6 +22,7 @@ body {
 	margin-left: 40px;
 	position: fixed;
 	letter-spacing: .025em;
+	z-index: 200;
 }
 
 .tabs a {
@@ -53,11 +47,16 @@ body {
 
 .rows img{
 	display: inline-flex;
-	max-height: 100px;
-	margin: 15px;
+	max-height: 300px;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-right: 5px;
 }
 
 .rows {
-	margin-top:160px;
-	margin-left:34px;
+	margin-top:120px;
+	left:24px;
+	position: absolute;
+	margin-bottom:60px;
 }
+
