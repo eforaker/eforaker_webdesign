@@ -13,13 +13,13 @@ body {
 	color:#0a5e3a;
 }
 
-.back {
-		margin-top: 130px;
+#names {
+	margin-top: 130px;
 	margin-left: 48px;
-	font-size: 5em;
-	line-height: 1.07em;
+	margin-right: 48px;
+    font-size: 5em;
+    margin-bottom: 65px;
 }
-
 
 
 .tabs {
@@ -66,4 +66,8 @@ body {
 	color:#ffd8ea;
 	background-color: #0a5e3a;
 	border-color: #0a5e3a;
+}
+
+#yourcutebirdcaption{ 
+	display:none;
 }

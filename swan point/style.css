@@ -3,10 +3,10 @@
     src: url("fonts/GRAVE-GraveMedium.otf") format("opentype");
 }
 
-@font-face {
+/*@font-face {
     font-family: FaktSmConPro-Medium;
     src: url("fonts/FaktSmConPro-Medium.otf") format("opentype");
-}
+}*/
 
 * {
   margin:0;
@@ -77,5 +77,9 @@ body {
 	color:#ffd8ea;
 	background-color: #0a5e3a;
 	border-color: #0a5e3a;
+}
+
+.info {
+	display: none;
 }
 
