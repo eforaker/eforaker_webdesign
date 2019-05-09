@@ -52,12 +52,6 @@ body {
 	border-color: #0a5e3a;
 }
 
-.rows img{
-	display: inline-flex;
-	max-height: 270px;
-	margin: 15px;
-}
-
 .rows {
 	margin-top:160px;
 	margin-left:34px;
@@ -71,12 +65,14 @@ body {
 
 .container {
 	display: inline-block;
-	width:250px;
+	max-height:300px;
+	max-width:300px;
+	margin-top: 10px;
 }
 
 .container img{
-	max-height:200px;
-	max-width:200px;
+	max-height:300px;
+	max-width:300px;
 	text-align: center;
 	margin: 0 auto;
 }
