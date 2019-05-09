@@ -68,6 +68,27 @@ body {
 	border-color: #0a5e3a;
 }
 
-#yourcutebirdcaption{ 
-	display:none;
+.container {
+	display: inline-block;
+}
+
+.container img{
+	max-width:250px;
+}
+
+.overlay {
+  opacity: 0;
+  position: relative;
+  top:-20px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #0a5e3a;
+  font-size: 1.5em;
+  text-align: center;
+  max-width:250px;
 }
