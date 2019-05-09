@@ -29,6 +29,7 @@ body {
 	margin-left: 40px;
 	position: fixed;
 	letter-spacing: .025em;
+	z-index: 200;
 }
 
 .tabs a {
@@ -70,16 +71,19 @@ body {
 
 .container {
 	display: inline-block;
+	width:250px;
 }
 
 .container img{
-	max-width:250px;
+	max-height:200px;
+	max-width:200px;
+	text-align: center;
+	margin: 0 auto;
 }
 
 .overlay {
   opacity: 0;
   position: relative;
-  top:-20px;
 }
 
 .container:hover .overlay {
@@ -92,3 +96,5 @@ body {
   text-align: center;
   max-width:250px;
 }
+
+
