@@ -50,14 +50,27 @@ width:190px;
 }
 
 .rows {
-	margin-top:100px;
+	margin-top:160px;
 	left:24px;
 	position: absolute;
 	margin-bottom:60px;
 }
 
 .info {
-	margin-left:500px;
+	margin-left:300px;
 	margin-top:200px;
+	font-size: 2em;
 }
 
+.info a{
+	color:#ffd8ea;
+}
+
+.info p{
+	margin-bottom: 50px;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
