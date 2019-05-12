@@ -45,22 +45,23 @@ body {
 	border-color: #ffd8ea;
 }
 
-.rows img{
-width:190px;
+.gif img{
+width:200px;
 }
 
-.rows {
-	margin-top:160px;
+.gif {
+	margin-top:120px;
 	left:24px;
 	position: absolute;
 	margin-bottom:60px;
 }
 
 .info {
-	margin-left:300px;
-	margin-top:200px;
-	font-size: 2em;
-	line-height: 1.5;
+	margin-left:290px;
+	margin-top:160px;
+	font-size: 5em;
+	text-align: left;
+	margin-bottom: 50px;
 }
 
 .info a{
@@ -68,10 +69,5 @@ width:190px;
 }
 
 .info p{
-	margin-bottom: 50px;
-}
-
-h1 {
-	text-transform: uppercase;
-	margin-bottom: 8px;
+	margin-bottom: 150px;
 }

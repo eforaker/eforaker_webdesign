@@ -15,16 +15,34 @@ body {
     background-attachment: fixed;
 }
 
+.text {
+	margin-top:160px;
+	position: absolute;
+/*	max-width:1700px;*/
+	margin-right: 50px;
+}
+
 
 .text p{
-	margin-top: 180px;
-	margin-left: 50px;
-	margin-right: 10px;
+	margin-left:290px;
 	font-family: GRAVE-GraveMedium;
 	color:#0a5e3a;
 	font-size: 5em;
 	text-align: left;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
+}
+
+.images {
+	margin-top:175px;
+	left:35px;
+	position: absolute;
+	margin-bottom:60px;
+}
+
+
+.images img{
+	width:180px;
+	margin-bottom:780px;
 }
 
 .tabs {
@@ -36,6 +54,7 @@ body {
 	margin-left: 40px;
 	position: fixed;
 	letter-spacing: .025em;
+	z-index: 100;
 }
 
 .tabs a {

@@ -51,8 +51,16 @@ body {
 	background-color: #0a5e3a;
 	border-color: #0a5e3a;
 }
+img {
+	border: solid 1px blue;
+	max-width:100%;
+	max-height:300px;
+	position:relative;
 
+}
 .rows {
+/*	display: flex;
+	flex-direction: row;*/
 	margin-top:160px;
 	margin-left:34px;
 }
@@ -65,14 +73,20 @@ body {
 
 .container {
 	display: inline-block;
+	position:relative;
+	width:20%;
+	/*flex: 0 0 20%;*/
+	border: solid 1px black;
+	float:left;
 	max-height:300px;
 	max-width:300px;
 	margin-top: 10px;
+
 }
 
 .container img{
-	max-height:300px;
-	max-width:300px;
+/*	max-height:300px;
+	max-width:300px;*/
 	text-align: center;
 	margin: 0 auto;
 }

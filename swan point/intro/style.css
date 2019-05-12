@@ -11,16 +11,21 @@ body {
 	background-color: #ffd8ea;
 }
 
+.text {
+	margin-top:160px;
+	position: absolute;
+	/*max-width:2000px;*/
+	margin-right: 50px;
+}
+
 
 .text p{
-	margin-top: 180px;
-	margin-left: 50px;
-	margin-right: 10px;
+	margin-left:50px;
 	font-family: GRAVE-GraveMedium;
 	color:#0a5e3a;
 	font-size: 5em;
 	text-align: left;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
 }
 
 .tabs {
@@ -32,6 +37,7 @@ body {
 	margin-left: 40px;
 	position: fixed;
 	letter-spacing: .025em;
+	z-index: 200;
 }
 
 .tabs a {

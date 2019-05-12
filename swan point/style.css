@@ -3,11 +3,6 @@
     src: url("fonts/GRAVE-GraveMedium.otf") format("opentype");
 }
 
-/*@font-face {
-    font-family: FaktSmConPro-Medium;
-    src: url("fonts/FaktSmConPro-Medium.otf") format("opentype");
-}*/
-
 * {
   margin:0;
 }
@@ -37,12 +32,10 @@ body {
 }
 
 .main img:hover{
-	cursor: pointer;
+	cursor: url("images/info.png"), pointer;
+	transform: scale(1.005);
 }
-
-.main a:hover{
-	cursor: default;
-}
+	
 
 .tabs {
 	text-transform: uppercase;
