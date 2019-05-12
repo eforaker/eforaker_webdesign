@@ -16,6 +16,7 @@ body {
 	position: absolute;
 	/*max-width:2000px;*/
 	margin-right: 50px;
+	margin-bottom: 150px;
 }
 
 
@@ -25,7 +26,8 @@ body {
 	color:#0a5e3a;
 	font-size: 5em;
 	text-align: left;
-	margin-bottom: 150px;
+	margin-bottom: 80px;
+	
 }
 
 .tabs {
