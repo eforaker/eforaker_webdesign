@@ -9,7 +9,7 @@
 
 body {
 	color:#ffd8ea;
-	background-color: #0a5e3a;
+	background-color: #055732;
 	font-family: GRAVE-GraveMedium;
 	display: inline-block;
 }
@@ -36,11 +36,11 @@ body {
 	border-width: 3px;
 	text-decoration: none;
 	color:#ffd8ea;
-	background-color: #0a5e3a;
+	background-color: #055732;
 }
 
 .tabs a:hover{
-	color:#0a5e3a;
+	color:#055732;
 	background-color: #ffd8ea;
 	border-color: #ffd8ea;
 }

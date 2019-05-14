@@ -10,7 +10,7 @@
 body {
 	background-color: #ffd8ea;
 	font-family: GRAVE-GraveMedium;
-	color:#0a5e3a;
+	color:#055732;
 }
 
 #names {
@@ -42,14 +42,14 @@ body {
 	border-style: solid;
 	border-width: 3px;
 	text-decoration: none;
-	color:#0a5e3a;
+	color:#055732;
 	background-color: #ffd8ea;
 }
 
 .tabs a:hover{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
+	background-color: #055732;
+	border-color: #055732;
 }
 img {
 /*	border: solid 1px blue;*/
@@ -65,8 +65,8 @@ img {
 
 .here a{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
+	background-color: #055732;
+	border-color: #055732;
 }
 
 .container {
@@ -99,7 +99,7 @@ img {
 }
 
 .text {
-  color: #0a5e3a;
+  color: #055732;
   font-size: 1.5em;
   text-align: center;
   max-width:250px;

@@ -10,7 +10,7 @@
 body {
 	background-color: #ffd8ea;
 	font-family: GRAVE-GraveMedium;
-	color:#0a5e3a;
+	color:#055732;
 }
 
 .header p{
@@ -29,6 +29,7 @@ body {
 	margin: 0 auto;
 	height:120vw;
 	display: block;
+	z-index: 1;
 }
 
 .main img:hover{
@@ -44,6 +45,7 @@ body {
 	margin-left: 40px;
 	position: fixed;
 	letter-spacing:.025em;
+	z-index: 10;
 }
 
 .tabs a {
@@ -56,23 +58,19 @@ body {
 	border-style: solid;
 	border-width: 3px;
 	text-decoration: none;
-	color:#0a5e3a;
+	color:#055732;
 	background-color: #ffd8ea;
 }
 
 .tabs a:hover{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
+	background-color: #055732;
+	border-color: #055732;
 }
 
 .here a{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
-}
-
-.info {
-
+	background-color: #055732;
+	border-color: #055732;
 }
 

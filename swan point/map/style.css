@@ -5,25 +5,14 @@
 
 * {
   margin:0;
+  padding: 0;
 }
 
 body {
 	background-color: #ffd8ea;
 	font-family: GRAVE-GraveMedium;
-	color:#0a5e3a;
+	color:#055732;
 }
-
-
-/*.text p{
-	margin-top: 180px;
-	margin-left: 50px;
-	margin-right: 10px;
-	font-family: GRAVE-GraveMedium;
-	color:#0a5e3a;
-	font-size: 5em;
-	text-align: left;
-	margin-bottom: 50px;
-}*/
 
 .legend img{
 	width:20vw;
@@ -35,7 +24,7 @@ body {
 
 .tabs {
 	font-family: GRAVE-GraveMedium;
-	color:#0a5e3a;
+	color:#055732;
 	text-transform: uppercase;
 	font-size: 2em;
 	top: 25px;
@@ -55,28 +44,40 @@ body {
 	border-style: solid;
 	border-width: 3px;
 	text-decoration: none;
-	color:#0a5e3a;
+	color:#055732;
 	background-color: #ffd8ea;
 }
 
 .tabs a:hover{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
+	background-color: #055732;
+	border-color: #055732;
 }
 
 .here a{
 	color:#ffd8ea;
-	background-color: #0a5e3a;
-	border-color: #0a5e3a;
+	background-color: #055732;
+	border-color: #055732;
 }
 
 .map {
 	position: absolute;
 	margin-top:100px;
 	width: 100vw;
+	z-index: 10;
 }
 
 .map img{
 	width: 100vw;
+	margin-bottom: 0;
+	bottom: 0;
+}
+
+.green {
+	position: absolute;
+	background-color: #055732;
+	height: 400px;
+	bottom:-400px;
+	width:100vw;
+	z-index: 1;
 }
