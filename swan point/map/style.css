@@ -22,6 +22,10 @@ body {
 	bottom: 60px;
 }
 
+.legend img:hover{
+cursor: pointer;
+}
+
 .tabs {
 	font-family: GRAVE-GraveMedium;
 	color:#055732;
