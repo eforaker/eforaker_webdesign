@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Excel-Regular;
+    src: url("fonts/Excel-Regular.otf") format("opentype");
+}
+
+* {
+display: inline-block;
+margin:0;
+}
+
+body {
+background-image: url('images/cher.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+font-family: Excel-Regular;
+}
+
+.type {
+	position: absolute;
+	top:30px;
+	left:50px;
+}
+
+p {
+	font-size: 10em;
+	color:#fff317;
+	text-align: left;
+	line-height: .9;
+	word-spacing: -30px;
+}
+
+.description {
+	font-family: sans-serif;
+	color:#fff317;
+	max-width:400px;
+    line-height: 1.2;
+    font-size: 1.25em;
+    margin-top:80px;
+    bottom: 30px;
+    left:50px;
+    position: absolute;
+}
+
+a{
+	position: absolute;
+	font-family: Excel-Regular;
+	color:#fff317;
+	word-spacing: -30px;
+	text-decoration: none;
+	font-size: 5.5em;
+    bottom: 15px;
+    right:5px;
+}
+

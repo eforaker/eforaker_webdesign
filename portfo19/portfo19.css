@@ -14,9 +14,9 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-image: linear-gradient(#f21696, #fd9cff, #fce1fc);	
+/*    background-image: linear-gradient(#f21696, #fd9cff, #fce1fc);	
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 .heading {
