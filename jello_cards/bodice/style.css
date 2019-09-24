@@ -101,6 +101,14 @@ text-align: right;
   columns: 2;
 }
 
+.front {
+      background-color: #fffaf2;
+}
+
+.back {
+      background-color: #fffaf2;
+}
+
 .back a{
   color: black;
 }

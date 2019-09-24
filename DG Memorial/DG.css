@@ -51,7 +51,7 @@ body {
     margin:0 auto;
     z-index: 200;
     text-align: center;
-    position: relative;
+    position: absolute;
     top:1060px;
 }
 

@@ -60,6 +60,14 @@ hr {
   margin-bottom: 10px;
 }
 
+.front {
+      background-color: #fffaf2;
+}
+
+.back {
+      background-color: #fffaf2;
+}
+
 .back hr {
   border-top: 2.5px solid red;
   margin-bottom: 30px;

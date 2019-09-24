@@ -65,6 +65,10 @@ hr {
   margin-bottom: 30px;
 }
 
+.front {
+      background-color: #fffaf2;
+}
+
 .front p {
   font-family: ArialNarrowMTStd;
   font-size: 2em;
@@ -81,6 +85,7 @@ hr {
   line-height: 1.6em;
   margin-right: 40px;
   margin-bottom: 100px;
+
 }
 
 .LLC p{
@@ -94,6 +99,7 @@ text-align: right;
   font-size: 1em;
   letter-spacing: .05em;
   margin-bottom: 100px;
+  background-color: #fffaf2;
 }
 
 .back p{

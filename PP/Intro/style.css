@@ -1,0 +1,26 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+body{
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.jello{
+  padding-top: 20px;
+	margin: 0 auto;
+	text-align: center;
+	width:90vw;
+}
+
+.jello img{
+    height:95vh;
+}
