@@ -5,7 +5,7 @@
 
 
 body{
-  background-color:black;
+  background-color:white;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -15,14 +15,15 @@ body{
 .list{
   padding-top: 20px;
 	text-align: left;
-  color:pink;
+  color:#ff7af7;
   font-family: sans-serif;
-  font-size:1.45em;
-  column-count: 3;
-  margin-left: 50px;
-  margin-top:15px;
+  font-size:2em;
+  column-count: 1;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom:35px;
   list-style-type: none;
-  line-height: 1.35;
+  line-height: 1.25;
 }
 
 li {

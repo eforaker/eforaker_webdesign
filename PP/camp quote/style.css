@@ -1,0 +1,23 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+  background-image: url("fire.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.quote{
+  padding-top: 28px;
+  text-align: center;
+  color:white;
+  font-size:10em;
+  line-height: 1;
+  padding-left: 100px;
+  padding-right: 100px;
+}
