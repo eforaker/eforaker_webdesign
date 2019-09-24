@@ -5,7 +5,7 @@
 
 
 body{
-  background-image: url("beach.jpg");
+/*  background-image: url("beach.jpg");*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -21,6 +21,4 @@ body{
 
 .gif img{
     height:95vh;
-      -webkit-filter: drop-shadow(5px 5px 5px #222);
-  filter: drop-shadow(5px 5px 5px #222);
 }
