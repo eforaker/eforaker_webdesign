@@ -10,7 +10,7 @@
 
 
 body{
-  background-image: url("boardwalk.jpg");
+  background-image: url("pink.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,10 +19,10 @@ body{
 
 .quote{
   font-family: 'Serifbabe_Regular';
-  padding-top: 28px;
+  padding-top: 78px;
   text-align: center;
-  color:white;
-  font-size:9em;
+ color:white;
+  font-size:7em;
   line-height: 1;
   padding-left: 100px;
   padding-right: 100px;

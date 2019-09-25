@@ -3,9 +3,13 @@
     margin: 0;
 }
 
+@font-face {
+  font-family: 'Serifbabe_Regular';
+  src: url('Serifbabe_Regular.ttf') format('truetype');
+}  
 
 body{
-  background-color:white;
+  background-image: url("lauren.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -14,10 +18,10 @@ body{
 
 .list{
   padding-top: 20px;
-	text-align: left;
-  color:#ff7af7;
-  font-family: serif;
-  font-size:2em;
+	text-align: center;
+  color:#ffb3f2;
+  font-family: 'Serifbabe_Regular';
+  font-size:5em;
   column-count: 1;
   margin-left: 45px;
   margin-top: 10px;
