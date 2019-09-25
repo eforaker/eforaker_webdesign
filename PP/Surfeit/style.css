@@ -10,20 +10,24 @@
 
 
 body{
-  background-image: url("glitter.gif");
+  background-color: black;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
 }
 
-.quote{
-  padding-top: 28px;
+img {
+  width:900px;
+}
+
+.def{
+  margin-top: 8px;
   text-align: center;
   color:#ffb3f2;
   font-family: 'Serifbabe_Regular';
   font-size:7em;
-  line-height: 1;
+  line-height: 1.05;
   padding-left: 100px;
   padding-right: 100px;
 }
