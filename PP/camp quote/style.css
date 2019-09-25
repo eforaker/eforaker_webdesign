@@ -3,9 +3,14 @@
     margin: 0;
 }
 
+@font-face {
+  font-family: 'Serifbabe_Regular';
+  src: url('Serifbabe_Regular.ttf') format('truetype');
+}  
+
 
 body{
-  background-image: url("fire.jpg");
+  background-image: url("glitter.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +21,8 @@ body{
   padding-top: 28px;
   text-align: center;
   color:white;
-  font-size:10em;
+  font-family: 'Serifbabe_Regular';
+  font-size:8em;
   line-height: 1;
   padding-left: 100px;
   padding-right: 100px;
