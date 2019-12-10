@@ -1,0 +1,20 @@
+@font-face {
+font-family: "VerdanaBold";
+src: url("fonts/VerdanaBold.ttf");
+}
+
+@font-face {
+font-family: "ArialMonospacedMTStd-Bold";
+src: url("fonts/ArialMonospacedMTStd-Bold.otf");
+}
+
+* {
+  margin:0;
+  display: inline-block;
+  background-color: black;
+}
+
+.emoji img{
+max-width:300px;
+max-height: 150px;
+}

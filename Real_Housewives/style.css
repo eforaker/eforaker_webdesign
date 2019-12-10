@@ -13,11 +13,46 @@ html, body {
     height: 100%;
     overflow: hidden;
     margin: 0;
-/*    background-image: url("images/overlay.png");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
+}
+
+#key {
+  position: absolute;
+  bottom: 70px;
+  right: 17px;
+  display: none;
+  font-size: 1.75em;
+  font-family: Knockout-28;
+  background-color: #ffe0e9;
+  width:500px;
+  padding:25px;
+  border-style: solid;
+}
+
+button{
+  background-color: #ffe0e9;
+  color:black;
+  bottom: 5px;
+  right: 17px;
+  position: absolute;
+  font-size: 3em;
+  font-family: Knockout-28;
+  border: none;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+  cursor: pointer;
+}
+
+.title {
+    font-family: Knockout-28;
+    text-transform: uppercase;
+    font-size: 7em;
 }
 
 #content {
