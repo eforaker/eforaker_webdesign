@@ -1,0 +1,110 @@
+
+@font-face {
+    font-family:Knockout-28;
+    src: url("fonts/Knockout-28.otf") format("opentype");
+}
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#key {
+  position: absolute;
+  bottom: 70px;
+  right: 17px;
+  display: none;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  background-color: white;
+  width:500px;
+  padding:15px;
+  border-style: solid;
+}
+
+button{
+  background-color: transparent;
+  color:black;
+  bottom: 5px;
+  right: 17px;
+  position: absolute;
+  font-size: 3em;
+  font-family: sans-serif;
+  border: none;
+}
+
+button:focus {outline:0;}
+
+button:hover {
+  cursor: pointer;
+  color:yellow;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 3em;
+    padding: 15px;
+    background-color: transparent;
+}
+
+#content {
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    color:black;
+    background-color: yellow;
+    text-align: left;
+    overflow-y: scroll;
+    line-height: 1.5;
+}
+
+#left p:hover {
+  cursor:pointer;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#left::-webkit-scrollbar {
+    display: none;
+}
+
+#right {
+    float: left;
+    width: 60%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    color:black;
+    background-color: white;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+#right img{
+  max-width:800px;
+}
+
+#right::-webkit-scrollbar {
+    display: none;
+}
+
