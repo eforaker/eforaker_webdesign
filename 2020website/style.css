@@ -22,10 +22,10 @@ html, body {
 button{
   background-color: transparent;
   color:black;
-  bottom: 20px;
+  bottom: 18px;
   right: 28px;
   position: fixed;
-  font-size: 2em;
+  font-size: 3em;
   font-family:serif;
   border: none;
   z-index: 100;
@@ -44,7 +44,7 @@ button{
   border-style: solid;
   z-index: 100;
   line-height: 1.15;
-      background-image: url("images/pinksky.gif");
+  background-image: url("images/pinksky.gif");
 
 }
 
@@ -61,7 +61,7 @@ button:hover {
     font-size: 3em;
     padding: 25px;
     background-color: transparent;
-    position: absolute;
+    position: fixed;
 }
 
 #title img {
@@ -71,25 +71,25 @@ button:hover {
 
 #content {
     font-family: sans-serif;
-    font-size: 1.5em;
+    font-size: 1.35em;
     background-color: transparent;
+    height: 100%;
 }
 
 #left {
-    margin-top:210px;
-    position: absolute;
     float: left;
     width: 30%;
     height: 100%;
+    overflow: auto;
     box-sizing: border-box;
-    padding: 25px;
     color:black;
     background-color: transparent;
     text-align: left;
-    line-height: 1.65;
-    font-family:sans-serif;
-    z-index: 10;
+    overflow-y: scroll;
     text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 250px;
+    line-height: 1.3em;
 }
 
 #left a{
@@ -101,11 +101,7 @@ button:hover {
   color:magenta;
 }
 
-#left::-webkit-scrollbar {
-    display: none;
-}
-
-.right {
+#right {
     float: right;
     width: 70%;
     height: 100%;
@@ -118,7 +114,7 @@ button:hover {
     margin: 0 auto;
 }
 
-.right img{
+#right img{
   max-width:65vw;
   max-height:80vh;
 }
