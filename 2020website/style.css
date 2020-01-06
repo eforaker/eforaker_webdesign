@@ -1,9 +1,4 @@
-/*
-@font-face {
-    font-family:GT-Walsheim-Pro-Medium;
-    src: url("fonts/GT-Walsheim-Pro-Medium.otf") format("opentype");
-}
-*/
+
 * { 
     padding: 0;
     margin: 0;
@@ -57,7 +52,7 @@ button:hover {
 }
 
 #title {
-    font-family:GT-Walsheim-Pro-Medium;
+    font-family:serif;
     font-size: 3em;
     padding: 25px;
     background-color: transparent;
@@ -106,12 +101,13 @@ button:hover {
     width: 70%;
     height: 100%;
     box-sizing: border-box;
-    padding: 15px;
+    padding: 25px;
     color:black;
     background-color: transparent;
     overflow-y: scroll;
     text-align: center;
     margin: 0 auto;
+
 }
 
 #right img{
