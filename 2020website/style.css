@@ -33,7 +33,6 @@ button{
   display: none;
   font-size: 20px;
   font-family:sans-serif;
-  background-color: white;
   width:600px;
   padding:15px;
   border-style: solid;
@@ -114,4 +113,62 @@ button:hover {
   max-width:65vw;
   max-height:80vh;
 }
+
+#error {
+  display: none;
+}
+
+
+/*/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 450px) {
+
+#title {
+  font-size: 2.5em;
+  margin-left: 10px;
+  top:0px;
+}
+
+#error{
+  font-size: 2em;
+  width:80vw;
+  display: block;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 50vh;
+}
+
+#content {
+  display: none;
+  margin-left: 10px;
+}
+
+#key {
+  width:75vw;
+  border-style: solid;
+  background-color: white;
+  background-image: none;
+  position: absolute;
+  bottom: 50px;
+  font-size: 1em;
+}
+
+#key img{
+  width:200px;
+}
+
+button{
+  font-size: 2em;
+  font-family:serif;
+  border: none;
+  z-index: 100;
+    bottom: 10px;
+  right: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color:black;
+}
+
+}*/
 
