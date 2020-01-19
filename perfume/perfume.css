@@ -1,0 +1,56 @@
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+*{  
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-left: 25px;
+	margin-right: 25px;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 13.5em;
+	color:white;
+	background-image: linear-gradient(white, magenta);
+}
+
+.scroll {
+height:100vh;
+position: relative;
+overflow: hidden;
+}
+
+.scroll p span{
+font-family:SpringLPStd;
+text-transform: capitalize;
+font-size: 1.2em;
+}
+
+.scroll p{
+position: absolute;
+width: 100%;
+height: 100%;
+margin:0;
+text-align: center;
+/* Starting position */
+-moz-transform:translateY(0%);
+-webkit-transform:translateY(0%); 
+transform:translateY(0%);
+/* Apply animation to this element */ 
+-moz-animation: scroll 300s linear infinite;
+-webkit-animation: scroll 300s linear infinite;
+animation: scroll 300s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll {
+0% { -moz-transform: translateY(100%); }
+100% { -moz-transform: translateY(-2500%); }
+}
+@-webkit-keyframes scroll {
+0% { -webkit-transform: translateY(100%); }
+100% { -webkit-transform: translateY(-2500%); }
+}
