@@ -3,6 +3,11 @@
     src: url("fonts/SpringLPStd.otf") format("opentype");
 }
 
+@font-face {
+    font-family:HelveticaLTStd-Roman;
+    src: url("fonts/HelveticaLTStd-Roman.otf") format("opentype");
+}
+
 *{  
     padding: 0px;
     margin: 0px;
@@ -12,10 +17,10 @@
 }
 
 body {
-	font-family: sans-serif;
-	font-size: 13.5em;
+	font-family:HelveticaLTStd-Roman;
+	font-size: 13em;
 	color:white;
-	background-image: linear-gradient(white, magenta);
+	background-image: linear-gradient(white, #ff22ce);
 }
 
 .scroll {
@@ -28,9 +33,11 @@ overflow: hidden;
 font-family:SpringLPStd;
 text-transform: capitalize;
 font-size: 1.2em;
+line-height: .8;
 }
 
 .scroll p{
+text-shadow:1px 1px 8px #fff, 1px 1px 8px #fff;
 position: absolute;
 width: 100%;
 height: 100%;
@@ -41,16 +48,16 @@ text-align: center;
 -webkit-transform:translateY(0%); 
 transform:translateY(0%);
 /* Apply animation to this element */ 
--moz-animation: scroll 300s linear infinite;
--webkit-animation: scroll 300s linear infinite;
-animation: scroll 300s linear infinite;
+-moz-animation: scroll 1200s linear infinite;
+-webkit-animation: scroll 1200s linear infinite;
+animation: scroll 1200s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll {
 0% { -moz-transform: translateY(100%); }
-100% { -moz-transform: translateY(-2500%); }
+100% { -moz-transform: translateY(-10600%); }
 }
 @-webkit-keyframes scroll {
 0% { -webkit-transform: translateY(100%); }
-100% { -webkit-transform: translateY(-2500%); }
+100% { -webkit-transform: translateY(-10600%); }
 }
