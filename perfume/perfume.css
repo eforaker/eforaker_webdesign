@@ -1,11 +1,212 @@
 @font-face {
+    font-family:HelveticaLTStd-Roman;
+    src: url("fonts/HelveticaLTStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Abuget;
+    src: url("fonts/Abuget.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Allura-Regular;
+    src: url("fonts/Allura-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:AmostelySignature;
+    src: url("fonts/AmostelySignature.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Ananda;
+    src: url("fonts/Ananda.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Antro_Vectra_Bolder;
+    src: url("fonts/Antro_Vectra_Bolder.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family:Arizonia-Regular;
+    src: url("fonts/Arizonia-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Austine;
+    src: url("fonts/Austine.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Beauty_Dream;
+    src: url("fonts/Beauty_Dream.otf") format("truetype");
+}
+
+@font-face {
+    font-family:Bellarinde;
+    src: url("fonts/Bellarinde.otf") format("opentype");
+}
+
+@font-face {
+    font-family:BeryScript-Normal;
+    src: url("fonts/BeryScript-Normal.otf") format("opentype");
+}
+
+@font-face {
     font-family:SpringLPStd;
     src: url("fonts/SpringLPStd.otf") format("opentype");
 }
 
 @font-face {
-    font-family:HelveticaLTStd-Roman;
-    src: url("fonts/HelveticaLTStd-Roman.otf") format("opentype");
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:SpringLPStd;
+    src: url("fonts/SpringLPStd.otf") format("opentype");
 }
 
 *{  
@@ -20,7 +221,7 @@ body {
 	font-family:HelveticaLTStd-Roman;
 	font-size: 13em;
 	color:white;
-	background-image: linear-gradient(white, #ff22ce);
+	background-image: linear-gradient(#ff3bc1, white);
 }
 
 .scroll {
@@ -37,7 +238,7 @@ line-height: .8;
 }
 
 .scroll p{
-text-shadow:1px 1px 8px #fff, 1px 1px 8px #fff;
+text-shadow:1px 1px 8px white, 1px 1px 8px white;
 position: absolute;
 width: 100%;
 height: 100%;
