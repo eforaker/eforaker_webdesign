@@ -55,8 +55,138 @@
 }
 
 @font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
+    font-family:BeyondInfinityDemo;
+    src: url("fonts/BeyondInfinityDemo.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:CaflischScriptPro-Semibold;
+    src: url("fonts/CaflischScriptPro-Semibold.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Candlescript;
+    src: url("fonts/Candlescript.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Chalisa_Octavia;
+    src: url("fonts/Chalisa_Octavia.otf") format("opentype");
+}
+
+@font-face {
+    font-family:CitadelScriptStd;
+    src: url("fonts/CitadelScriptStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Demo_ConeriaScript;
+    src: url("fonts/Demo_ConeriaScript.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Diamonds;
+    src: url("fonts/Diamonds.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Flanella;
+    src: url("fonts/Flanella.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:FloridianScriptStd;
+    src: url("fonts/FloridianScriptStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:FrenchScriptStd;
+    src: url("fonts/FrenchScriptStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:GirlsStuff;
+    src: url("fonts/GirlsStuff.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Golden_Plains;
+    src: url("fonts/Golden_Plains.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:GoodVibes;
+    src: url("fonts/GoodVibes.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:hatmiwhitedafont;
+    src: url("fonts/hatmiwhitedafont.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:HelloSantuy;
+    src: url("fonts/HelloSantuy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:HighTide;
+    src: url("fonts/HighTide.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:HisyamFacelift;
+    src: url("fonts/HisyamFacelift.otf") format("opentype");
+}
+
+@font-face {
+    font-family:HolidayScript;
+    src: url("fonts/HolidayScript.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:HoneyScript-Light;
+    src: url("fonts/HoneyScript-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Metalia;
+    src: url("fonts/Metalia.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:Miama;
+    src: url("fonts/Miama.otf") format("opentype");
+}
+
+@font-face {
+    font-family:MistralStd;
+    src: url("fonts/MistralStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:MonolineScriptMTStd;
+    src: url("fonts/MonolineScriptMTStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:NewBerolinaMTStd;
+    src: url("fonts/NewBerolinaMTStd.otf") format("opentype");
+}
+
+@font-face {
+    font-family:RockvilleSolid;
+    src: url("fonts/RockvilleSolid.otf") format("opentype");
+}
+
+@font-face {
+    font-family:RulingScriptLTStd-2;
+    src: url("fonts/RulingScriptLTStd-2.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Springfielddemo;
+    src: url("fonts/Springfielddemo.ttf") format("truetype");
 }
 
 @font-face {
@@ -65,148 +195,13 @@
 }
 
 @font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
+    font-family:valentine;
+    src: url("fonts/valentine.ttf") format("truetype");
 }
 
 @font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:SpringLPStd;
-    src: url("fonts/SpringLPStd.otf") format("opentype");
+    font-family:Weather;
+    src: url("fonts/Weather.otf") format("opentype");
 }
 
 *{  
