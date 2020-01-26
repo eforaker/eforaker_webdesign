@@ -216,17 +216,25 @@ body {
 	font-family:HelveticaLTStd-Roman;
 	font-size: 13em;
 	background-image: linear-gradient(#ff3bc1, white);
-    /*cursor: url("perfume.gif"), auto;*/
 }
 
-audio {
-  position: fixed;
-  z-index: 100;
+.bottle {
+   width:100px; 
+
 }
+
+.bottle img{
+   width:100px; 
+position: absolute; 
+   top:100px;
+z-index: 100;
+}
+
 
 .scroll {
 height:100vh;
 position: relative;
+
 overflow: hidden;
 line-height:.98;
 }
