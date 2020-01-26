@@ -41,7 +41,7 @@
 
 @font-face {
     font-family:Beauty_Dream;
-    src: url("fonts/Beauty_Dream.otf") format("truetype");
+    src: url("fonts/Beauty_Dream.ttf") format("truetype");
 }
 
 @font-face {
@@ -215,22 +215,28 @@
 body {
 	font-family:HelveticaLTStd-Roman;
 	font-size: 13em;
-	color:white;
 	background-image: linear-gradient(#ff3bc1, white);
+    /*cursor: url("perfume.gif"), auto;*/
+}
+
+audio {
+  position: fixed;
+  z-index: 100;
 }
 
 .scroll {
 height:100vh;
 position: relative;
 overflow: hidden;
+line-height:.98;
 }
 
-.scroll p span{
-font-family:SpringLPStd;
-text-transform: capitalize;
-font-size: 1.2em;
-line-height: .8;
+.scroll p a{
+    text-decoration: none;
+    color:white;
+    text-shadow:1px 1px 8px white, 1px 1px 8px white;
 }
+
 
 .scroll p{
 text-shadow:1px 1px 8px white, 1px 1px 8px white;
@@ -242,7 +248,7 @@ text-align: center;
 /* Starting position */
 -moz-transform:translateY(0%);
 -webkit-transform:translateY(0%); 
-transform:translateY(0%);
+transform:translateY(0%);*/
 /* Apply animation to this element */ 
 -moz-animation: scroll 1200s linear infinite;
 -webkit-animation: scroll 1200s linear infinite;
