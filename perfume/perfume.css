@@ -245,6 +245,10 @@ line-height:.98;
     text-shadow:1px 1px 8px white, 1px 1px 8px white;
 }
 
+/*.scroll p a:hover{
+    text-shadow:1px 1px 12px #7FFF00, 1px 1px 12px #7FFF00;
+}*/
+
 
 .scroll p{
 text-shadow:1px 1px 8px white, 1px 1px 8px white;
@@ -258,9 +262,9 @@ text-align: center;
 -webkit-transform:translateY(0%); 
 transform:translateY(0%);*/
 /* Apply animation to this element */ 
--moz-animation: scroll 1200s linear infinite;
--webkit-animation: scroll 1200s linear infinite;
-animation: scroll 1200s linear infinite;
+-moz-animation: scroll 1100s linear infinite;
+-webkit-animation: scroll 1100s linear infinite;
+animation: scroll 1100s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll {
