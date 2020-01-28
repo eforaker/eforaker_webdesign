@@ -28,12 +28,6 @@
     src: url("fonts/Antro_Vectra_Bolder.otf") format("opentype");
 }
 
-
-@font-face {
-    font-family:Arizonia-Regular;
-    src: url("fonts/Arizonia-Regular.ttf") format("truetype");
-}
-
 @font-face {
     font-family:Austine;
     src: url("fonts/Austine.ttf") format("truetype");
@@ -75,11 +69,6 @@
 }
 
 @font-face {
-    font-family:CitadelScriptStd;
-    src: url("fonts/CitadelScriptStd.otf") format("opentype");
-}
-
-@font-face {
     font-family:Demo_ConeriaScript;
     src: url("fonts/Demo_ConeriaScript.ttf") format("truetype");
 }
@@ -92,11 +81,6 @@
 @font-face {
     font-family:Flanella;
     src: url("fonts/Flanella.ttf") format("truetype");
-}
-
-@font-face {
-    font-family:FloridianScriptStd;
-    src: url("fonts/FloridianScriptStd.otf") format("opentype");
 }
 
 @font-face {
@@ -165,11 +149,6 @@
 }
 
 @font-face {
-    font-family:MonolineScriptMTStd;
-    src: url("fonts/MonolineScriptMTStd.otf") format("opentype");
-}
-
-@font-face {
     font-family:NewBerolinaMTStd;
     src: url("fonts/NewBerolinaMTStd.otf") format("opentype");
 }
@@ -177,11 +156,6 @@
 @font-face {
     font-family:RockvilleSolid;
     src: url("fonts/RockvilleSolid.otf") format("opentype");
-}
-
-@font-face {
-    font-family:RulingScriptLTStd-2;
-    src: url("fonts/RulingScriptLTStd-2.otf") format("opentype");
 }
 
 @font-face {
@@ -208,32 +182,21 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    margin-left: 25px;
-	margin-right: 25px;
+    margin-left: 15px;
+	margin-right: 15px;
 }
 
 body {
 	font-family:HelveticaLTStd-Roman;
-	font-size: 13em;
+	font-size: 4em;
 	background-image: linear-gradient(#ff3bc1, white);
-}
-
-.bottle {
-   width:100px; 
-}
-
-.bottle img{
-   width:100px; 
-position: fixed; 
-z-index: 100;
-top:100px;
 }
 
 
 .scroll {
 height:100vh;
 position: relative;
-overflow: hidden;
+/*overflow: hidden;*/
 line-height:.98;
 }
 
@@ -244,13 +207,12 @@ line-height:.98;
 .scroll p a{
     text-decoration: none;
     color:white;
-    text-shadow:1px 1px 8px white, 1px 1px 8px white;
+    text-shadow:1px 1px 8px #ff3bc1, 1px 1px 8px #ff3bc1;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
 }
-
-/*.scroll p a:hover{
-    text-shadow:1px 1px 12px #7FFF00, 1px 1px 12px #7FFF00;
-}
-*/
 
 .scroll p{
 text-shadow:1px 1px 8px white, 1px 1px 8px white;
@@ -260,20 +222,20 @@ height: 100%;
 margin:0;
 text-align: center;
 /* Starting position */
--moz-transform:translateY(0%);
+/*-moz-transform:translateY(0%);
 -webkit-transform:translateY(0%); 
-transform:translateY(0%);*/
+transform:translateY(0%);*/*/
 /* Apply animation to this element */ 
--moz-animation: scroll 1100s linear infinite;
+/*-moz-animation: scroll 1100s linear infinite;
 -webkit-animation: scroll 1100s linear infinite;
-animation: scroll 1100s linear infinite;
+animation: scroll 1100s linear infinite;*/
 }
 /* Move it (define the animation) */
-@-moz-keyframes scroll {
+/*@-moz-keyframes scroll {
 0% { -moz-transform: translateY(100%); }
 100% { -moz-transform: translateY(-10600%); }
 }
 @-webkit-keyframes scroll {
 0% { -webkit-transform: translateY(100%); }
-100% { -webkit-transform: translateY(-10600%); }
+100% { -webkit-transform: translateY(-10600%); }*/
 }
