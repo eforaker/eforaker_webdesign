@@ -188,7 +188,7 @@
 
 body {
 	font-family:HelveticaLTStd-Roman;
-	font-size: 4em;
+	font-size: 13em;
 	background-image: linear-gradient(#ff3bc1, white);
 }
 
@@ -196,7 +196,7 @@ body {
 .scroll {
 height:100vh;
 position: relative;
-/*overflow: hidden;*/
+overflow: hidden;
 line-height:.98;
 }
 
@@ -222,20 +222,20 @@ height: 100%;
 margin:0;
 text-align: center;
 /* Starting position */
-/*-moz-transform:translateY(0%);
+-moz-transform:translateY(0%);
 -webkit-transform:translateY(0%); 
-transform:translateY(0%);*/*/
+transform:translateY(0%);*/
 /* Apply animation to this element */ 
-/*-moz-animation: scroll 1100s linear infinite;
+-moz-animation: scroll 1100s linear infinite;
 -webkit-animation: scroll 1100s linear infinite;
-animation: scroll 1100s linear infinite;*/
+animation: scroll 1100s linear infinite;
 }
 /* Move it (define the animation) */
-/*@-moz-keyframes scroll {
+@-moz-keyframes scroll {
 0% { -moz-transform: translateY(100%); }
 100% { -moz-transform: translateY(-10600%); }
 }
 @-webkit-keyframes scroll {
 0% { -webkit-transform: translateY(100%); }
-100% { -webkit-transform: translateY(-10600%); }*/
+100% { -webkit-transform: translateY(-10600%); }
 }
