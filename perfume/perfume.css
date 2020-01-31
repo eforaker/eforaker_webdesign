@@ -214,7 +214,7 @@
 
 body {
 	font-family:HelveticaLTStd-Roman;
-	font-size: 2.5em;
+	font-size: 12em;
 	background-image: linear-gradient(#ff3bc1, white);
 }
 
@@ -226,8 +226,10 @@ position: relative;
 line-height:.98;
 }
 
-#text {
-    display: none;
+span {
+    position: relative;
+    z-index: 200;
+
 }
 
 .scroll p a{
