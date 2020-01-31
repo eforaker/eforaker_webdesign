@@ -44,11 +44,6 @@
 }
 
 @font-face {
-    font-family:BeryScript-Normal;
-    src: url("fonts/BeryScript-Normal.otf") format("opentype");
-}
-
-@font-face {
     font-family:BeyondInfinityDemo;
     src: url("fonts/BeyondInfinityDemo.ttf") format("truetype");
 }
@@ -61,11 +56,6 @@
 @font-face {
     font-family:Candlescript;
     src: url("fonts/Candlescript.otf") format("opentype");
-}
-
-@font-face {
-    font-family:Chalisa_Octavia;
-    src: url("fonts/Chalisa_Octavia.otf") format("opentype");
 }
 
 @font-face {
@@ -139,18 +129,13 @@
 }
 
 @font-face {
-    font-family:Miama;
-    src: url("fonts/Miama.otf") format("opentype");
+    font-family:August;
+    src: url("fonts/August.ttf") format("truetype");
 }
 
 @font-face {
     font-family:MistralStd;
     src: url("fonts/MistralStd.otf") format("opentype");
-}
-
-@font-face {
-    font-family:NewBerolinaMTStd;
-    src: url("fonts/NewBerolinaMTStd.otf") format("opentype");
 }
 
 @font-face {
@@ -203,6 +188,21 @@
     src: url("fonts/ChandlerScript.ttf") format("truetype");
 }
 
+@font-face {
+    font-family:Bright_Monday;
+    src: url("fonts/Bright_Monday.otf") format("opentype");
+}
+
+@font-face {
+    font-family:Scotland;
+    src: url("fonts/Scotland.otf") format("opentype");
+}
+
+@font-face {
+    font-family:CollectionFree;
+    src: url("fonts/CollectionFree.otf") format("opentype");
+}
+
 
 *{  
     padding: 0px;
@@ -229,7 +229,7 @@ line-height:.98;
 span {
     position: relative;
     z-index: 200;
-
+    line-height:.25;
 }
 
 .scroll p a{
