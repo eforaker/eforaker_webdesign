@@ -208,28 +208,41 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    margin-left: 15px;
-	margin-right: 15px;
+    padding-left: 25px;
+	padding-right: 25px;
+    cursor: url(before.png), auto;
 }
 
 body {
 	font-family:HelveticaLTStd-Roman;
-	font-size: 12em;
+	font-size: 12rem;
 	background-image: linear-gradient(#ff3bc1, white);
 }
-
 
 .scroll {
 height:100vh;
 position: relative;
-/*overflow: hidden;*/
+overflow-y: hidden;
 line-height:.98;
+}
+
+#britney {
+    position: fixed;
+    z-index: 300;
+    top:-35px;
+    left:-10px;
+
+}
+
+#britney img{
+    width:100px; 
 }
 
 span {
     position: relative;
     z-index: 200;
-    line-height:.25;
+    line-height:.0001;
+    cursor: url(puffed.png), auto;
 }
 
 .scroll p a{
@@ -240,6 +253,7 @@ span {
     padding-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
+    cursor: url(puffed.png), auto;
 }
 
 .scroll p{
@@ -250,20 +264,20 @@ height: 100%;
 margin:0;
 text-align: center;
 /* Starting position */
-/*-moz-transform:translateY(0%);
+-moz-transform:translateY(0%);
 -webkit-transform:translateY(0%); 
-transform:translateY(0%);*/*/
+transform:translateY(0%);
 /* Apply animation to this element */ 
-/*-moz-animation: scroll 1100s linear infinite;
--webkit-animation: scroll 1100s linear infinite;
-animation: scroll 1100s linear infinite;*/
+-moz-animation: scroll 1040s linear infinite;
+-webkit-animation: scroll 1040s linear infinite;
+animation: scroll 1040s linear infinite;
 }
 /* Move it (define the animation) */
-/*@-moz-keyframes scroll {
+@-moz-keyframes scroll {
 0% { -moz-transform: translateY(100%); }
-100% { -moz-transform: translateY(-10600%); }
+100% { -moz-transform: translateY(-10200%); }
 }
 @-webkit-keyframes scroll {
 0% { -webkit-transform: translateY(100%); }
-100% { -webkit-transform: translateY(-10600%); }*/
+100% { -webkit-transform: translateY(-10200%); }
 }
