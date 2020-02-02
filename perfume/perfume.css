@@ -229,8 +229,8 @@ line-height:.98;
 #britney {
     position: fixed;
     z-index: 300;
-    top:-35px;
-    left:-10px;
+/*    top:-35px;
+    left:-10px;*/
 
 }
 
@@ -261,23 +261,24 @@ text-shadow:1px 1px 8px white, 1px 1px 8px white;
 position: absolute;
 width: 100%;
 height: 100%;
-margin:0;
+padding-left:50;
+padding-right:50;
 text-align: center;
 /* Starting position */
 -moz-transform:translateY(0%);
 -webkit-transform:translateY(0%); 
 transform:translateY(0%);
 /* Apply animation to this element */ 
--moz-animation: scroll 1040s linear infinite;
--webkit-animation: scroll 1040s linear infinite;
-animation: scroll 1040s linear infinite;
+-moz-animation: scroll 990s linear infinite;
+-webkit-animation: scroll 990s linear infinite;
+animation: scroll 990s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes scroll {
 0% { -moz-transform: translateY(100%); }
-100% { -moz-transform: translateY(-10200%); }
+100% { -moz-transform: translateY(-8800%); }
 }
 @-webkit-keyframes scroll {
 0% { -webkit-transform: translateY(100%); }
-100% { -webkit-transform: translateY(-10200%); }
+100% { -webkit-transform: translateY(-8800%); }
 }
