@@ -228,11 +228,13 @@ line-height:.95;
 
 #britney {
     position: fixed;
+        left:-20px;
+        top:-70px;
     z-index: 300;
 }
 
 #britney img{
-    width:100px; 
+    width:80px; 
 }
 
 span {
