@@ -215,7 +215,7 @@
 
 body {
 	font-family:HelveticaLTStd-Roman;
-	font-size: 12rem;
+	font-size: 11.5rem;
 	background-image: linear-gradient(#ff3bc1, white);
 }
 
@@ -223,15 +223,12 @@ body {
 height:100vh;
 position: relative;
 overflow-y: hidden;
-line-height:.98;
+line-height:.95;
 }
 
 #britney {
     position: fixed;
     z-index: 300;
-/*    top:-35px;
-    left:-10px;*/
-
 }
 
 #britney img{
@@ -261,8 +258,6 @@ text-shadow:1px 1px 8px white, 1px 1px 8px white;
 position: absolute;
 width: 100%;
 height: 100%;
-padding-left:50;
-padding-right:50;
 text-align: center;
 /* Starting position */
 -moz-transform:translateY(0%);
@@ -282,3 +277,36 @@ animation: scroll 990s linear infinite;
 0% { -webkit-transform: translateY(100%); }
 100% { -webkit-transform: translateY(-8800%); }
 }
+
+
+@media screen and (max-width: 1200px) {
+body {
+    font-size: 9rem;
+}
+}
+
+@media screen and (max-width: 1000px) {
+body {
+    font-size: 8rem;
+}
+}
+
+@media screen and (max-width: 800px) {
+body {
+    font-size: 6.5rem;
+}
+}
+
+@media screen and (max-width: 600px) {
+body {
+    font-size: 6rem;
+}
+}
+
+@media screen and (max-width: 300px) {
+body {
+    font-size: 5rem;
+}
+}
+
+
