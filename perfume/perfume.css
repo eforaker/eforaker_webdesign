@@ -221,10 +221,12 @@ body {
     left:40px;
     z-index: 300;
     top:-80px;
+
 }
 
 #britney img{
     height:50px; 
+        cursor: url(puffed.png), auto;
 }
 
 .overflow {
