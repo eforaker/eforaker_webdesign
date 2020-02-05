@@ -207,7 +207,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    cursor: url(before.png), auto;
+/*    cursor: url(before.png), auto;*/
 }
 
 body {
@@ -226,7 +226,7 @@ body {
 
 #britney img{
     height:50px; 
-        cursor: url(puffed.png), auto;
+        cursor:pointer;
 }
 
 .overflow {
@@ -274,14 +274,14 @@ animation: scroll 990s linear infinite;
     padding-left: 0px;
     margin-right: 0px;
     padding-right: 0px;
-    cursor: url(puffed.png), auto;
+/*    cursor: url(puffed.png), auto;*/
 }
 
 span {
     position: relative;
     z-index: 200;
     line-height:.0001;
-    cursor: url(puffed.png), auto;
+/*    cursor: url(puffed.png), auto;*/
 }
 
 
