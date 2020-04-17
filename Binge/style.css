@@ -1,0 +1,22 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+#title {
+    font-family:serif;
+    font-size: 3em;
+    padding: 25px;
+}
+
