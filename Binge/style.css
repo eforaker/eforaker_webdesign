@@ -4,9 +4,25 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: oidia;
+    src: url("fonts/oidia.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
 html, body {
     height: 100%;
     margin: 0;
+    background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -15,8 +31,123 @@ html, body {
 
 
 #title {
-    font-family:serif;
-    font-size: 3em;
-    padding: 25px;
+    font-family:oidia;
+    font-size: 30em;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    position: fixed;
+    color:#fffdea;
+    text-shadow: 0px 0px 25px #ff50c2;
+    z-index: 10;
+    /*cursor: */
 }
 
+.nav {
+	font-family:SuisseIntl-Regular;
+	text-align: center;
+	margin:0 auto;
+	width:100vw;
+	font-size: 1.6em;
+	position: fixed;
+	bottom: 3vh;
+	color:#fffdea;
+	z-index: 10;
+}
+
+.about {
+	font-family:SuisseIntl-Regular;
+	text-align: center;
+	margin:0 auto;
+	width:100vw;
+	font-size: 1.6em;
+	position: fixed;
+	top: 3vh;
+	color:#fffdea;
+	z-index: 10;
+}
+
+.nav a{
+text-decoration: none;
+color:#fffdea;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+.nav a:hover{
+	text-shadow: 0px 0px 10px #ff50c2;
+}
+
+.gridimages {
+  display: flex;
+  flex-wrap: wrap;
+  position:absolute;
+  width: 100%;
+  background-color: black;
+  z-index: 0;
+
+}
+
+.gridimages::-webkit-scrollbar { 
+    display: none; 
+}
+
+.column {
+    flex: 50%;
+    width: 50%;
+    z-index:1;
+    border: none;
+}
+
+.column img {
+  margin: 0px;
+  vertical-align: middle;
+  width: 100%;
+  max-height:450px;
+}
+
+/*.text{
+position: fixed;
+z-index:3;
+width:100vw;
+height: 100vh;
+color:#c0c1c4;
+font-size: 1.5em;
+font-family: ArialMTStd-Medium;
+}*/
+
+/*.header{
+    margin-left:20px;
+    margin-top:20px;
+  position: absolute;
+  width:100vw;
+}
+
+.back {
+    text-align: right;
+    margin-right: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.back a{
+    text-decoration: none;
+    color:#c0c1c4;
+}
+
+.back a:hover{
+    text-shadow: 0 0 10px red;
+}
+
+}*/
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
