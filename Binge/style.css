@@ -52,11 +52,12 @@ html, body {
 	text-align: center;
 	margin:0 auto;
 	width:100vw;
-	font-size: 1.6em;
+	font-size: 1.25em;
 	position: fixed;
-	bottom: 3vh;
+  top: 3vh;
 	color:#fffdea;
 	z-index: 10;
+  text-transform: uppercase;
 }
 
 .about {
@@ -64,9 +65,9 @@ html, body {
 	text-align: center;
 	margin:0 auto;
 	width:100vw;
-	font-size: 1.6em;
+	font-size: 2.5em;
 	position: fixed;
-	top: 3vh;
+  bottom: 3vh;
 	color:#fffdea;
 	z-index: 10;
 }
@@ -74,12 +75,24 @@ html, body {
 .nav a{
 text-decoration: none;
 color:#fffdea;
-padding-left: 5px;
-padding-right: 5px;
+padding-left: 65px;
+padding-right: 35px;
 }
 
-.nav a:hover{
-	text-shadow: 0px 0px 10px #ff50c2;
+/*.nav a:hover{
+	text-shadow: 0px 0px 4px #fffdea;
+}*/
+
+.glitter {
+  position: fixed;
+  z-index: 30;
+  width:75px;
+  top:50px;
+  left:40px;
+}
+
+.glitter img{
+width:50px;
 }
 
 .gridimages {
@@ -106,7 +119,7 @@ padding-right: 5px;
 .column img {
   margin: 0px;
   vertical-align: middle;
-  width: 100%;
+  width: 50vw;
   max-height:450px;
 }
 
