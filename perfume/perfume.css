@@ -231,7 +231,7 @@ body {
 
 .overflow {
 position: relative;
-/*overflow-y: hidden;*/
+overflow-y: hidden;
 }
 
 .scroll {
