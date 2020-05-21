@@ -32,51 +32,58 @@ html, body {
 
 #title {
     font-family:oidia;
-    font-size: 27em;
+    font-size: 31em;
     text-align: center;
     margin: 0 auto;
     position: fixed;
     color:#fffdea;
     z-index: 10;
     width:100vw;
-    top: 10vh;
-
-  -webkit-animation: glow 4s ease-in-out infinite alternate;
-  -moz-animation: glow 4s ease-in-out infinite alternate;
-  animation: glow 4s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #ff3fc3, 0 0 30px #ff3fc3, 0 0 40px #ff3fc3, 0 0 50px #ff3fc3, 0 0 60px #ff3fc3;
-  }
-  to {
+    top: 24vh;
     text-shadow: 0 0 5px #fff, 0 0 30px #ff50c2, 0 0 40px #ff50c2, 0 0 50px #ff50c2, 0 0 60px #ff50c2, 0 0 70px #ff50c2, 0 0 80px #ff50c2;
-  }
 }
 
-.nav {
-	font-family:SuisseIntl-Regular;
-	text-align: left;
-	font-size: 1.25em;
-	position: absolute;
-    top: 3vh;
-	color:#fffdea;
-	z-index: 10;
-	margin-left: 30px;
+/*.name{
+  font-family:SuisseIntl-Regular;
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    color:#fffdea;
+    z-index: 10;
+    bottom:150px;
+   left:220px;
+}*/
 
+.buttons {
+  position: fixed;
+  z-index: 10;
+  margin-top: 30px;
+  width:100vw;
+  margin-left:20px;
+}
+
+.buttons a{
+text-decoration: none;
+}
+
+.buttons img{
+    height:100px;
+    padding: 10px;
+    padding-top: 0px;
+}
+.buttons img:hover{
+  transform: scale(1.1);
 }
 
 .subtitle {
-	font-family:SuisseIntl-Regular;
-	text-align: center;
-	margin:0 auto;
-	width:100vw;
-	font-size: 6.5em;
-	position: fixed;
-    bottom: 3vh;
-	color:#fffdea;
-	z-index: 10;
+  font-family:SuisseIntl-Regular;
+  top: 46%;
+  right: -15%;
+  font-size: 5.5em;
+  transform: rotate(-90deg);
+  position: fixed;
+  color:#fffdea;
+  z-index: 10;
 	
 
 -webkit-animation: glow 4s ease-in-out infinite alternate;
@@ -91,13 +98,6 @@ html, body {
   to {
     text-shadow: 0 0 5px #fff, 0 0 30px #ff50c2, 0 0 40px #ff50c2, 0 0 50px #ff50c2, 0 0 60px #ff50c2, 0 0 70px #ff50c2, 0 0 80px #ff50c2;
   }
-}
-
-.nav a{
-text-decoration: none;
-color:#fffdea;
-display: block;
-margin-bottom:5px;
 }
 
 

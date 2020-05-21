@@ -1,0 +1,132 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: oidia;
+    src: url("../fonts/oidia.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url("images/tropical1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.buttons {
+  position: fixed;
+  z-index: 10;
+ margin: 0 auto;
+ text-align: left;
+  margin-top: 30px;
+  width:100vw;
+  margin-left:20px;
+
+}
+
+.buttons a{
+text-decoration: none;
+}
+
+.buttons img{
+    height:100px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.buttons img:hover{
+  transform: scale(1.1);
+}
+
+.bodytext {
+  max-width:72vw;
+  font-family:SuisseIntl-Regular;
+  text-align: left;
+  font-size: 2.38em;
+  line-height: 1.17em;
+  position: absolute;
+  color:#fffdea;
+  z-index: 10;
+  left: 30px;
+ top:170px;
+  text-indent: 5%;
+  hyphens: manual;
+  padding-bottom: 70px;
+}
+
+.subtitle {
+	font-family:SuisseIntl-Regular;
+      top: 46%;
+    right: -16vw;
+	font-size: 5.5em;
+  transform: rotate(-90deg);
+	position: fixed;
+	color:#fffdea;
+	z-index: 10;
+    text-align: center;
+	
+
+-webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #ff3fc3, 0 0 30px #ff3fc3, 0 0 40px #ff3fc3, 0 0 50px #ff3fc3, 0 0 60px #ff3fc3;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 30px #ff50c2, 0 0 40px #ff50c2, 0 0 50px #ff50c2, 0 0 60px #ff50c2, 0 0 70px #ff50c2, 0 0 80px #ff50c2;
+  }
+}
+
+.gridimages {
+  display: flex;
+  flex-wrap: wrap;
+  position:absolute;
+  width: 100%;
+  background-color: black;
+  z-index: 0;
+
+}
+
+.gridimages::-webkit-scrollbar { 
+    display: none; 
+}
+
+.column {
+    flex: 50%;
+    width: 50%;
+    z-index:1;
+    border: none;
+}
+
+.column img {
+  margin: 0px;
+  vertical-align: middle;
+  width: 50vw;
+  max-height:450px;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
