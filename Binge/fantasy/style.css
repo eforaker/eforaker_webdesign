@@ -55,7 +55,7 @@ text-decoration: none;
 }
 
 .bodytext {
-  max-width:65vw;
+  max-width:72vw;
   font-family:SuisseIntl-Regular;
   text-align: left;
   font-size: 2.38em;
@@ -66,7 +66,7 @@ text-decoration: none;
   left: 30px;
  top:170px;
   text-indent: 5%;
-  hyphens: auto;
+  hyphens: manual;
   padding-bottom: 70px;
 }
 
@@ -99,39 +99,4 @@ text-decoration: none;
 
 span {
  text-shadow: 0 0 0px #fff, 0 0 10px #fff, 0 0 20px #ff3fc3, 0 0 30px #ff3fc3/*, 0 0 40px #ff3fc3*/ /*0 0 50px #ff3fc3, 0 0 60px #ff3fc3*/;
-}
-
-.gridimages {
-  display: flex;
-  flex-wrap: wrap;
-  position:absolute;
-  width: 100%;
-  background-color: black;
-  z-index: 0;
-
-}
-
-.gridimages::-webkit-scrollbar { 
-    display: none; 
-}
-
-.column {
-    flex: 50%;
-    width: 50%;
-    z-index:1;
-    border: none;
-}
-
-.column img {
-  margin: 0px;
-  vertical-align: middle;
-  width: 50vw;
-  max-height:450px;
-}
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
 }
