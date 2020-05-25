@@ -70,5 +70,18 @@ html, body {
 	
 }
 
+@media screen and (max-width: 600px) {
+.links a{
+font-size: 1.5em;
+}
+.links{
+margin-left: 20px;
+margin-right:20px;
+}
+.title{
+font-size: 3em;
+top:30px;
+}
+}
 
 
