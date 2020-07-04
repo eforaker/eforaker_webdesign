@@ -37,7 +37,7 @@ button{
   width:30vw;
   padding:15px;
   border-style: solid;
-  border-color: magenta;
+  border-color: black;
   z-index: 100;
   line-height: 1.15;
   background-image: url("images/me.png");
