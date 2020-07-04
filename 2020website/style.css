@@ -59,8 +59,8 @@ button:hover {
 #title {
     font-family:serif;
     font-size: 3em;
-    padding: 35px;
-    padding-top: 25px;
+    padding: 20px;
+    padding-top: 15px;
     background-color: transparent;
     position: fixed;
     color:black;
@@ -91,10 +91,10 @@ button:hover {
     background-color: transparent;
     text-align: left;
     overflow-y: scroll;
-    padding-left: 65px;
-    bottom: 4vh;
+    padding-left: 40px;
+    bottom: 3vh;
     line-height: 1.25em;
-    text-indent: -30px;
+    text-indent: -20px;
 }
 
 #left a{
