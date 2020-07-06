@@ -4,6 +4,21 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: oidia;
+    src: url("fonts/oidia.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -17,50 +32,53 @@ html, body {
 button{
   background-color: transparent;
   color:black;
-  bottom: 18px;
-  right: 28px;
+  bottom: 15px;
+  right: 25px;
   position: fixed;
-  font-size: 3em;
-  font-family:serif;
+  font-size: 3.5em;
+  font-family: oidia;
   border: none;
   z-index: 100;
 }
 
 #key {
   position: fixed;
-  bottom: 85px;
+  bottom: 95px;
   right: 25px;
   display: none;
   font-size: 20px;
-  font-family:sans-serif;
-  color:white;
+  font-family: SuisseIntl-Regular;
+  color:black;
   width:30vw;
   padding:15px;
   border-style: solid;
   border-color: black;
+  border-width: 1.5px;
   z-index: 100;
   line-height: 1.15;
-  background-image: url("images/me.png");
-      background-size: cover;
-      background-repeat: no-repeat;
+  background-color: white;
+  /*background-image: url("images/me.png");*/
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-#key p{
+#key a{
 	width:20vw;
+  text-decoration: none;
 }
 
 button:focus {outline:0;}
 
 button:hover {
   cursor: pointer;
-  color:magenta;
+  color:white;
 }
 
 #title {
-    font-family:serif;
-    font-size: 3em;
-    padding: 20px;
-    padding-top: 15px;
+    font-family: oidia;
+    font-size: 3.5em;
+    padding: 25px;
+    padding-top: 25px;
     background-color: transparent;
     position: fixed;
     color:black;
@@ -68,11 +86,11 @@ button:hover {
 
 #title img {
   height:40px;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
 #content {
-    font-family: sans-serif;
+    font-family: SuisseIntl-Regular;
     font-size: 1.5em;
     background-color: transparent;
     height: 100%;
@@ -104,7 +122,7 @@ button:hover {
 
 #left a:hover {
   cursor:pointer;
-  color:magenta;
+  color:white;
 }
 
 #right {
@@ -138,14 +156,16 @@ button:hover {
 @media screen and (max-width: 450px) {
 
 #title {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-left: 10px;
   top:0px;
 }
 
 #error{
-  font-size: 2em;
+  font-family: SuisseIntl-Regular;
+  font-size: 1.75em;
   width:80vw;
+  line-height: 1.2em;
   display: block;
   text-align: center;
   margin:0 auto;
@@ -157,7 +177,7 @@ button:hover {
   margin-left: 10px;
 }
 
-#key {
+/*#key {
   width:75vw;
   border-style: solid;
   background-color: white;
@@ -165,24 +185,16 @@ button:hover {
   position: absolute;
   bottom: 50px;
   font-size: 1em;
-}
-
-#key img{
-  width:200px;
-}
+}*/
 
 button{
-  font-size: 2em;
-  font-family:serif;
+  display: none;
+  font-size: 3em;
+  font-family: oidia;
   border: none;
   z-index: 100;
     bottom: 10px;
   right: 20px;
-}
-
-button:hover {
-  cursor: pointer;
-  color:black;
 }
 
 }*/

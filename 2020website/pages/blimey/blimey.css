@@ -1,0 +1,58 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("../../images/pinksky.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#title {
+    font-family:serif;
+    font-size: 3em;
+    padding-left: 25px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.description {
+	font-size: 1.5em;
+	font-family: sans-serif;
+	margin-left: 25px;
+	line-height: 1.3em;
+	max-width: 400px;
+	text-align: left;
+	background-color: transparent;
+	z-index: 100;
+	position: absolute;
+}
+
+.description a{
+	color: black;
+	line-height: 1.3em;
+	background-color: transparent;
+	font-family: serif;
+	font-size: 2em;
+}
+
+.description a:hover {
+  cursor:pointer;
+}
+
+.pics {
+	right:25px;
+	text-align: right;
+	position: relative;
+}
+
+.pics img{
+	max-height: 800px;
+	margin-bottom: 30px;
+}
