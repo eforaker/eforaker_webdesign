@@ -146,18 +146,34 @@ button:hover {
     padding-bottom: 30px;
 }
 
-/*#error {
-  display: none;
+#ER {
+  padding-bottom: 50px;
 }
-*/
+
+#blockbook {
+  padding-bottom: 50px; 
+  padding-top: 50px;
+}
+
+#mall {
+padding-top: 40px;  
+}
 
 /*/* Smartphones (portrait) ----------- */
 @media screen and (max-width: 450px) {
 
 #title {
-  font-size: 3em;
+  font-size: 2.5em;
   margin-left: 10px;
   top:0px;
+  z-index:100;
+  padding-top: 20px;
+  line-height: 1.15em;
+}
+
+#title img {
+  height:30px;
+  margin-right: 16px;
 }
 
 #left {
@@ -165,27 +181,31 @@ button:hover {
 }
 
 #right {
-  margin-top:100px;
+  position: absolute;
+  padding-top:125px;
   width:100%;
+  z-index:10;
 }
 
 #right img{
   max-width:85vw;
   max-height:90vh;
+  padding-bottom:10px;
 }
 
 #key {
-  width:60vw;
+  width:55vw;
+  margin:0 auto;
   border-style: solid;
   background-color: white;
   background-image: none;
   position: absolute;
-  bottom: 75px;
-  font-size: 1em;
+  bottom: 65px;
+  font-size: .9em;
 }
 
 button{
-  font-size: 3em;
+  font-size: 2.5em;
   font-family: oidia;
   border: none;
   z-index: 100;
@@ -193,6 +213,18 @@ button{
   right: 20px;
 }
 
+#ER {
+  padding-bottom: 20px;
+}
+
+#blockbook {
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+#mall {
+padding-top: 10px;  
+}
 
 }*/
 
