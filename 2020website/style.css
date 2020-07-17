@@ -46,10 +46,10 @@ button{
   bottom: 95px;
   right: 25px;
   display: none;
-  font-size: 20px;
+  font-size: 1em;
   font-family: SuisseIntl-Regular;
   color:black;
-  width:30vw;
+  width:20vw;
   padding:15px;
   border-style: solid;
   border-color: black;
@@ -62,7 +62,6 @@ button{
 }
 
 #key a{
-	width:20vw;
   text-decoration: none;
 }
 
@@ -90,7 +89,7 @@ button:hover {
 
 #content {
     font-family: SuisseIntl-Regular;
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: transparent;
     height: 100%;
 }
@@ -100,10 +99,8 @@ button:hover {
 }
 
 #left {
-	position: absolute;
-    float: left;
-    width: 30%;
-    overflow: auto;
+		width:25vw;
+	position: fixed;
     color:black;
     background-color: transparent;
     text-align: left;
@@ -125,7 +122,7 @@ button:hover {
 
 #right {
     float: right;
-    width: 70%;
+    width: 75%;
     height: 100%;
     box-sizing: border-box;
     padding: 25px;
@@ -134,6 +131,7 @@ button:hover {
     overflow-y: scroll;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
 #right::-webkit-scrollbar {
@@ -141,22 +139,9 @@ button:hover {
 }
 
 #right img{
-  max-width:65vw;
+      padding-top: 50px;
+  max-width:70vw;
   max-height:80vh;
-    padding-bottom: 30px;
-}
-
-#ER {
-  padding-bottom: 50px;
-}
-
-#blockbook {
-  padding-bottom: 50px; 
-  padding-top: 50px;
-}
-
-#mall {
-padding-top: 40px;  
 }
 
 /*/* Smartphones (portrait) ----------- */
@@ -185,12 +170,13 @@ padding-top: 40px;
   padding-top:125px;
   width:100%;
   z-index:10;
+  padding-bottom: 10px;
 }
 
 #right img{
   max-width:85vw;
-  max-height:90vh;
-  padding-bottom:10px;
+  max-height:80vh;
+  padding-top: 20px;
 }
 
 #key {
@@ -211,19 +197,6 @@ button{
   z-index: 100;
   bottom: 10px;
   right: 20px;
-}
-
-#ER {
-  padding-bottom: 20px;
-}
-
-#blockbook {
-  padding-bottom: 20px; 
-  padding-top: 20px;
-}
-
-#mall {
-padding-top: 10px;  
 }
 
 }*/

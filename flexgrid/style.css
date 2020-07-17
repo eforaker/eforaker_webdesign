@@ -1,0 +1,113 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: oidia;
+    src: url("fonts/oidia.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+html, body {
+    height: 100%;
+    background-image: url("images/pinksky.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+
+.container { 
+  max-width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  --columns: 12;
+  --width: var(--width-mobile, 0);
+  padding: 20px;
+  flex-basis: calc(var(--width) / var(--columns) * 100%);
+}
+
+@media (min-width: 576px) {
+  .column {
+    --width-tablet: var(--width-mobile);
+    --width: var(--width-tablet);
+  }
+}
+
+@media (min-width: 768px) {
+  .column {
+    --width-desktop: var(--width-tablet);
+    --width: var(--width-desktop);
+  }
+}
+
+.header {
+  --width-mobile: 12;
+    --width-tablet: 12;
+  --width-desktop: 12;
+  font-family: oidia;
+  font-size: 3em;
+  color:black;
+}
+
+.header img {
+  height:40px;
+  margin-right: 16px;
+}
+
+.left {
+  --width-mobile: 12;
+  --width-tablet: 6;
+  --width-desktop: 3;
+      color:black;
+    text-align: left;
+    line-height: 1.25em;
+    text-indent: -20px;
+    font-family: SuisseIntl-Regular;
+    font-size: 2em;
+    padding-left: 40px;
+}
+
+.right {
+  --width-mobile: 12;
+   --width-tablet: 6;
+  --width-desktop: 9;
+  overflow: hidden;
+}
+
+.right img{
+  max-width:75vw;
+}
+
+.left a{
+  color:black;
+  text-decoration: none;
+}
+
+.left a:hover {
+  cursor:pointer;
+  color:white;
+}
+
+}*/
+
