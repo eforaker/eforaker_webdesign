@@ -125,7 +125,6 @@ button:hover {
     width: 75%;
     height: 100%;
     box-sizing: border-box;
-    padding: 25px;
     color:black;
     background-color: transparent;
     overflow-y: scroll;
@@ -142,6 +141,10 @@ button:hover {
       padding-top: 50px;
   max-width:70vw;
   max-height:80vh;
+}
+
+#right a:hover{
+	cursor:pointer;
 }
 
 /*/* Smartphones (portrait) ----------- */
