@@ -87,19 +87,15 @@ button:hover {
   margin-right: 16px;
 }
 
-#content {
-    font-family: SuisseIntl-Regular;
-    font-size: 1em;
-    background-color: transparent;
-    height: 100%;
-}
 
 #left::-webkit-scrollbar {
     display: none;
 }
 
 #left {
-		width:25vw;
+      font-family: SuisseIntl-Regular;
+    font-size: 1em;
+		width:30vw;
 	position: fixed;
     color:black;
     background-color: transparent;
@@ -200,6 +196,7 @@ button{
   z-index: 100;
   bottom: 10px;
   right: 20px;
+}
 }
 
 }*/
