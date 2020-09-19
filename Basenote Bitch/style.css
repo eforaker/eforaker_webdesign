@@ -9,6 +9,16 @@
     src: url("fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
 
 body {
     margin: 0px;
@@ -19,7 +29,31 @@ section {
     display: flex;
 }
 
-.individual{
+.link, .text{
+    flex: 1;
+}
+
+.links {
+	height: 96vh;
+	overflow-y: scroll;
+	margin-left: 20px;
+	z-index: 15;
+}
+
+.links::-webkit-scrollbar {
+    display: none;
+}
+
+.links a{
+    font-family: SuisseIntl-Regular;
+    font-size: .8rem;
+    line-height: 1;
+    color: #ffa531;
+    text-align: left;
+    text-decoration: none;
+}
+
+.perfume{
     height: 96vh;
     position: fixed;
     background-color: white;
@@ -27,45 +61,71 @@ section {
     padding;right: 2vh;
     padding;bottom: 2vh;
     padding;top: 2vh;
-}
-
-.text, .feature-img{
-    flex: 1;
+    z-index: 10;
 }
 
 .text{
-    font-family: sans-serif;
-    font-size: 1.65rem;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
     line-height: 1.25;
     background: white;
     color: #ffa531;
     text-align: left;
     display: flex;
-
+    overflow-y: scroll;
+    margin-left: 40px;
+    margin-right: 40px;
+    top: 0px;
 }
 
-.text div{
-    width: 100%;
-    margin-left: 150px;
-    margin-right: 20px;
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+.text img{
+	height: 65px;
+}
+
+.text p{
+	margin-bottom: 10;
 }
 
 h1{
     font-family: IKANSEEYOUALL-Web;
-    font-size: 3.3rem;
+    font-size: 3.65rem;
     line-height: 1.15;
+    margin-top: 1.52rem;
+        margin-bottom: 1rem;
 }
 
-.feature-img{
-    background-size: cover;
+h2{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    color: #ffa531;
+    margin-top: 1.52rem;
+    margin-bottom: .5rem;
 }
 
-img{
-    width: 100%;
+.picture img{
+	height: 96vh;
 }
 
+.home {
+	position: fixed;
+	bottom:3vh;
+	width:100vw;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+}
 
-
+.home a {
+	text-decoration: none;
+	font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: #ffa531;
+}
 
 
 
