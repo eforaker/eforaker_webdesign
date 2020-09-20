@@ -1,0 +1,189 @@
+\*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: IKANSEEYOUALL-Web;
+    src: url("../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("../onts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+
+body {
+    margin: 0px;
+    background-color: #ffa531;
+}
+
+section {
+    display: flex;
+}
+
+.link, .text{
+    flex: 1;
+}
+
+.links {
+	height: 96vh;
+	overflow-y: scroll;
+	margin-left: 20px;
+	z-index: 15;
+}
+
+.links::-webkit-scrollbar {
+    display: none;
+}
+
+.links a{
+    font-family: SuisseIntl-Regular;
+    font-size: .8rem;
+    line-height: 1;
+    color: #ffa531;
+    text-align: left;
+    text-decoration: none;
+}
+
+.perfume{
+    height: 96vh;
+    position: fixed;
+    background-color: white;
+    padding;left: 20px;
+    padding;right: 20px;
+    padding;bottom: 20px;
+    padding;top: 20px;
+    z-index: 10;
+}
+
+.text{
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    background: white;
+    color: #ffa531;
+    text-align: left;
+    display: flex;
+    overflow-y: scroll;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+.text p{
+	margin-bottom: 10;
+}
+
+h1{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 3.65rem;
+    line-height: 1.15;
+    margin-top: 1.52rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    color: #ffa531;
+    margin-top: 1.52rem;
+    margin-bottom: .5rem;
+}
+
+.picture img{
+	height: 96vh;
+}
+
+.home {
+	position: fixed;
+	bottom:3vh;
+	width:100vw;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.home a {
+	text-decoration: none;
+	font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: #ffa531;
+}
+
+#Layer_1 {
+    height: 65px;
+    fill: #ffa531;
+}
+
+/*/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 600px) {
+.perfume{
+    height: 96vh;
+    position: fixed;
+    padding;left: 2vh;
+    padding;right: 2vh;
+    padding;bottom: 2vh;
+    padding;top: 2vh;
+}
+
+.picture img{
+    position: absolute;
+width: 100%;
+height: auto;
+z-index: 300;
+}
+
+.text {
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 60vh;
+    height: 100vh;
+    z-index: 400;
+    margin-left: 13px;
+    margin-right: 10px;
+    overflow: scroll;
+    background: transparent;
+}
+
+h1{
+    font-size: 2.2em;
+    line-height: 1.15;
+    margin-top: 1.52rem;
+    margin-bottom: 1rem;
+}
+
+
+.links {
+  display: none;
+}
+
+.home {
+    top:20px;
+}
+
+.home a {
+    font-size: 2rem;
+}
+
+}
+
+}*/
+
+
+
+
+
+
+
