@@ -29,12 +29,20 @@ section {
     display: flex;
 }
 
+.bottomborder {
+    height: 20px;
+    width:100vw;
+    background-color:#ffa531;
+    position: fixed;
+    bottom:0px;
+    z-index: 500;
+}
 .link, .text{
     flex: 1;
 }
 
 .links {
-	height: 96vh;
+	height: 100vh;
 	overflow-y: scroll;
 	margin-left: 20px;
 	z-index: 15;
@@ -54,7 +62,7 @@ section {
 }
 
 .perfume{
-    height: 96vh;
+    height: 100vh;
     position: fixed;
     background-color: white;
     padding;left: 20px;
@@ -102,8 +110,13 @@ h2{
     margin-bottom: .5rem;
 }
 
+.picture {
+    height: 100vh;
+    margin-bottom: 20px;  
+}
+
 .picture img{
-	height: 96vh;
+	height: 97vh;
 }
 
 .home {
