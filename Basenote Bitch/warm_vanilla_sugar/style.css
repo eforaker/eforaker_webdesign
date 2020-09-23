@@ -37,6 +37,7 @@ section {
     bottom:0px;
     z-index: 500;
 }
+
 .link, .text{
     flex: 1;
 }
@@ -44,8 +45,8 @@ section {
 .links {
 	height: 100vh;
 	overflow-y: scroll;
-	margin-left: 20px;
-	z-index: 15;
+	padding-left: 20px;
+	z-index: 115;
 }
 
 .links::-webkit-scrollbar {
@@ -105,7 +106,8 @@ h2{
     font-family: IKANSEEYOUALL-Web;
     font-size: 1.75rem;
     line-height: 1.15;
-    color: #ffa531;
+        color: white;
+    text-shadow:0 0 12px #ffa531, 0 0 20px #ffa531;
     margin-top: 1.52rem;
     margin-bottom: .5rem;
 }
@@ -132,64 +134,91 @@ h2{
 	text-decoration: none;
 	font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
-    color: #ffa531;
+    color: white;
+    text-shadow: 0 0 12px #ffa531, 0 0 20px #ffa531;
 }
 
-#Layer_1 {
+#play {
     height: 65px;
     fill: #ffa531;
 }
 
 /*/* Smartphones (portrait) ----------- */
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 700px) {
 .perfume{
-    height: 96vh;
-    position: fixed;
-    padding;left: 2vh;
-    padding;right: 2vh;
-    padding;bottom: 2vh;
-    padding;top: 2vh;
+    height: 100vh;
+    position: absolute;
+    padding;left: 0px;
+    padding;right: 0px;
+    padding;bottom: 0px;
+    padding;top: 0px;
+}
+
+body {
+    margin: 0px;
+    background-color: white;
+}
+
+section {
+    display: block;
+}
+
+.picture {
+    position: absolute;
+    z-index: 500;
+    top:2vw;
+    margin: 0 auto;
+text-align: center;
 }
 
 .picture img{
-    position: absolute;
-width: 100%;
+width: 96%;
 height: auto;
-z-index: 300;
+z-index: 100;
+
 }
 
 .text {
     font-size: 1rem;
+    line-height: 1.25;
     position: absolute;
-    margin-top: 60vh;
-    height: 100vh;
+    top: 66vh;
     z-index: 400;
-    margin-left: 13px;
+    margin-left: 10px;
     margin-right: 10px;
-    overflow: scroll;
+    overflow-y: scroll;
     background: transparent;
+    z-index: 600;
 }
 
 h1{
-    font-size: 2.2em;
+    font-size: 1.5rem;
     line-height: 1.15;
-    margin-top: 1.52rem;
     margin-bottom: 1rem;
+    padding-top:10px;
 }
-
 
 .links {
   display: none;
+  z-index: 1;
 }
 
 .home {
     top:20px;
+    height: 150px;
 }
 
 .home a {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
+.bottomborder {
+    display: none;
+}
+
+#play {
+    height: 45px;
 }
 
 }*/
