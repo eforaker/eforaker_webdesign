@@ -23,11 +23,22 @@
 html, body {
     height: 100%;
     margin: 0;
+}
+
+.perfume{
+    height: 100vh;
+    position: fixed;
     background-image: url("images/bedelicious.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    background-color: white;
+    padding;left: 20px;
+    padding;right: 20px;
+    padding;bottom: 20px;
+    padding;top: 20px;
+    z-index: 10;
 }
 
 .title {
@@ -38,18 +49,20 @@ html, body {
     top: 42%;
     left: 50%;
     transform: translate(-50%, -42%);
-  font-size: 20vw;
-  line-height: .9;
-  color:white;
-  text-shadow: 0 0 20px #bc42f5, 0 0 50px #bc42f5, 0 0 70px #bc42f5;
+    font-size: 18vw;
+    line-height: .95;
+    color:white;
+    text-shadow: 0 0 20px #bc42f5, 0 0 50px #bc42f5, 0 0 70px #bc42f5;
+    z-index: 100;
 }
 
 .about {
   width:100vw;
   margin: 0 auto;
   position: fixed;
-    text-align: center;
-     bottom:40px;
+  text-align: center;
+  bottom:30px;
+  z-index: 100;
 
 }
 .about a{
@@ -61,4 +74,44 @@ html, body {
       text-align: center;
 }
 
+.links {
+  height: 100vh;
+  overflow-y: scroll;
+  padding-left: 40px;
+  padding-top: 10px;
+  z-index: 200;
+  position: absolute;
+}
+
+h2{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    color: white;
+    text-shadow:0 0 12px #bc42f5, 0 0 20px #bc42f5;
+    margin-top: 1.52rem;
+    margin-bottom: .5rem;
+}
+
+.links::-webkit-scrollbar {
+    display: none;
+}
+
+.links a{
+    font-family: SuisseIntl-Regular;
+    font-size: .8rem;
+    line-height: 1;
+    color: #bc42f5;
+    text-align: left;
+    text-decoration: none;
+}
+
+.bottomborder {
+    height: 20px;
+    width:100vw;
+    background-color:white;
+    position: fixed;
+    bottom:0px;
+    z-index: 500;
+}
 
