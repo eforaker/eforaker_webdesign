@@ -1,0 +1,64 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: IKANSEEYOUALL-Web;
+    src: url("fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("onts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url("images/bedelicious.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.title {
+  font-family:IKANSEEYOUALL-Web;
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -42%);
+  font-size: 20vw;
+  line-height: .9;
+  color:white;
+  text-shadow: 0 0 20px #bc42f5, 0 0 50px #bc42f5, 0 0 70px #bc42f5;
+}
+
+.about {
+  width:100vw;
+  margin: 0 auto;
+  position: fixed;
+    text-align: center;
+     bottom:40px;
+
+}
+.about a{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.75rem;
+    color: white;
+    text-shadow:0 0 12px #bc42f5, 0 0 20px #bc42f5;
+    text-decoration: none;
+      text-align: center;
+}
+
+
