@@ -78,7 +78,7 @@ html, body {
   height: 100vh;
   overflow-y: scroll;
   padding-left: 40px;
-  padding-top: 10px;
+  padding-top: 20px;
   z-index: 200;
   position: absolute;
 }
