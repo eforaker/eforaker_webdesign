@@ -19,17 +19,9 @@
     src: url("onts/SuisseIntl-RegularItalic.otf") format("opentype");
 }
 
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 .image{
     background-color: white;
     padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     padding-top: 20px;
     z-index: 10;
     position: fixed;
@@ -58,8 +50,8 @@ html, body {
   text-align: center;
   bottom:30px;
   z-index: 100;
-
 }
+
 .about a{
     font-family: IKANSEEYOUALL-Web;
     font-size: 1.75rem;
@@ -118,4 +110,59 @@ h2{
     right:0px;
     z-index: 500;
 }
+
+/*/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 700px) {
+.image{
+    background-color: white;
+    height: 100vh;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.image img {
+    width:300vw;
+}
+
+.about {
+    text-align: right;
+    bottom: 15px;
+}
+
+.about a{
+    font-size: 1.25rem;
+    padding-right: 20px;
+}
+
+.links {
+  padding-left: 20px;
+  padding-top: 200px;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+.title {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    font-size: 17vw;
+    line-height: .95;
+}
+
+.bottomborder {
+    height:10px;
+}
+
+.rightborder {
+    width:10px;
+}
+
+}*/
+
 
