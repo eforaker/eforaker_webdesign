@@ -162,6 +162,64 @@ h2{
 .rightborder {
     width:10px;
 }
+}
+
+
+/* ipad Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+
+.image{
+    background-color: white;
+    height: 100vh;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.title {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    font-size: 17vw;
+    line-height: .95;
+}
+
+.links {
+  padding-left: 30px;
+  padding-top: 300px;
+}
+
+.links a{
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.about {
+    text-align: right;
+    bottom: 25px;
+}
+
+.about a{
+    font-size: 1.75rem;
+    padding-right: 30px;
+}
+
+.bottomborder {
+    height:10px;
+}
+
+.rightborder {
+    width:10px;
+}
+
+}
+
+
 
 }*/
 
