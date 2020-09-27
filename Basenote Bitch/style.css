@@ -47,7 +47,7 @@ html, body {
     font-size: 16vw;
     line-height: .95;
     color:white;
-    text-shadow: 0 0 20px white, 0 0 50px white, 0 0 70px white;
+    text-shadow: 0 0 20px #f8e8ff, 0 0 50px #f8e8ff, 0 0 70px #f8e8ff;
     z-index: 100;
 }
 
@@ -64,9 +64,9 @@ html, body {
     font-family: IKANSEEYOUALL-Web;
     font-size: 1.75rem;
     color: white;
-    text-shadow:0 0 12px white, 0 0 20px white;
+    text-shadow:0 0 2px #f8e8ff, 0 0 12px #f8e8ff, 0 0 20px #f8e8ff;
     text-decoration: none;
-      text-align: center;
+    text-align: center;
 }
 
 .links {
@@ -83,7 +83,7 @@ h2{
     font-size: 1.75rem;
     line-height: 1.15;
     color: white;
-    text-shadow:0 0 12px white, 0 0 20px white;
+    text-shadow:0 0 2px #f8e8ff, 0 0 12px #f8e8ff, 0 0 20px #f8e8ff;
     margin-top: 1.52rem;
     margin-bottom: .5rem;
 }

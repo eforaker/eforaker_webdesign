@@ -32,9 +32,22 @@ var random_images_array = [
 'liz.jpg',
 'loulou.jpg',
 'lovesbabysoft.jpg',
-'lovespell.jpg', 
+'lovespell.jpg',
 'marykateashely.jpg',
-'parfumsjuicebar.jpg'];
+'parfumsjuicebar.jpg',
+'pinksugar.jpg',
+'redjeans.jpg',
+'loulou.jpg',
+'santal33.jpg',
+'skinsosoft.jpg',
+'sunflowers.jpg', 
+'sweetpea.jpg',
+'tinkerbell.jpg',
+'unspoken.jpg',
+'vanillafields.jpg',
+'warmvanilla.jpg',
+'whitemusk.jpg',
+'whiteshoulders.jpg'];
 
     
 function getRandomImage(imgAr, path) {
