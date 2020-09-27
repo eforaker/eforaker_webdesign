@@ -28,6 +28,10 @@
     height:100vh;
 }
 
+.image img {
+    height: 260vw;
+}
+
 .title {
   font-family:IKANSEEYOUALL-Web;
     text-align: center;

@@ -38,6 +38,15 @@ section {
     z-index: 500;
 }
 
+.rightborder {
+    height: 100vh;
+    width:20px;
+    background-color:#ffa531;
+    position: fixed;
+    right:0px;
+    z-index: 500;
+}
+
 .link, .text{
     flex: 1;
 }
@@ -184,7 +193,7 @@ z-index: 100;
     font-size: .9rem;
     line-height: 1.25;
     position: absolute;
-    top: 66vh;
+    top: 65vh;
     z-index: 400;
     margin-left: 20px;
     margin-right: 20px;
@@ -195,7 +204,7 @@ z-index: 100;
 }
 
 h1{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     line-height: 1.15;
     margin-bottom: 1rem;
     padding-top:10px;
@@ -214,7 +223,7 @@ h1{
 }
 
 .home a {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .bottomborder {
@@ -226,7 +235,93 @@ h1{
     fill:white;
 }
 
+}
+
+@media screen and (max-height: 850px) {
+
+.text {
+    top: 58vh;
+}
+}
+
+
+/* ipad Portrait */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1366px) 
+and (orientation : portrait) { 
+
+.picture{
+    height: 100vh;
+    right:0px;
+    position: fixed;
+}
+
+.picture img{
+    height: 60vh;
+        right:0px;
+}
+
+.home {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    font-size: 17vw;
+    width:50vw;
+    line-height: .45;
+    margin-top:20px;
+}
+
+.home a{
+    font-size: 5rem;
+
+}
+.links {
+  padding-left: 20px;
+}
+
+.links a{
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+.rightborder {
+    width:20px;
+}
+
+.text {
+    font-size: .9rem;
+        height:100vw;
+    line-height: 1.25;
+    position: absolute;
+    top: 55vh;
+    z-index: 400;
+    margin-right: 20px;
+    overflow-y: scroll;
+    background: transparent;
+    z-index: 600;
+    color:#ffa531;
+    max-width:50vw;
+    left:40vw;
+}
+
+h1{
+    font-size: 1.75rem;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+    padding-top:10px;
+    color:white;
+    text-shadow:0 0 12px #ffa531, 0 0 20px #ffa531;
+}
+
+}
+
 }*/
+
+
+
 
 
 
