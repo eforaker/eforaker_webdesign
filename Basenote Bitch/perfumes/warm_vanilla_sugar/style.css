@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: IKANSEEYOUALL-Web;
-    src: url("../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+    src: url("../../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
 }
 
 @font-face {
     font-family: SuisseIntl-Regular;
-    src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+    src: url("../../fonts/SuisseIntl-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: SuisseIntl-RegularItalic;
-    src: url("../onts/SuisseIntl-RegularItalic.otf") format("opentype");
+    src: url("../../onts/SuisseIntl-RegularItalic.otf") format("opentype");
 }
 
 
