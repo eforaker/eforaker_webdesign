@@ -28,6 +28,11 @@
     height:100vh;
 }
 
+.image img{
+    height:170vw;
+}
+
+
 .title {
   font-family:IKANSEEYOUALL-Web;
     text-align: center;
@@ -99,6 +104,15 @@ h2{
     background-color:white;
     position: fixed;
     bottom:0px;
+    z-index: 500;
+}
+
+.leftborder {
+    height: 100vh;
+    width:20px;
+    background-color:white;
+    position: fixed;
+    left:0px;
     z-index: 500;
 }
 
