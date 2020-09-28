@@ -258,8 +258,9 @@ and (orientation : portrait) {
 }
 
 .picture img{
-    height: 60vh;
-        right:0px;
+    width: 70vw;
+    right:0px;
+    height: auto;
 }
 
 .home {
@@ -291,9 +292,9 @@ and (orientation : portrait) {
     width:20px;
 }
 
-.text {
+.text div{
+    padding-left:10px;
     font-size: .9rem;
-        height:100vw;
     line-height: 1.25;
     position: absolute;
     top: 55vh;
@@ -303,8 +304,8 @@ and (orientation : portrait) {
     background: transparent;
     z-index: 600;
     color:#ffa531;
-    max-width:50vw;
-    left:40vw;
+    max-width:60vw;
+
 }
 
 h1{
