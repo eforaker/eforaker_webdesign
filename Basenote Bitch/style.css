@@ -29,7 +29,7 @@
 }
 
 .image img{
-    height:170vw;
+    width:150vw;
 }
 
 
@@ -91,8 +91,8 @@ h2{
 
 .links a{
     font-family: SuisseIntl-Regular;
-    font-size: .8rem;
-    line-height: 1;
+    font-size: 1rem;
+    line-height: 1.25;
     color: white;
     text-align: left;
     text-decoration: none;
@@ -127,12 +127,12 @@ h2{
 
 /*/* Smartphones (portrait) ----------- */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1030px) {
 .image{
     background-color: white;
     height: 100vh;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 2.5vw;
+    padding-top: 2.5vw;
 }
 
 .image img {
@@ -141,99 +141,47 @@ h2{
 
 .about {
     text-align: right;
-    bottom: 15px;
+    bottom: 2.7vw;
 }
 
 .about a{
-    font-size: 1.25rem;
-    padding-right: 20px;
+    font-size: 1.5rem;
+    padding-right: 4vw;
+
 }
 
 .links {
-  padding-left: 20px;
-  padding-top: 200px;
-}
-
-h2{
-    font-size: 1.25rem;
-}
-
-.title {
-    text-align: center;
-    position: fixed;
-    margin: 0;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -6%);
-    font-size: 17vw;
-    line-height: .95;
-}
-
-.bottomborder {
-    height:10px;
-}
-
-.rightborder {
-    width:10px;
-}
-}
-
-
-/* ipad Portrait */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-
-.image{
-    background-color: white;
-    height: 100vh;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.title {
-    text-align: center;
-    position: fixed;
-    margin: 0;
-    top: 6%;
-    left: 50%;
-    transform: translate(-50%, -6%);
-    font-size: 17vw;
-    line-height: .95;
-}
-
-.links {
-  padding-left: 30px;
-  padding-top: 300px;
+  padding-left: 4vw;
+  padding-top: 22vh;
 }
 
 .links a{
-    font-size: 1.1rem;
-    line-height: 1.3;
+font-size: 1em;
 }
 
-.about {
-    text-align: right;
-    bottom: 25px;
+h2{
+    font-size: 1.5rem;
 }
 
-.about a{
-    font-size: 1.75rem;
-    padding-right: 30px;
+.title {
+    text-align: center;
+    position: fixed;
+    margin: 0;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -6%);
+    font-size: 17vw;
+    line-height: .95;
 }
 
 .bottomborder {
-    height:10px;
+    height:2.5vw;
 }
 
 .rightborder {
-    width:10px;
+    width:2.5vw;
 }
-
 }
-
-
 
 }*/
 
