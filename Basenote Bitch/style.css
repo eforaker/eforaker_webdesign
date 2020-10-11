@@ -21,8 +21,8 @@
 
 .image{
     background-color: white;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
     z-index: 10;
     position: fixed;
     height:100vh;
@@ -99,7 +99,7 @@ h2{
 }
 
 .bottomborder {
-    height: 20px;
+    height: 10px;
     width:100vw;
     background-color:white;
     position: fixed;
@@ -109,7 +109,7 @@ h2{
 
 .leftborder {
     height: 100vh;
-    width:20px;
+    width:10px;
     background-color:white;
     position: fixed;
     left:0px;
@@ -118,7 +118,7 @@ h2{
 
 .rightborder {
     height: 100vh;
-    width:20px;
+    width:10px;
     background-color:white;
     position: fixed;
     right:0px;
@@ -131,8 +131,8 @@ h2{
 .image{
     background-color: white;
     height: 100vh;
-    padding-left: 2.5vw;
-    padding-top: 2.5vw;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .image img {
@@ -175,11 +175,11 @@ h2{
 }
 
 .bottomborder {
-    height:2.5vw;
+    height:10px;
 }
 
 .rightborder {
-    width:2.5vw;
+    width:10px;
 }
 }
 
