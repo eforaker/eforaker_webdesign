@@ -33,7 +33,7 @@
 }
 
 
-.title {
+.title h1{
   font-family:IKANSEEYOUALL-Web;
     text-align: center;
     position: fixed;
@@ -48,12 +48,16 @@
     z-index: 100;
 }
 
+.title p{
+    display: none;
+}
+
 .about {
   width:100vw;
   margin: 0 auto;
   position: fixed;
   text-align: center;
-  bottom:30px;
+  bottom:15px;
   z-index: 100;
 }
 
@@ -175,7 +179,13 @@ h2{
     font-size: 1.5rem;
 }
 
-.title {
+.title h1{
+    display: none;
+}
+
+.title p{
+    display: block;
+    font-family:IKANSEEYOUALL-Web;
     text-align: center;
     position: fixed;
     margin: 0;
@@ -184,6 +194,9 @@ h2{
     transform: translate(-50%, -6%);
     font-size: 17vw;
     line-height: .95;
+        color:white;
+    text-shadow: 0 0 20px #f8e8ff, 0 0 50px #f8e8ff, 0 0 70px #f8e8ff;
+    z-index: 100;
 }
 
 .bottomborder {

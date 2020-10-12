@@ -108,7 +108,7 @@ h1{
     font-family: IKANSEEYOUALL-Web;
     font-size: 3.65rem;
     line-height: 1.15;
-    margin-top: 1.52rem;
+    margin-top: 15px;
     margin-bottom: 1rem;
 }
 
@@ -132,7 +132,7 @@ h2{
 
 .home {
 	position: fixed;
-	bottom:3vh;
+	bottom:15px;
 	width:100vw;
 	margin: 0 auto;
 	text-align: center;
