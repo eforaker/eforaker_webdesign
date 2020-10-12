@@ -44,7 +44,7 @@
     font-size: 16vw;
     line-height: .95;
     color:white;
-    text-shadow: 0 0 20px #f8e8ff, 0 0 50px #f8e8ff, 0 0 70px #f8e8ff;
+    text-shadow: 0 0 20px #f2d4ff, 0 0 50px #f2d4ff, 0 0 70px #f2d4ff;
     z-index: 100;
 }
 
@@ -65,7 +65,7 @@
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow:0 0 2px #f8e8ff, 0 0 12px #f8e8ff, 0 0 20px #f8e8ff;
+    text-shadow:0 0 2px #f2d4ff, 0 0 12px #f2d4ff, 0 0 20px #f2d4ff;
     text-decoration: none;
     text-align: center;
 }
@@ -84,7 +84,7 @@ h2{
     font-size: 1.75rem;
     line-height: 1.15;
     color: white;
-    text-shadow:0 0 2px #f8e8ff, 0 0 12px #f8e8ff, 0 0 20px #f8e8ff;
+    text-shadow:0 0 2px #f2d4ff, 0 0 12px #f2d4ff, 0 0 20px #f2d4ff;
     margin-bottom: .5rem;
 }
 
@@ -108,19 +108,6 @@ h2{
     position: fixed;
     bottom:0px;
     z-index: 500;
-}
-
-.text{
-    font-family: SuisseIntl-Regular;
-    font-size: 1.5rem;
-    line-height: 1.25;
-    background: white;
-    color: #ffa531;
-    text-align: left;
-    display: flex;
-    overflow-y: scroll;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .leftborder {
@@ -195,7 +182,7 @@ h2{
     font-size: 17vw;
     line-height: .95;
         color:white;
-    text-shadow: 0 0 20px #f8e8ff, 0 0 50px #f8e8ff, 0 0 70px #f8e8ff;
+    text-shadow: 0 0 20px #f2d4ff, 0 0 50px #f2d4ff, 0 0 70px #f2d4ff;
     z-index: 100;
 }
 

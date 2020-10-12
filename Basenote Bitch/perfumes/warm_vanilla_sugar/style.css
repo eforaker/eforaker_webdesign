@@ -152,6 +152,9 @@ h2{
     fill: #ffa531;
 }
 
+#play { transition: all .2s ease-in-out; }
+#play:hover { transform: scale(1.05); }
+
 /*/* Smartphones (portrait) ----------- */
 
 @media screen and (max-width: 1030px) {
