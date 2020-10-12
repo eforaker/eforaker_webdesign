@@ -245,27 +245,34 @@ display: none;
 }
 }
 
+
+/*more specific phone queries*/
+
+/*pixel & pixel 2xl*/
 @media screen and (max-height: 824px) {
 .text {
-    top: 57vh;
+    top: 59vh;
 }
 }
 
+/*iphone X*/
 @media screen and (max-height: 816px) {
 .text {
-    top: 52vh;
+    top: 53vh;
 }
 }
 
+/*iphone 6,7,8 & 6,7,8+*/
 @media screen and (max-height: 737px) {
 .text {
     top: 65vh;
 }
 }
 
+/*iphone 5*/
 @media screen and (max-height: 569px) {
 .text {
-    top: 63vh;
+    top: 64vh;
 }
 }
 
