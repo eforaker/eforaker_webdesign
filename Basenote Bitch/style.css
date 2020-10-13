@@ -128,6 +128,12 @@ h2{
     z-index: 500;
 }
 
+#makeout :hover{
+  color:#952f33;
+}
+#lovespell :hover{
+  color:red;
+}
 /*/* Smartphones (portrait) ----------- */
 
 @media screen and (max-width: 1030px) {
