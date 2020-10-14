@@ -155,6 +155,15 @@ h2{
 #play { transition: all .2s ease-in-out; }
 #play:hover { transform: scale(1.05); }
 
+.text #rightarrow {
+display: none;
+}
+
+.text #leftarrow {
+display: none;
+}
+
+
 /*/* Smartphones (portrait) ----------- */
 
 @media screen and (max-width: 1030px) {
@@ -197,13 +206,13 @@ z-index: 100;
 }
 
 .text {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.29;
     position: relative;
     top: 55vh;
     z-index: 400;
-    margin-left: 3.75vw;
-    margin-right: 3.75vw;
+    margin-left: 25px;
+    margin-right: 25px;
     overflow-y: scroll;
     background: transparent;
     z-index: 600;
@@ -245,6 +254,23 @@ display: none;
 }
 }
 
+.text #rightarrow { 
+    height: 20px;
+    fill:white;
+    display:inline-block;
+    position: absolute;
+    right:0px;
+    bottom:18px;
+}
+
+.text #leftarrow { 
+    height: 20px;
+    fill:white;
+    display:inline-block;
+    position: absolute;
+    left:0px;
+    bottom:18px;
+}
 
 /*more specific phone queries*/
 
@@ -282,6 +308,70 @@ display: none;
 }
 }
 
+/*surface duo*/
+@media screen and (width: 540px) and (height: 720px) {
+.text {
+    top: 89vh;
+}
+}
+
+/*galaxy fold*/
+@media screen and (width: 280px) and (height: 653px) {
+.text {
+    top: 48vh;
+}
+}
+
+
+/*ipad pro*/
+@media screen and (width:1024px) and (height: 1366px) {
+.text {
+    top: 90vh;
+    font-size: 1.25rem;
+}
+
+.text #rightarrow { 
+    height: 30px;
+    bottom:22px;
+}
+
+.text #leftarrow { 
+    height: 30px;
+    bottom:22px;
+}
+
+#play {
+    height: 60px;
+    fill:white;
+}
+
+.home a {
+    font-size: 2.25rem;
+}
+
+h1{
+    font-size: 3.3rem;
+    line-height: 1.1;
+}
+
+}
+
+/*ipad*/
+@media screen and (width:768px) and (height: 1024px) {
+.text {
+    top: 90vh;
+    font-size: 1.25rem;
+}
+
+.home a {
+    font-size: 2.25rem;
+}
+
+h1{
+    font-size: 3.3rem;
+    line-height: 1.1;
+}
+}
 
 
 

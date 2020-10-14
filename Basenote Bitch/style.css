@@ -128,243 +128,7 @@ h2{
     z-index: 500;
 }
 
-#lovespell :hover{
-  color:red;
-}
-#makeout :hover{
-  color:#952f33;
-}
-#sweetpea :hover{
-  color:#952f33;
-}
-#skinsosoft :hover{
-  color:#952f33;
-}
-#santal :hover{
-  color:#952f33;
-}
-#celebrity :hover{
-  color:#952f33;
-}
-#be_delicious :hover{
-  color:#952f33;
-}
-#baccarat :hover{
-  color:#952f33;
-}
-#white_musk :hover{
-  color:#952f33;
-}
-#designer_imposter :hover{
-  color:#952f33;
-}
-#shalimar :hover{
-  color:#952f33;
-}
-#funeral_home :hover{
-  color:#952f33;
-}
-#happy :hover{
-  color:#952f33;
-}
-#byredo :hover{
-  color:#952f33;
-}
-#daisy :hover{
-  color:#952f33;
-}
-#fierce :hover{
-  color:#952f33;
-}
-#white_shoulders :hover{
-  color:#952f33;
-}
-#loves_baby_soft :hover{
-  color:#952f33;
-}
-#forbidden_rose :hover{
-  color:#952f33;
-}
-#jean_nate :hover{
-  color:#952f33;
-}
-#curve :hover{
-  color:#952f33;
-}
-#parfums_juice_bar :hover{
-  color:#952f33;
-}
-#heaven :hover{
-  color:#952f33;
-}
-#opium :hover{
-  color:#952f33;
-}
-#unspoken :hover{
-  color:#952f33;
-}
-#exclamation :hover{
-  color:#952f33;
-}
-#warm_vanilla_sugar :hover{
-  color:#952f33;
-}
-#cool :hover{
-  color:#952f33;
-}
-#ck_one :hover{
-  color:#952f33;
-}
-#secretions :hover{
-  color:#952f33;
-}
-#electric_youth :hover{
-  color:#952f33;
-}
-#sunflowers :hover{
-  color:#952f33;
-}
-#red_jeans :hover{
-  color:#952f33;
-}
-#bottled_emotions :hover{
-  color:#952f33;
-}
-#blue_waltz :hover{
-  color:#952f33;
-}
-#pink_sugar :hover{
-  color:#952f33;
-}
-#relique :hover{
-  color:#952f33;
-}
-#cool_water :hover{
-  color:#952f33;
-}
-#m :hover{
-  color:#952f33;
-}
-#angel :hover{
-  color:#952f33;
-}
-#halston :hover{
-  color:#952f33;
-}
-#chypre :hover{
-  color:#952f33;
-}
-#sweet :hover{
-  color:#952f33;
-}
-#fetish :hover{
-  color:#952f33;
-}
-#knowing_pleasures :hover{
-  color:#952f33;
-}
-#giorgio :hover{
-  color:#952f33;
-}
-#le_male :hover{
-  color:#952f33;
-}
-#nordic_cedar :hover{
-  color:#952f33;
-}
-#liz_claiborne :hover{
-  color:#952f33;
-}
-#green_tea :hover{
-  color:#952f33;
-}
-#aromatics_elixr :hover{
-  color:#952f33;
-}
-#loulou :hover{
-  color:#952f33;
-}
-#coffret_anniversaire :hover{
-  color:#952f33;
-}
-#bleue :hover{
-  color:#952f33;
-}
-#vanilla_fields :hover{
-  color:#952f33;
-}
-#charlie :hover{
-  color:#952f33;
-}
-#teisenddu :hover{
-  color:#952f33;
-}
-#cabotine :hover{
-  color:#952f33;
-}
-#amber :hover{
-  color:#952f33;
-}
-#drakkar_noir :hover{
-  color:#952f33;
-}
-#vvv :hover{
-  color:#952f33;
-}
-#lair_du_temps :hover{
-  color:#952f33;
-}
-#signature :hover{
-  color:#952f33;
-}
-#marykate_ashley :hover{
-  color:#952f33;
-}
-#hai_karate :hover{
-  color:#952f33;
-}
-#remember_me :hover{
-  color:#952f33;
-}
-#cucumber_melon :hover{
-  color:#952f33;
-}
-#brit :hover{
-  color:#952f33;
-}
-#marocain :hover{
-  color:#952f33;
-}
-#tinkerbell :hover{
-  color:#952f33;
-}
-#fahrenheit :hover{
-  color:#952f33;
-}
-#country_apple :hover{
-  color:#952f33;
-}
-#devotion :hover{
-  color:#952f33;
-}
-#poison :hover{
-  color:#952f33;
-}
-#jovan_musk :hover{
-  color:#952f33;
-}
-#beverly_hills :hover{
-  color:#952f33;
-}
-#joy :hover{
-  color:#952f33;
-}
-#downtown_girl :hover{
-  color:#952f33;
-}
-#pear_glace :hover{
-  color:#952f33;
-}
+
 
 
 
@@ -384,22 +148,22 @@ h2{
 
 .about {
     text-align: right;
-    bottom: 2.7vw;
+    bottom: 15px;
 }
 
 .about a{
     font-size: 1.5rem;
-    padding-right: 4vw;
+    padding-right: 20px;
 
 }
 
 .links {
-  padding-left: 4vw;
-  padding-top: 22vh;
+  padding-left: 20px;
+  padding-top: 25vh;
 }
 
 .links a{
-font-size: 1em;
+font-size: 1rem;
 }
 
 h2{
@@ -432,6 +196,39 @@ h2{
 
 .rightborder {
     width:10px;
+}
+}
+
+
+/*ipad pro*/
+@media screen and (max-width:1025px) and (max-height: 1367px) {
+.links a{
+font-size: 1.25rem;
+}
+
+h2{
+    font-size: 1.85rem;
+}
+
+.about a{
+    font-size: 1.85rem;
+
+}
+}
+
+/*ipad*/
+@media screen and (width:768px) and (height: 1024px) {
+.links a{
+font-size: 1rem;
+}
+
+h2{
+    font-size: 1.65rem;
+}
+
+.about a{
+    font-size: 1.65rem;
+
 }
 }
 
