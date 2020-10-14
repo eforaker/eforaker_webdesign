@@ -33,7 +33,7 @@ var random_images_array = [
 'loulou.jpg',
 'lovesbabysoft.jpg',
 'lovespell.jpg',
-'marykateashely.jpg',
+'marykateashley.jpg',
 'parfumsjuicebar.jpg',
 'pinksugar.jpg',
 'redjeans.jpg',
