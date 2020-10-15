@@ -1,0 +1,28 @@
+\*{  
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+body {
+	    padding: 0;
+    margin: 0;
+}
+
+.vuslat {
+	display: block;
+	position: absolute;
+}
+
+.vuslat img{
+	width:50%;
+}
+
+.vuslat2 {
+	display: block;
+	position: fixed;
+}
+
+.vuslat2 img{
+	width:50%;
+}
