@@ -39,7 +39,6 @@ h1 {
 
 
 .left {
-     border-right:1px solid black;
   hyphens: auto;
   font-family: sans-serif;
     float: left;
@@ -56,6 +55,8 @@ h1 {
     line-height: 1.25em;
     text-indent: -20px;
     padding-left: 40px;
+        overflow-y: visible;
+    overflow-x: auto;
 }
 
 .left p {
