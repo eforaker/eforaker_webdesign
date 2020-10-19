@@ -1,28 +1,75 @@
-\*{  
+
+* { 
     padding: 0;
     margin: 0;
-    display: block;
 }
 
-body {
-	    padding: 0;
+html, body {
+    height: 100%;
     margin: 0;
+    background-color: green;
 }
 
-.vuslat {
-	display: block;
-	position: absolute;
+.header {
+  font-size: 10em;
+  text-align: center;
+  color:white;
+  background-color:orange;
 }
 
-.vuslat img{
-	width:50%;
+.footer{
+  font-size: 3em;
+  text-align: center;
+  color:black;
+  background-color: pink;
+  position: fixed;
+  bottom:0px;
+  width:100%;
+  }
+
+.linkbar {
+  font-size: 2rem;
+  width:100%;
+  z-index: 100;
+  background-color: yellow;
+  text-align: center;
 }
 
-.vuslat2 {
-	display: block;
-	position: fixed;
+.parallax1 {
+  height: 100%;
+  background-image: url("football.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
 }
 
-.vuslat2 img{
-	width:50%;
+.top1 {
+  background-color:red;
+  height:700px;
+  top:300px;
+  text-align: center;
 }
+
+.parallax2 {
+  background-image: url("pinksky.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 300;
+  height: 90%;
+  color:yellow;
+  text-align: center;
+}
+
+.top2 {
+  background-color:blue;
+  height:400px;
+  text-align: center;
+}
+
+
+
+
+}*/
+

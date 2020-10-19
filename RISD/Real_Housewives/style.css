@@ -9,16 +9,6 @@
     margin: 0;
 }
 
-html, body {
-    height: 100%;
-    overflow: hidden;
-    margin: 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-}
-
 #key {
   position: absolute;
   bottom: 70px;
@@ -49,7 +39,7 @@ button:hover {
   cursor: pointer;
 }
 
-.title {
+#title {
     font-family: Knockout-28;
     text-transform: uppercase;
     font-size: 3em;
@@ -75,6 +65,8 @@ button:hover {
     text-align: right;
     padding-right: 9px;
     overflow-y: scroll;
+    border-color: black;
+    border-width: 1px;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

@@ -5,81 +5,24 @@
 }
 
 @font-face {
-    font-family: oidia;
-    src: url("fonts/oidia.TTF") format("truetype");
-}
-
-@font-face {
-    font-family: SuisseIntl-Regular;
-    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
-}
-
-@font-face {
-    font-family: SuisseIntl-RegularItalic;
-    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+    font-family: PLANK;
+    src: url("fonts/PLANK.TTF") format("truetype");
 }
 
 html, body {
     height: 100%;
     margin: 0;
-    background-image: url("images/pinksky.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-button{
-  background-color: transparent;
-  color:black;
-  bottom: 15px;
-  right: 25px;
-  position: fixed;
-  font-size: 3.5em;
-  font-family: oidia;
-  border: none;
-  z-index: 100;
-}
-
-#key {
-  position: fixed;
-  bottom: 95px;
-  right: 25px;
-  display: none;
-  font-size: 1em;
-  font-family: SuisseIntl-Regular;
-  color:black;
-  width:20vw;
-  padding:15px;
-  border-style: solid;
-  border-color: black;
-  border-width: 1.5px;
-  z-index: 100;
-  line-height: 1.15;
-  background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#key a{
-  text-decoration: none;
-}
-
-button:focus {outline:0;}
-
-button:hover {
-  cursor: pointer;
-  color:white;
 }
 
 #title {
-    font-family: oidia;
-    font-size: 3.5em;
-    padding: 25px;
-    padding-top: 25px;
+    font-family: PLANK;
+    font-size: 3em;
     background-color: transparent;
-    position: fixed;
     color:black;
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    hyphens: none;
 }
 
 #title img {
@@ -87,60 +30,69 @@ button:hover {
   margin-right: 16px;
 }
 
-
-#left::-webkit-scrollbar {
-    display: none;
+h1 {
+    font-family: sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: normal;
 }
 
-#left {
-      font-family: SuisseIntl-Regular;
+
+.left {
+     border-right:1px solid black;
+  hyphens: auto;
+  font-family: sans-serif;
+    float: left;
     font-size: 1em;
-		width:30vw;
-	position: fixed;
+    width: 35%;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.4em;
     color:black;
     background-color: transparent;
     text-align: left;
-    padding-left: 40px;
-    bottom: 3vh;
+    overflow-y: scroll;
     line-height: 1.25em;
     text-indent: -20px;
+    padding-left: 40px;
 }
 
-#left a{
+.left p {
+  width:90%;
+  margin-bottom: 10px;
+
+}
+
+.left a{
   color:black;
-  text-decoration: none;
 }
 
-#left a:hover {
+.left a:hover {
   cursor:pointer;
   color:white;
+  background-color: black;
 }
 
-#right {
-    float: right;
-    width: 75%;
+.right {
+    float: left;
+    width: 65%;
     height: 100%;
-    box-sizing: border-box;
-    color:black;
-    background-color: transparent;
-    overflow-y: scroll;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 50px;
+    overflow: auto;
+    background-color: black;
 }
 
-#right::-webkit-scrollbar {
-    display: none;
+.right img{
+  display:inline-block;
+width:70%;
 }
 
-#right img{
-      padding-top: 50px;
-  max-width:70vw;
-  max-height:80vh;
-}
+.right #binge {
+  width:100%;
+  overflow-x:scroll;
+  overflow-y: hidden;
 
-#right a:hover{
-	cursor: url(images/surf.png), auto;
+
 }
 
 /*/* Smartphones (portrait) ----------- */
@@ -160,11 +112,11 @@ button:hover {
   margin-right: 16px;
 }
 
-#left {
+.left {
   display: none;
 }
 
-#right {
+.right {
   position: absolute;
   padding-top:125px;
   width:100%;
@@ -172,31 +124,10 @@ button:hover {
   padding-bottom: 10px;
 }
 
-#right img{
+.right img{
   max-width:85vw;
   max-height:80vh;
   padding-top: 20px;
-}
-
-#key {
-  width:55vw;
-  margin:0 auto;
-  border-style: solid;
-  background-color: white;
-  background-image: none;
-  position: absolute;
-  bottom: 65px;
-  font-size: .9em;
-}
-
-button{
-  font-size: 2.5em;
-  font-family: oidia;
-  border: none;
-  z-index: 100;
-  bottom: 10px;
-  right: 20px;
-}
 }
 
 }*/

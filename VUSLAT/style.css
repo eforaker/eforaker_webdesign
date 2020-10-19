@@ -1,0 +1,100 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: green;
+}
+
+.header {
+  font-size: 10em;
+  text-align: center;
+  color:white;
+  background-color:orange;
+}
+
+.footer{
+  font-size: 3em;
+  text-align: center;
+  color:black;
+  background-color: pink;
+  position: fixed;
+  bottom:0px;
+  width:100%;
+  }
+
+  .fill {
+    background-color: orange;
+    height:150vh;
+  z-index: 300;
+  }
+
+  .fill img{
+    width:100%;
+    position: fixed;
+  }
+
+  .left img{
+    width:100%;
+    position:relative;
+    top:600px;
+  }
+
+.left {
+    float: left;
+    font-size: 18rem;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+      background-color: green;
+        hyphens: auto;
+        overflow-y: scroll;
+}
+
+.right {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    text-align: center;
+      hyphens: auto;
+      overflow-y: scroll;
+}
+
+.teddy {
+  font-size: 2rem;
+  width:100%;
+  z-index: 100;
+  background-color: yellow;
+}
+
+.rightparallax {
+  height: 100%;
+  background-image: url("football.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+}
+
+.righttop {
+  background-color:red;
+  height:700px;
+  top:300px;
+}
+
+.bear {
+  z-index: 300;
+  height: 40%;
+  color:yellow;
+}
+
+
+
+
+}*/
+
