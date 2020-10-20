@@ -43,7 +43,7 @@ h1 {
   font-family: sans-serif;
     float: left;
     font-size: 1em;
-    width: 35%;
+    width: 25%;
     height: 100%;
     overflow: auto;
     box-sizing: border-box;
@@ -55,7 +55,7 @@ h1 {
     line-height: 1.25em;
     text-indent: -20px;
     padding-left: 40px;
-        overflow-y: visible;
+    overflow-y: visible;
     overflow-x: auto;
 }
 
@@ -77,59 +77,17 @@ h1 {
 
 .right {
     float: left;
-    width: 65%;
+    width: 75%;
     height: 100%;
     overflow: auto;
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
-.right img{
-  display:inline-block;
-width:70%;
-}
-
-.right #binge {
+#fantasy img, #basenote img, #svu img, #pop img, #stardust img, #binge img, #riso img, #garden img, #marvin img, #gif img, #emoji img, #mall img {
   width:100%;
-  overflow-x:scroll;
-  overflow-y: hidden;
-
-
+  height:auto;
+   margin-bottom: -5px;
 }
-
-/*/* Smartphones (portrait) ----------- */
-@media screen and (max-width: 450px) {
-
-#title {
-  font-size: 2.5em;
-  margin-left: 10px;
-  top:0px;
-  z-index:100;
-  padding-top: 20px;
-  line-height: 1.15em;
-}
-
-#title img {
-  height:30px;
-  margin-right: 16px;
-}
-
-.left {
-  display: none;
-}
-
-.right {
-  position: absolute;
-  padding-top:125px;
-  width:100%;
-  z-index:10;
-  padding-bottom: 10px;
-}
-
-.right img{
-  max-width:85vw;
-  max-height:80vh;
-  padding-top: 20px;
-}
-
-}*/
 
