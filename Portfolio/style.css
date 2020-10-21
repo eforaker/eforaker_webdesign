@@ -39,7 +39,7 @@ h1 {
 
 
 .left {
-  hyphens: auto;
+/*  hyphens: auto;*/
   font-family: sans-serif;
     float: left;
     font-size: 1em;
@@ -83,11 +83,58 @@ h1 {
     background-color: black;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
-#fantasy img, #basenote img, #svu img, #pop img, #stardust img, #binge img, #riso img, #garden img, #marvin img, #gif img, #emoji img, #mall img {
+#fantasy img, #basenote img, #svu img, #pop img, #stardust img, #binge img, #garden img, #marvin img, #gif img, #emoji img, #mall img, #riso img {
   width:100%;
   height:auto;
    margin-bottom: -5px;
 }
+
+#riso, #fantasy, #basenote, #svu, #pop, #binge, #garden, #marvin, #emoji, #gif, #stardust, #mall {
+  position: relative;
+  text-align: center;
+  width:100%;
+  color:blue;
+  text-transform: uppercase;
+}
+
+#fantasy p{
+  position: absolute;
+  font-size: 2rem;
+  width:100%;
+  top:3vh;
+}
+
+#basenote p{
+  position: absolute;
+  font-size: 2rem;
+  width:100%;
+  top:3vh;
+}
+
+#svu p{
+  position: absolute;
+  font-size: 2rem;
+  width:100%;
+  top:3vh;
+}
+
+#pop p{
+  position: absolute;
+  width:100%;
+  font-size: 2rem;
+  top:3vh;
+}
+
+.right a {
+  color:blue;
+}
+
+
+
+
+
+
 
