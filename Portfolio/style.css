@@ -59,6 +59,10 @@ h1 {
     overflow-x: auto;
 }
 
+.left::-webkit-scrollbar {
+    display: none;
+}
+
 .left p {
   width:90%;
   margin-bottom: 10px;
@@ -80,10 +84,14 @@ h1 {
     width: 75%;
     height: 100%;
     overflow: auto;
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+}
+
+.right::-webkit-scrollbar {
+    display: none;
 }
 
 #fantasy img, #basenote img, #svu img, #pop img, #stardust img, #binge img, #garden img, #marvin img, #gif img, #emoji img, #mall img, #riso img {
