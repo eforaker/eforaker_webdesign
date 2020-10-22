@@ -1,0 +1,384 @@
+\*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: IKANSEEYOUALL-Web;
+    src: url("../../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("../../fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("../../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+
+body {
+    margin: 0px;
+    background-color: #a8a500;
+}
+
+section {
+    display: flex;
+}
+
+.bottomborder {
+    height: 10px;
+    width:100vw;
+    background-color:#a8a500;
+    position: fixed;
+    bottom:0px;
+    z-index: 500;
+}
+
+.rightborder {
+    height: 100vh;
+    width:10px;
+    background-color:#a8a500;
+    position: fixed;
+    right:0px;
+    z-index: 500;
+}
+
+.link, .text{
+    flex: 1;
+}
+
+.links {
+	height: 100vh;
+	overflow-y: scroll;
+	padding-left: 10px;
+    padding-top: 0px;
+	z-index: 115;
+}
+
+.links::-webkit-scrollbar {
+    display: none;
+}
+
+.links a{
+    font-family: SuisseIntl-Regular;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #a8a500;
+    text-align: left;
+    text-decoration: none;
+}
+
+.perfume{
+    height: 100vh;
+    position: fixed;
+    background-color: white;
+    padding;left: 10px;
+    padding;right: 10px;
+    padding;bottom: 10px;
+    padding;top: 10px;
+    z-index: 10;
+}
+
+.text{
+    font-family: SuisseIntl-Regular;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    background: white;
+    color: #a8a500;
+    text-align: left;
+    display: flex;
+    overflow-y: scroll;
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.text::-webkit-scrollbar {
+    display: none;
+}
+
+.text p{
+	margin-bottom: 10;
+}
+
+h1{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 3.65rem;
+    line-height: 1.15;
+    margin-top: 15px;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.75rem;
+    line-height: 1.15;
+    color: white;
+    text-shadow:0 0 12px #a8a500, 0 0 20px #a8a500;
+    margin-bottom: .5rem;
+}
+
+.picture {
+    height: 100vh;
+    margin-bottom: 20px;  
+}
+
+.picture img{
+	height: 99vh;
+}
+
+.home {
+	position: fixed;
+	bottom:15px;
+	width:100vw;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 100;
+}
+
+.home a {
+	text-decoration: none;
+	font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: white;
+    text-shadow: 0 0 12px #a8a500, 0 0 20px #a8a500;
+}
+
+#play {
+    height: 65px;
+    fill: #a8a500;
+}
+
+#play { transition: all .2s ease-in-out; }
+#play:hover { transform: scale(1.05); }
+
+.text #rightarrow {
+display: none;
+}
+
+.text #leftarrow {
+display: none;
+}
+
+
+/*/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 1030px) {
+.perfume{
+	background-color: #a8a500;
+    height: 100vh;
+    position: absolute;
+    padding;left: 0px;
+    padding;right: 0px;
+    padding;bottom: 0px;
+    padding;top: 0px;
+}
+
+.perfume::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background-color: #a8a500;
+}
+
+section {
+    display: block;
+}
+
+.picture {
+    position: absolute;
+    z-index: 500;
+    top:0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.picture img{
+width: 100%;
+height: auto;
+z-index: 100;
+
+}
+
+.text {
+    font-size: 1em;
+    line-height: 1.29;
+    position: relative;
+    top: 55vh;
+    z-index: 400;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow-y: scroll;
+    background: transparent;
+    z-index: 600;
+    color:white;
+}
+
+h1{
+    font-size: 2.2rem;
+    line-height: 1.15;
+    color:white;
+    text-shadow:0 0 12px #a8a500, 0 0 20px #a8a500;
+}
+
+.links {
+  display: none;
+  z-index: 1;
+}
+
+.home {
+    top:4vw;
+    height: 150px;
+}
+
+.home a {
+    font-size: 1.25rem;
+}
+
+.bottomborder {
+display: none;
+}
+
+#play {
+    height: 40px;
+    fill:white;
+}
+
+.rightborder {
+display: none;
+}
+
+.text #rightarrow { 
+    height: 20px;
+    fill:white;
+    display:inline-block;
+    position: absolute;
+    right:0px;
+    bottom:18px;
+}
+
+.text #leftarrow { 
+    height: 20px;
+    fill:white;
+    display:inline-block;
+    position: absolute;
+    left:0px;
+    bottom:18px;
+}
+}
+
+/*more specific phone queries*/
+
+/*pixel & pixel 2xl*/
+@media screen and (max-height: 824px) {
+.text {
+    top: 59vh;
+}
+}
+
+/*iphone X*/
+@media screen and (max-height: 816px) {
+.text {
+    top: 53vh;
+}
+}
+
+/*iphone 6,7,8 & 6,7,8+*/
+@media screen and (max-height: 737px) {
+.text {
+    top: 65vh;
+}
+}
+
+/*iphone 5*/
+@media screen and (max-height: 569px) {
+.text {
+    top: 64vh;
+}
+}
+
+@media screen and (max-width:281px) and (max-height: 654px) {
+.text {
+    top: 47vh;
+}
+}
+
+/*surface duo*/
+@media screen and (width: 540px) and (height: 720px) {
+.text {
+    top: 89vh;
+}
+}
+
+/*galaxy fold*/
+@media screen and (width: 280px) and (height: 653px) {
+.text {
+    top: 48vh;
+}
+}
+
+
+/*ipad pro*/
+@media screen and (width:1024px) and (height: 1366px) {
+.text {
+    top: 90vh;
+    font-size: 1.25rem;
+}
+
+.text #rightarrow { 
+    height: 30px;
+    bottom:22px;
+}
+
+.text #leftarrow { 
+    height: 30px;
+    bottom:22px;
+}
+
+#play {
+    height: 60px;
+    fill:white;
+}
+
+.home a {
+    font-size: 2.25rem;
+}
+
+h1{
+    font-size: 3.3rem;
+    line-height: 1.1;
+}
+
+}
+
+/*ipad*/
+@media screen and (width:768px) and (height: 1024px) {
+.text {
+    top: 90vh;
+    font-size: 1.25rem;
+}
+
+.home a {
+    font-size: 2.25rem;
+}
+
+h1{
+    font-size: 3.3rem;
+    line-height: 1.1;
+}
+}
+
+
+
+
+
+
+
+
+
+
