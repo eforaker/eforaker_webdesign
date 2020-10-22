@@ -22,7 +22,7 @@
 
 body {
     margin: 0px;
-    background-color: #a8a500;
+    background-color: #ab8b3c;
 }
 
 section {
@@ -32,7 +32,7 @@ section {
 .bottomborder {
     height: 10px;
     width:100vw;
-    background-color:#a8a500;
+    background-color:#ab8b3c;
     position: fixed;
     bottom:0px;
     z-index: 500;
@@ -41,7 +41,7 @@ section {
 .rightborder {
     height: 100vh;
     width:10px;
-    background-color:#a8a500;
+    background-color:#ab8b3c;
     position: fixed;
     right:0px;
     z-index: 500;
@@ -67,7 +67,7 @@ section {
     font-family: SuisseIntl-Regular;
     font-size: 1rem;
     line-height: 1.25;
-    color: #a8a500;
+    color: #ab8b3c;
     text-align: left;
     text-decoration: none;
 }
@@ -88,7 +88,7 @@ section {
     font-size: 1.5rem;
     line-height: 1.25;
     background: white;
-    color: #a8a500;
+    color: #ab8b3c;
     text-align: left;
     display: flex;
     overflow-y: scroll;
@@ -117,7 +117,7 @@ h2{
     font-size: 1.75rem;
     line-height: 1.15;
     color: white;
-    text-shadow:0 0 12px #a8a500, 0 0 20px #a8a500;
+    text-shadow:0 0 12px #ab8b3c, 0 0 20px #ab8b3c;
     margin-bottom: .5rem;
 }
 
@@ -144,12 +144,12 @@ h2{
 	font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #a8a500, 0 0 20px #a8a500;
+    text-shadow: 0 0 12px #ab8b3c, 0 0 20px #ab8b3c;
 }
 
 #play {
     height: 65px;
-    fill: #a8a500;
+    fill: #ab8b3c;
 }
 
 #play { transition: all .2s ease-in-out; }
@@ -168,7 +168,7 @@ display: none;
 
 @media screen and (max-width: 1030px) {
 .perfume{
-	background-color: #a8a500;
+	background-color: #ab8b3c;
     height: 100vh;
     position: absolute;
     padding;left: 0px;
@@ -183,7 +183,7 @@ display: none;
 
 body {
     margin: 0px;
-    background-color: #a8a500;
+    background-color: #ab8b3c;
 }
 
 section {
@@ -223,7 +223,7 @@ h1{
     font-size: 2.2rem;
     line-height: 1.15;
     color:white;
-    text-shadow:0 0 12px #a8a500, 0 0 20px #a8a500;
+    text-shadow:0 0 12px #ab8b3c, 0 0 20px #ab8b3c;
 }
 
 .links {
