@@ -1,0 +1,47 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.boxes {
+	display: inline-block;
+}
+
+#red {
+	width:50vw;
+	background-color: red;
+	height:500px;
+	float: left;
+	position: relative;
+	animation-name: redguy;
+  	animation-duration: 5s;
+}
+
+#blue {
+	width:50vw;
+	background-color: blue;
+	height:500px;
+	float: left;
+position: relative;
+	  animation-name: blueguy;
+  animation-duration: 5s;
+}
+
+@keyframes redguy {
+  0%   {background-color:red; left:0px; top:0px;}
+  100% {background-color:pink; left:25%; top:25vh;}
+}
+
+@keyframes blueguy {
+  0%   {background-color:blue; right:0px; top:0px;}
+  100% {background-color:pink; right:25%; top:25vh;}
+}
+
+}*/
+
