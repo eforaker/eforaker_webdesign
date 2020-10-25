@@ -14,37 +14,45 @@ html, body {
 }
 
 #red {
-	width:20vw;
+	width:100vw;
 	background-color: #f90c08;
-	height:300px;
+	height:100vh;
 	float: left;
 	position: absolute;
 	animation-name: redguy;
-  	animation-duration: 5s;
+  	animation-duration: 10s;
   	 z-index: 50;
+  	 top:0px;
+  	 left:-150vw;
+  	 animation-iteration-count: infinite;
+  	 animation-timing-function: ease-out; 
 }
 
 #blue {
-	width:20vw;
+	width:100vw;
 	background-color: #0052f7;
-	height:300px;
+	height:100vh;
 	float: left;
 	position: absolute;
-	right:0px;
+	right:-150vw;
 	  animation-name: blueguy;
-  animation-duration: 5s;
+  animation-duration: 10s;
   mix-blend-mode:lighten;
   z-index: 100;
+  top:0px;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out; 
+
 }
 
 @keyframes redguy {
-  0%   {left:0px;}
-  100% {left:40%;}
+  0%   {left:-150%;}
+  100% {left:0%;}
 }
 
 @keyframes blueguy {
-  0%   {right:0px;}
-  100% {right:40%;}
+  0%   {right:-150%;}
+  100% {right:0%;}
 }
 
 }*/
