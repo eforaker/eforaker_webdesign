@@ -20,21 +20,27 @@
 }
 
 body {
-    background-color: #c875ff;
+    background-color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 
 .text h1{
   font-family:IKANSEEYOUALL-Web;
-    font-size:5rem;
-    line-height: 1.1;
+    font-size:4rem;
+    line-height: 1.5;
+    text-shadow: 0 0 20px #e9b8ff, 0 0 50px #e9b8ff;
+    color:white;
 }
 
 .text {
       font-family:SuisseIntl-Regular;
       text-align: left;
-      color:white;
-      padding-top:50px;
+      color:#e3a3ff;
+      padding-top:40px;
       font-size: 1.5rem;
       margin-left: 50px;
       width:70vw;
@@ -63,7 +69,7 @@ body {
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow:0 0 2px #c875ff, 0 0 12px #c875ff;
+    text-shadow:0 0 2px #e9b8ff, 0 0 12px #e9b8ff;
     text-decoration: none;
     text-align: center;
 }
@@ -71,7 +77,7 @@ body {
 .bottomborder {
     height: 10px;
     width:100vw;
-    background-color:#c875ff;
+    background-color:#e9b8ff;
     position: fixed;
     bottom:0px;
     z-index: 500;
@@ -80,7 +86,7 @@ body {
 .topborder {
     height: 10px;
     width:100vw;
-    background-color:#c875ff;
+    background-color:#e9b8ff;
     position: fixed;
     top:0px;
     z-index: 500;
@@ -90,7 +96,7 @@ body {
 .leftborder {
     height: 100vh;
     width:10px;
-    background-color:#c875ff;
+    background-color:#e9b8ff;
     position: fixed;
     left:0px;
     z-index: 500;
@@ -99,7 +105,7 @@ body {
 .rightborder {
     height: 100vh;
     width:10px;
-    background-color:#c875ff;
+    background-color:#e9b8ff;
     position: fixed;
     right:0px;
     z-index: 500;

@@ -20,7 +20,7 @@
 }
 
 .image{
-    background-color: white;
+    background-color: #f2d4ff;
     padding-left: 10px;
     padding-top: 10px;
     z-index: 10;
@@ -44,7 +44,7 @@
     font-size: 16vw;
     line-height: .95;
     color:white;
-    text-shadow: 0 0 20px #f2d4ff, 0 0 50px #f2d4ff, 0 0 70px #f2d4ff;
+    text-shadow: 0 0 20px #e9b8ff, 0 0 50px #e9b8ff, 0 0 70px #e9b8ff;
     z-index: 100;
 }
 
@@ -65,7 +65,7 @@
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow:0 0 2px #f2d4ff, 0 0 12px #f2d4ff, 0 0 20px #f2d4ff;
+    text-shadow:0 0 2px #e9b8ff, 0 0 12px #e9b8ff, 0 0 20px #e9b8ff;
     text-decoration: none;
     text-align: center;
 }
@@ -84,7 +84,7 @@ h2{
     font-size: 1.75rem;
     line-height: 1.15;
     color: white;
-    text-shadow:0 0 2px #f2d4ff, 0 0 12px #f2d4ff, 0 0 20px #f2d4ff;
+    text-shadow:0 0 2px #e9b8ff, 0 0 12px #e9b8ff, 0 0 20px #e9b8ff;
     margin-bottom: .5rem;
 }
 
@@ -96,7 +96,7 @@ h2{
     font-family: SuisseIntl-Regular;
     font-size: 1rem;
     line-height: 1.25;
-    color: white;
+    color: #f7e6ff;
     text-align: left;
     text-decoration: none;
 }
@@ -104,7 +104,7 @@ h2{
 .bottomborder {
     height: 10px;
     width:100vw;
-    background-color:white;
+    background-color:#f2d4ff;
     position: fixed;
     bottom:0px;
     z-index: 500;
@@ -113,7 +113,7 @@ h2{
 .leftborder {
     height: 100vh;
     width:10px;
-    background-color:white;
+    background-color:#f2d4ff;
     position: fixed;
     left:0px;
     z-index: 500;
@@ -122,7 +122,7 @@ h2{
 .rightborder {
     height: 100vh;
     width:10px;
-    background-color:white;
+    background-color:#f2d4ff;
     position: fixed;
     right:0px;
     z-index: 500;
