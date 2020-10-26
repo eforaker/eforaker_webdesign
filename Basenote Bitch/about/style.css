@@ -20,24 +20,34 @@
 }
 
 body {
-    background-color:white;
+    background-color: #c875ff;
 }
 
 
-.title h1{
+.text h1{
   font-family:IKANSEEYOUALL-Web;
-    text-align: center;
-    position: fixed;
-    margin: 0;
-    top: 90px;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 8vw;
-    line-height: .95;
-    color:white;
-    text-shadow: 0 0 10px #c875ff, 0 0 50px #c875ff, 0 0 60px #c875ff;
-    z-index: 100;
-    width: 100vw;
+    font-size:5rem;
+    line-height: 1.1;
+}
+
+.text {
+      font-family:SuisseIntl-Regular;
+      text-align: left;
+      color:white;
+      padding-top:50px;
+      font-size: 1.5rem;
+      margin-left: 50px;
+      width:70vw;
+      z-index: 20;
+}
+
+.collage {
+        z-index: 100;
+}
+
+.collage img{
+    width:100vw;
+
 }
 
 .home {
@@ -56,37 +66,6 @@ body {
     text-shadow:0 0 2px #c875ff, 0 0 12px #c875ff;
     text-decoration: none;
     text-align: center;
-}
-
-.links {
-  height: 100vh;
-  overflow-y: scroll;
-  padding-left: 20px;
-  z-index: 200;
-  position: absolute;
-  padding-top: 33px;
-}
-
-h2{
-    font-family: IKANSEEYOUALL-Web;
-    font-size: 1.75rem;
-    line-height: 1.15;
-    color: white;
-    text-shadow:0 0 2px white, 0 0 12px white;
-    margin-bottom: .5rem;
-}
-
-.links::-webkit-scrollbar {
-    display: none;
-}
-
-.links a{
-    font-family: SuisseIntl-Regular;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: white;
-    text-align: left;
-    text-decoration: none;
 }
 
 .bottomborder {
@@ -133,16 +112,6 @@ h2{
 /*/* Smartphones (portrait) ----------- */
 
 @media screen and (max-width: 1030px) {
-.image{
-    background-color: #c875ff;
-    height: 100vh;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.image img {
-    width:300vw;
-}
 
 .about {
     text-align: right;
@@ -153,15 +122,6 @@ h2{
     font-size: 1.5rem;
     padding-right: 20px;
 
-}
-
-.links {
-  padding-left: 20px;
-  padding-top: 25vh;
-}
-
-.links a{
-font-size: 1rem;
 }
 
 h2{
@@ -180,9 +140,6 @@ h2{
 
 /*ipad pro*/
 @media screen and (max-width:1025px) and (max-height: 1367px) {
-.links a{
-font-size: 1.25rem;
-}
 
 h2{
     font-size: 1.85rem;
@@ -196,9 +153,6 @@ h2{
 
 /*ipad*/
 @media screen and (width:768px) and (height: 1024px) {
-.links a{
-font-size: 1rem;
-}
 
 h2{
     font-size: 1.65rem;

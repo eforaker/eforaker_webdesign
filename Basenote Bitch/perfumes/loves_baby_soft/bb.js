@@ -1,4 +1,4 @@
-var myAudio = new Audio('briteverytime.mp3');
+var myAudio = new Audio('loves_baby_soft.mp3');
 var isPlaying = false;
 
 function playAudio() {
