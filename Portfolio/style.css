@@ -16,10 +16,10 @@ html, body {
 
 #title {
     font-family: PLANK;
-    font-size: 3em;
+    font-size: 3.5vw;
     background-color: transparent;
     color:black;
-    line-height: 1;
+    line-height: .9;
     padding-top: 20px;
     padding-bottom: 20px;
     hyphens: none;
@@ -39,7 +39,6 @@ h1 {
 
 
 .left {
-/*  hyphens: auto;*/
   font-family: sans-serif;
     float: left;
     font-size: 1em;
@@ -100,46 +99,93 @@ h1 {
    margin-bottom: -5px;
 }
 
-/*#riso, #fantasy, #basenote, #svu, #pop, #binge, #garden, #marvin, #emoji, #gif, #stardust, #mall {
-  position: relative;
-  text-align: center;
-  width:100%;
-  color:blue;
-  text-transform: uppercase;
+
+
+/*/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 800px) {
+#title {
+    font-size: 2.5rem;
+    line-height: 1;
+    padding-top: 20px;
 }
 
-#fantasy p{
-  position: absolute;
-  font-size: 2rem;
-  width:100%;
-  top:3vh;
+#title img {
+
 }
 
-#basenote p{
-  position: absolute;
-  font-size: 2rem;
-  width:100%;
-  top:3vh;
+.left {
+    width:50%;
+    text-indent: -10px;
+    padding-left: 20px;
 }
 
-#svu p{
-  position: absolute;
-  font-size: 2rem;
-  width:100%;
-  top:3vh;
+.left p {
+    line-height: 1.15em;
+    font-size: .75rem;
 }
 
-#pop p{
-  position: absolute;
-  width:100%;
-  font-size: 2rem;
-  top:3vh;
+.right {
+    width:50%;
 }
 
-.right a {
-  color:blue;
+.left h1 {
+  font-size: .9rem;
 }
-*/
+}
+
+
+/*ipad*/
+@media screen and (width:768px) and (height: 1024px) {
+#title {
+    font-size: 2.2rem;
+    line-height: 1;
+    padding-top: 25px;
+}
+
+#title img {
+  height:30px;
+}
+
+.left {
+    padding-right: 20px;
+    width:35%;
+}
+
+.left p {
+  font-size: .85rem;
+  line-height: 1.2;
+}
+
+.right {
+    width:65%;
+}
+}
+
+/*ipad pro*/
+@media screen and (width:1024px) and (height: 1366px) {
+#title {
+    font-size: 2.75em;
+    line-height: 1;
+    padding-top: 40px;
+}
+
+#title img {
+  height: 30px;
+}
+
+.left {
+    padding-right: 10px;
+    width:35%;
+}
+.right {
+    width:65%;
+}
+}
+
+}*/
+
+
 
 
 

@@ -136,7 +136,7 @@ h2{
 
 @media screen and (max-width: 1030px) {
 .image{
-    background-color: white;
+    background-color: #f2d4ff;
     height: 100vh;
     padding-left: 10px;
     padding-top: 10px;
@@ -185,7 +185,7 @@ h2{
     transform: translate(-50%, -6%);
     font-size: 17vw;
     line-height: .95;
-        color:white;
+    color:white;
     text-shadow: 0 0 20px #f2d4ff, 0 0 50px #f2d4ff, 0 0 70px #f2d4ff;
     z-index: 100;
 }
