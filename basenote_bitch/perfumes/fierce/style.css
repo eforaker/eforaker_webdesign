@@ -47,53 +47,48 @@ section {
     z-index: 500;
 }
 
-.link, .text{
-    flex: 1;
+.topborder {
+    height: 10px;
+    width:100vw;
+    background-color:#9d8b80;
+    position: fixed;
+    top:0px;
+    z-index: 500;
 }
 
-.links {
-	height: 100vh;
-	overflow-y: scroll;
-	padding-left: 10px;
-    padding-top: 0px;
-	z-index: 115;
-}
-
-.links::-webkit-scrollbar {
-    display: none;
-}
-
-.links a{
-    font-family: SuisseIntl-Regular;
-    font-size: 1rem;
-    line-height: 1.25;
-    color: #9d8b80;
-    text-align: left;
-    text-decoration: none;
+.leftborder {
+    height: 100vh;
+    width:10px;
+    background-color:#9d8b80;
+    position: fixed;
+    left:0px;
+    z-index: 500;
 }
 
 .perfume{
     height: 100vh;
     position: fixed;
     background-color: white;
-    padding;left: 10px;
-    padding;right: 10px;
-    padding;bottom: 10px;
-    padding;top: 10px;
-    z-index: 10;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 
 .text{
     font-family: SuisseIntl-Regular;
-    font-size: 1.5rem;
-    line-height: 1.25;
+    font-size: 3rem;
+    line-height: 1.1;
     background: white;
     color: #9d8b80;
     text-align: left;
     display: flex;
     overflow-y: scroll;
-    margin-left: 20px;
+    padding-left: 20px;
+    margin-top: 0px;
     padding-right: 20px;
+    z-index: 100;
 }
 
 .text::-webkit-scrollbar {
@@ -101,29 +96,21 @@ section {
 }
 
 .text p{
-	margin-bottom: 10;
+	margin-bottom: 10px;
 }
 
 h1{
     font-family: IKANSEEYOUALL-Web;
-    font-size: 3.65rem;
-    line-height: 1.15;
-    margin-top: 15px;
-    margin-bottom: 1rem;
-}
-
-h2{
-    font-family: IKANSEEYOUALL-Web;
-    font-size: 1.75rem;
-    line-height: 1.15;
-    color: white;
-    text-shadow:0 0 12px #9d8b80, 0 0 20px #9d8b80;
-    margin-bottom: .5rem;
+    font-size: 7rem;
+    line-height: 1;
+    margin-top: 100px;
+    margin-bottom: 18px;
 }
 
 .picture {
     height: 100vh;
     margin-bottom: 20px;  
+    z-index: 10;
 }
 
 .picture img{
@@ -132,8 +119,8 @@ h2{
 
 .home {
 	position: fixed;
-	bottom:15px;
-	width:100vw;
+	top:20px;
+    width:100vw;
 	margin: 0 auto;
 	text-align: center;
 	z-index: 100;
@@ -147,8 +134,42 @@ h2{
     text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
 }
 
+.prev {
+    position: fixed;
+    top:20px;
+    left:30px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+}
+
+.prev a {
+    text-decoration: none;
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: white;
+    text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
+}
+
+.next {
+    position: fixed;
+    top:20px;
+    right:30px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+}
+
+.next a {
+    text-decoration: none;
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: white;
+    text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
+}
+
 #play {
-    height: 65px;
+    height: 100px;
     fill: #9d8b80;
 }
 
