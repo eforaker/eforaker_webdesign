@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 .image img{
-    width:200vw;
+    width:170vw;
     margin:0 auto;
     text-align: center;
 }
@@ -43,12 +43,12 @@ body::-webkit-scrollbar {
   font-family:IKANSEEYOUALL-Web;
     text-align: center;
     margin: 0 auto;
-    font-size: 15rem;
+    font-size: 12rem;
     line-height: .95;
     color:white;
     text-shadow: 0 0 20px white, 0 0 50px white, 0 0 70px white;
     z-index: 100;
-    padding-top: 160px;
+      padding-top:55px;
 }
 
 .title p{
@@ -56,15 +56,31 @@ body::-webkit-scrollbar {
 }
 
 .about {
-  width:100vw;
-  margin: 0 auto;
   position: fixed;
-  text-align: center;
-  top:20px;
+  text-align: left;
+  left:30px;
   z-index: 200;
+  top:25px;
 }
 
 .about a{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: white;
+    text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.blog {
+  position: fixed;
+  text-align: right;
+  top:25px;
+  right:30px;
+  z-index: 200;
+}
+
+.blog a{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
@@ -93,7 +109,9 @@ body::-webkit-scrollbar {
 }
 
 .links a:hover{
-    font-family:SuisseIntl-RegularItalic;
+    /*font-family:SuisseIntl-RegularItalic;*/
+    font-family:IKANSEEYOUALL-Web;
+    text-transform: none;
 }
 
 .bottomborder {
