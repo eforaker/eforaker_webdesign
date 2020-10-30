@@ -265,6 +265,14 @@ h1{
 display: none;
 }
 
+.leftborder {
+display: none;
+}
+
+.topborder {
+display: none;
+}
+
 #play {
     height: 40px;
     fill:white;
