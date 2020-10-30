@@ -157,7 +157,7 @@ h1{
     right:30px;
     margin: 0 auto;
     text-align: center;
-    z-index: 100;
+    z-index: 105;
 }
 
 .next a {
@@ -187,7 +187,7 @@ display: none;
 
 /*/* Smartphones (portrait) ----------- */
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1036px) {
 .perfume{
 	background-color: #9d8b80;
     height: 100vh;
@@ -298,7 +298,6 @@ display: none;
     left:20px;
     bottom:20px;
 }
-}
 
 .prev {
     display: none;
@@ -307,8 +306,11 @@ display: none;
 .next {
     display: none;
 }
+}
 
 /*more specific phone queries*/
+
+
 
 /*pixel 2xl*/
 @media screen and (max-height: 824px) {
