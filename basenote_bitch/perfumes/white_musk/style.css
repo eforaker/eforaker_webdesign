@@ -22,7 +22,7 @@
 
 body {
     margin: 0px;
-    background-color: #ff2f00;
+    background-color: #8538e4;
 }
 
 section {
@@ -32,7 +32,7 @@ section {
 .bottomborder {
     height: 10px;
     width:100vw;
-    background-color:#ff2f00;
+    background-color:#8538e4;
     position: fixed;
     bottom:0px;
     z-index: 500;
@@ -41,7 +41,7 @@ section {
 .rightborder {
     height: 100vh;
     width:10px;
-    background-color:#ff2f00;
+    background-color:#8538e4;
     position: fixed;
     right:0px;
     z-index: 500;
@@ -50,7 +50,7 @@ section {
 .topborder {
     height: 10px;
     width:100vw;
-    background-color:#ff2f00;
+    background-color:#8538e4;
     position: fixed;
     top:0px;
     z-index: 500;
@@ -59,7 +59,7 @@ section {
 .leftborder {
     height: 100vh;
     width:10px;
-    background-color:#ff2f00;
+    background-color:#8538e4;
     position: fixed;
     left:0px;
     z-index: 500;
@@ -81,7 +81,7 @@ section {
     font-size: 3rem;
     line-height: 1.1;
     background: white;
-    color: #ff2f00;
+    color: #8538e4;
     text-align: left;
     display: flex;
     overflow-y: scroll;
@@ -112,7 +112,7 @@ h2{
     font-size: 1.75rem;
     line-height: 1.15;
     color: white;
-    text-shadow:0 0 12px #ff2f00, 0 0 20px #ff2f00;
+    text-shadow:0 0 12px #8538e4, 0 0 20px #8538e4;
     margin-bottom: .5rem;
 }
 
@@ -148,7 +148,7 @@ h2{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #ff2f00, 0 0 20px #ff2f00;
+    text-shadow: 0 0 12px #8538e4, 0 0 20px #8538e4;
 }
 
 .next {
@@ -165,7 +165,7 @@ h2{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #ff2f00, 0 0 20px #ff2f00;
+    text-shadow: 0 0 12px #8538e4, 0 0 20px #8538e4;
 }
 
 .home a {
@@ -173,12 +173,12 @@ h2{
 	font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #ff2f00, 0 0 20px #ff2f00;
+    text-shadow: 0 0 12px #8538e4, 0 0 20px #8538e4;
 }
 
 #play {
     height: 100px;
-    fill: #ff2f00;
+    fill: #8538e4;
 }
 
 #play { transition: all .2s ease-in-out; }
@@ -197,7 +197,7 @@ display: none;
 
 @media screen and (max-width: 1030px) {
 .perfume{
-	background-color: #ff2f00;
+	background-color: #8538e4;
     height: 100vh;
     position: absolute;
     padding-left: 0px;
@@ -209,7 +209,7 @@ display: none;
 
 body {
     margin: 0px;
-    background-color: #ff2f00;
+    background-color: #8538e4;
 }
 
 section {
@@ -250,7 +250,7 @@ h1{
     font-size: 2.2rem;
     line-height: 1.15;
     color:white;
-    text-shadow:0 0 12px #ff2f00, 0 0 20px #ff2f00;
+    text-shadow:0 0 12px #8538e4, 0 0 20px #8538e4;
 }
 
 .links {

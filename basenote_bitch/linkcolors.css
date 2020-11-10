@@ -228,7 +228,7 @@
 }
 
 #bijan :hover{
-  color:#c67fc2;
+  color:#03fc45;
 }
 #beverly_hills :hover{
   color:#ff0075;
@@ -239,6 +239,23 @@
 #downtown_girl :hover{
   color:#4cbcc1;
 }
+
+#fantasy :hover{
+  color:#ff00b7;
+}
+
 #pear_glace :hover{
   color:#a9d651;
+}
+
+#tommy_girl :hover{
+  color:#335577;
+}
+
+#juice :hover{
+  color:#ee32cc;
+}
+
+#princess :hover{
+  color:#ca39e0;
 }

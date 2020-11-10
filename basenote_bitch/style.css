@@ -70,7 +70,7 @@ body::-webkit-scrollbar {
     text-align: left;
 }
 
-.blog {
+.interviews {
   position: fixed;
   text-align: right;
   top:25px;
@@ -78,7 +78,7 @@ body::-webkit-scrollbar {
   z-index: 200;
 }
 
-.blog a{
+.interviews a{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;

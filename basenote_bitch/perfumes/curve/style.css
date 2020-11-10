@@ -22,7 +22,7 @@
 
 body {
     margin: 0px;
-    background-color: #9d8b80;
+    background-color: #7fa30f;
 }
 
 section {
@@ -32,7 +32,7 @@ section {
 .bottomborder {
     height: 10px;
     width:100vw;
-    background-color:#9d8b80;
+    background-color:#7fa30f;
     position: fixed;
     bottom:0px;
     z-index: 500;
@@ -41,7 +41,7 @@ section {
 .rightborder {
     height: 100vh;
     width:10px;
-    background-color:#9d8b80;
+    background-color:#7fa30f;
     position: fixed;
     right:0px;
     z-index: 500;
@@ -50,7 +50,7 @@ section {
 .topborder {
     height: 10px;
     width:100vw;
-    background-color:#9d8b80;
+    background-color:#7fa30f;
     position: fixed;
     top:0px;
     z-index: 500;
@@ -59,7 +59,7 @@ section {
 .leftborder {
     height: 100vh;
     width:10px;
-    background-color:#9d8b80;
+    background-color:#7fa30f;
     position: fixed;
     left:0px;
     z-index: 500;
@@ -81,7 +81,7 @@ section {
     font-size: 3rem;
     line-height: 1.1;
     background: white;
-    color: #9d8b80;
+    color: #7fa30f;
     text-align: left;
     display: flex;
     overflow-y: scroll;
@@ -131,7 +131,7 @@ h1{
 	font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
+    text-shadow: 0 0 12px #7fa30f, 0 0 20px #7fa30f;
 }
 
 .prev {
@@ -148,7 +148,7 @@ h1{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
+    text-shadow: 0 0 12px #7fa30f, 0 0 20px #7fa30f;
 }
 
 .next {
@@ -165,12 +165,12 @@ h1{
     font-family: IKANSEEYOUALL-Web;
     font-size: 2.1rem;
     color: white;
-    text-shadow: 0 0 12px #9d8b80, 0 0 20px #9d8b80;
+    text-shadow: 0 0 12px #7fa30f, 0 0 20px #7fa30f;
 }
 
 #play {
     height: 100px;
-    fill: #9d8b80;
+    fill: #7fa30f;
 }
 
 #play { transition: all .2s ease-in-out; }
@@ -189,7 +189,7 @@ display: none;
 
 @media screen and (max-width: 1036px) {
 .perfume{
-	background-color: #9d8b80;
+	background-color: #7fa30f;
     height: 100vh;
     position: absolute;
     padding-left: 0px;
@@ -201,7 +201,7 @@ display: none;
 
 body {
     margin: 0px;
-    background-color: #9d8b80;
+    background-color: #7fa30f;
 }
 
 section {
@@ -243,7 +243,7 @@ h1{
     font-size: 2.2rem;
     line-height: 1.15;
     color:white;
-    text-shadow:0 0 12px #9d8b80, 0 0 20px #9d8b80;
+    text-shadow:0 0 12px #7fa30f, 0 0 20px #7fa30f;
 }
 
 .links {

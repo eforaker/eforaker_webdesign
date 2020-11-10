@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 
 .text h1{
   font-family:IKANSEEYOUALL-Web;
-    font-size:4rem;
+    font-size:7rem;
     line-height: 1.5;
     text-shadow: 0 0 20px #e9b8ff, 0 0 50px #e9b8ff;
     color:white;
@@ -45,6 +45,10 @@ body::-webkit-scrollbar {
       margin-left: 50px;
       width:70vw;
       z-index: 20;
+}
+
+.text p{
+        padding-top:20px;
 }
 
 .collage {
