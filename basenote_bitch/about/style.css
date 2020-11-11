@@ -71,7 +71,7 @@ body::-webkit-scrollbar {
 
 .home {
     position: fixed;
-    top:20px;
+    top:25px;
     margin: 0 auto;
     text-align: center;
     z-index: 100;
