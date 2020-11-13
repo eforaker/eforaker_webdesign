@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 .image img{
-    width:170vw;
+    width:260vw;
 }
 
 
@@ -92,8 +92,8 @@ body::-webkit-scrollbar {
     text-align: center;
     z-index: 180;
     position: absolute;
-    margin: 0 auto;
-    width:100vw;
+    margin-left:20px;
+    margin-right: 20px;
 }
 
 .links a{
@@ -107,7 +107,6 @@ body::-webkit-scrollbar {
 }
 
 .links a:hover{
-    /*font-family:SuisseIntl-RegularItalic;*/
     font-family:IKANSEEYOUALL-Web;
     text-transform: none;
 }
@@ -140,76 +139,29 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-
 /*/* Smartphones (portrait) ----------- */
 
-@media screen and (max-width: 1030px) {
-.image{
-    background-color: white;
-    height: 100vh;
-    padding-left: 10px;
-    padding-top: 10px;
-}
+@media screen and (max-width: 930px) {
 
-.image img {
-    width:300vw;
-}
-
-.about {
-    text-align: center;
-    top: 20px;
+.links a{
+    font-size: 3rem;
+    line-height: 1.15;
 }
 
 .about a{
     font-size: 1.5rem;
-    padding-right: 20px;
-
 }
 
-.links a{
-font-size: 3rem;
-}
-
-.title h1{
-}
-
-
-.bottomborder {
-    height:10px;
-}
-
-.rightborder {
-    width:10px;
+.interviews a{
+    font-size: 1.5rem;
 }
 }
 
-
-/*ipad pro*/
-@media screen and (max-width:1025px) and (max-height: 1367px) {
-.links a{
-font-size: 3rem;
-}
+/*@media screen and (max-width: 630px) {
 
 .about a{
-    font-size: 1.85rem;
-
+    font-size: 1rem;
 }
 }
-
-/*ipad*/
-@media screen and (width:768px) and (height: 1024px) {
-.links a{
-font-size: 3rem;
-}
-
-.about a{
-    font-size: 1.65rem;
-
-}
-}
-
-}*/
-
+*/
 
