@@ -88,12 +88,11 @@ body::-webkit-scrollbar {
 }
 
 .links {
-    padding-top: 33px;
+    padding-top: 10px;
     text-align: center;
     z-index: 180;
     position: absolute;
-    margin-left:20px;
-    margin-right: 20px;
+    width:100vw;
 }
 
 .links a{
@@ -104,6 +103,9 @@ body::-webkit-scrollbar {
     text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: center;
+        margin-left: 30px;
+    margin-right:30px;
 }
 
 .links a:hover{

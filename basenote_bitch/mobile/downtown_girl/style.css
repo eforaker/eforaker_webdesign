@@ -1,0 +1,137 @@
+\*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: IKANSEEYOUALL-Web;
+    src: url("../../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SuisseIntl-Regular;
+    src: url("../../fonts/SuisseIntl-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl-RegularItalic;
+    src: url("../../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+}
+
+
+body {
+    margin: 0px;
+    background-color: white;
+    display: block;
+}
+
+.bottomborder {
+    height: 10px;
+    width:100vw;
+    background-color:#4cbcc1;
+    position: fixed;
+    bottom:0px;
+    z-index: 500;
+}
+
+.rightborder {
+    height: 100vh;
+    width:10px;
+    background-color:#4cbcc1;
+    position: fixed;
+    right:0px;
+    z-index: 500;
+}
+
+.topborder {
+    height: 10px;
+    width:100vw;
+    background-color:#4cbcc1;
+    position: fixed;
+    top:0px;
+    z-index: 500;
+}
+
+.leftborder {
+    height: 100vh;
+    width:10px;
+    background-color:#4cbcc1;
+    position: fixed;
+    left:0px;
+    z-index: 500;
+}
+
+.text{
+    position: absolute;
+    font-family: SuisseIntl-Regular;
+    font-size: 1.55rem;
+    line-height: 1.1;
+    color: #4cbcc1;
+    text-align: left;
+    display: block;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text p{
+	margin-bottom: 7px;
+}
+
+h1{
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 1px;
+    margin-bottom: 18px;
+}
+
+.picture {
+    top:10px;
+    left:10px;
+    margin-bottom: 14px;  
+    z-index: 10;
+}
+
+.picture img{
+    width: 100vw;
+}
+
+.home {
+    position: fixed;
+    top:20px;
+    width:100vw;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+}
+
+.home a {
+	text-decoration: none;
+	font-family: IKANSEEYOUALL-Web;
+    font-size: 2.1rem;
+    color: white;
+    text-shadow: 0 0 12px #4cbcc1, 0 0 20px #4cbcc1;
+}
+
+.more {
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.more a {
+    text-decoration: none;
+    font-family: IKANSEEYOUALL-Web;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0 0 12px #4cbcc1, 0 0 16px #4cbcc1;
+}
+
+#play {
+    height: 60px;
+    fill: #4cbcc1;
+}
+
+#play { transition: all .2s ease-in-out; }
+#play:hover { transform: scale(1.05); }
+
