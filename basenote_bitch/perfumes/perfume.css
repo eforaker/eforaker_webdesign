@@ -68,7 +68,6 @@ section {
     padding-right: 10px;
     padding-bottom: 10px;
     padding-top: 10px;
-
 }
 
 .text{
@@ -77,7 +76,7 @@ section {
     line-height: 1.1;
     background: white;
     text-align: left;
-    display: flex;
+    display: inline-block;
     overflow-y: scroll;
     padding-left: 20px;
     margin-top: 0px;
@@ -104,7 +103,7 @@ h1{
 .picture {
     height: 100vh;
     margin-bottom: 20px;  
-    z-index: 10;
+    z-index: 200;
 }
 
 .picture img{

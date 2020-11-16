@@ -1,55 +1,55 @@
 
 body {
-    background-color: #a4c900;
+    background-color: #44687c;
 }
 
 .bottomborder {
-    background-color:#a4c900;
+    background-color:#44687c;
 }
 
 .rightborder {
-    background-color:#a4c900;
+    background-color:#44687c;
 }
 
 .topborder {
-    background-color:#a4c900;
+    background-color:#44687c;
 }
 
 .leftborder {
-    background-color:#a4c900;
+    background-color:#44687c;
 }
 
 .text{
-    color: #a4c900;
+    color: #44687c;
 }
 
 .home a {
-    text-shadow: 0 0 12px #a4c900, 0 0 20px #a4c900;
+    text-shadow: 0 0 12px #44687c, 0 0 20px #44687c;
 }
 
 .prev a {
-    text-shadow: 0 0 12px #a4c900, 0 0 20px #a4c900;
+    text-shadow: 0 0 12px #44687c, 0 0 20px #44687c;
 }
 
 .next a {
-    text-shadow: 0 0 12px #a4c900, 0 0 20px #a4c900;
+    text-shadow: 0 0 12px #44687c, 0 0 20px #44687c;
 }
 
 #play {
-    fill: #a4c900;
+    fill: #44687c;
 }
 
 /*/* Smartphones (portrait) ----------- */
 
 @media screen and (max-width: 1036px) {
 .perfume{
-    background-color: #a4c900;
+    background-color: #44687c;
 }
 
 body {
-    background-color: #a4c900;
+    background-color: #44687c;
 }
 
 h1{
-    text-shadow:0 0 12px #a4c900, 0 0 20px #a4c900;
+    text-shadow:0 0 12px #44687c, 0 0 20px #44687c;
 }
