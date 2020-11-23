@@ -1,4 +1,4 @@
-var myAudio = new Audio('briteverytime.mp3');
+var myAudio = new Audio('du_temps.mp3');
 var isPlaying = false;
 
 function playAudio() {

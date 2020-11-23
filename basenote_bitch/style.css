@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 }
 
 .image img{
-    width:260vw;
+    width:160vw;
 }
 
 
@@ -145,6 +145,11 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 930px) {
 
+.image img{
+    width:200vh;
+}
+
+
 .links a{
     font-size: 3rem;
     line-height: 1.15;
@@ -158,12 +163,4 @@ body::-webkit-scrollbar {
     font-size: 1.5rem;
 }
 }
-
-/*@media screen and (max-width: 630px) {
-
-.about a{
-    font-size: 1rem;
-}
-}
-*/
 
