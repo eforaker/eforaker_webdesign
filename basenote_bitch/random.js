@@ -82,7 +82,14 @@ var random_images_array = [
 'whitemusk.jpg',
 'princess.jpg',
 'juice.jpg',
-'whiteshoulders.jpg'];
+'whiteshoulders.jpg',
+'dissey.jpg',
+'obsession.jpg',
+'jessicamclintock.jpg',
+'japanese.jpg',
+'whitediamonds.jpg',
+'youthdew.jpg',
+];
 
     
 function getRandomImage(imgAr, path) {

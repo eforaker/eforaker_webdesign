@@ -92,7 +92,8 @@ body::-webkit-scrollbar {
     text-align: center;
     z-index: 180;
     position: absolute;
-    width:100vw;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .links a{
@@ -104,8 +105,7 @@ body::-webkit-scrollbar {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-        margin-left: 30px;
-    margin-right:30px;
+
 }
 
 .links a:hover{
@@ -140,19 +140,34 @@ body::-webkit-scrollbar {
     z-index: 500;
 }
 
+/*/* iPad ----------- */
+
+
+@media screen and (max-width: 780px) {
+
+.links a{
+    font-size: 4rem;
+    line-height: 1.25;
+}
 
 /*/* Smartphones (portrait) ----------- */
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 600px) {
 
 .image img{
     width:200vh;
 }
 
+.links {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .links a{
-    font-size: 3rem;
-    line-height: 1.15;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    text-shadow:0 0 1px white, 0 0 5px white, 0 0 12px white;
 }
 
 .about a{
