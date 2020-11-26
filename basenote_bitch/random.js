@@ -86,7 +86,7 @@ var random_images_array = [
 'dissey.jpg',
 'obsession.jpg',
 'jessicamclintock.jpg',
-'japanese.jpg',
+'japanesecherry.jpg',
 'whitediamonds.jpg',
 'youthdew.jpg'
 ];
