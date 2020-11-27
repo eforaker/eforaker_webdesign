@@ -28,6 +28,10 @@ section {
     display: flex;
 }
 
+i {
+    font-family: SuisseIntl-RegularItalic; 
+}
+
 .bottomborder {
     height: 10px;
     width:100vw;

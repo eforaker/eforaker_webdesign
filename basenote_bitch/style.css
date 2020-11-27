@@ -23,6 +23,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+i {
+    font-family: SuisseIntl-RegularItalic; 
+}
+
 .image{
     background-color: white;
     padding-left: 10px;

@@ -28,6 +28,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+i {
+    font-family: SuisseIntl-RegularItalic; 
+}
+
 .perfume{
     height: 100vh;
     position: fixed;
