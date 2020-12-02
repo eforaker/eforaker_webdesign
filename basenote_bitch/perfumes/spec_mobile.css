@@ -1,75 +1,71 @@
-
-/*more specific phone queries*/
-
-
+/*pixel 2*/
+/*@media screen and (width:411px) and (height: 731px) {
+.text {
+    top: 115vw;
+}
+}*/
 
 /*pixel 2xl*/
-@media screen and (max-height: 824px) {
+/*@media screen and (width:411px) and (height: 823px) {
 .text {
-    top: 48vh;
+    top: 115vw;
 }
-}
+}*/
 
 /*iphone X*/
-@media screen and (max-height: 816px) {
+/*@media screen and (width:375px) and (height: 812px)  {
 .text {
-    top: 43vh;
+    top: 115vw;
 }
-}
+}*/
 
 /*iphone 6,7,8*/
-@media screen and (max-height: 737px) {
+/*@media screen and (width:375px) and (height: 667px)  {
 .text {
-    top: 55vh;
+    top: 115vw;
 }
-}
+}*/
 
 /*iphone 6,7,8+*/
-@media screen and (width:414px) and (height: 736px) {
+/*@media screen and (width:414px) and (height: 736px) {
 .text {
-    top: 54vh;
+    top: 115vw;
+}
+}
+*/
+/*iphone 5*/
+@media screen and (width:320px) and (height: 568px) {
+.text {
+    top: 113vw;
 }
 }
 
-/*iphone 5*/
-@media screen and (max-height: 569px) {
+/*galaxyS5, moto G4*/
+/*@media screen and (width:360px) and (height: 640px) {
 .text {
-    top: 50vh;
+    top: 115vw;
 }
-}
+}*/
+
 
 /*surface duo*/
 @media screen and (width: 540px) and (height: 720px) {
 .text {
-    top: 77vh;
+    top: 118vw;
 }
 }
 
 /*galaxy fold*/
 @media screen and (width: 280px) and (height: 653px) {
 .text {
-    top: 35vh;
-}
-}
-
-/*Pixel 2*/
-@media screen and (width:411px) and (height: 731px) {
-.text {
-    top: 54vh;
-}
-}
-
-/*galaxyS5*/
-@media screen and (width:360px) and (height: 640px) {
-.text {
-    top: 52vh;
+    top: 112vw;
 }
 }
 
 /*ipad pro*/
 @media screen and (width:1024px) and (height: 1366px) {
 .text {
-    top: 84vh;
+    top: 120vw;
     font-size: 1.25rem;
 }
 
@@ -101,7 +97,7 @@ h1{
 /*ipad*/
 @media screen and (width:768px) and (height: 1024px) {
 .text {
-    top: 81vh;
+    top: 119vw;
     font-size: 1.25rem;
 }
 

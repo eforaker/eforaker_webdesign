@@ -220,7 +220,7 @@ height: auto;
     font-size: 1.25em;
     line-height: 1.29;
     position: relative;
-    top: 33vh;
+    top: 115vw;
     z-index: 400;
     overflow-y: scroll;
     background: transparent;
@@ -238,8 +238,9 @@ height: auto;
 
 h1{
     font-size: 2.5rem;
-    line-height: 1;
+    line-height: 1.1;
     color:white;
+    margin-top: 20px;
 }
 
 .links {
