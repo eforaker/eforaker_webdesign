@@ -46,7 +46,7 @@ i {
     text-align: center;
     margin: 0 auto;
     font-size: 12vw;
-    line-height: .95;
+    line-height:.95;
     color:white;
     text-shadow: 0 0 20px white, 0 0 50px white, 0 0 70px white;
     z-index: 100;
@@ -162,6 +162,11 @@ i {
     width:200vh;
 }
 
+.title h1{
+    font-size: 15vw;
+    text-shadow: 0 0 5px white, 0 0 20px white, 0 0 40px white;
+}
+
 .links {
     text-align: center;
     padding-left: 20px;
@@ -171,7 +176,7 @@ i {
 .links a{
     font-size: 1.75rem;
     line-height: 1.25;
-    text-shadow:0 0 1px white, 0 0 5px white, 0 0 12px white;
+    text-shadow:0 0 1px white, 0 0 5px white;
 }
 
 .about a{
