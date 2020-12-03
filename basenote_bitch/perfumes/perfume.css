@@ -28,10 +28,10 @@ section {
     display: flex;
 }
 
-/*i {
+i {
     font-family: SuisseIntl-RegularItalic; 
     font-style: italic;
-}*/
+}
 
 .bottomborder {
     height: 10px;
@@ -171,11 +171,11 @@ h1{
 #play { transition: all .2s ease-in-out; }
 #play:hover { transform: scale(1.05); }
 
-.text #rightarrow {
+.rightarrow {
 display: none;
 }
 
-.text #leftarrow {
+.leftarrow {
 display: none;
 }
 
@@ -196,6 +196,11 @@ display: none;
 
 body {
     margin: 0px;
+}
+
+i {
+    font-family: SuisseIntl-RegularItalic; 
+    font-style: italic;
 }
 
 section {
@@ -279,22 +284,24 @@ display: none;
 display: none;
 }
 
-.text #rightarrow { 
-    height: 30px;
-    fill:white;
-    display:inline-block;
-    position: absolute;
-    right:20px;
-    bottom:60px;
+.rightarrow a{ 
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
 }
 
-.text #leftarrow { 
-    height: 30px;
-    fill:white;
-    display:inline-block;
-    position: absolute;
-    left:20px;
-    bottom:60px;
+.leftarrow{
+    display: block;
+    left:5vw;
+    z-index:410;
+    top:1vh; 
+    position: fixed;
+}
+
+.leftarrow a{ 
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
 }
 
 .prev {
