@@ -23,6 +23,10 @@ body {
     color: #8b67ce;
 }
 
+.text a{
+    color: #8b67ce;
+}
+
 .home a {
     text-shadow: 0 0 12px #8b67ce, 0 0 20px #8b67ce;
 }
@@ -44,6 +48,10 @@ body {
 @media screen and (max-width: 1036px) {
 .perfume{
     background-color: #8b67ce;
+}
+
+.text a{
+    color:white;
 }
 
 body {

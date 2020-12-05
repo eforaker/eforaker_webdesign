@@ -125,6 +125,10 @@ i {
       font-size: 1.75rem;
       line-height: 1.1;
       columns: 2;
+      padding-bottom: 20px;
+      padding-top:80px;
+      margin-left: 15px;
+      padding-right: 15px;
 }
 
 .text p{

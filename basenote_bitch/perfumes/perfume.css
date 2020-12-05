@@ -30,7 +30,6 @@ section {
 
 i {
     font-family: SuisseIntl-RegularItalic; 
-    font-style: italic;
 }
 
 .bottomborder {
@@ -171,13 +170,14 @@ h1{
 #play { transition: all .2s ease-in-out; }
 #play:hover { transform: scale(1.05); }
 
-.rightarrow {
-display: none;
+.text #leftarrow { 
+    display:none;
 }
 
-.leftarrow {
-display: none;
+.text #rightarrow { 
+    display:none;
 }
+
 
 
 /*/* Smartphones (portrait) ----------- */
@@ -200,7 +200,6 @@ body {
 
 i {
     font-family: SuisseIntl-RegularItalic; 
-    font-style: italic;
 }
 
 section {
@@ -238,7 +237,7 @@ height: auto;
 
 .text p{
     margin-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 h1{
@@ -284,24 +283,23 @@ display: none;
 display: none;
 }
 
-.rightarrow a{ 
-    text-decoration: none;
-    color:white;
-    font-size: 2rem;
+
+.text #leftarrow { 
+    fill:white;
+    height:25px;
+    display:inline-block;
+    position: absolute;
+    left:20px;
+    bottom:70px;
 }
 
-.leftarrow{
-    display: block;
-    left:5vw;
-    z-index:410;
-    top:1vh; 
-    position: fixed;
-}
-
-.leftarrow a{ 
-    text-decoration: none;
-    color:white;
-    font-size: 2rem;
+.text #rightarrow { 
+    fill:white;
+    height: 25px;
+    display:inline-block;
+    position: absolute;
+    right:20px;
+    bottom:70px;
 }
 
 .prev {

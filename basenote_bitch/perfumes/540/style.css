@@ -53,12 +53,4 @@ body {
 h1{
     text-shadow:0 0 12px #ff2f00, 0 0 20px #ff2f00;
 }
-
-.leftarrow a {
-    text-shadow:0 0 10px #ff2f00;
-}
-
-.rightarrow a {
-    text-shadow:0 0 10px #ff2f00;
-}
 }
