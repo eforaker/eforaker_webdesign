@@ -47,12 +47,7 @@ body {
 .col-12 {width: 100%;}
 
 .header {
-  position: fixed;
-  background-color: white;
-  width:25%;
-  top:0px;
-  left:0px;
-  padding: 10px;
+  width:100%;
 
 }
 
