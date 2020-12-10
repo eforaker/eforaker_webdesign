@@ -53,7 +53,7 @@ body {
 
 .header a{
 color:black; 
-text-decoration: none;
+/*text-decoration: none;*/
 }
 
 .description {
@@ -66,6 +66,10 @@ text-decoration: none;
 /*  height: 500px;*/
 }
 
+.description a {
+  color:black; 
+}
+
 i {
 	font-family: untitled-sans-web-regular-italic;
 }
@@ -74,7 +78,7 @@ h1 {
 	text-transform: uppercase;
 	margin: 0;
 	line-height: 1.15;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	font-weight: normal;
 }
 
