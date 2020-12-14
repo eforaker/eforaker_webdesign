@@ -4,12 +4,14 @@
 
 @font-face {
     font-family: untitled-sans-web-regular;
-    src: url("fonts/untitled-sans-web-regular.woff") format("truetype");
+    src: url("fonts/untitled-sans-web-regular.woff") format("woff");
+    font-style: normal;
 }
 
 @font-face {
     font-family: untitled-sans-web-regular-italic;
-    src: url("fonts/untitled-sans-web-regular-italic.woff") format("truetype");
+    src: url("fonts/untitled-sans-web-regular-italic.woff") format("woff");
+    font-style: italic;
 }
 
 body {
@@ -62,16 +64,11 @@ color:black;
   padding-right: 10px;
   color: black;
   column-count: 2;
-  column-fill: auto;
-/*  height: 500px;*/
+  hyphens: auto;
 }
 
 .description a {
   color:black; 
-}
-
-i {
-	font-family: untitled-sans-web-regular-italic;
 }
 
 h1 {
@@ -94,7 +91,7 @@ h1 {
 	margin: 0px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
