@@ -19,7 +19,7 @@ body {
 	margin: 10px;
 	font-family: untitled-sans-web-regular;
 	color: black;
-	font-size: .9rem;
+	font-size: .75rem;
 	line-height: 1.2;
 }
 
@@ -61,7 +61,7 @@ color:black;
 .description {
   margin: 5;
   padding: 0;
-  padding-right: 10px;
+  padding-right: 15px;
   color: black;
   column-count: 2;
   hyphens: auto;
@@ -75,7 +75,7 @@ h1 {
 	text-transform: uppercase;
 	margin: 0;
 	line-height: 1.15;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: normal;
 }
 
