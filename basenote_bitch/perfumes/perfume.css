@@ -96,6 +96,10 @@ section {
 	margin-bottom: 50px;
 }
 
+.italic {
+  font-family: SuisseIntl-RegularItalic;
+}
+
 h1{
     font-family: IKANSEEYOUALL-Web;
     font-size: 7rem;

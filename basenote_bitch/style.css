@@ -14,12 +14,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: SuisseIntl-RegularItalic;
-    src: url("fonts/SuisseIntl-RegularItalic.otf") format("opentype");
-    font-style: italic;
-}
-
 body::-webkit-scrollbar {
     display: none;
 }

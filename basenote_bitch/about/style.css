@@ -62,6 +62,10 @@ body::-webkit-scrollbar {
   padding-bottom: 30px;
 }
 
+.italic {
+  font-family: SuisseIntl-RegularItalic;
+}
+
 .home {
     position: fixed;
     top:25px;
