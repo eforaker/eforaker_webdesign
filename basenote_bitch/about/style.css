@@ -7,16 +7,19 @@
 @font-face {
     font-family: IKANSEEYOUALL-Web;
     src: url("../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+    font-style: normal;
 }
 
 @font-face {
     font-family: SuisseIntl-Regular;
     src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+    font-style: normal;
 }
 
 @font-face {
     font-family: SuisseIntl-RegularItalic;
     src: url("../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
+    font-style: italic;
 }
 
 body {
@@ -26,10 +29,6 @@ body {
 
 body::-webkit-scrollbar {
     display: none;
-}
-
-i {
-    font-family: SuisseIntl-RegularItalic; 
 }
 
 .perfume{
