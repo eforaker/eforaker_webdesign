@@ -55,7 +55,6 @@ body {
 
 .header a{
 color:black; 
-/*text-decoration: none;*/
 }
 
 .description {
@@ -69,6 +68,10 @@ color:black;
 
 .description a {
   color:black; 
+}
+
+.italic {
+  font-family: untitled-sans-web-regular-italic;
 }
 
 h1 {
