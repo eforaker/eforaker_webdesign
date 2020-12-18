@@ -89,7 +89,10 @@ var random_images_array = [
 'japanesecherry.jpg',
 'whitediamonds.jpg',
 'youthdew.jpg',
-'tribe.jpg'
+'tribe.jpg',
+'cashmeremist.jpg',
+'greyflannel.jpg',
+'luckyyou.jpg'
 ];
 
     
