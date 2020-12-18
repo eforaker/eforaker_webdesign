@@ -11,7 +11,7 @@
 @font-face {
     font-family: untitled-sans-web-regular-italic;
     src: url("fonts/untitled-sans-web-regular-italic.woff") format("woff");
-    font-style: italic;
+    font-style: oblique;
 }
 
 body {
@@ -72,6 +72,7 @@ color:black;
 
 .italic {
   font-family: untitled-sans-web-regular-italic;
+  font-style: oblique;
 }
 
 h1 {

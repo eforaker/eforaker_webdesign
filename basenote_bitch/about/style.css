@@ -5,21 +5,21 @@
 }
 
 @font-face {
-    font-family: IKANSEEYOUALL-Web;
-    src: url("../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+    font-family: IKANSEEYOUALLWeb;
+    src: url("../fonts/IKANSEEYOUALLWeb.ttf") format("truetype");
     font-style: normal;
 }
 
 @font-face {
-    font-family: SuisseIntl-Regular;
-    src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+    font-family: SuisseIntlRegular;
+    src: url("../fonts/SuisseIntlRegular.otf") format("opentype");
     font-style: normal;
 }
 
 @font-face {
-    font-family: SuisseIntl-RegularItalic;
-    src: url("../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
-    font-style: italic;
+    font-family: Itals;
+    src: url("../fonts/Itals.otf") format("opentype");
+    font-style: oblique;
 }
 
 body {
@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
 }
 
 .text {
-      font-family:SuisseIntl-Regular;
+      font-family:SuisseIntlRegular;
       text-align: left;
       color:#ff2e7e;
       padding-top:80px;
@@ -63,7 +63,8 @@ body::-webkit-scrollbar {
 }
 
 .italic {
-  font-family: SuisseIntl-RegularItalic;
+  font-family: Itals;
+  font-style: oblique;
 }
 
 .home {
@@ -77,7 +78,7 @@ body::-webkit-scrollbar {
 
 .home a{
   text-decoration: none;
-  font-family: IKANSEEYOUALL-Web;
+  font-family: IKANSEEYOUALLWeb;
   font-size: 2.1rem;
   color: white;
   text-shadow: 0 0 12px #ff2e7e, 0 0 20px #e3a3ff;

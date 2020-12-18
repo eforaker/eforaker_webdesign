@@ -5,21 +5,21 @@
 }
 
 @font-face {
-    font-family: IKANSEEYOUALL-Web;
-    src: url("../fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+    font-family: IKANSEEYOUALLWeb;
+    src: url("../fonts/IKANSEEYOUALLWeb.ttf") format("truetype");
     font-style: normal;
 }
 
 @font-face {
-    font-family: SuisseIntl-Regular;
-    src: url("../fonts/SuisseIntl-Regular.otf") format("opentype");
+    font-family: SuisseIntlRegular;
+    src: url("../fonts/SuisseIntlRegular.otf") format("opentype");
     font-style: normal;
 }
 
 @font-face {
-    font-family: SuisseIntl-RegularItalic;
-    src: url("../fonts/SuisseIntl-RegularItalic.otf") format("opentype");
-    font-style: italic;
+    font-family: Itals;
+    src: url("../fonts/Itals.otf") format("opentype");
+    font-style: oblique;
 }
 
 
@@ -75,7 +75,7 @@ section {
 }
 
 .text{
-    font-family: SuisseIntl-Regular;
+    font-family: SuisseIntlRegular;
     font-size: 3rem;
     line-height: 1.1;
     background: white;
@@ -98,11 +98,12 @@ section {
 }
 
 .italic {
-  font-family: SuisseIntl-RegularItalic;
+    font-family: Itals;
+  font-style: oblique;
 }
 
 h1{
-    font-family: IKANSEEYOUALL-Web;
+    font-family: IKANSEEYOUALLWeb;
     font-size: 7rem;
     line-height: 1;
     margin-top: 100px;
@@ -130,7 +131,7 @@ h1{
 
 .home a {
 	text-decoration: none;
-	font-family: IKANSEEYOUALL-Web;
+	font-family: IKANSEEYOUALLWeb;
     font-size: 2.1rem;
     color: white;
 }
@@ -146,7 +147,7 @@ h1{
 
 .prev a {
     text-decoration: none;
-    font-family: IKANSEEYOUALL-Web;
+    font-family: IKANSEEYOUALLWeb;
     font-size: 2.1rem;
     color: white;
 }
@@ -162,7 +163,7 @@ h1{
 
 .next a {
     text-decoration: none;
-    font-family: IKANSEEYOUALL-Web;
+    font-family: IKANSEEYOUALLWeb;
     font-size: 2.1rem;
     color: white;
 }

@@ -4,13 +4,13 @@
 }
 
 @font-face {
-    font-family: IKANSEEYOUALL-Web;
-    src: url("fonts/IKANSEEYOUALL-Web.ttf") format("truetype");
+    font-family: IKANSEEYOUALLWeb;
+    src: url("fonts/IKANSEEYOUALLWeb.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: SuisseIntl-Regular;
-    src: url("fonts/SuisseIntl-Regular.otf") format("opentype");
+    font-family: SuisseIntlRegular;
+    src: url("fonts/SuisseIntlRegular.otf") format("opentype");
     font-style: normal;
 }
 
@@ -33,7 +33,7 @@ body::-webkit-scrollbar {
 
 
 .title h1{
-  font-family:IKANSEEYOUALL-Web;
+  font-family:IKANSEEYOUALLWeb;
     text-align: center;
     margin: 0 auto;
     font-size: 12vw;
@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
 }
 
 .about a{
-    font-family: IKANSEEYOUALL-Web;
+    font-family: IKANSEEYOUALLWeb;
     font-size: 2.1rem;
     color: white;
     text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
@@ -74,7 +74,7 @@ body::-webkit-scrollbar {
 }
 
 .interviews a{
-    font-family: IKANSEEYOUALL-Web;
+    font-family: IKANSEEYOUALLWeb;
     font-size: 2.1rem;
     color: white;
     text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
@@ -92,7 +92,7 @@ body::-webkit-scrollbar {
 }
 
 .links a{
-    font-family: SuisseIntl-Regular;
+    font-family: SuisseIntlRegular;
     font-size: 6rem;
     line-height: 1.25;
     color: white;
@@ -104,7 +104,7 @@ body::-webkit-scrollbar {
 }
 
 .links a:hover{
-    font-family:IKANSEEYOUALL-Web;
+    font-family:IKANSEEYOUALLWeb;
     text-transform: none;
 }
 
