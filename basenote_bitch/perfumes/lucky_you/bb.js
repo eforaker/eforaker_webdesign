@@ -1,4 +1,4 @@
-var myAudio = new Audio('90210.mp3');
+var myAudio = new Audio('lucky.mp3');
 var isPlaying = false;
 
 function playAudio() {
