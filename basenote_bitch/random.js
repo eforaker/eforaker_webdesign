@@ -96,7 +96,13 @@ var random_images_array = [
 'candies.jpg',
 'ralph.jpg',
 'juicy.jpg',
-'paris.jpg'
+'paris.jpg',
+'sunripenedraspberry.jpg',
+'grass.jpg',
+'joop.jpg',
+'blazinblueberry.jpg',
+'rush.jpg',
+'plumeria.jpg'
 
 ];
 
