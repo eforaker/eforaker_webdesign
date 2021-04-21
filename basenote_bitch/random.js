@@ -102,7 +102,13 @@ var random_images_array = [
 'joop.jpg',
 'blazinblueberry.jpg',
 'rush.jpg',
-'plumeria.jpg'
+'plumeria.jpg',
+'pi.jpg',
+'polosport.jpg',
+'signaturecottoncandy.jpg',
+'candy.jpg',
+'touchofpink.jpg',
+'ralphhot.jpg'
 
 ];
 
