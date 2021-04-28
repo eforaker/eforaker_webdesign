@@ -23,6 +23,11 @@ body {
 	line-height: 1.2;
 }
 
+.ef img{
+  width:50vw;
+  margin-bottom: 10px;
+}
+
 .row::after {
   content: "";
   clear: both;
