@@ -105,7 +105,7 @@ h1 {
 display: none;
 }*/
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
