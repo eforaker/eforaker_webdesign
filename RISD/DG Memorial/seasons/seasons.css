@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body {
+	background-color: black;
+}
+
 @font-face {
     font-family: ArialMTStd-Medium;
     src: url("../fonts/ArialMTStd-Medium.otf") format("opentype");
@@ -26,6 +30,7 @@
     width: 50%;
     z-index:1;
     border: none;
+    background-color: black;
 }
 
 .column img {

@@ -14,6 +14,18 @@
     font-style: oblique;
 }
 
+@font-face {
+    font-family: TimesTenLTStd-Roman;
+    src: url("fonts/TimesTenLTStd-Roman.otf") format("otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TimesTenLTStd-Italic;
+    src: url("fonts/TimesTenLTStd-Italic.otf") format("otf");
+    font-style: oblique;
+}
+
 body {
 	padding: 0px;
 	margin: 10px;
@@ -55,7 +67,6 @@ body {
 
 .header {
   width:100%;
-
 }
 
 .header a{
@@ -80,12 +91,19 @@ color:black;
   font-style: oblique;
 }
 
+.serifitalic {
+  font-family: TimesTenLTStd-Italic;
+  font-style: oblique;
+}
+
 h1 {
-	text-transform: uppercase;
 	margin: 0;
 	line-height: 1.15;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	font-weight: normal;
+  font-family: TimesTenLTStd-Roman;
+  letter-spacing: -1px;
+
 }
 
 .pics {
@@ -101,9 +119,6 @@ h1 {
 	margin: 0px;
 }
 
-/*#NHTMF {
-display: none;
-}*/
 
 @media only screen and (max-width: 900px) {
   /* For mobile phones: */
