@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: untitled-sans-web-regular;
+    src: url("fonts/untitled-sans-web-regular.woff") format("woff");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: untitled-sans-web-regular-italic;
+    src: url("fonts/untitled-sans-web-regular-italic.woff") format("woff");
+    font-style: oblique;
+}
+
+@font-face {
+    font-family: TimesTenLTStd-Roman;
+    src: url("fonts/TimesTenLTStd-Roman.otf") format("otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: TimesTenLTStd-Italic;
+    src: url("fonts/TimesTenLTStd-Italic.otf") format("otf");
+    font-style: oblique;
+}
+
+body {
+	padding: 0px;
+	margin: 10px;
+	font-family: untitled-sans-web-regular;
+	color: #ff0099;
+	font-size: .85rem;
+	line-height: 1.2;
+}
+
+.fade {
+  background: linear-gradient( #FFFFFF, #fcb8ef, #ff0099);
+  width: 100vw;
+  margin:0px;
+  padding: 0px;
+  height: 100px;
+  position: fixed;
+  bottom:0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+  opacity: .5;
+  z-index: 80;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.description {
+  margin: 5;
+  padding: 0;
+  padding-right: 15px;
+  color: #ff0099;
+  column-count: 1;
+  hyphens: auto;
+    z-index: 100;
+}
+
+.description a {
+  color:#ff0099; 
+}
+
+.italic {
+  font-family: untitled-sans-web-regular-italic;
+  font-style: oblique;
+}
+
+.serifitalic {
+  font-family: TimesTenLTStd-Italic;
+  font-style: oblique;
+}
+
+h1 {
+	margin: 0;
+	line-height: 1.15;
+	font-size: 1.3rem;
+	font-weight: normal;
+  font-family: TimesTenLTStd-Roman;
+  letter-spacing: -1px;
+}
+
+.description a {
+  font-family: TimesTenLTStd-Italic;
+  text-decoration: none;
+  border-radius: 80%;
+  padding:6px;
+  border: 1px solid #ff0099;
+  letter-spacing: -.01px;
+}
+
+.pics {
+  margin: 5;
+  padding: 0;
+  color: black;
+}
+
+.pics img {
+	width:100%;
+	padding-left: 5px;
+  padding-bottom: 2.5px;
+	margin: 0px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+  .description {
+  columns: 1;
+  height: auto;
+}
+}
