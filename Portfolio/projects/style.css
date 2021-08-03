@@ -52,6 +52,20 @@ body {
   border-radius: 8px;
 }
 
+.fade {
+  background: linear-gradient( #FFFFFF, #fcb8ef, #ff0099);
+  width: 100vw;
+  margin:0px;
+  padding: 0px;
+  height: 100px;
+  position: fixed;
+  bottom:0px;
+  left: 0px;
+  mix-blend-mode: multiply;
+  opacity: .5;
+  z-index: 80;
+}
+
 .row::after {
   content: "";
   clear: both;
@@ -79,8 +93,11 @@ body {
 .header {
   width:100%;
   font-size: 1rem;
-  padding-top: 5px;
-  text-align: center;
+  top:15px;
+  text-align: right;
+  right:10px;
+  position: fixed;
+  z-index: 400;
 }
 
 .header a{
@@ -95,6 +112,7 @@ color:#ff0099;
   column-count: 1;
   hyphens: auto;
   z-index: 100;
+  padding-top: 40px;
 }
 
 .description a {
@@ -108,6 +126,7 @@ color:#ff0099;
   padding:6px;
   border: 1px solid #ff0099;
   letter-spacing: -.01px;
+  /*background-color: white;*/
 }
 
 .italic {
@@ -133,7 +152,7 @@ h1 {
 .pics {
   margin: 5;
   padding: 0;
-  color: black;
+  padding-top: 40px;
 }
 
 .pics img {
