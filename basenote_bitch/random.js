@@ -108,8 +108,15 @@ var random_images_array = [
 'signaturecottoncandy.jpg',
 'candy.jpg',
 'touchofpink.jpg',
-'ralphhot.jpg'
+'ralphhot.jpg',
 
+'rapmusk.jpg',
+'polosport2.jpg',
+'sensualamber.jpg',
+'hanaemori.jpg',
+'palomapicasso.jpg',
+'nature.jpg',
+'freewave.jpg'
 ];
 
     

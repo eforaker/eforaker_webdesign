@@ -1,0 +1,55 @@
+
+body {
+    background-color: #524942;
+}
+
+.bottomborder {
+    background-color:#524942;
+}
+
+.rightborder {
+    background-color:#524942;
+}
+
+.topborder {
+    background-color:#524942;
+}
+
+.leftborder {
+    background-color:#524942;
+}
+
+.text{
+    color: #524942;
+}
+
+.home a {
+    text-shadow: 0 0 12px #524942, 0 0 20px #524942;
+}
+
+.prev a {
+    text-shadow: 0 0 12px #524942, 0 0 20px #524942;
+}
+
+.next a {
+    text-shadow: 0 0 12px #524942, 0 0 20px #524942;
+}
+
+#play {
+    fill: #524942;
+}
+
+/*/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 1036px) {
+.perfume{
+    background-color: #524942;
+}
+
+body {
+    background-color: #524942;
+}
+
+h1{
+    text-shadow:0 0 12px #524942, 0 0 20px #524942;
+}
