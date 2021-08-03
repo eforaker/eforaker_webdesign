@@ -100,7 +100,7 @@ body {
   color: #ff0099;
   column-count: 1;
   hyphens: auto;
-    z-index: 100;
+  z-index: 100;
 }
 
 .description a {
