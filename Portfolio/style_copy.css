@@ -148,13 +148,22 @@ h1 {
 	margin: 0px;
 }
 
-
-@media only screen and (max-width: 900px) {
   /* For mobile phones: */
-  [class*="col-"] {
+@media only screen and (max-width: 600px) {
+
+/*  [class*="col-"] {
     width: 100%;
   }
+*/
 
+body {
+  font-size: .75rem;
+}
+
+h1 {
+  line-height: 1.15;
+  font-size: 1.2rem;
+}
   .description {
   columns: 1;
   height: auto;
