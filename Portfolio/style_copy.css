@@ -31,9 +31,10 @@ body {
 	margin: 10px;
 	font-family: untitled-sans-web-regular;
 	color: #ff0099;
-	font-size: .85rem;
+  background-color: white;
+/*	background-color: #cacdcf;*/
+	font-size: 1rem;
 	line-height: 1.2;
-  cursor:url(images/glimmer2.png), auto;
 }
 
 /* width */
@@ -58,7 +59,7 @@ body {
   width: 100vw;
   margin:0px;
   padding: 0px;
-  height: 100px;
+  height: 150px;
   position: fixed;
   bottom:0px;
   left: 0px;
@@ -98,15 +99,11 @@ body {
   margin: 5;
   padding: 0;
   padding-right: 15px;
-  color: #ff0099;
   column-count: 1;
   hyphens: auto;
   z-index: 100;
 }
 
-.description a {
-  color:#ff0099; 
-}
 
 .italic {
   font-family: untitled-sans-web-regular-italic;
@@ -116,15 +113,18 @@ body {
 .serifitalic {
   font-family: TimesTenLTStd-Italic;
   font-style: oblique;
+
 }
 
 h1 {
 	margin: 0;
-	line-height: 1.15;
+	line-height: 1.1;
 	font-size: 1.3rem;
 	font-weight: normal;
   font-family: TimesTenLTStd-Roman;
   letter-spacing: -1px;
+  color:#ff0099
+ ; 
 }
 
 .description a {
@@ -134,6 +134,8 @@ h1 {
   padding:6px;
   border: 1px solid #ff0099;
   letter-spacing: -.01px;
+    color:#ff0099
+ ; 
 }
 
 .pics {
@@ -158,11 +160,11 @@ h1 {
 */
 
 body {
-  font-size: .75rem;
+  font-size: .85rem;
 }
 
 h1 {
-  line-height: 1.15;
+  line-height: 1;
   font-size: 1.2rem;
 }
   .description {

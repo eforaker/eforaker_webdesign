@@ -31,9 +31,8 @@ body {
 	margin: 10px;
 	font-family: untitled-sans-web-regular;
 	color: #ff0099;
-	font-size: .85rem;
-	line-height: 1.2;
-  cursor:url(../images/glimmer2.png), auto;
+  font-size: 1rem;
+  line-height: 1.2;
 }
 
 /* width */
@@ -142,7 +141,7 @@ color:#ff0099;
 
 h1 {
 	margin: 0;
-	line-height: 1.15;
+	line-height: 1.1;
 	font-size: 1.3rem;
 	font-weight: normal;
   font-family: TimesTenLTStd-Roman;
@@ -170,17 +169,18 @@ h1 {
     width: 100%;
   }
 
-  .ef img{
-  width:100%;
+.header {
+margin-top: 10px;
 }
 
 body {
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 h1 {
-  line-height: 1.15;
-  font-size: 1.2rem;
+  padding-top:20px;
+  line-height: 1;
+  font-size: 1.3rem;
 }
   .description {
   columns: 1;
