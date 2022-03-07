@@ -104,6 +104,14 @@ body {
   z-index: 100;
 }
 
+.fyeo {
+  font-size: 2rem;
+  letter-spacing: -.1rem;
+  line-height: 1;
+  position: fixed;
+  z-index: 300;
+}
+
 
 .italic {
   font-family: untitled-sans-web-regular-italic;
@@ -134,8 +142,7 @@ h1 {
   padding:6px;
   border: 1px solid #ff0099;
   letter-spacing: -.01px;
-    color:#ff0099
- ; 
+    color:#ff0099; 
 }
 
 .pics {
@@ -161,6 +168,12 @@ h1 {
 
 body {
   font-size: .85rem;
+}
+
+.fyeo {
+  font-size: 1.25rem;
+    letter-spacing: -.1rem;
+    margin-top: 13px;
 }
 
 h1 {
