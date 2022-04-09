@@ -121,7 +121,12 @@ body {
 .serifitalic {
   font-family: TimesTenLTStd-Italic;
   font-style: oblique;
+}
 
+.archives {
+ font-size: 3rem; 
+ letter-spacing: -.3rem;
+ text-align: center;
 }
 
 h1 {
@@ -131,8 +136,7 @@ h1 {
 	font-weight: normal;
   font-family: TimesTenLTStd-Roman;
   letter-spacing: -1px;
-  color:#ff0099
- ; 
+  color:#ff0099; 
 }
 
 .description a {
@@ -150,6 +154,11 @@ h1 {
   padding: 0;
   color: black;
 }
+
+.pics a{
+  text-decoration: underline;
+  color:#ff0099; 
+} 
 
 .pics img {
 	width:100%;
