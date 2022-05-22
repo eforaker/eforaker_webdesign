@@ -122,7 +122,14 @@ var random_images_array = [
 'babe.jpg',
 // 'edhardy.jpg',
 'freefall.jpg',
-'om.jpg'
+'om.jpg',
+'cultcelebrity.jpg',
+'dream.jpg',
+'lolitalempicka.jpg',
+'oilily.jpg',
+'casual.jpg',
+'strawberriesandchampagne.jpg',
+'juniperbreezeTEMP.png'
 
 ];
 
