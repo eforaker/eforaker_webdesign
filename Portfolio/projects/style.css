@@ -98,9 +98,9 @@ body {
 .header {
   width:100%;
   font-size: 1rem;
-  top:15px;
+  top:25px;
   text-align: right;
-  right:10px;
+  right:25px;
   position: fixed;
   z-index: 400;
 }
@@ -137,10 +137,10 @@ color:#ff0099;
   font-family: TimesTenLTStd-Italic;
   text-decoration: none;
   border-radius: 80%;
-  padding:6px;
+  padding:8px;
   border: 1px solid #ff0099;
-  letter-spacing: -.01px;
-  /*background-color: white;*/
+  letter-spacing: -.02px;
+  background-color: white;
 }
 
 .italic {
