@@ -29,6 +29,7 @@
 body {
 	padding: 0px;
 	margin: 10px;
+  background-color: #eaeaea;
 	font-family: untitled-sans-web-regular;
 	color: #ff0099;
   font-size: 1rem;
@@ -140,7 +141,7 @@ color:#ff0099;
   padding:8px;
   border: 1px solid #ff0099;
   letter-spacing: -.02px;
-  background-color: white;
+  background-color: #eaeaea;
 }
 
 .italic {

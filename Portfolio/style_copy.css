@@ -28,11 +28,10 @@
 
 body {
 	padding: 0px;
-	margin: 10px;
+  margin: 0px;
 	font-family: untitled-sans-web-regular;
 	color: #ff0099;
-  background-color: white;
-/*	background-color: #cacdcf;*/
+	background-color: #eaeaea;
 	font-size: 1rem;
 	line-height: 1.2;
 }
@@ -97,7 +96,8 @@ body {
 
 .description {
   margin: 5;
-  padding: 0;
+  padding: 5px;
+  padding-left: 10px;
   padding-right: 15px;
   column-count: 1;
   hyphens: auto;
@@ -127,6 +127,7 @@ body {
  font-size: 3rem; 
  letter-spacing: -.3rem;
  text-align: center;
+ padding-left: 10px;
 }
 
 h1 {
