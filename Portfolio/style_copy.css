@@ -104,13 +104,13 @@ body {
   z-index: 100;
 }
 
-.fyeo {
+/*.fyeo {
   font-size: 2rem;
   letter-spacing: -.1rem;
   line-height: 1;
   position: fixed;
   z-index: 300;
-}
+}*/
 
 
 .italic {
@@ -119,40 +119,48 @@ body {
 }
 
 .serifitalic {
-  font-family: TimesTenLTStd-Italic;
+  font-family: untitled-sans-web-regular-italic;
   font-style: oblique;
 }
 
 .archives {
  font-size: 3rem; 
- letter-spacing: -.3rem;
+ letter-spacing: -.2rem;
  text-align: center;
  padding-left: 10px;
 }
 
 h1 {
 	margin: 0;
+  padding: 0px;
 	line-height: 1.1;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight: normal;
-  font-family: TimesTenLTStd-Roman;
+/*  font-family: TimesTenLTStd-Roman;*/
   letter-spacing: -1px;
   color:#ff0099; 
 }
 
+.description p{
+  margin: 0;
+  padding: 0;
+}
+
 .description a {
-  font-family: TimesTenLTStd-Italic;
+/*  font-family: TimesTenLTStd-Italic;*/
   text-decoration: none;
   border-radius: 80%;
   padding:6px;
   border: 1px solid #ff0099;
   letter-spacing: -.01px;
-    color:#ff0099; 
+  color:#ff0099; 
+  margin-top: 10px;
 }
 
 .pics {
-  margin: 5;
+  margin: 10;
   padding: 0;
+  padding-right: 10px;
   color: black;
 }
 
@@ -163,7 +171,8 @@ h1 {
 
 .pics img {
 	width:100%;
-	padding-left: 5px;
+  padding-top: 2.5px;
+	padding-left: 0px;
   padding-bottom: 2.5px;
 	margin: 0px;
 }

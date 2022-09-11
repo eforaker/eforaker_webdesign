@@ -135,12 +135,12 @@ color:#ff0099;
 }
 
 .header a {
-  font-family: TimesTenLTStd-Italic;
+  font-family: untitled-sans-web-regular;
   text-decoration: none;
   border-radius: 80%;
-  padding:8px;
+  padding:6px;
   border: 1px solid #ff0099;
-  letter-spacing: -.02px;
+  letter-spacing: -.01px;
   background-color: #eaeaea;
 }
 
@@ -150,16 +150,16 @@ color:#ff0099;
 }
 
 .serifitalic {
-  font-family: TimesTenLTStd-Italic;
+  font-family: untitled-sans-web-regular-italic;
   font-style: oblique;
 }
 
 h1 {
 	margin: 0;
 	line-height: 1.1;
-	font-size: 1.3rem;
+	font-size: 1.1rem;
 	font-weight: normal;
-  font-family: TimesTenLTStd-Roman;
+  font-family: untitled-sans-web-regular;
   letter-spacing: -1px;
 
 }
