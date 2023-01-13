@@ -57,7 +57,7 @@ body {
 
 
 .description img{
-  height: 120px;
+  height: 60px;
 }
 
 .fade {
@@ -74,6 +74,16 @@ body {
   z-index: 1;
 }
 
+.sparkle {
+  position: fixed;
+   top:  0px;
+   right: 0px;
+}
+
+.sparkle img{
+  width: 77vw;
+
+}
 
 .row::after {
   content: "";
@@ -110,14 +120,6 @@ body {
   hyphens: auto;
   z-index: 100;
 }
-
-/*.fyeo {
-  font-size: 2rem;
-  letter-spacing: -.1rem;
-  line-height: 1;
-  position: fixed;
-  z-index: 300;
-}*/
 
 
 .italic {
@@ -169,6 +171,8 @@ h1 {
   padding: 0;
   padding-right: 10px;
   color: black;
+     z-index: 30;
+/*     position: relative;*/
 }
 
 .pics a{
@@ -222,7 +226,11 @@ margin-top: 10px;
 }
 
 .description img{
-  height: 65px;
+  height: 90px;
+}
+
+.sparkle {
+  display: none;
 }
 
 /*.fyeo {
