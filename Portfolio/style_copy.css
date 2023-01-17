@@ -188,32 +188,6 @@ h1 {
 	margin: 0px;
 }
 
-  /* For mobile phones: */
-/*@media only screen and (max-width: 600px) {
-
-/*  [class*="col-"] {
-    width: 100%;
-  }
-*/
-/*
-body {
-  font-size: .95rem;
-}
-
-.fyeo {
-  font-size: 1.25rem;
-    letter-spacing: -.1rem;
-    margin-top: 13px;
-}
-
-h1 {
-  line-height: 1;
-  font-size: 1.2rem;
-}
-  .description {
-  columns: 1;
-  height: auto;
-}*/
 
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
@@ -226,28 +200,22 @@ margin-top: 10px;
 }
 
 .description img{
-  height: 90px;
+  height: 70px;
 }
 
 .sparkle {
   display: none;
 }
 
-/*.fyeo {
-  font-size: 1.25rem;
-    letter-spacing: -.1rem;
-    margin-top: 13px;
-}*/
-
 body {
-  font-size: 1rem;
+  font-size: .9rem;
 
 }
 
 h1 {
   padding-top:0px;
   line-height: 1;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding-bottom: 5px;
 }
 
