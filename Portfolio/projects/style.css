@@ -27,8 +27,8 @@
 }
 
 body {
-	padding: 0px;
-	margin: 10px;
+	margin: 0px;
+	padding: 10px;
   background-color: #eaeaea;
 	font-family: untitled-sans-web-regular;
 	color: #ff0099;
@@ -36,41 +36,9 @@ body {
   line-height: 1.2;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 4px #ff0099;
-  border-radius: 8px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #ff0099; 
-  border-radius: 8px;
-}
-
-.fade {
-  background: linear-gradient( #FFFFFF, #fcb8ef, #ff0099);
-  width: 100vw;
-  margin:0px;
-  padding: 0px;
-  height: 100px;
-  position: fixed;
-  bottom:0px;
-  left: 0px;
-  mix-blend-mode: multiply;
-  opacity: .5;
-  z-index: 80;
-}
-
 .row {
   padding-top: 80px;
 }
-
 
 .row::after {
   content: "";
