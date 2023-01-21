@@ -76,7 +76,7 @@ body {
 
 .sparkle {
   position: fixed;
-   top:  0px;
+   top:  -5px;
    right: 0px;
 }
 
@@ -145,7 +145,6 @@ h1 {
 	line-height: 1.1;
 	font-size: 1.1rem;
 	font-weight: normal;
-/*  font-family: TimesTenLTStd-Roman;*/
   letter-spacing: -1px;
   color:#ff0099; 
 }
@@ -156,14 +155,13 @@ h1 {
 }
 
 .description a {
-/*  font-family: TimesTenLTStd-Italic;*/
   text-decoration: none;
   border-radius: 80%;
   padding:6px;
   border: 1px solid #ff0099;
   letter-spacing: -.01px;
   color:#ff0099; 
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .pics {
@@ -189,7 +187,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
