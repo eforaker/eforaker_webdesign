@@ -1,0 +1,110 @@
+
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+/*regular*/
+
+@font-face {
+    font-family: StudioPro-Regular;
+    src: url("fonts/StudioPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioPro-Medium;
+    src: url("fonts/StudioPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioPro-SemiBold;
+    src: url("fonts/StudioPro-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioPro-Bold;
+    src: url("fonts/StudioPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioPro-UltraBold;
+    src: url("fonts/StudioPro-UltraBold.otf") format("opentype");
+}
+
+/*italic*/
+
+@font-face {
+    font-family: StudioProTrial-RegularItalic;
+    src: url("fonts/StudioProTrial-RegularItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioProTrial-MediumItalic;
+    src: url("fonts/StudioProTrial-MediumItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioProTrial-SemiBoldItalic;
+    src: url("fonts/StudioProTrial-SemiBoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioProTrial-BoldItalic;
+    src: url("fonts/StudioProTrial-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: StudioProTrial-UltraBoldItalic;
+    src: url("fonts/StudioProTrial-UltraBoldItalic.otf") format("opentype");
+}
+
+
+html, body {
+    height: 100%;
+    background-color: #F6F4EE;
+    font-family: StudioPro-Regular;
+}
+
+
+.H1 {
+font-size: 3rem;
+font-family: StudioPro-Regular;
+text-transform: uppercase;
+letter-spacing: -.1rem;
+}
+
+.H2{
+  font-family:StudioPro-Medium;
+  font-size: 2em;
+text-transform: uppercase;
+letter-spacing: -.1rem;
+}
+
+.overlay {
+width: 100vw;
+color: #F6F4EE;
+font-family:StudioPro-Regular;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: -.1rem;
+text-align: center;
+line-height: .95;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay img{
+width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
+
