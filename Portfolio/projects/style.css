@@ -31,7 +31,7 @@ body {
 	padding: 10px;
   background-color: #eaeaea;
 	font-family: untitled-sans-web-regular;
-	color: #ff0099;
+	color: black;
   font-size: 1rem;
   line-height: 1.2;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 .header a{
-color:#ff0099;
+color:black;
 }
 
 .fyeo {
@@ -90,7 +90,7 @@ color:#ff0099;
   margin: 5;
   padding: 0;
   padding-right: 15px;
-  color: #ff0099;
+  color: black;
   column-count: 1;
   hyphens: auto;
   z-index: 100;
@@ -99,7 +99,7 @@ color:#ff0099;
 
 .description a {
   text-decoration: underline;
-  color:#ff0099; 
+  color:black; 
 }
 
 .header a {
@@ -107,7 +107,7 @@ color:#ff0099;
   text-decoration: none;
   border-radius: 80%;
   padding:6px;
-  border: 1px solid #ff0099;
+  border: 1px solid black;
   letter-spacing: -.01px;
   background-color: #eaeaea;
 }
