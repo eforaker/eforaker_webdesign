@@ -34,6 +34,7 @@ body {
 	color: black;
   font-size: 1rem;
   line-height: 1.2;
+    letter-spacing: -.5px;
 }
 
 .row {
@@ -128,7 +129,6 @@ h1 {
 	font-size: 1.1rem;
 	font-weight: normal;
   font-family: untitled-sans-web-regular;
-  letter-spacing: -1px;
 
 }
 
