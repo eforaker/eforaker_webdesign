@@ -14,7 +14,7 @@
     font-style: oblique;
 }
 
-@font-face {
+/*@font-face {
     font-family: TimesTenLTStd-Roman;
     src: url("fonts/TimesTenLTStd-Roman.otf") format("otf");
     font-style: normal;
@@ -23,8 +23,8 @@
 @font-face {
     font-family: TimesTenLTStd-Italic;
     src: url("fonts/TimesTenLTStd-Italic.otf") format("otf");
-    font-style: oblique;
-}
+    font-style: oblique;*/
+/*}*/
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -113,8 +113,8 @@ body {
 h1 {
 	margin: 0;
   padding: 0px;
-	line-height: 1.1;
-	font-size: 1.1rem;
+	line-height: 1.2;
+	font-size: 1rem;
 	font-weight: normal;
 
   color:black; 
@@ -178,7 +178,7 @@ margin-top: 10px;
 }
 
 body {
-  font-size: .9rem;
+  font-size: 1rem;
 
 }
 

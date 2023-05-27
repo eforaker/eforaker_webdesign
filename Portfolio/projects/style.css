@@ -14,7 +14,7 @@
     font-style: oblique;
 }
 
-@font-face {
+/*@font-face {
     font-family: TimesTenLTStd-Roman;
     src: url("../fonts/TimesTenLTStd-Roman.otf") format("otf");
     font-style: normal;
@@ -23,8 +23,8 @@
 @font-face {
     font-family: TimesTenLTStd-Italic;
     src: url("../fonts/TimesTenLTStd-Italic.otf") format("otf");
-    font-style: oblique;
-}
+    font-style: oblique;*/
+/*}*/
 
 body {
 	margin: 0px;
@@ -34,11 +34,11 @@ body {
 	color: black;
   font-size: 1rem;
   line-height: 1.2;
-    letter-spacing: -.5px;
+  letter-spacing: -.5px;
 }
 
 .row {
-  padding-top: 80px;
+  padding-top: 30px;
 }
 
 .row::after {
@@ -67,7 +67,7 @@ body {
 
 .header {
   width:100%;
-  font-size: 1rem;
+/*  font-size: 1rem;*/
   top:25px;
   text-align: right;
   right:25px;
@@ -77,14 +77,6 @@ body {
 
 .header a{
 color:black;
-}
-
-.fyeo {
-  font-size: 2rem;
-  letter-spacing: -.1rem;
-  line-height: 1;
-  position: fixed;
-  z-index: 300;
 }
 
 .description {
@@ -109,7 +101,7 @@ color:black;
   border-radius: 80%;
   padding:6px;
   border: 1px solid black;
-  letter-spacing: -.01px;
+/*  letter-spacing: -.01px;*/
   background-color: #eaeaea;
 }
 
@@ -125,8 +117,8 @@ color:black;
 
 h1 {
 	margin: 0;
-	line-height: 1.1;
-	font-size: 1.1rem;
+	line-height: 1.2;
+	font-size: 1rem;
 	font-weight: normal;
   font-family: untitled-sans-web-regular;
 
@@ -146,7 +138,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -157,7 +149,7 @@ margin-top: 10px;
 }
 
 body {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 h1 {
