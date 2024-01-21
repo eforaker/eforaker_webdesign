@@ -39,17 +39,3 @@ body {
     fill: #7610cc;
 }
 
-/*/* Smartphones (portrait) ----------- */
-
-@media screen and (max-width: 1036px) {
-.perfume{
-    background-color: #7610cc;
-}
-
-body {
-    background-color: #7610cc;
-}
-
-h1{
-    text-shadow:0 0 12px #7610cc, 0 0 20px #7610cc;
-}

@@ -38,17 +38,3 @@ body {
     fill: #9a0021;
 }
 
-/*/* Smartphones (portrait) ----------- */
-
-@media screen and (max-width: 1036px) {
-.perfume{
-	background-color: #9a0021;
-}
-
-body {
-    background-color: #9a0021;
-}
-
-h1{
-    text-shadow:0 0 12px #9a0021, 0 0 20px #9a0021;
-}
