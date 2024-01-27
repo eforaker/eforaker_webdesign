@@ -23,16 +23,16 @@ body {
     color: #2876d5;
 }
 
-.home a {
-    text-shadow: 0 0 12px #2876d5, 0 0 20px #2876d5;
+.home a{
+    text-shadow: 0 0 2px #2876d5, 0 0 6px #2876d5, 0 0 10px #2876d5;
 }
 
-.prev a {
-    text-shadow: 0 0 12px #2876d5, 0 0 20px #2876d5;
+.prev a{
+    text-shadow: 0 0 2px #2876d5, 0 0 6px #2876d5, 0 0 10px #2876d5;
 }
 
-.next a {
-    text-shadow: 0 0 12px #2876d5, 0 0 20px #2876d5;
+.next a{
+    text-shadow: 0 0 2px #2876d5, 0 0 6px #2876d5, 0 0 10px #2876d5;
 }
 
 #play {

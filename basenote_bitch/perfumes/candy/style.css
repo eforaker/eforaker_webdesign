@@ -24,15 +24,15 @@ body {
 }
 
 .home a {
-    text-shadow: 0 0 12px #fb5a2e, 0 0 20px #fb5a2e;
+    text-shadow: 0 0 2px #fb5a2e, 0 0 6px #fb5a2e, 0 0 10px #fb5a2e;
 }
 
 .prev a {
-    text-shadow: 0 0 12px #fb5a2e, 0 0 20px #fb5a2e;
+    text-shadow: 0 0 2px #fb5a2e, 0 0 6px #fb5a2e, 0 0 10px #fb5a2e;
 }
 
 .next a {
-    text-shadow: 0 0 12px #fb5a2e, 0 0 20px #fb5a2e;
+    text-shadow: 0 0 2px #fb5a2e, 0 0 6px #fb5a2e, 0 0 10px #fb5a2e;
 }
 
 #play {

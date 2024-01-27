@@ -1,6 +1,7 @@
 * { 
     padding: 0;
     margin: 0;
+        box-sizing: border-box;
 }
 
 @font-face {
@@ -23,6 +24,15 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+body {
+    height: 100vh;
+}
+
+
+section {
+    display: flex;
+}
+
 .image{
     background-color: white;
     padding-left: 8px;
@@ -34,6 +44,13 @@ body::-webkit-scrollbar {
 
 .image img{
     width:100vw;
+
+}
+
+.title {
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
 }
 
 
@@ -44,8 +61,9 @@ body::-webkit-scrollbar {
     font-size: 12vw;
     line-height:1;
     color:white;
-    text-shadow: 0 0 20px white, 0 0 50px white, 0 0 70px white;
-    z-index: 100;
+    text-shadow: 0 0 3px white, 0 0 10px white, 0 0 20px white;
+    font-weight: bold;
+    letter-spacing: -.025em;
     padding-top:50px;
 }
 
@@ -90,16 +108,17 @@ body::-webkit-scrollbar {
 .links {
     padding-top: 10px;
     text-align: center;
-    z-index: 180;
+    z-index: 100;
     position: absolute;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: auto;
+    width: 100vw;
+
 }
 
 .links a{
     font-family: SuisseIntlRegular;
-    font-size: 4rem;
-    line-height: 1.2;
+    font-size: 3.5rem;
+    line-height: 1.5;
     color: white;
     text-shadow:0 0 2px white, 0 0 10px white, 0 0 15px white;
     text-decoration: none;
@@ -111,6 +130,7 @@ body::-webkit-scrollbar {
 .links a:hover{
     font-family:TRJN DaVinci Italic-Display;
     text-transform: none;
+    font-weight: bold;
 }
 
 .bottomborder {
@@ -143,12 +163,24 @@ body::-webkit-scrollbar {
 /*/* iPad ----------- */
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 950px) {
 
 .links a{
-    font-size: 4rem;
-    line-height: 1.25;
+    font-size: 1.5rem;
+    line-height: 1.75;
 }
+
+.title h1{
+    font-size: 15vw;
+    padding-top:70px;
+}
+
+/*.image img{
+    height: 100vh; 
+    width: auto;  
+}*/
+
+
 
 /*/* Smartphones (portrait) ----------- */
 
@@ -159,28 +191,34 @@ body::-webkit-scrollbar {
 }
 
 .title h1{
-    font-size: 15vw;
-    text-shadow: 0 0 5px white, 0 0 20px white, 0 0 40px white;
+    font-size: 3rem;
+    text-shadow: 0 0 3px white, 0 0 1px white, 0 0 12px white;
+    padding-top: 70px;
 }
 
 .links {
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 100vw;
+    margin: auto;
+    text-overflow: ;
 }
 
 .links a{
-    font-size: 1.75rem;
-    line-height: 1.25;
-    text-shadow:0 0 1px white, 0 0 5px white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-shadow:0 0 2px white, 0 0 3px white;
+
 }
 
+.about, .interviews {
+    top: 25px;
+}
 .about a{
-    font-size: 1.5rem;
+    font-size: 1.45rem;
 }
 
 .interviews a{
-    font-size: 1.5rem;
+    font-size: 1.45rem;
 }
 }
 

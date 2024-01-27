@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: IKANSEEYOUALLWeb;
-    src: url("../fonts/IKANSEEYOUALLWeb.ttf") format("truetype");
+    font-family: TRJN DaVinci Italic-Display;
+    src: url("../fonts/TRJN DaVinci Italic-Display.otf") format("opentype");
     font-style: normal;
 }
 
@@ -20,6 +20,12 @@
     font-family: Itals;
     src: url("../fonts/Itals.otf") format("opentype");
     font-style: oblique;
+
+}
+
+@font-face {
+    font-family: TRJNDaVinci-Text;
+    src: url("../fonts/TRJNDaVinci-Text.otf") format("opentype");
 }
 
 body {
@@ -35,10 +41,10 @@ body::-webkit-scrollbar {
     height: 100vh;
     position: fixed;
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
     z-index: 10;
     overflow-y: scroll;
 }
@@ -46,30 +52,30 @@ body::-webkit-scrollbar {
 .text {
       font-family:SuisseIntlRegular;
       text-align: left;
-      color:#ff2e7e;
-      padding-top:80px;
+      color:#8e6fdf;
+      padding-top:90px;
       padding-bottom:40px;
-      font-size: 3rem;
-      margin-left: 30px;
-      padding-right: 30px;
+      font-size: 1.45rem;
+      margin-left: 20px;
+      padding-right: 20px;
       z-index: 20;
-      line-height: 1.1;
+      line-height: 1.25;
       columns: 2;
       overflow-y: scroll;
 }
 
 .text p{
-  padding-bottom: 30px;
+/*  padding-bottom: 15px;*/
 }
 
 .italic {
-  font-family: Itals;
-  font-style: oblique;
+  font-family: TRJNDaVinci-Text;
+/*  font-style: oblique;*/
 }
 
 .home {
     position: fixed;
-    top:25px;
+    top:20px;
     margin: 0 auto;
     text-align: center;
     z-index: 100;
@@ -78,25 +84,26 @@ body::-webkit-scrollbar {
 
 .home a{
   text-decoration: none;
-  font-family: IKANSEEYOUALLWeb;
-  font-size: 2.1rem;
+  font-family: TRJN DaVinci Italic-Display;
+  font-size: 1.75rem;
   color: white;
-  text-shadow: 0 0 12px #ff2e7e, 0 0 20px #e3a3ff;
+      -webkit-text-stroke: 1px white;
+  text-shadow: 0 0 10px #8e6fdf, 0 0 18px #8e6fdf;
 }
 
 .bottomborder {
-    height: 10px;
+    height: 8px;
     width:100vw;
-    background-color:#ff2e7e;
+    background-color:#8e6fdf;
     position: fixed;
     bottom:0px;
     z-index: 500;
 }
 
 .topborder {
-    height: 10px;
+    height: 8px;
     width:100vw;
-    background-color:#ff2e7e;
+    background-color:#8e6fdf;
     position: fixed;
     top:0px;
     z-index: 500;
@@ -104,8 +111,8 @@ body::-webkit-scrollbar {
 
 .leftborder {
     height: 100vh;
-    width:10px;
-    background-color:#ff2e7e;
+    width:8px;
+    background-color:#8e6fdf;
     position: fixed;
     left:0px;
     z-index: 500;
@@ -113,8 +120,8 @@ body::-webkit-scrollbar {
 
 .rightborder {
     height: 100vh;
-    width:10px;
-    background-color:#ff2e7e;
+    width:8px;
+    background-color:#8e6fdf;
     position: fixed;
     right:0px;
     z-index: 500;
@@ -122,11 +129,11 @@ body::-webkit-scrollbar {
 
 
 /*/* Smartphones (portrait) ----------- */
-
+/*
 @media screen and (max-width: 930px) {
 
 .text {
-      font-size: 1.75rem;
+      font-size: .9rem;
       line-height: 1.1;
       columns: 2;
       padding-bottom: 20px;
@@ -138,18 +145,18 @@ body::-webkit-scrollbar {
 .text p{
   padding-bottom: 20px;
 }
-}
+}*/
 
 
 @media screen and (max-width: 630px) {
 
 .text {
-      font-size: 1.75rem;
-      line-height: 1.1;
+      font-size: .9rem;
+      line-height: 1.45;
       columns: 1;
 }
 
-.text p{
-  padding-bottom: 20px;
-}
+/*.text p{
+  padding-bottom: 15px;
+}*/
 }

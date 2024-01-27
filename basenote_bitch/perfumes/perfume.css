@@ -1,13 +1,16 @@
 \*{  
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+/*    box-sizing: border-box;*/
 }
 
 @font-face {
     font-family: TRJN DaVinci Italic-Display;
     src: url("../fonts/TRJN DaVinci Italic-Display.otf") format("opentype");
+    src: url("../fonts/TRJN DaVinci Italic-Display.woff") format("woff");
+    src: url("../fonts/TRJN DaVinci Italic-Display.ttf") format("truetype");
     font-style: normal;
+
 }
 
 @font-face {
@@ -18,6 +21,8 @@
 @font-face {
     font-family: TRJNDaVinci-Text;
     src: url("../fonts/TRJNDaVinci-Text.otf") format("opentype");
+    font-style: normal;
+
 }
 
 
@@ -34,6 +39,7 @@ body {
 section {
     display: flex;
 }
+
 
 .bottomborder {
     height: 8px;
@@ -112,6 +118,8 @@ section {
     margin-top: 100px;
     margin-bottom: 18px;
     padding-left: 8px;
+    letter-spacing: -.015em;
+    font-weight: bold;
 }
 
 .picture {
@@ -145,7 +153,8 @@ section {
 .prev {
     position: fixed;
     top:20px;
-    left:30px;
+    left:17px;
+    width: 120px;
     margin: 0 auto;
     text-align: center;
     z-index: 100;
@@ -161,11 +170,14 @@ section {
 
 .next {
     position: fixed;
+    width: 75px;
     top:20px;
-    right:30px;
+    right:20px;
     margin: 0 auto;
     text-align: center;
     z-index: 105;
+        display: block;
+        overflow: visible;
 }
 
 .next a {
@@ -174,6 +186,8 @@ section {
     font-size: 1.75rem;
     color: white;
     -webkit-text-stroke: .75px white;
+           display: block;
+        overflow: visible;
 }
 
 #play {
@@ -232,8 +246,8 @@ height: auto;
 }
 
 .text {
-    font-size: .9em;
-    line-height: 1.45;
+    font-size: 1em;
+    line-height: 1.25;
   /*  position: sticky;*/
     top: 6vw;
     overflow-y: scroll;
@@ -257,6 +271,7 @@ height: auto;
 /*    color:white;*/
     margin-top: 0px;
     padding-left: 5px;
+    font-weight: bold;
 }
 
 /*.links {
@@ -268,39 +283,38 @@ height: auto;
     top:2vw;
     height: 150px;
     z-index:410;
-        top: 10px;
+    top: 15px;
 
 }
 
 .home a {
-    font-size: 1rem;
+    font-size: 1.45rem;
 }
 
 .prev {
-    top:2vw;
-    height: 150px;
-    z-index:410;
-    left:20px;
-    top: 10px;
 
+    height: 50px;
+    z-index:410;
+    left:1px;
+    width: 120px;
+    top: 15px;
 } 
 
 .next {
-    top:2vw;
-    height: 150px;
+
+    height: 50px;
     z-index:410;
-    right:20px;
-    top: 10px;
-
-
+    right:9px;
+    top: 15px;
 }  
 
 .prev a {
-     font-size: 1rem;
+     font-size: 1.45rem;
 }
 
 .next a {
-     font-size: 1rem;
+     font-size: 1.45rem;
+
 }
 
 .bottomborder {

@@ -24,15 +24,15 @@ body {
 }
 
 .home a {
-    text-shadow: 0 0 12px #ffa531, 0 0 20px #ffa531;
+    text-shadow: 0 0 2px #ffa531, 0 0 6px #ffa531, 0 0 10px #ffa531;
 }
 
 .prev a {
-    text-shadow: 0 0 12px #ffa531, 0 0 20px #ffa531;
+    text-shadow: 0 0 2px #ffa531, 0 0 6px #ffa531, 0 0 10px #ffa531;
 }
 
 .next a {
-    text-shadow: 0 0 12px #ffa531, 0 0 20px #ffa531;
+    text-shadow: 0 0 2px #ffa531, 0 0 6px #ffa531, 0 0 10px #ffa531;
 }
 
 #play {
