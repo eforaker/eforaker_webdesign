@@ -1,0 +1,40 @@
+
+body {
+    background-color: #e91f2b;
+}
+
+.bottomborder {
+    background-color:#e91f2b;
+}
+
+.rightborder {
+    background-color:#e91f2b;
+}
+
+.topborder {
+    background-color:#e91f2b;
+}
+
+.leftborder {
+    background-color:#e91f2b;
+}
+
+.text{
+    color: #e91f2b;
+}
+
+.home a {
+    text-shadow: 0 0 2px #e91f2b, 0 0 6px #e91f2b, 0 0 10px #e91f2b;
+}
+
+.prev a {
+    text-shadow: 0 0 2px #e91f2b, 0 0 6px #e91f2b, 0 0 10px #e91f2b;
+}
+
+.next a {
+    text-shadow: 0 0 2px #e91f2b, 0 0 6px #e91f2b, 0 0 10px #e91f2b;
+}
+
+#play {
+    fill: #e91f2b;
+}

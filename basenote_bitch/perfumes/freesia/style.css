@@ -1,0 +1,40 @@
+
+body {
+    background-color: #286549;
+}
+
+.bottomborder {
+    background-color:#286549;
+}
+
+.rightborder {
+    background-color:#286549;
+}
+
+.topborder {
+    background-color:#286549;
+}
+
+.leftborder {
+    background-color:#286549;
+}
+
+.text{
+    color: #286549;
+}
+
+.home a {
+    text-shadow: 0 0 2px #286549, 0 0 6px #286549, 0 0 10px #286549;
+}
+
+.prev a {
+    text-shadow: 0 0 2px #286549, 0 0 6px #286549, 0 0 10px #286549;
+}
+
+.next a {
+    text-shadow: 0 0 2px #286549, 0 0 6px #286549, 0 0 10px #286549;
+}
+
+#play {
+    fill: #286549;
+}

@@ -1,0 +1,40 @@
+
+body {
+    background-color: #ce88d0;
+}
+
+.bottomborder {
+    background-color:#ce88d0;
+}
+
+.rightborder {
+    background-color:#ce88d0;
+}
+
+.topborder {
+    background-color:#ce88d0;
+}
+
+.leftborder {
+    background-color:#ce88d0;
+}
+
+.text{
+    color: #ce88d0;
+}
+
+.home a {
+    text-shadow: 0 0 2px #ce88d0, 0 0 6px #ce88d0, 0 0 10px #ce88d0;
+}
+
+.prev a {
+    text-shadow: 0 0 2px #ce88d0, 0 0 6px #ce88d0, 0 0 10px #ce88d0;
+}
+
+.next a {
+    text-shadow: 0 0 2px #ce88d0, 0 0 6px #ce88d0, 0 0 10px #ce88d0;
+}
+
+#play {
+    fill: #ce88d0;
+}

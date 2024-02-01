@@ -129,7 +129,20 @@ var random_images_array = [
 'oilily.jpg',
 'casual.jpg',
 'strawberriesandchampagne.jpg',
-'juniperbreeze.jpg'
+'juniperbreeze.jpg',
+
+'withlove.jpg',
+'envy.jpg',
+'first.jpg',
+'fizzy.jpg',
+'flowerbomb.jpg',
+'freesia.jpg',
+'friday.jpg',
+'guesswomen.jpg',
+'magnetism.jpg',
+'roxy.jpg',
+'tendre_kiss.jpg'
+
 
 ];
 
