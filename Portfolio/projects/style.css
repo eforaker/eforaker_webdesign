@@ -66,8 +66,6 @@ body {
 .col-12 {width: 100%;}
 
 .header {
-  width:100%;
-/*  font-size: 1rem;*/
   top:25px;
   text-align: right;
   right:25px;
@@ -78,6 +76,24 @@ body {
 .header a{
 color:black;
 }
+
+.top {
+  bottom:25px;
+  text-align: right;
+  right:25px;
+  position: fixed;
+  z-index: 400;
+}
+
+.top a{
+  text-decoration: none;
+  border-radius: 80%;
+  padding:6px;
+  color: black;
+  border: 1px solid black;
+  background-color: #eaeaea;
+}
+
 
 .description {
   margin: 5;
