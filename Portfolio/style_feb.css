@@ -53,8 +53,8 @@ body {
 
 .sparkle img{
   width: 77vw;
-
 }
+
 .header {
   bottom:25px;
   text-align: right;
@@ -193,8 +193,10 @@ margin-top: 10px;
 }
 
 .sparkle {
-  display: none;
+display: none;
+/*  transform: rotate(-90deg);*/
 }
+
 
 body {
   font-size: 1rem;
