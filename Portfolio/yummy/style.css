@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+	margin: 10px;
+  font-size: 1.25rem;
+  background-image:url("../images/20231220_Yummy_Elizabeth_Renstrom_120.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.serifitalic {
+  font-style: oblique;
+}
+
+.row {
+  display: flex;
+}
+
+.column1 {
+  width:  40%;
+  padding-right: 5px;
+}
+
+.column1 p{
+color: hotpink;
+background-color: white;
+margin-top: 0;
+margin-bottom: 10px;
+}
+
+.column1 a{
+color: hotpink;
+}
+
+.column1 img {
+  max-width: 100%;
+  margin-top: 0;
+margin-bottom: 5px;
+}
+
+.column2 p{
+color: white ;
+background-color: hotpink;
+margin-top: 0px;
+margin-bottom: 10px;
+}
+
+.topleftimage img{
+  padding-top: 150px;
+}
+
+.column2 a{
+color: white;
+}
+
+.sticky {
+  top: 15px;
+  padding-left: 5px;
+  position: fixed;
+  z-index: 100;
+}
+
+.sticky img{
+width: 250px;
+-webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+.secrets {
+  bottom: 55px;
+  right:-5px;
+  padding-left: 5px;
+  position: fixed;
+  transform: rotate(15deg);
+    z-index: 100;
+}
+
+.secrets :hover{
+width: 310px;
+cursor: pointer;
+}
+
+.secrets img{
+width: 300px;
+-webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+
+.column2 {
+  width:  80%;
+  padding-left: 5px;
+}
+
+.column2 img {
+  max-width: 100%;
+  margin-top: 0;
+margin-bottom: 5px;
+}
+
+.buy p{
+  text-align: center;
+}
+
+
+.image-container {
+  position: relative;
+  display: inline-block;
+    z-index: 50;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 12px; 
+  right: 10px;
+  color: hotpink; 
+  font-size: .9rem; 
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.butterfly2 {
+  display: none;
+}
+.butterfly1 {
+  display: block;
+}
+
+.butterfly1 img{
+  width: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+ body {
+  font-size: 1.2rem;
+  line-height: 1.25;
+}
+
+.row {
+  display: block;
+}
+
+.column1 {
+  width:  100%;
+    padding-right: 0px;
+}
+
+.column2 {
+  width:  100%;
+    padding-left: 0px;
+} 
+
+.sticky img{
+  width: 150px;
+}
+
+.secrets {
+  bottom: 45px;
+  right:-10px;
+  padding-left: 5px;
+  position: fixed;
+  transform: rotate(15deg);
+}
+
+.secrets :hover{
+width: 210px;
+cursor: pointer;
+}
+
+.secrets img{
+  width: 200px;
+}
+
+.topleftimage img{
+  padding-top: 70px;
+}
+
+.buy {
+  display: none;
+}
+
+.overlay-text {
+  position: absolute;
+  width: 100%;
+  bottom: 10px; 
+  right: 50%;
+  font-family: sans-serif;
+  transform: translate(50%, 0%);
+  color: hotpink; 
+  font-size: .8rem; 
+  text-align: center;
+}
+
+.butterfly1 {
+  display: none;
+}
+
+.butterfly2 {
+  display: block;
+  position: relative;
+  top:-10px;
+  width:280px;
+    z-index: 120;
+}
+
+}

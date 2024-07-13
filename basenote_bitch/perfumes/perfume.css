@@ -5,10 +5,10 @@
 }
 
 @font-face {
-    font-family: TRJN DaVinci Italic-Display;
-    src: url("../fonts/TRJN DaVinci Italic-Display.otf") format("opentype");
-    src: url("../fonts/TRJN DaVinci Italic-Display.woff") format("woff");
-    src: url("../fonts/TRJN DaVinci Italic-Display.ttf") format("truetype");
+    font-family: TRJN-DaVinci-Italic-Display;
+    src: url("../fonts/TRJN-DaVinci-Italic-Display.otf") format("opentype");
+    src: url("../fonts/TRJN-DaVinci-Italic-Display.woff") format("woff");
+    src: url("../fonts/TRJN-DaVinci-Italic-Display.ttf") format("truetype");
     font-style: normal;
 
 }
@@ -112,7 +112,7 @@ section {
 }
 
 .text h1{
-    font-family: TRJN DaVinci Italic-Display;
+    font-family: TRJN-DaVinci-Italic-Display;
     font-size: 4rem;
     line-height: 1;
     margin-top: 100px;
@@ -144,7 +144,7 @@ section {
 
 .home a {
 	text-decoration: none;
-	font-family: TRJN DaVinci Italic-Display;
+	font-family: TRJN-DaVinci-Italic-Display;
     font-size: 1.75rem;
     color: white;
     -webkit-text-stroke: 1px white;
@@ -162,7 +162,7 @@ section {
 
 .prev a {
     text-decoration: none;
-    font-family: TRJN DaVinci Italic-Display;
+    font-family: TRJN-DaVinci-Italic-Display;
     font-size: 1.75rem;
     color: white;
     -webkit-text-stroke: .75px white;
@@ -182,7 +182,7 @@ section {
 
 .next a {
     text-decoration: none;
-    font-family: TRJN DaVinci Italic-Display;
+    font-family: TRJN-DaVinci-Italic-Display;
     font-size: 1.75rem;
     color: white;
     -webkit-text-stroke: .75px white;

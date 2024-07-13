@@ -14,18 +14,6 @@
     font-style: oblique;
 }
 
-/*@font-face {
-    font-family: TimesTenLTStd-Roman;
-    src: url("../fonts/TimesTenLTStd-Roman.otf") format("otf");
-    font-style: normal;
-}
-
-@font-face {
-    font-family: TimesTenLTStd-Italic;
-    src: url("../fonts/TimesTenLTStd-Italic.otf") format("otf");
-    font-style: oblique;*/
-/*}*/
-
 body {
 	margin: 0px;
 	padding: 10px;
@@ -99,9 +87,8 @@ color:black;
   margin: 5;
   padding: 0;
   padding-right: 15px;
-  color: black;
   column-count: 1;
-  hyphens: auto;
+  hyphens: none;
   z-index: 100;
   padding-top: 40px;
 }
@@ -154,7 +141,7 @@ h1 {
 }
 
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
@@ -165,7 +152,7 @@ margin-top: 10px;
 }
 
 body {
-  font-size: 1rem;
+ font-size: 1rem;
 }
 
 h1 {
@@ -185,6 +172,10 @@ h1 {
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
+   color: black;
+ -webkit-hyphens:none;
+-moz-hyphens:none;
+hyphens:none;
 }
 
 .pics {

@@ -1,0 +1,224 @@
+* { 
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TRJN-DaVinci-Italic-Display';
+    src: url("fonts/TRJN-DaVinci-Italic-Display.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TRJNDaVinci-Text;
+    src: url("fonts/TRJNDaVinci-Text.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntlRegular;
+    src: url("fonts/SuisseIntlRegular.otf") format("opentype");
+    font-style: normal;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    height: 100vh;
+}
+
+
+section {
+    display: flex;
+}
+
+.image{
+    background-color: white;
+    padding-left: 8px;
+    padding-top: 8px;
+    z-index: 10;
+    position: fixed;
+    height:100vh;
+}
+
+.image img{
+    width:100vw;
+
+}
+
+.title {
+        margin: 0 auto;
+        position: relative;
+        z-index: 100;
+}
+
+
+.title h1{
+  font-family:TRJN-DaVinci-Italic-Display;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12vw;
+    line-height:1;
+    color:white;
+    text-shadow: 0 0 3px white, 0 0 10px white, 0 0 20px white;
+    font-weight: bold;
+    letter-spacing: -.025em;
+    padding-top:50px;
+}
+
+.title p{
+    display: none;
+}
+
+.about {
+  position: fixed;
+  text-align: left;
+  left:30px;
+  z-index: 200;
+  top:20px;
+}
+
+.about a{
+    font-family: TRJN-DaVinci-Italic-Display;
+    font-size: 1.75rem;
+    color: white;
+    text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.interviews {
+  position: fixed;
+  text-align: right;
+  top:20px;
+  right:30px;
+  z-index: 200;
+}
+
+.interviews a{
+    font-family: TRJN-DaVinci-Italic-Display;
+    font-size: 1.75rem;
+    color: white;
+    text-shadow:0 0 2px white, 0 0 12px white, 0 0 20px white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.links {
+    padding-top: 10px;
+    text-align: center;
+    z-index: 100;
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+
+}
+
+.links a{
+    font-family: SuisseIntlRegular;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    text-shadow:0 0 2px white, 0 0 10px white, 0 0 15px white;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.links a:hover{
+    font-family:TRJN-DaVinci-Italic-Display;
+    text-transform: none;
+    font-weight: bold;
+}
+
+.bottomborder {
+    height: 8px;
+    width:100vw;
+    background-color:white;
+    position: fixed;
+    bottom:0px;
+    z-index: 500;
+}
+
+.leftborder {
+    height: 100vh;
+    width:8px;
+    background-color:white;
+    position: fixed;
+    left:0px;
+    z-index: 500;
+}
+
+.rightborder {
+    height: 100vh;
+    width:8px;
+    background-color:white;
+    position: fixed;
+    right:0px;
+    z-index: 500;
+}
+
+/*/* iPad ----------- */
+
+
+@media screen and (max-width: 950px) {
+
+.links a{
+    font-size: 1.5rem;
+    line-height: 1.75;
+}
+
+.title h1{
+    font-size: 15vw;
+    padding-top:70px;
+}
+
+/*.image img{
+    height: 100vh; 
+    width: auto;  
+}*/
+
+
+
+/*/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 600px) {
+
+.image img{
+    width:200vh;
+}
+
+.title h1{
+    font-size: 3rem;
+    text-shadow: 0 0 3px white, 0 0 1px white, 0 0 12px white;
+    padding-top: 70px;
+}
+
+.links {
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+    text-overflow: ;
+}
+
+.links a{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-shadow:0 0 2px white, 0 0 3px white;
+
+}
+
+.about, .interviews {
+    top: 25px;
+}
+.about a{
+    font-size: 1.45rem;
+}
+
+.interviews a{
+    font-size: 1.45rem;
+}
+}
+
